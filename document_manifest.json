@@ -1,0 +1,152 @@
+[
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/000.jpg",
+    "category": "invoice_receipt",
+    "source": "sroie",
+    "doc_id": "doc_001"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/001.jpg",
+    "category": "invoice_receipt",
+    "source": "sroie",
+    "doc_id": "doc_002"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/002.jpg",
+    "category": "invoice_receipt",
+    "source": "sroie",
+    "doc_id": "doc_003"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/003.jpg",
+    "category": "invoice_receipt",
+    "source": "sroie",
+    "doc_id": "doc_004"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/004.jpg",
+    "category": "invoice_receipt",
+    "source": "sroie",
+    "doc_id": "doc_005"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/005.jpg",
+    "category": "invoice_receipt",
+    "source": "sroie",
+    "doc_id": "doc_006"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/000.png",
+    "category": "sec_filing",
+    "source": "multifinben",
+    "doc_id": "doc_007"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/001.png",
+    "category": "sec_filing",
+    "source": "multifinben",
+    "doc_id": "doc_008"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/002.png",
+    "category": "sec_filing",
+    "source": "multifinben",
+    "doc_id": "doc_009"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/003.png",
+    "category": "sec_filing",
+    "source": "multifinben",
+    "doc_id": "doc_010"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/004.png",
+    "category": "sec_filing",
+    "source": "multifinben",
+    "doc_id": "doc_011"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/000.png",
+    "category": "financial_mixed",
+    "source": "sujet",
+    "doc_id": "doc_012"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/001.png",
+    "category": "financial_mixed",
+    "source": "sujet",
+    "doc_id": "doc_013"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/002.png",
+    "category": "financial_mixed",
+    "source": "sujet",
+    "doc_id": "doc_014"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/003.png",
+    "category": "financial_mixed",
+    "source": "sujet",
+    "doc_id": "doc_015"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/004.png",
+    "category": "financial_mixed",
+    "source": "sujet",
+    "doc_id": "doc_016"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/0.png",
+    "category": "general_doc",
+    "source": "omni",
+    "doc_id": "doc_017"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/1.png",
+    "category": "general_doc",
+    "source": "omni",
+    "doc_id": "doc_018"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/100.png",
+    "category": "general_doc",
+    "source": "omni",
+    "doc_id": "doc_019"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/101.png",
+    "category": "general_doc",
+    "source": "omni",
+    "doc_id": "doc_020"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/103.png",
+    "category": "general_doc",
+    "source": "omni",
+    "doc_id": "doc_021"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_000.jpg",
+    "category": "degraded_scan",
+    "source": "sroie_degraded",
+    "doc_id": "doc_022"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_001.jpg",
+    "category": "degraded_scan",
+    "source": "sroie_degraded",
+    "doc_id": "doc_023"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_002.jpg",
+    "category": "degraded_scan",
+    "source": "sroie_degraded",
+    "doc_id": "doc_024"
+  },
+  {
+    "path": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_003.jpg",
+    "category": "degraded_scan",
+    "source": "sroie_degraded",
+    "doc_id": "doc_025"
+  }
+]
