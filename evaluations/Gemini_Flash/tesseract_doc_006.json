@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 100,
+    "numeric_precision": 85,
+    "layout_preservation": 90,
+    "completeness": 70,
+    "total_score": 83.25,
+    "notes": "The OCR output correctly identifies the 'company', 'date', and 'total' fields, though 'total' has extra characters. The 'address' field has a minor misspelling ('HARMONT' instead of 'HARMONI'). The OCR output contains significant extra text not present in the ground truth, impacting completeness. Table structure is not applicable as the ground truth is not a table."
+  },
+  "timestamp": "2026-04-08 22:46:30"
+}

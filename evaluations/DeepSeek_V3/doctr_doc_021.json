@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 65,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 74,
+    "notes": "Text accuracy suffers from minor typos and missing spaces (e.g., 'UNITEDSTATES'). Table structure is disrupted with misaligned columns and inconsistent spacing. Numeric precision is mostly correct but has minor errors (e.g., '1o' instead of '10'). Layout preservation is decent but reading order is occasionally unclear. Completeness is good with no major omissions."
+  },
+  "timestamp": "2026-04-08 23:26:25"
+}

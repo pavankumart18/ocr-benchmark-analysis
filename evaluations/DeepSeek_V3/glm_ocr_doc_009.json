@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 99,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 95,
+    "total_score": 98.45,
+    "notes": "The OCR output is nearly identical to the ground truth, with only minor differences in the header (missing 'EX-24 2 hsic-ex24.htm EX-24') and a very slight truncation at the end. No issues with tables, numbers, or layout."
+  },
+  "timestamp": "2026-04-08 23:20:46"
+}

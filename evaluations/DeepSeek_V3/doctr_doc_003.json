@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83.75,
+    "notes": "Minor OCR errors like 'MR D.1.Y.' instead of 'MR D.I.Y.', extra text (e.g., invoice details), and slight numeric rounding discrepancy (33.92 vs 33.90). Overall structure and completeness are good."
+  },
+  "timestamp": "2026-04-08 23:23:46"
+}

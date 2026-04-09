@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_007",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 85,
+    "total_score": 94,
+    "notes": "OCR output matches ground truth very closely with no spelling or character errors. Numeric data and formatting of numbered points are preserved perfectly. Layout and reading order are maintained well. The main issue is missing the initial header lines ('EX-24 2 hsic-ex24.htm EX-24' and 'EXHIBIT 24' repeated) and the last incomplete sentence is truncated, causing some loss of completeness."
+  },
+  "timestamp": "2026-04-08 23:00:44"
+}

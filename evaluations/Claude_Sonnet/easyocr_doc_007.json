@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_007",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "notes": "Key issues: Missing 'for,' in section (1), '0n' instead of 'on' in section (2), missing opening parenthesis in section (4), 'Or' instead of 'or', period instead of comma at end of long paragraph, and some spacing inconsistencies. Document structure and numbered sections are well preserved, but several character-level errors reduce accuracy."
+  },
+  "timestamp": "2026-04-08 22:58:42"
+}

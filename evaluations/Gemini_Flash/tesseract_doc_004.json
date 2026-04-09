@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 80,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 91.5,
+    "notes": "The OCR output correctly extracted 'company', 'address', and 'total'. The 'date' was extracted as '26/12/2018' instead of '25/12/2018', which is a minor numeric precision error. The ground truth is a structured JSON, not a table, so table structure is considered perfect as no table was expected. The OCR output contains additional text not present in the ground truth, but all ground truth fields are present, hence high completeness. Layout is good as the key fields are easily identifiable."
+  },
+  "timestamp": "2026-04-08 22:46:26"
+}

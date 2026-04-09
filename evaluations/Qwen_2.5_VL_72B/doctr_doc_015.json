@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 55,
+    "completeness": 50,
+    "total_score": 64.5,
+    "notes": "The OCR output has several issues: text accuracy is compromised with missing words and incorrect formatting; table structure is partially preserved but lacks clarity; numeric precision is mostly accurate but some values are misplaced; layout preservation is poor with incorrect reading order and missing sections; completeness is lacking as key details and insights are not captured."
+  },
+  "timestamp": "2026-04-08 23:11:52"
+}

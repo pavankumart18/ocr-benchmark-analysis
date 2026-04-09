@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 70,
+    "layout_preservation": 80,
+    "completeness": 40,
+    "total_score": 72.5,
+    "notes": "OCR captured the main document content accurately with minor formatting issues, but missed critical metadata including document type classification, company name, date received, addressee (Dr. I.W. Hughes), copy number, and the entire analytical summary section. Date discrepancy between November 1983 (OCR) vs January 19, 1984 (ground truth). Distribution list and restriction notice were well preserved."
+  },
+  "timestamp": "2026-04-08 22:50:49"
+}

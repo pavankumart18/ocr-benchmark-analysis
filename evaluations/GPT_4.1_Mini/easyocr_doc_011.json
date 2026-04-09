@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 10,
+    "numeric_precision": 95,
+    "layout_preservation": 60,
+    "completeness": 75,
+    "total_score": 67.25,
+    "notes": "Text accuracy suffers from multiple punctuation errors (e.g., underscores instead of commas or periods), missing section numbers (e.g., '1.' missing before Purpose), and some misrecognized words ('terms' missing 'Key', 'ji.' instead of 'ii.'). Table structure is poor as the original document is mostly text with no tables, but the OCR output shows no preservation of any tabular or structured formatting. Numeric precision is high with dates and numbers mostly correct. Layout preservation is moderate; sections are mostly in order but some headings and numbering are missing or merged incorrectly. Completeness is somewhat reduced due to missing section headers and some truncated or merged lines."
+  },
+  "timestamp": "2026-04-08 23:07:19"
+}

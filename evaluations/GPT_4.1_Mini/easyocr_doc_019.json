@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 75,
+    "layout_preservation": 65,
+    "completeness": 85,
+    "total_score": 68.75,
+    "notes": "The OCR output contains multiple spelling errors (e.g., 'Annamarieberg', 'O'Reilly' missing apostrophe in email, 'Sm' instead of '5m', 'JULITUV' instead of 'CE, UL, TUV'), character confusions (e.g., '\u20ac' instead of '\u00b0', 't0' instead of 'to'), and some garbled text (e.g., 'Jackson89@gmail.com' line spacing). Table columns are not well aligned, making it difficult to distinguish headers and values clearly. Numeric values are mostly correct but some units and symbols are misrecognized (e.g., temperature symbols, IP ratings). Layout is partially preserved but reading order is disrupted in places, and some sections blend together. Overall, most visible text is captured but with notable errors affecting clarity and precision."
+  },
+  "timestamp": "2026-04-08 23:07:52"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 80,
+    "total_score": 88.25,
+    "notes": "Minor typos include 'INHALEES' instead of 'INMATES' and 'puls rate' instead of 'pulse rates'. Numeric values are mostly correct but with slight variations in formatting. The OCR output is incomplete, missing the 'Purpose of the Proposal' and 'Insights and Observations' sections. Layout and structure are well preserved."
+  },
+  "timestamp": "2026-04-08 23:21:39"
+}

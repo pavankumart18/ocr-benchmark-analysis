@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 30,
+    "numeric_precision": 45,
+    "layout_preservation": 35,
+    "completeness": 50,
+    "total_score": 39.75,
+    "notes": "OCR output contains numerous misspellings, garbled words, and incorrect characters, severely impacting text accuracy. Table structure is poorly preserved with missing or misaligned rows and columns. Numeric values are often incorrect or incomplete, with decimals and amounts frequently wrong or missing. Layout and reading order are disrupted, making it difficult to follow sections or formatting. Significant portions of text are missing or unintelligible, reducing completeness."
+  },
+  "timestamp": "2026-04-08 23:07:35"
+}

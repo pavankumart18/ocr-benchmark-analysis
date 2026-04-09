@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 85,
+    "completeness": 70,
+    "total_score": 69,
+    "notes": "Text accuracy suffers from numerous concatenated words (e.g., 'housingintact', 'buttonsfunctional', 'Cableconnectionssecure erformance'Tests'). Table structure is significantly flawed, with many cells merged incorrectly or misaligned, especially in the header and the 'Pass/Fail/N/A' columns. Numeric precision is generally good for dates and IDs, but the 'x' and '\u221a' marks are not consistently placed in the correct columns. Completeness is impacted by the truncation at the end."
+  },
+  "timestamp": "2026-04-08 22:46:02"
+}

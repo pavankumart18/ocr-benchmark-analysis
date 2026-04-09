@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 40,
+    "numeric_precision": 45,
+    "layout_preservation": 50,
+    "completeness": 60,
+    "total_score": 48.75,
+    "notes": "Significant OCR errors including misspellings (e.g., 'PRQDUCT', 'FQRECAST_SUMMARX'), garbled words, and incorrect characters reduce text accuracy. The table structure is poorly preserved with misplaced 'Chg' and 'Index' labels, inconsistent row alignment, and missing headers. Numeric values often have errors or extraneous characters (e.g., '(410)', '(141)', '(53.65/M)'), impacting numeric precision. Layout is disrupted by scattered text and poor section separation, affecting reading order. Some key text and assumptions are partially captured but with omissions and distortions, lowering completeness."
+  },
+  "timestamp": "2026-04-08 23:07:40"
+}

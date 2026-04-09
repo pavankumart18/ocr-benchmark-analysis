@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 55,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 58.75,
+    "notes": "Significant misspellings and garbled words (e.g., 'indluding', 'Sysgerostic'), inconsistent and misplaced text fragments, poor alignment of numbers and columns, some numeric values appear incorrect or incomplete, and reading order is disrupted. Some sections and headers are present but not well separated. Overall, the extraction is incomplete and noisy."
+  },
+  "timestamp": "2026-04-08 23:07:48"
+}

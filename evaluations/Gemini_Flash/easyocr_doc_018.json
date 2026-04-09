@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 73.5,
+    "notes": "Text accuracy suffers from several misspellings and OCR errors (e.g., 'indluding', 'Sysgerostic', '81,476' instead of '$1,476'). Table structure is poorly preserved, especially for 'Revenue by segment' where the hierarchical structure and alignment are lost. Numeric precision has one significant error ('81,476' instead of '$1,476') but otherwise captures values correctly. Layout preservation is fair, but the two main sections ('Revenue by geography' and 'Revenue by segment') are not clearly separated as they would be in a well-formatted document. Completeness is good, with most visible text captured."
+  },
+  "timestamp": "2026-04-08 22:49:28"
+}

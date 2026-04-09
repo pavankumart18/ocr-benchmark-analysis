@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 69.5,
+    "notes": "Text accuracy suffers from minor typos and missing spaces (e.g., 'BOOK TA K(TAMANDAYA)SDN BHD'). Table structure is garbled with incorrect headers and redundant columns. Numeric precision is good except for an extra timestamp in the date. Layout preservation is poor due to mixed reading order and irrelevant text. Completeness is decent but includes unrelated content."
+  },
+  "timestamp": "2026-04-08 23:27:27"
+}

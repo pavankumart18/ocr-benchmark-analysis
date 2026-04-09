@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 10,
+    "numeric_precision": 30,
+    "layout_preservation": 20,
+    "completeness": 60,
+    "total_score": 32,
+    "notes": "The OCR output is severely garbled, especially in the 'Revenue by geography' section. It failed to correctly extract the table structure and numeric values, replacing most with '0', 'D', 'C', 'o', etc. The 'Revenue by segment' section is slightly better but still has issues with alignment and some character recognition. Many numbers are missing or incorrect. The overall layout is poorly preserved due to the extensive character errors and lack of table recognition."
+  },
+  "timestamp": "2026-04-08 22:43:27"
+}

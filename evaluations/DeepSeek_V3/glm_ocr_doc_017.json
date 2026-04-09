@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 100,
+    "total_score": 93,
+    "notes": "Minor issues in layout preservation (e.g., 'France (FRA)' not aligned with other rows) and slight table structure imperfections (e.g., column alignment). Otherwise, text and numeric data are accurately captured."
+  },
+  "timestamp": "2026-04-08 23:22:06"
+}

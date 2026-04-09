@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 10,
+    "numeric_precision": 0,
+    "layout_preservation": 20,
+    "completeness": 80,
+    "total_score": 49,
+    "notes": "The text accuracy is generally good, with only one minor typo ('BD Life 1 ) 3 Sciences Biosciences' instead of 'BD Life Sciences Biosciences'). However, the OCR completely failed to recognize and preserve the complex organizational chart/diagram structure, which contains significant textual and numeric information. This severely impacts table structure, numeric precision (as the numbers were part of the diagram), and layout preservation. Many values and their relationships are missing due to the failure to interpret the diagram."
+  },
+  "timestamp": "2026-04-08 22:47:21"
+}

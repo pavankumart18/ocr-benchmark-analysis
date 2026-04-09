@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 89.25,
+    "notes": "Minor OCR errors include 'TSMS' instead of 'TSMs', 'Company stockl' with an extra 'l', misplaced colon in 'authorized: in', and spacing issues such as 'ofJanuary. 1, 2025'. Quotation marks and apostrophes are mostly correct. No tables present, so structure is fully preserved. Numeric data (dates) mostly accurate except for a misplaced period after January. Layout and reading order are well maintained. All text is present with no major omissions."
+  },
+  "timestamp": "2026-04-08 23:02:28"
+}

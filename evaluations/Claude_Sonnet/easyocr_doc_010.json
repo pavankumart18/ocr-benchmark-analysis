@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 65,
+    "total_score": 76,
+    "notes": "Missing 'any' before 'attorney-in-fact' in section (d), missing 'for' before 'any failure' in section (ii), missing paragraph break before 'This Power of Attorney', incorrect 'Is/' instead of '/s/' for signature, and stray words 'any for' at the end. Layout issues with paragraph spacing and signature formatting."
+  },
+  "timestamp": "2026-04-08 22:59:01"
+}

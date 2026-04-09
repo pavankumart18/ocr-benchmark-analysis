@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 72,
+    "notes": "Company name has errors ('INDAR DIFT & HEME BECO' vs 'INDAH GIFT & HOME DECO'), address has typo ('JEDAP' vs 'DEDAP'), but date and total amount are correct. OCR captured much more detail than ground truth including full receipt structure, though with various character recognition errors throughout."
+  },
+  "timestamp": "2026-04-08 22:53:40"
+}

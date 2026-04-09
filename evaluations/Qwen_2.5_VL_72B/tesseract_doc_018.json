@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 40,
+    "numeric_precision": 60,
+    "layout_preservation": 55,
+    "completeness": 70,
+    "total_score": 61.25,
+    "notes": "The OCR output has several issues: text accuracy is moderately good but contains some errors like 'BD Life 1 ) 3' instead of 'BD Life Sciences'. Table structure is poorly preserved, with no clear alignment of rows and columns. Numeric precision is lacking as specific figures are not clearly presented. Layout preservation is average, with some sections and headers maintained but not perfectly. Completeness is decent, but some parts like the table structure are not fully captured."
+  },
+  "timestamp": "2026-04-08 23:16:30"
+}

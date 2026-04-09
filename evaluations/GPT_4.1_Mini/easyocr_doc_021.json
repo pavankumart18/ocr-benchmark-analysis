@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 30,
+    "table_structure": 20,
+    "numeric_precision": 25,
+    "layout_preservation": 30,
+    "completeness": 50,
+    "total_score": 28.25,
+    "notes": "The OCR output contains extensive misspellings, garbled words, and nonsensical fragments, severely impacting text accuracy. Table structures and numeric data are poorly preserved, with misaligned and corrupted numbers and dates. Layout and reading order are disrupted, making it difficult to follow sections or headers. While most visible text appears captured, the quality is very low, with many words unreadable or incorrect."
+  },
+  "timestamp": "2026-04-08 23:08:00"
+}

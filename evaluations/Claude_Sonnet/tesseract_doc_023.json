@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 45,
+    "layout_preservation": 30,
+    "completeness": 40,
+    "total_score": 29,
+    "notes": "Severe OCR errors throughout: company name garbled ('TWBAH GIFT' vs 'INDAH GIFT'), address has character substitutions ('\u00a33' vs '13', 'BANRU' vs 'BAHRU'), date missing from expected location, total amount not clearly extracted (60.30 not found), and overall text heavily corrupted with numerous character recognition failures."
+  },
+  "timestamp": "2026-04-08 22:57:55"
+}

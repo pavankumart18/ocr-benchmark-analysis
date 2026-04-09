@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 99,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 99.5,
+    "notes": "The OCR output is nearly identical to the ground truth. The only minor difference is the absence of a few line breaks and the replacement of a smart quote with a straight quote, which are negligible for accuracy."
+  },
+  "timestamp": "2026-04-08 22:42:59"
+}

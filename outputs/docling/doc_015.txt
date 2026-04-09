@@ -1,0 +1,32 @@
+## NEWPRODUCTSPENDINGFORECASTSUMMARY (SMM)
+
+|                         |   1984 |   1985 |   1986 1987 |   1988 |       |
+|-------------------------|--------|--------|-------------|--------|-------|
+| New ProductA            |        |        |             |        |       |
+| （4th Qtr.,1984,Launch) |        |        |             |        |       |
+| Advertising Media(1)    |   31.9 |   54.9 |        60.6 |   64.3 |  68.2 |
+|                         |   17.4 |   28.6 |        22.5 |   23.9 |  25.6 |
+|                         |    3.4 |    4.5 |         3.5 |    3.6 |   3.6 |
+| Sample Program          |    0.4 |        |             |        |  97.4 |
+| Total Advertising/Promo |   53.1 |   88   |        86.6 |   91.8 |       |
+| New ProductB            |        |        |             |        |       |
+| (lst Qtr.,1986,Launch)  |        |        |             |        |       |
+| (1） Advertising Media  |        |        |        81.1 |   92.4 |  97.9 |
+|                         |        |        |        49.3 |   36   |  38.4 |
+|                         |        |        |         4.7 |    3.6 |   3.6 |
+| SampleProgram           |        |    0.6 |             |        | 139.9 |
+| TotalAdvertising/Promo  |        |    0.6 |       135.1 |  132   |       |
+| Total                   |        |        |             |        |       |
+|                         |   31.9 |   54.9 |       141.7 |  156.7 | 166.1 |
+|                         |   17.4 |   28.6 |        71.8 |   59.9 |  64   |
+| M&P(1)                  |    3.4 |    4.5 |         8.2 |    7.2 |   7.2 |
+| Sample Promotion        |    0.4 |    0.6 |             |        |       |
+| Total Advertising/Promo |   53.1 |   88.6 |       221.7 |  223.8 | 237.3 |
+
+(1) Assumes 60/40 A/P split in Year1:70/30 thereafter.
+
+(2) Assumes Product Aabsorbs 1/4 of contract package display costs in 1984,1/3 in 1985,1/4 1n 1986-88.
+
+(3) Assumes Product B absorbs 1/3 of contract package display cost in 1986,1/4 in 1987-88.
+
+<!-- image -->

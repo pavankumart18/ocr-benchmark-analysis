@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "docling",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.75,
+    "notes": "The OCR output has minor text accuracy issues such as missing spaces and slight formatting errors. The table structure is mostly preserved but could be improved in alignment. Numeric values appear accurate. Layout preservation is decent but could be better in maintaining reading order. Completeness is high with no major text missing."
+  },
+  "timestamp": "2026-04-08 23:14:32"
+}

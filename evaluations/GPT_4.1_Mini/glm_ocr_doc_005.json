@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 20,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 67.75,
+    "notes": "Company name mostly correct but address has wrong lot numbers (1051 vs 1851). Table structure not preserved as ground truth has no item list but OCR shows detailed items. Numeric values mostly match, including total and date. Layout order mostly preserved but extra unrelated text present. Overall, key fields captured but address errors and table mismatch reduce score."
+  },
+  "timestamp": "2026-04-08 23:00:37"
+}

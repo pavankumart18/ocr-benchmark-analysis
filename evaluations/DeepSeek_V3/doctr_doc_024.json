@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 72.5,
+    "notes": "Key issues: 'MR D.I.Y. (JOHOR) SDN BHD' misread as 'MP 0.1.Y. (JOMOR) SON BHD', address has minor OCR errors, total amount is correct but with rounding note, date is correct but includes extra time info, some irrelevant text included."
+  },
+  "timestamp": "2026-04-08 23:26:50"
+}

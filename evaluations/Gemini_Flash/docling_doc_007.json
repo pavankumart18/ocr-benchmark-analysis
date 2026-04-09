@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_007",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 86,
+    "notes": "The OCR output has several minor text accuracy issues, including missing spaces, incorrect capitalization, and some merged words (e.g., 'EXHIBIT24', 'LIMITEDPOWEROFATTORNEY', 'SecuritiesandExchangeCommission'). The bullet points for the numbered list are inconsistent, with the first two using a different character than the third, and the fourth point missing its number entirely. A significant portion of the text from point (4) and the subsequent paragraph is missing. The initial 'EX-24 2 hsic-ex24.htm EX-24' header is also missing."
+  },
+  "timestamp": "2026-04-08 22:44:35"
+}

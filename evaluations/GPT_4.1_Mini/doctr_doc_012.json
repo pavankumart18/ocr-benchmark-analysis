@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 60,
+    "completeness": 75,
+    "total_score": 68.75,
+    "notes": "The OCR output contains multiple character errors (e.g., '\u00e0 AT authinpton' instead of correct header), some misspellings, and formatting issues. The distribution list is mostly preserved but with inconsistent numbering and punctuation errors. Dates are mostly correct except '4M 19 1984' instead of 'January 19, 1984'. Layout is partially maintained but reading order and section headings are fragmented. Some key text such as the document type and detailed notes are missing, reducing completeness."
+  },
+  "timestamp": "2026-04-08 23:02:31"
+}

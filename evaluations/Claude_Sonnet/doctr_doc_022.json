@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 72,
+    "notes": "Company name missing space in 'TA K', address has OCR errors ('NOS' vs 'NO.53', 'I8' vs '18', '61100' vs '81100', 'BAHRO' vs 'BAHRU'). Date and total amount are correct. OCR captured additional receipt content not in ground truth, showing good completeness but with various character recognition errors throughout."
+  },
+  "timestamp": "2026-04-08 22:53:35"
+}

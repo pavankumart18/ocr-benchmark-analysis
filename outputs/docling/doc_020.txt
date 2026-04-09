@@ -1,0 +1,50 @@
+## Medical Equipment Inspection Checklist
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+| Equipment ID:HO7CYSCQ Model: Parisian - Kuvalis 1qck Department: ICU Inspection Date: 2025-02-13   |            |      |    |                                      |                                      |                                      |                                      |       |
+|----------------------------------------------------------------------------------------------------|------------|------|----|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|-------|
+| Physical Condition                                                                                 |            |      |    |                                      | Inspector:MargieRohan                |                                      |                                      |       |
+|                                                                                                    | Checkpoint |      |    |                                      |                                      | Fail                                 | N/A                                  | Notes |
+| Equipment housingintact                                                                            |            |      |    |                                      |                                      |                                      |                                      |       |
+| Display screen clear                                                                               |            |      |    |                                      |                                      |                                      |                                      |       |
+| Control buttonsfunctional                                                                          |            |      |    |                                      |                                      |                                      |                                      |       |
+| Power cord undamaged                                                                               |            |      |    |                                      |                                      |                                      |                                      |       |
+| Mountingbrackets secure                                                                            |            |      |    |                                      |                                      |                                      |                                      |       |
+| Wheels/casterscondition                                                                            |            |      |    |                                      |                                      |                                      |                                      |       |
+| Accessoriescomplete                                                                                |            |      |    |                                      | Labels and markings legible          |                                      |                                      |       |
+| Electrical'Safety                                                                                  |            |      |    |                                      |                                      |                                      |                                      |       |
+|                                                                                                    | Checkpoint |      |    |                                      |                                      | Fail                                 | N/A                                  | Notes |
+| Ground connection                                                                                  |            |      |    |                                      |                                      |                                      |                                      |       |
+| Insulationresistance                                                                               |            |      |    |                                      |                                      | ×                                    |                                      |       |
+| Leakage current                                                                                    |            |      |    |                                      |                                      |                                      |                                      |       |
+| Power supply stable                                                                                |            |      |    |                                      |                                      |                                      |                                      |       |
+| Batterybackupfunctional                                                                            |            |      |    |                                      |                                      |                                      |                                      |       |
+| Circuit breaker operation                                                                          |            |      |    |                                      |                                      |                                      |                                      |       |
+| Surge protection                                                                                   |            |      |    |                                      |                                      |                                      |                                      |       |
+| Cableconnectionssecure erformance'Tests                                                            |            |      |    |                                      |                                      |                                      |                                      |       |
+| Checkpoint                                                                                         | Pass       | Fail |    | N/A                                  |                                      |                                      | Notes                                |       |
+|                                                                                                    |            |      |    |                                      | Self-test passed                     |                                      |                                      |       |
+|                                                                                                    |            |      |    |                                      | Calibrationcheck                     |                                      |                                      |       |
+| Alarm systems                                                                                      |            | √    |    |                                      |                                      |                                      |                                      |       |
+|                                                                                                    |            |      |    |                                      | Backup systems                       |                                      |                                      |       |
+| Output accuracy                                                                                    |            |      |    | Not required for this equipment type | Not required for this equipment type | Not required for this equipment type | Not required for this equipment type |       |
+| Response time                                                                                      |            |      |    |                                      |                                      |                                      |                                      |       |
+| Datastorage/retrieval                                                                              |            |      | X  |                                      |                                      |                                      |                                      |       |
+| Network connectivity                                                                               |            |      |    |                                      |                                      |                                      |                                      |       |
+
+<!-- image -->
+
+Inspection Result: X

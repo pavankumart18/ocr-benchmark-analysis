@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_007",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 92,
+    "completeness": 85,
+    "total_score": 94,
+    "notes": "Excellent OCR accuracy with nearly perfect character-level fidelity. Document appears to be cut off at the end, missing the final portion of the text. Minor spacing differences in numbered sections but overall structure well preserved. All numeric references (Section 16, Forms 3/4/5, 1934) are accurate."
+  },
+  "timestamp": "2026-04-08 22:52:22"
+}

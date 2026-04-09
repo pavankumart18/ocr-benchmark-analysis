@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 85,
+    "total_score": 84,
+    "notes": "The OCR output has several minor text recognition errors, particularly in the company name and address. The date and total are mostly correct, with a minor formatting difference in the total. The overall structure and presence of information are good, but some details are missed or misread."
+  },
+  "timestamp": "2026-04-08 22:48:15"
+}

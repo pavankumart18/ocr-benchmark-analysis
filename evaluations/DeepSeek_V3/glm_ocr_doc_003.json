@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 91.25,
+    "notes": "Minor issues include extra text ('tan woon yann') and slight numeric discrepancy (TOTAL RM 33.92 vs. ground truth 33.90, though corrected by rounding). Otherwise, all ground truth fields are accurately captured, and layout is preserved."
+  },
+  "timestamp": "2026-04-08 23:19:56"
+}

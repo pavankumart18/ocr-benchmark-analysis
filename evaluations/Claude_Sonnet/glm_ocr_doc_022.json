@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 82,
+    "notes": "Key issues: Missing 'NO.53' from address, 'IR' instead of '18' in street name, 'TANAN' instead of 'TAMAN'. However, all critical numeric data (date, total) is perfectly extracted. OCR captured much more detail than ground truth required, showing good completeness. Table structure and layout are well preserved."
+  },
+  "timestamp": "2026-04-08 22:51:36"
+}

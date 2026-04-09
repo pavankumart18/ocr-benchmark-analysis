@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 100,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 100,
+    "notes": "The OCR output perfectly matches the ground truth in all aspects, including text accuracy, structure, numeric precision, layout, and completeness."
+  },
+  "timestamp": "2026-04-08 23:20:40"
+}

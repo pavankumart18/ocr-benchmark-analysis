@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 20,
+    "numeric_precision": 70,
+    "layout_preservation": 40,
+    "completeness": 60,
+    "total_score": 48.5,
+    "notes": "Significant text errors including wrong company name (MR D.I.Y.(H) vs MR D.I.Y.(M)), misspellings (e.g., PERINDUSIRIAN vs PERINDUSTRIAN), and garbled characters. Table structure is poorly preserved; item details are present but not in a clear tabular format. Numeric values mostly close but total is RM30.90 in ground truth vs RM30.91 and rounding adjustments in OCR. Date is correct but appended with time and operator info. Layout is cluttered and reading order is disrupted by extraneous text and formatting issues. Some key address parts and total amount are captured but overall completeness is partial with many extraneous and missing elements."
+  },
+  "timestamp": "2026-04-08 23:03:47"
+}

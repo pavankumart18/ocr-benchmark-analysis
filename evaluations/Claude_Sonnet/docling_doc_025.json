@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 65,
+    "layout_preservation": 25,
+    "completeness": 70,
+    "total_score": 44,
+    "notes": "Company name missing space (YONGFATTENTERPRISE vs YONGFATT ENTERPRISE), address severely garbled with OCR errors, date format corrupted (25n2.018 vs 25/12/2018), total amount has decimal error (60.90 vs 80.90). Layout is poorly preserved with fragmented text and mixed formatting. Table structure not maintained properly."
+  },
+  "timestamp": "2026-04-08 22:56:03"
+}

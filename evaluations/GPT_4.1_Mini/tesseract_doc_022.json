@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 10,
+    "numeric_precision": 85,
+    "layout_preservation": 40,
+    "completeness": 60,
+    "total_score": 53.75,
+    "notes": "Company name mostly correct but with spacing and minor errors; address heavily corrupted with wrong characters and words; date correctly recognized; total amount correctly extracted; no clear table structure preserved; layout is jumbled with mixed unrelated text; some key fields present but large portions of ground truth missing or garbled."
+  },
+  "timestamp": "2026-04-08 23:06:23"
+}

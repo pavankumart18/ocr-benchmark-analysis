@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 60,
+    "completeness": 75,
+    "total_score": 68.25,
+    "notes": "OCR output has significant character-level errors (e.g., 'PRQDUCT', 'FQRECAST_SUMMARX'), missing words, and garbled sections. Table structure is somewhat preserved but with formatting issues. Numeric precision is mostly correct except for minor deviations (e.g., '36.2' vs '36 . 2'). Layout is disrupted with incorrect reading order and missing sections. Completeness is fair but lacks some key details and insights from the ground truth."
+  },
+  "timestamp": "2026-04-08 23:37:55"
+}

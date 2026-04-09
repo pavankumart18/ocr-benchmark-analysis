@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 50,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 70,
+    "total_score": 79,
+    "notes": "Text accuracy is high with minor issues. Table structure is poorly preserved (missing tables/images). Numeric precision is perfect. Layout is mostly preserved but missing image placeholders affect completeness."
+  },
+  "timestamp": "2026-04-08 23:30:43"
+}

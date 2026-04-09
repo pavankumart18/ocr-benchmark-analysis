@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 74.25,
+    "notes": "Company name correctly extracted but address has a typo ('BAHRI' vs 'BAHRU'). Date matches exactly. Total amount matches ground truth after rounding. Table structure is partially preserved but columns and rows are not clearly aligned or labeled as in ground truth. Some extra unrelated text present. Layout reading order mostly correct but includes extraneous details not in ground truth. Overall, minor text errors and imperfect table formatting reduce scores."
+  },
+  "timestamp": "2026-04-08 23:01:48"
+}

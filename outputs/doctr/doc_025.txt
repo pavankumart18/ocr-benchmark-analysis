@@ -1,0 +1,61 @@
+tan woon yann
+YONGFATT ENTERPRISE
+M05177261
+NO12124 JALAN DEDAP 13
+81100JOHOR BAHRU
+TEL 07-3623888
+GSTID 000849813604
+SIMPLIFIED TAX INVOICE
+CAStI
+DacHr
+GS00031664
+Dale 25/122018
+Cestoet
+USER
+Time
+123100
+Sals gierson
+Rel
+tn
+Qly
+SPrice
+Amount
+Tax
+88
+1
+8091
+8091
+SR
+ELECANT SCH R BAG 15
+Totalcy
+1
+8001
+Total Sales (Exckuding - GSTI
+6091
+Descount
+000
+TolOST
+000
+Raundnig
+001
+Total Salus-unclusiveof GST)
+80.90
+CASH
+100.00
+80.90
+Change
+19.10
+GST SUMMARY
+Tax Code
+à
+Ant IRM)
+TaxiRili
+SR
+D
+8091
+000
+Total d à
+8091
+000
+CCA SOITANE 2OT REFUNDABLE ONLY
+I

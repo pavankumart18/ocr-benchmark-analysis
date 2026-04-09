@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 68.25,
+    "notes": "Several OCR errors in country names and symbols (e.g., '@im', 'EB', 'Ed', 'Ef'), misplaced parentheses in medal counts (e.g., '0)' instead of '0'), and inconsistent use of symbols in ranks and equal signs. Table columns are somewhat preserved but numbers and text are misaligned or merged. Numeric values mostly correct but parentheses and formatting errors reduce precision. Reading order is mostly maintained, and all rows appear present."
+  },
+  "timestamp": "2026-04-08 23:06:02"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 90.25,
+    "notes": "The 'company' name has a minor spacing issue. The 'address' has 'NOS' instead of 'NO.' and 'I8' instead of '18', and 'BAHRO' instead of 'BAHRU'. The 'date' and 'total' are correctly extracted. The OCR output contains a lot of extra information not present in the ground truth, which is not penalized for completeness as it's about capturing all ground truth text."
+  },
+  "timestamp": "2026-04-08 22:44:00"
+}

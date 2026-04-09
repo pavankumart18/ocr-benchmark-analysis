@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 72,
+    "notes": "Company name has OCR errors (JOMOR vs JOHOR, SON vs SDN). Address has character substitutions (1953-B vs 1851-B, PESTNDUSTRIAN vs PERINDUSTRIAN). Date and total amount are correct. Receipt structure is well preserved with proper item listings and calculations. Extra content beyond ground truth requirements is present but core information is captured."
+  },
+  "timestamp": "2026-04-08 22:58:00"
+}

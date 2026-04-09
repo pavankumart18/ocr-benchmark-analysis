@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 30,
+    "table_structure": 20,
+    "numeric_precision": 50,
+    "layout_preservation": 25,
+    "completeness": 40,
+    "total_score": 33.5,
+    "notes": "Major errors in text accuracy (e.g., 'MR D.I.Y. (M) SDN BHD' misread as 'Suw Biid'), garbled table structure, incorrect numeric values (e.g., '30.90' misread as 'RM 30, 90'), poor layout preservation, and missing/incorrect sections (e.g., address partially captured)."
+  },
+  "timestamp": "2026-04-08 23:36:14"
+}

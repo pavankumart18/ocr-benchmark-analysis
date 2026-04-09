@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 55,
+    "completeness": 65,
+    "total_score": 60.75,
+    "notes": "Significant OCR errors including misspellings (e.g., 'NQ' for 'NO', 'Hughee' for 'Hughes'), incorrect characters, and partial words reduce text accuracy. The distribution list is partially captured but formatting is inconsistent and some names are fragmented, impacting table structure. Dates are mostly correct but 'November 1983' appears without clear context, affecting numeric precision. Layout is disrupted with misplaced line breaks and inconsistent section headings. Some key text is missing or incomplete, notably the document type and detailed sections, lowering completeness."
+  },
+  "timestamp": "2026-04-08 23:07:23"
+}

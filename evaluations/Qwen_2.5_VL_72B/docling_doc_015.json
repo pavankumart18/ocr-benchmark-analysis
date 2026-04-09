@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "docling",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 75,
+    "layout_preservation": 55,
+    "completeness": 60,
+    "total_score": 65.75,
+    "notes": "The OCR output has several issues: text accuracy is compromised with missing words and incorrect formatting; table structure is partially preserved but with some misalignment; numeric values are mostly correct but some are missing or misplaced; layout preservation is poor with sections not clearly defined; and completeness is lacking with significant portions of the ground truth missing."
+  },
+  "timestamp": "2026-04-08 23:14:11"
+}

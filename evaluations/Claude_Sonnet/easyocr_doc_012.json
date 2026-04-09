@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 40,
+    "total_score": 62.5,
+    "notes": "OCR captured raw text reasonably well with some character errors (NQ instead of NO, TObACCO, GREDC instead of GR&DC, etc.). Major issue is completeness - OCR only extracted raw document text but missed all the analytical content, document type classification, key details summary, and insights that comprise majority of ground truth. Layout partially preserved but formatting inconsistent."
+  },
+  "timestamp": "2026-04-08 22:59:12"
+}

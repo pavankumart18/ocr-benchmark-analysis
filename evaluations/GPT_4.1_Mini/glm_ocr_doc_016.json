@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 75,
+    "total_score": 82.25,
+    "notes": "Text is mostly accurate with minor wording differences and missing some headings (e.g., 'Document Type', 'Key Details', 'Insights and Observations'). Table structure is mostly preserved but includes extra 'Chg. Index' columns not in ground truth and missing 'Contribution' value for 1987 (OCR has 21.5 vs GT 11.5). Numeric values mostly match except CPM 1988 (OCR 11.45 vs GT 36.2) and Contribution 1987 (OCR 21.5 vs GT 11.5). Layout is generally correct but lacks bold formatting and section separation. Completeness is reduced due to missing sections and some key insights."
+  },
+  "timestamp": "2026-04-08 23:01:17"
+}

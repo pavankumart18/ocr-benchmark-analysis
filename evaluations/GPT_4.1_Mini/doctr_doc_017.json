@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 81.25,
+    "notes": "Text is mostly accurate with minor issues such as 'A Great Britain' instead of 'Great Britain' and a dash '-' instead of zero for Silver medals. Table structure is somewhat disrupted with misaligned rows and inconsistent spacing, especially for Great Britain and France entries. Numeric values are precise except for the dash. Layout order is mostly preserved but some rows are merged or misaligned. Some text appears missing or truncated at the end."
+  },
+  "timestamp": "2026-04-08 23:02:53"
+}

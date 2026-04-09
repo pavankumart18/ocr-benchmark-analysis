@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 40,
+    "total_score": 69,
+    "notes": "OCR captured raw document text well with minor character errors (\u00e0 AT authinpton, missing spaces). Distribution list structure preserved accurately. Major issue: OCR only extracted raw text while ground truth includes comprehensive analysis, document type classification, and insights - significant completeness gap. Date discrepancy between 'JAN 19 1984' vs 'November 1983' noted."
+  },
+  "timestamp": "2026-04-08 22:52:44"
+}

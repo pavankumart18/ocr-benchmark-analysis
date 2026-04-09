@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 60,
+    "completeness": 65,
+    "total_score": 60.75,
+    "notes": "Text accuracy is significantly impacted by numerous OCR errors, misspellings, and incorrect word recognition (e.g., 'PRQDUCT' instead of 'PRODUCT', 'FQRECAST_SUMMARX' instead of 'FORECAST SUMMARY'). The table structure is partially preserved but includes extra 'Chg Index' columns not present in the ground truth, and some data alignment is off. Numeric precision is fair, with most numbers captured correctly, but some values are incorrect (e.g., CPM for 1988). Layout preservation suffers from the added columns and the loss of the structured 'Document Type', 'Key Details', and 'Insights and Observations' sections. Completeness is low due to the complete absence of the 'Document Type' and 'Insights and Observations' sections, and some missing words/phrases in the 'Assumptions'."
+  },
+  "timestamp": "2026-04-08 22:49:21"
+}

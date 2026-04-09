@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 88,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 81.1,
+    "notes": "Good overall extraction with accurate header information and detailed product descriptions. Main issues: missing table headers (UNIT TYPE, BRAND, REFERENCE columns appear empty), incomplete table structure with missing quantity values, and some formatting inconsistencies in the product descriptions. Numeric data like dates, phone numbers, and technical specifications are well preserved."
+  },
+  "timestamp": "2026-04-08 22:51:22"
+}

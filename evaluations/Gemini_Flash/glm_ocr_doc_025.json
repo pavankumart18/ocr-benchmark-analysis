@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 94.25,
+    "notes": "The OCR output accurately extracted the key fields. Minor discrepancies include 'BAHRI' instead of 'BAHRU' in the address and the total being extracted from 'Total Sales (Inclusive of GST)' which is correct, but there's also 'Total Sales (Excluding GST)' and 'Total Qty 1 80.91' which could be confusing. The layout is generally preserved for the relevant information, though there's a lot of extra text not in the ground truth. Table structure is not applicable as the ground truth is not a table."
+  },
+  "timestamp": "2026-04-08 22:42:17"
+}

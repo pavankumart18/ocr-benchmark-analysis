@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 80,
+    "layout_preservation": 55,
+    "completeness": 70,
+    "total_score": 62.75,
+    "notes": "Company name merged without spaces and misspelled ('ABCHOTRADING' vs 'ABC HO TRADING'). Address concatenated without spaces and some punctuation missing. Date mostly correct but includes extra time info. Table partially preserved but lacks clear columns and headers. Numeric values mostly accurate except date includes time. Layout reading order is somewhat jumbled with extraneous text and missing clear sectioning. Overall, key info present but formatting and text fidelity are poor."
+  },
+  "timestamp": "2026-04-08 23:03:50"
+}

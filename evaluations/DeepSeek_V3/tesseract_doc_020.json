@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 67.75,
+    "notes": "Key issues include garbled text (e.g., 'let cctrical Salety', 'OAEPAE SERS'), misaligned table structure (e.g., 'Pass Fail N/A' section), and minor typos (e.g., 'Parisian - Kuvalis lqck'). Dates and IDs are correctly captured, but layout and text accuracy are compromised."
+  },
+  "timestamp": "2026-04-08 23:34:54"
+}

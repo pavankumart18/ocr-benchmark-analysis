@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 75,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 40,
+    "total_score": 65.5,
+    "notes": "OCR captured the raw tabular data well with most numbers correct, but failed to extract the detailed analysis, insights, and structured formatting present in the ground truth. Multiple text errors like 'Sabof rromotion', 'Mapef M&P', and garbled footnote text. Missing entirely the comprehensive analysis section that makes up significant portion of ground truth content."
+  },
+  "timestamp": "2026-04-08 22:53:00"
+}

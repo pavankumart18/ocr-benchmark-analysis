@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 74,
+    "notes": "Company name has error '(H)' instead of '(M)', address has spacing issues and 'PERINDUSTRIAN' misspelled as 'PERINDUSIRIAN'. Date and total amount are correct. OCR captured extra product details not in ground truth but preserved main required fields. Table structure somewhat maintained but with formatting issues."
+  },
+  "timestamp": "2026-04-08 22:54:14"
+}

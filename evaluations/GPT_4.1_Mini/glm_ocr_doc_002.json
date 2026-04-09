@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 74.25,
+    "notes": "Company name mostly correct but 'DEDAP' misread as 'DEDAF' in address. Date matches exactly. Total amount off by 0.01 in one instance but final total matches ground truth. Table structure partially preserved but extra receipt details and item lines not in ground truth affect clarity. Layout order mostly correct but extra unrelated text present. Overall, minor spelling errors and slight numeric discrepancy reduce scores."
+  },
+  "timestamp": "2026-04-08 23:00:25"
+}

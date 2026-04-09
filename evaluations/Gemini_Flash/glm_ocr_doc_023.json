@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 91.25,
+    "notes": "The OCR output accurately extracted the 'company', 'date', 'address', and 'total' fields. There was a minor misspelling in the address ('DEDAF' instead of 'DEDAP'). The layout preservation is good for the extracted fields, but the OCR output includes a lot of extraneous information not present in the ground truth, which slightly impacts the score. Numeric precision is high, with only the total being slightly off due to rounding in the OCR output, but the final total matches the ground truth."
+  },
+  "timestamp": "2026-04-08 22:42:11"
+}

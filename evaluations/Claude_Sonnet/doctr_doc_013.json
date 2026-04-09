@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_013",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 70,
+    "notes": "OCR captured core tabular data well with minor spelling errors (OCIOBER, PHARMACOLDGY, EPIDEMICLOGY, MISCELLANBOUS, camitmont, inplied, ncw). Missing detailed document analysis and insights section. Table structure mostly preserved but some formatting issues with notes section."
+  },
+  "timestamp": "2026-04-08 22:52:50"
+}

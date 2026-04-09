@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 45,
+    "numeric_precision": 85,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 59.5,
+    "notes": "Multiple text accuracy issues including missing spaces (e.g., 'housingintact', 'buttonsfunctional'), OCR artifacts like 'Electrical'Safety' with incorrect apostrophe, and garbled sections. Table structure is severely compromised with misaligned columns and merged cells. Layout is disrupted with sections bleeding into table cells inappropriately. Document appears truncated at the end."
+  },
+  "timestamp": "2026-04-08 22:55:32"
+}

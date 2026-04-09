@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 30,
+    "numeric_precision": 70,
+    "layout_preservation": 50,
+    "completeness": 60,
+    "total_score": 48.5,
+    "notes": "Significant OCR errors in company name and address with many misspellings and character substitutions. Table structure is poorly preserved with no clear columns or rows matching ground truth. Numeric values mostly close but some minor discrepancies (e.g., total 33.90 vs 33.92/33.90 in OCR). Layout is jumbled with unrelated text and poor reading order. Some key fields like date and total are present but overall text is incomplete and garbled."
+  },
+  "timestamp": "2026-04-08 23:06:30"
+}

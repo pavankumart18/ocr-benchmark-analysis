@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 0,
+    "numeric_precision": 30,
+    "layout_preservation": 15,
+    "completeness": 40,
+    "total_score": 19.5,
+    "notes": "The OCR output is heavily garbled with numerous misspellings and incorrect characters, severely impacting text accuracy. There is no preservation of table structure as the original text is prose without tables, but the OCR output is fragmented and disorganized. Numeric data such as dates and nicotine values are mostly incorrect or unreadable. The reading order and section formatting are poorly maintained, making comprehension difficult. Significant portions of the original text are missing or unintelligible, resulting in low completeness."
+  },
+  "timestamp": "2026-04-08 23:07:30"
+}

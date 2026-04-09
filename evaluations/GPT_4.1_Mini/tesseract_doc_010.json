@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 98,
+    "completeness": 100,
+    "total_score": 98.1,
+    "notes": "OCR output matches ground truth almost perfectly with no misspellings or missing words. Paragraph breaks and formatting are preserved well. No tables present, so table structure is perfect by default. Numeric data including date and section numbers are exact. Minor difference is an extra blank line after '(i) any liability for the undersigned\u2019s responsibility to comply with the requirements of the Exchange Act,' which does not affect meaning or layout significantly."
+  },
+  "timestamp": "2026-04-08 23:05:36"
+}

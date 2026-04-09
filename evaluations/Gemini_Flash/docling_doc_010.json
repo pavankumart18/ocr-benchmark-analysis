@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 100,
+    "numeric_precision": 85,
+    "layout_preservation": 90,
+    "completeness": 80,
+    "total_score": 82.75,
+    "notes": "Several missing words and phrases, particularly in the first paragraph, impacting completeness and text accuracy. Some spacing issues (e.g., 'to thisLimited', 'PowerofAttorneyshallremaininfullforce andeffectuntil theundersignedisno'). Numeric precision is affected by the missing date in the last paragraph. Layout is generally preserved, but the missing lines before the signature block are a minor issue."
+  },
+  "timestamp": "2026-04-08 22:44:52"
+}

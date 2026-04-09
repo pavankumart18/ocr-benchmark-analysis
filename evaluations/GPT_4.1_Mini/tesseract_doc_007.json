@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_007",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 90,
+    "total_score": 95.25,
+    "notes": "OCR output closely matches ground truth with no spelling or character errors. Layout and section formatting are well preserved. Numeric data including dates and form numbers are exact. The only minor issue is the OCR output ends abruptly mid-sentence, missing the final portion of the last sentence, affecting completeness slightly."
+  },
+  "timestamp": "2026-04-08 23:05:24"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 40,
+    "completeness": 50,
+    "total_score": 54.5,
+    "notes": "The OCR output contains several misspellings and incorrect characters, such as 'Ac HO TRADINc' instead of 'ABC HO TRADING'. The table structure is not preserved as there are no clear tables in the OCR output. Numeric values like the total amount are mostly correct, but the date format is slightly different. The layout is disrupted with additional unrelated text and incorrect reading order. Some parts of the ground truth are missing or altered."
+  },
+  "timestamp": "2026-04-08 23:17:53"
+}

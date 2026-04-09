@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 0,
+    "table_structure": 0,
+    "numeric_precision": 0,
+    "layout_preservation": 0,
+    "completeness": 0,
+    "total_score": 0,
+    "notes": "OCR output is completely empty ('<!-- image -->'), failing to capture any text, structure, or details from the ground truth."
+  },
+  "timestamp": "2026-04-08 23:29:44"
+}

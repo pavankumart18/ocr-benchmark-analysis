@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 100,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 71,
+    "notes": "Text accuracy suffers from minor typos and extra characters (e.g., 'tan woon yann', 'TBO T-W', 'NO.5?'). Table structure is disrupted by OCR errors and extra lines. Numeric precision is perfect. Layout preservation is affected by incorrect reading order and extra text. Completeness is good but includes irrelevant text."
+  },
+  "timestamp": "2026-04-08 23:31:44"
+}

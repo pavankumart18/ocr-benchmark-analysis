@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 90,
+    "notes": "The OCR output correctly extracted the company name, date, address, and total. Minor discrepancies include 'MR D.I.Y.(H)' instead of 'MR D.I.Y. (M)', 'PERINDUSIRIAN' instead of 'PERINDUSTRIAN', and the total being 'RM 30.90' instead of just '30.90'. The address also includes an extra 'amp;' which is likely an OCR artifact. The structure is preserved as the ground truth is a flat JSON, and the OCR output contains all the relevant fields."
+  },
+  "timestamp": "2026-04-08 22:44:27"
+}

@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_019",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 72,
+    "table_structure": 65,
+    "numeric_precision": 78,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "notes": "Multiple OCR errors including missing spaces in email addresses (Glen76@yahoo com), temperature symbols rendered as quotes (32'C, 8'C, -30'C), incomplete warranty text ('year standard warranty'), missing weight values (weight: 0, weight: 4), and fragmented table structure. Product descriptions are mostly accurate but contain formatting issues and incomplete sentences."
+  },
+  "timestamp": "2026-04-08 22:59:48"
+}

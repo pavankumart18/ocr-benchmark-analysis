@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 80,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 66.5,
+    "notes": "Key issues: 'INDAH GIFT & HOME BECO' misspelled, 'TANAN' instead of 'TAMAN', missing '60.30' total, incorrect table structure, extra irrelevant text included."
+  },
+  "timestamp": "2026-04-08 23:31:53"
+}

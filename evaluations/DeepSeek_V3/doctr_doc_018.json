@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 30,
+    "numeric_precision": 40,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 47,
+    "notes": "Major OCR errors include garbled text, incorrect characters (e.g., 'D', 'o', '8' instead of numbers or letters), and broken table structure. Numeric values are often corrupted (e.g., '$9,730' appears correctly, but others are garbled). Layout is somewhat preserved, but reading order is unclear in places. Some sections are incomplete or unreadable."
+  },
+  "timestamp": "2026-04-08 23:25:53"
+}

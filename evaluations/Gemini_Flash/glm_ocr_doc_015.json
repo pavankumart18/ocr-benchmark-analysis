@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 50,
+    "layout_preservation": 10,
+    "completeness": 10,
+    "total_score": 19,
+    "notes": "The OCR output is severely truncated, missing almost all of the detailed information and insights. The initial table-like structure is partially recognized but then devolves into a long string of '---' characters, indicating a major failure in processing the document's content and structure. Many key details, product information, and all insights are completely absent. Numeric values that are present are mostly correct, but the context is lost."
+  },
+  "timestamp": "2026-04-08 22:41:44"
+}

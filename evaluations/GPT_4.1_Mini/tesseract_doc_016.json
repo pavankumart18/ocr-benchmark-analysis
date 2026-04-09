@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 55,
+    "layout_preservation": 65,
+    "completeness": 60,
+    "total_score": 59.75,
+    "notes": "Significant OCR errors in text such as 'SOM * +20 82 (410)' instead of 'SOM 0.20 0.82', missing negative signs in Contribution and Cumulative Contribution, and garbled trailing text. Table columns are partially preserved but many parentheses with numbers appear incorrectly, disrupting clarity. Numeric values often have wrong decimals or missing negative signs, e.g., Contribution 41.6 vs -41.6, and CPM 11.45 vs 36.2 in 1988. Layout is somewhat maintained but sections like Title and Document Type are missing, and reading order is disrupted by misplaced parentheses and line breaks. Overall, the OCR captures some data but with major errors and omissions affecting usability."
+  },
+  "timestamp": "2026-04-08 23:05:59"
+}

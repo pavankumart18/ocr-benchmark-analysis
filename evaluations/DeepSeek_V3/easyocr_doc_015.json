@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 40,
+    "numeric_precision": 70,
+    "layout_preservation": 30,
+    "completeness": 60,
+    "total_score": 50,
+    "notes": "OCR output has significant character-level errors (e.g., 'FORECAST_SUMMARYX', 'Meaie}', 'Ner_Product'), garbled table structure, and incorrect layout. Numeric values are mostly correct but with formatting issues. Major sections and details are present but poorly extracted."
+  },
+  "timestamp": "2026-04-08 23:37:49"
+}

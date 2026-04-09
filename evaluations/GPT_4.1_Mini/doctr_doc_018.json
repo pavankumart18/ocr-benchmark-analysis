@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 30,
+    "numeric_precision": 50,
+    "layout_preservation": 35,
+    "completeness": 60,
+    "total_score": 40.75,
+    "notes": "The OCR output contains extensive garbling, random characters, and misplaced symbols, severely impacting text accuracy. Table structures are poorly preserved with misaligned columns and rows, making numeric data difficult to interpret. Numeric precision suffers from unclear decimal points and currency symbols. Layout and reading order are disrupted by scattered and nonsensical text blocks. Some sections appear incomplete or truncated, though most major headings are present."
+  },
+  "timestamp": "2026-04-08 23:02:57"
+}

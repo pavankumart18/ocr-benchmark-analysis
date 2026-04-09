@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_012",
+  "model": "tesseract",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/000.png",
+  "category": "financial_mixed",
+  "source_dataset": "sujet",
+  "processing_time_seconds": 0.6,
+  "output_length_chars": 290,
+  "timestamp": "2026-04-08 22:08:53"
+}

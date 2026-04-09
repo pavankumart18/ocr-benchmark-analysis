@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 35,
+    "numeric_precision": 45,
+    "layout_preservation": 30,
+    "completeness": 40,
+    "total_score": 33,
+    "notes": "Severe OCR errors throughout: garbled text like 'SUMMARYX', 'Meaie}', 'SaPif)', missing key sections like document type and insights, corrupted table headers and structure, many numeric values missing or incorrect (e.g., missing decimal points), and overall poor readability with fragmented layout preservation."
+  },
+  "timestamp": "2026-04-08 22:59:27"
+}

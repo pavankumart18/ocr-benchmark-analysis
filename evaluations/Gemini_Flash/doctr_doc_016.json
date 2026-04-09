@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 85,
+    "completeness": 60,
+    "total_score": 72,
+    "notes": "The OCR output captures the main title, some key metrics, and assumptions. However, it misses the entire 'Document Type' and 'Insights and Observations' sections, significantly impacting completeness. The table structure is partially preserved but includes extra 'Chg.' and 'Index' columns not present in the ground truth's logical structure. There are minor text errors like 'adj us tments' instead of 'adjustments' and 'cur-' instead of 'current'. One numeric value for CPM in 1988 is incorrect (11.45 vs 36.2), and Contribution for 1987 is incorrect (21.5 vs 11.5). The overall layout is reasonable for the captured content, but the missing sections are a major drawback."
+  },
+  "timestamp": "2026-04-08 22:43:20"
+}

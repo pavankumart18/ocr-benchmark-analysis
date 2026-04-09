@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 80,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 86,
+    "notes": "Some minor text recognition errors like 'Goyette Tunnel' instead of 'Goyette Tunnel', 't0 8\"C' instead of 'to 80\u00b0C', 'Sm' instead of '5m', 't0 3 units' instead of 'to 3 units', '308C' instead of '30\u00b0C', '48840814' instead of '48840814'. Numeric precision is slightly affected by these character errors in specifications. The table structure is well-preserved, and the overall layout is good. A few missing characters or slight misinterpretations of special characters (like degrees Celsius) are the main issues."
+  },
+  "timestamp": "2026-04-08 22:49:32"
+}

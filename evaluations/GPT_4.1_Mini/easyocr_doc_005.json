@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 40,
+    "layout_preservation": 15,
+    "completeness": 30,
+    "total_score": 22.75,
+    "notes": "OCR output is heavily garbled with most text unrecognizable or incorrect. Company name and address are mostly unreadable or distorted. Numeric values such as total and date are partially correct but contain errors (e.g., '30, 90' instead of '30.90', '18-1118' instead of '18-11-18'). No clear table structure or columns preserved. Layout and reading order are chaotic. Large portions of ground truth text are missing or unintelligible."
+  },
+  "timestamp": "2026-04-08 23:06:52"
+}

@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_023",
+  "model": "tesseract",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_001.jpg",
+  "category": "degraded_scan",
+  "source_dataset": "sroie_degraded",
+  "processing_time_seconds": 0.77,
+  "output_length_chars": 557,
+  "timestamp": "2026-04-08 22:09:05"
+}

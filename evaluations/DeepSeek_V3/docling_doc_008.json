@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 82.75,
+    "notes": "Key issues: Missing words ('pursuant to this' -> 'pursuant tothis'), incorrect spacing ('shallbe', 'underSection16of theExchangeAct'), garbled text ('(i) any obligation or s Limited Power of Attorney'), and minor formatting errors in layout. Numeric precision and completeness are well-preserved."
+  },
+  "timestamp": "2026-04-08 23:28:57"
+}

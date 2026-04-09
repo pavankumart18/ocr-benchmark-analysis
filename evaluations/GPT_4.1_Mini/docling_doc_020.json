@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 65,
+    "completeness": 75,
+    "total_score": 72.25,
+    "notes": "The OCR output contains multiple minor misspellings and spacing issues (e.g., 'housingintact', 'Control buttonsfunctional', 'Electrical'Safety', 'Calibrationcheck'). Table columns and rows are partially preserved but many cells are empty or misaligned, and some headers are repeated or misplaced. Numeric data such as dates and equipment IDs appear accurate. The reading order is somewhat maintained but disrupted by misplaced or empty cells and repeated headers. Some content is truncated at the end, indicating incomplete extraction."
+  },
+  "timestamp": "2026-04-08 23:04:45"
+}

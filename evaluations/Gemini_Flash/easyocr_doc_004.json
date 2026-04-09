@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 0,
+    "numeric_precision": 80,
+    "layout_preservation": 0,
+    "completeness": 70,
+    "total_score": 49,
+    "notes": "The OCR output correctly identified the company name and total. However, the date is incorrect (26/12/2018 vs 25/12/2018) and the address has minor character errors ('1?' instead of '13', 'JOHIOR EAHIRU' instead of 'JOHOR BAHRU'). The ground truth is a JSON object, not a document with a table structure, so table structure and layout preservation are not applicable and scored as 0. Completeness is affected by the missing and incorrect information for the address and date."
+  },
+  "timestamp": "2026-04-08 22:48:18"
+}

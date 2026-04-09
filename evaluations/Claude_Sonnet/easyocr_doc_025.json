@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 10,
+    "numeric_precision": 35,
+    "layout_preservation": 15,
+    "completeness": 40,
+    "total_score": 24,
+    "notes": "OCR output is severely garbled with extensive character recognition errors. Company name 'YONGFATT ENTERPRISE' is correctly identified, and total amount '80.90' appears to be present but fragmented. Date '25/12/2018' is completely missing or unrecognizable. Address is heavily corrupted. The output appears to be from a receipt but structure is completely lost with random characters and fragments throughout."
+  },
+  "timestamp": "2026-04-08 23:00:18"
+}

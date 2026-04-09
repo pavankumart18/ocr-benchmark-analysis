@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 30,
+    "numeric_precision": 70,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 56.5,
+    "notes": "Company name partially correct but with case errors and missing words; address mostly correct but minor punctuation issues; date correct; total amount close but OCR shows multiple totals with slight discrepancies; table structure poorly preserved with garbled item descriptions and misaligned columns; numeric values mostly close but some decimals and amounts differ slightly; layout is somewhat jumbled with mixed sections and unclear reading order; overall, most ground truth text is present but with significant formatting and accuracy issues."
+  },
+  "timestamp": "2026-04-08 23:06:40"
+}

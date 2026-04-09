@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 85,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 48,
+    "notes": "Significant OCR errors including garbled text like 'Eceeicr SQreRlete', 'feblaFonGgtiogesecure', and 'OenSP4RSSEERGK'. Table structure is severely compromised with missing column separators and misaligned content. Header information and dates are mostly accurate, but critical table data is largely unreadable."
+  },
+  "timestamp": "2026-04-08 22:59:53"
+}

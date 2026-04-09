@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 10,
+    "numeric_precision": 85,
+    "layout_preservation": 20,
+    "completeness": 70,
+    "total_score": 58,
+    "notes": "The OCR output has several inaccuracies in the company name and address. The date is mostly correct but includes a timestamp. The total amount is correct. The table structure is not relevant to the ground truth provided, which only contains key-value pairs, not a full table. The layout preservation is poor as the OCR output includes a lot of extraneous information not present in the ground truth, and the ground truth is structured as a JSON object, not a document with a table. Completeness is low due to missing parts of the address and the inclusion of much irrelevant text."
+  },
+  "timestamp": "2026-04-08 22:44:12"
+}

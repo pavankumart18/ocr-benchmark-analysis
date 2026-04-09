@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 85,
+    "notes": "Minor issues include extra text ('tan chay yee', '07-355 2616', etc.), missing JSON structure, and incorrect table formatting. Numeric values and key fields (company, date, address, total) are correctly captured."
+  },
+  "timestamp": "2026-04-08 23:20:19"
+}

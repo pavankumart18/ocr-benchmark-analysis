@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 65,
+    "numeric_precision": 75,
+    "layout_preservation": 70,
+    "completeness": 60,
+    "total_score": 69.25,
+    "notes": "Text contains multiple misspellings (e.g., 'OUARTER' for 'QUARTER', 'SMM' instead of '$MM', 'Volumebased' missing space), some OCR artifacts (e.g., '4 rent estimates' instead of 'Contribution estimates'), and inconsistent capitalization. Table structure is partially preserved but with merged headers and unclear 'chg. Index' columns not present in ground truth. Numeric values mostly correct but CPM 1988 is 11.45 vs 36.2 in ground truth, and contribution 1987 is 21.5 vs 11.5. Layout is roughly maintained but sections like 'Insights and Observations' are missing. Completeness suffers from missing key sections and some lines truncated or garbled."
+  },
+  "timestamp": "2026-04-08 23:04:29"
+}

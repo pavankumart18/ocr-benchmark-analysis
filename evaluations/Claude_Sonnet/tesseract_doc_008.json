@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 97.85,
+    "notes": "Excellent OCR accuracy with nearly perfect text extraction. Minor spacing differences in paragraph breaks and slightly different line wrapping, but all content is correctly captured including the signature block, date, and legal text."
+  },
+  "timestamp": "2026-04-08 22:56:41"
+}

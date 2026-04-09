@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 67.25,
+    "notes": "Major issues include missing header information (EX-19.1, Exhibit 19.1), incomplete sentences in scope section, missing text about 'not available to the public', numerous spacing errors throughout (e.g., 'collectivelyreferred', 'non-publicinformation'), incorrect numbering (two 'ii.' items instead of 'iii.'), and poor layout preservation with content appearing out of order. The document structure is partially maintained but reading flow is disrupted."
+  },
+  "timestamp": "2026-04-08 22:54:47"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 65,
+    "completeness": 70,
+    "total_score": 69.25,
+    "notes": "Text has some errors such as 'Spending (SMM)' instead of '$MM', missing 'Contribution' value for 1987 (OCR shows 21.5 vs GT 11.5), and extraneous 'Chg.' and 'Index' labels disrupting clarity. Table columns and rows are partially preserved but mixed with unclear 'Chg.' and 'Index' entries, breaking clean structure. Numeric values mostly match but some CPM and Contribution values differ slightly. Layout is somewhat preserved but reading order is affected by inserted labels and missing section headers like 'Document Type' and 'Key Details'. Some text from assumptions is split or slightly garbled. Overall, OCR captures core data but with notable structural and numeric inconsistencies."
+  },
+  "timestamp": "2026-04-08 23:02:49"
+}

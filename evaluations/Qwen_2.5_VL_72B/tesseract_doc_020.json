@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 40,
+    "numeric_precision": 85,
+    "layout_preservation": 55,
+    "completeness": 70,
+    "total_score": 63.75,
+    "notes": "The OCR output contains several misspellings and incorrect characters, such as 'Parisian - Kuvalis lqck' and 'let'. The table structure is poorly preserved, with missing headers and misaligned rows. Numeric values like dates are mostly correct, but the layout is disrupted with misplaced sections and paragraphs. Some text is missing or garbled, impacting completeness."
+  },
+  "timestamp": "2026-04-08 23:16:44"
+}

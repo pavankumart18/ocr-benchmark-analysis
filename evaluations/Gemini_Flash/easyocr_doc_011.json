@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 98,
+    "layout_preservation": 95,
+    "completeness": 97,
+    "total_score": 95.75,
+    "notes": "Minor character substitutions (e.g., '_' for '.', 'e.g-' for 'e.g.,', 'Or' for 'or', '&' for 'a'), missing bullet points, and a few missing words like 'Key' and 'your' at the end of the document. Overall good preservation of text and layout."
+  },
+  "timestamp": "2026-04-08 22:49:05"
+}

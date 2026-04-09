@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 55,
+    "layout_preservation": 60,
+    "completeness": 85,
+    "total_score": 58.75,
+    "notes": "The OCR output contains numerous misspellings and character errors (e.g., 'Refermee', 'Adfitional', 'FEE' inconsistencies). Table columns and rows are poorly aligned, making it difficult to distinguish fields clearly. Numeric data such as dates, charges, and weights have multiple errors and inconsistencies (e.g., '11X.68', 'FEE' misspellings, inconsistent decimal points). The reading order is somewhat preserved but disrupted by misaligned text and merged fields. Most visible text appears captured, but the poor structure and errors reduce usability."
+  },
+  "timestamp": "2026-04-08 23:03:12"
+}

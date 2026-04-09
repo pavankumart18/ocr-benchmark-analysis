@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "glm_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 90.75,
+    "notes": "The OCR output accurately captures most of the text, including the company name, address, and total amount. There are minor discrepancies in table structure and layout preservation, but numeric values and dates are perfectly matched. The OCR output includes additional details not present in the ground truth, but this does not detract from the overall accuracy."
+  },
+  "timestamp": "2026-04-08 23:08:27"
+}

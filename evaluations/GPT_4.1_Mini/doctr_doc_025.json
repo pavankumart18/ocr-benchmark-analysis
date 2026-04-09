@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 20,
+    "numeric_precision": 60,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 48.5,
+    "notes": "Company name correctly extracted but other text contains many misspellings and garbled words. Address partially correct but missing spaces and punctuation. Date format incorrect with extra digits. Numeric amounts mostly correct but some confusion in totals and tax lines. Table structure poorly preserved with columns and rows jumbled. Layout reading order disrupted by scattered text and unrelated lines. Overall, key fields present but OCR output is noisy and incomplete."
+  },
+  "timestamp": "2026-04-08 23:03:28"
+}

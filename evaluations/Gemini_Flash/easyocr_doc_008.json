@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 95,
+    "completeness": 95,
+    "total_score": 95.25,
+    "notes": "Minor text errors include 'nor attorney-in-fact' instead of 'nor any attorney-in-fact', missing 'for' before 'any failure', and a semicolon instead of a period at the end of a paragraph. The underscore after 'purposes' and 'Is/' instead of '/s/' are also minor character errors. The date is missing 'th' after '4'."
+  },
+  "timestamp": "2026-04-08 22:48:45"
+}

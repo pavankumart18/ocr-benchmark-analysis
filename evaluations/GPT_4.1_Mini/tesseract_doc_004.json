@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 30,
+    "numeric_precision": 50,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 52.5,
+    "notes": "Company name and address mostly correct but extra unrelated text present; date is incorrect (26/12/2018 vs 25/12/2018); numeric amounts mostly inconsistent or garbled; no clear table structure preserved; layout is cluttered with mixed unrelated info; ground truth fields partially captured but with errors and missing exact matches."
+  },
+  "timestamp": "2026-04-08 23:05:14"
+}

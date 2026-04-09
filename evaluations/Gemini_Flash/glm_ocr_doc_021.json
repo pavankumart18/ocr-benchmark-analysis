@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 77,
+    "notes": "Text accuracy is generally good, with only minor potential OCR errors (e.g., 'QJFAH2WZ5U' vs 'QJFAH2WZ5U' - hard to tell without original). Table structure is significantly compromised; the OCR output attempts to represent tabular data but fails to maintain clear column separation for many fields, especially addresses and additional charges, leading to merged data. Numeric precision is fair, but the lack of clear column separation makes it difficult to verify all numbers against their intended categories. Layout preservation is acceptable for the main sections but suffers due to the poor table structure. Completeness appears high, with most visible text captured."
+  },
+  "timestamp": "2026-04-08 22:42:06"
+}

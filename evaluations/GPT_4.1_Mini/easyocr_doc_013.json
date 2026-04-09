@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 40,
+    "numeric_precision": 60,
+    "layout_preservation": 55,
+    "completeness": 65,
+    "total_score": 53.75,
+    "notes": "Significant OCR errors with many misspellings (e.g., 'PHRMOOIDSY' for Pharmacology, 'EMUNOLOGI' for Immunology), missing or garbled words, and some incorrect characters. Table columns and rows are partially preserved but many labels and totals are misaligned or missing (e.g., 'TOTAL' row values incorrect). Numeric values mostly correct but some totals and labels are wrong or missing. Layout is roughly maintained but reading order is disrupted and sections are incomplete or fragmented. Overall, major text and structural errors reduce clarity and accuracy."
+  },
+  "timestamp": "2026-04-08 23:07:27"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 40,
+    "numeric_precision": 60,
+    "layout_preservation": 30,
+    "completeness": 40,
+    "total_score": 46.5,
+    "notes": "OCR output has significant issues: misspellings (e.g., 'Medja' for 'Media'), garbled text (e.g., 'erat', 'wes/tae'), missing sections (e.g., 'Key Details', 'Insights'), incorrect numeric values (e.g., '156.7' instead of '60.6'), and poor layout preservation. Major content is missing or distorted."
+  },
+  "timestamp": "2026-04-08 23:34:06"
+}

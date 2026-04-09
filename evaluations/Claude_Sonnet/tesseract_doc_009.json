@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 85,
+    "total_score": 94.6,
+    "notes": "Excellent OCR accuracy with near-perfect character recognition. Document appears to be cut off at the end, missing the final portion of the text after 'without independent verification of such'. Minor spacing variations but overall structure well preserved. All numbers, dates, and legal references are accurate."
+  },
+  "timestamp": "2026-04-08 22:56:45"
+}

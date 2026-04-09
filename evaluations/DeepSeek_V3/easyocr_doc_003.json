@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 40,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 62,
+    "notes": "Major OCR errors in company name ('MR 0.I.Y JohuR) SDN BHD'), address formatting, and extra irrelevant text. Numeric values are mostly correct but with minor formatting issues. Layout is disrupted by unrelated invoice details."
+  },
+  "timestamp": "2026-04-08 23:35:47"
+}

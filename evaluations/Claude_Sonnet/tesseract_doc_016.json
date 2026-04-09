@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_016",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 35,
+    "numeric_precision": 40,
+    "layout_preservation": 20,
+    "completeness": 15,
+    "notes": "Major issues: Missing document title, headers, and most descriptive text. Multiple numeric errors (734.6 vs -34.6, 21.5 vs 11.5, 11.45 vs 36.2). Table structure partially preserved but lacks proper formatting and column headers. Assumptions section partially captured but incomplete. Missing entire sections on document type, key details structure, and insights/observations."
+  },
+  "timestamp": "2026-04-08 22:57:19"
+}

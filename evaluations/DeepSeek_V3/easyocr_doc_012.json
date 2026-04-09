@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 77.75,
+    "notes": "Key issues include misspellings (e.g., 'Hughee' instead of 'Hughes', 'NQ:' instead of 'NO. 11'), incorrect formatting (e.g., 'GREDC' instead of 'GR&DC'), and minor layout deviations. However, the overall structure, numeric data, and completeness are mostly preserved."
+  },
+  "timestamp": "2026-04-08 23:37:17"
+}

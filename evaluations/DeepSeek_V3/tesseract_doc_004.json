@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 82.25,
+    "notes": "Text accuracy is high with minor OCR errors (e.g., 'tan woon yann' as noise). Table structure is partially preserved but includes irrelevant data. Numeric precision is good (total matches ground truth). Layout is mostly preserved but with extra clutter. Completeness is high as all key fields are captured."
+  },
+  "timestamp": "2026-04-08 23:32:06"
+}

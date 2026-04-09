@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 50,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 76,
+    "notes": "Text accuracy is generally good, but there are some minor OCR errors like 'S477' instead of '5477', 'Ciecles' instead of 'Circles', 'Rosd' instead of 'Road', 'Boehes' instead of 'Boehm's', 'PUNT' instead of 'PONT', 'FEF' instead of 'FEE', 'ADIUSTMENT' instead of 'ADJUSTMENT', 'FEB' instead of 'FEE'. Table structure is poorly preserved, especially for the addresses and the list of charges, which appear as free-form text rather than structured columns. Numeric precision is fair, with most numbers and dates correct, but some minor errors like '12-1420)' instead of '12-14-2001' or similar, and 'S660' instead of a proper zip code. Layout preservation is moderate; the general flow is maintained, but the columnar structure of addresses and charges is lost. Completeness is good, with most visible text captured."
+  },
+  "timestamp": "2026-04-08 22:47:31"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 0,
+    "numeric_precision": 50,
+    "layout_preservation": 10,
+    "completeness": 30,
+    "total_score": 22.5,
+    "notes": "Severe text inaccuracies (e.g., 'INAROETETEREE' instead of 'INDAH GIFT & HOME DECO'), missing/incorrect table structure, numeric values partially correct (total is close but not exact), garbled layout, and major omissions (e.g., date missing)."
+  },
+  "timestamp": "2026-04-08 23:31:23"
+}

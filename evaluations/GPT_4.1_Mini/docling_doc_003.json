@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 40,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 65.75,
+    "notes": "Company name has spacing and punctuation errors (e.g., 'MRD.I.Y.' vs 'MR D.I.Y.'), registration number and some characters are garbled. Address mostly correct but spacing and punctuation issues. Numeric values mostly accurate, with total matching ground truth. Table structure poorly preserved; item details are present but not clearly tabulated or aligned. Layout is somewhat jumbled with mixed sections and extraneous text. Most ground truth content is present but intermixed with noise and OCR artifacts."
+  },
+  "timestamp": "2026-04-08 23:03:39"
+}

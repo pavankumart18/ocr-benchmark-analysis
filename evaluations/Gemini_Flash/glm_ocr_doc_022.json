@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 90.25,
+    "notes": "Text accuracy is good for the extracted fields, with minor discrepancies like 'NO.53 55' vs 'NO.55' and 'JALAN SAGU 18' vs 'JALAN SAGU IR'. Numeric precision is high, with the date and total matching. Completeness is good for the requested fields, though the OCR output contains additional information not in the ground truth. Layout is preserved well for the relevant fields."
+  },
+  "timestamp": "2026-04-08 22:42:08"
+}

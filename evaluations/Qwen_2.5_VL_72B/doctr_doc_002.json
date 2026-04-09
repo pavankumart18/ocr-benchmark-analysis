@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 81.25,
+    "notes": "The OCR output contains additional information not present in the ground truth, such as contact details and item descriptions. However, the key fields (company, date, address, total) are accurately captured. There are minor discrepancies in table structure and layout preservation due to the additional content."
+  },
+  "timestamp": "2026-04-08 23:10:39"
+}

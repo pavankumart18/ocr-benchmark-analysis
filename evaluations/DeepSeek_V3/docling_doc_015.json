@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 75,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 75,
+    "notes": "OCR output has several issues including misspellings (e.g., 'lst' instead of '1st'), incorrect table formatting (merged columns for 1986 and 1987), and missing or misplaced numeric values (e.g., '88' instead of '88.6'). However, most numeric values and the overall structure are preserved."
+  },
+  "timestamp": "2026-04-08 23:30:10"
+}

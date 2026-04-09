@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 85,
+    "numeric_precision": 75,
+    "layout_preservation": 40,
+    "completeness": 35,
+    "total_score": 52,
+    "notes": "Major issues include missing spacing throughout (e.g., 'tothisLimited', 'shallbe'), incomplete sentences in section (d) with missing critical text about liability and profit disgorgement, missing paragraph breaks, and compressed formatting. Date and signature elements are mostly preserved but lack proper spacing."
+  },
+  "timestamp": "2026-04-08 22:54:30"
+}

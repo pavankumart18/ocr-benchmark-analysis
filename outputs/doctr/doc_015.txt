@@ -1,0 +1,90 @@
+NEW PRODUCT SPENDING FORECAST SUMMARY
+($MM)
+1984
+1985
+1986
+1987
+1988
+New Product A
+(4th Qtr., 1984, Launch)
+Advertising Media(1)
+31.9
+54.9
+60.6
+64.3
+68.2
+Sales,
+(1)
+17.4
+28.6
+22.5
+23.9
+25.6
+M&P (1) REpmotion
+3.4
+4.5
+3.5
+3.6
+3.6
+Sample Program
+53.1 0.4
+88.0
+86.6
+91.8
+97.4
+Total Advertising/Promo
+New Product B
+(1st Qtr., 1986, Launch)
+Advertising Media, (1)
+81.1
+92.4
+97.9
+(I)
+49.3
+36.0
+38.4
+Sabof rromotion
+4.7
+3.6
+3.6
+M&P
+Sample Program
+0.6 0.6
+135.1
+132.0
+139.9
+Total Advertising/Promo
+Total
+Advertising Media (1)
+31.9
+54.9
+141.7
+156.7
+166.1
+Promotiont)
+17.4
+28.6
+71.8
+59.9
+64.0
+Mapef M&P
+3.4
+4.5
+8.2
+7.2
+7.2
+Sample Promotion
+0.4
+88.6 0.6
+221.7
+223.8
+237.3
+Total Advertising/Promo
+53.1
+(1) Assumes 60/40 A/P split in Year 1: 70/30 thereafter.
+in 1984, 1/3 in 1985, 1/4 in
+(2) Assumes Product A absorbs 1/4 of contract package display costs
+(3) Assumes 1986-88. Product B absorbs 1/3 of contract package display cost in 1986, 1/4 in 1987-88.
+02600TVIS
+NES/tat
+10/18/83

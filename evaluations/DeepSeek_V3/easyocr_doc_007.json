@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_007",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 91.75,
+    "notes": "Minor OCR errors include missing 'for,' in (1), incorrect quotation marks ('Exchange Act'), '0n' instead of 'on', 'Or' instead of 'or', and an underscore instead of a period. Layout and completeness are well preserved."
+  },
+  "timestamp": "2026-04-08 23:36:26"
+}

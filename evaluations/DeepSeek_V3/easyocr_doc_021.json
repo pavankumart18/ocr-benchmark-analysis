@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 20,
+    "numeric_precision": 30,
+    "layout_preservation": 25,
+    "completeness": 70,
+    "total_score": 35.75,
+    "notes": "Major OCR errors include garbled text, misspellings, and incorrect characters. Table structure is poorly preserved, and numeric precision is inconsistent. Layout is disrupted, but most text appears to be captured, albeit inaccurately."
+  },
+  "timestamp": "2026-04-08 23:38:44"
+}

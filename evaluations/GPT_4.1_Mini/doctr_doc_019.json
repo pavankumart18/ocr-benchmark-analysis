@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 74.25,
+    "notes": "The OCR captured most text correctly but has multiple minor spelling errors (e.g., 'ofcorrosion-resistant', 'CEJULITUV', 'professional-gradel', 'High-efficiencyl'), inconsistent spacing, and some misrecognized characters. The table structure is partially preserved but lacks clear column alignment and row separation, making it hard to parse the tabular data precisely. Numeric data such as quantities, dates, and codes are mostly accurate with minor formatting issues. Layout and reading order are generally maintained but some paragraphs run together without clear breaks. Overall, the extraction is mostly complete with no major missing sections."
+  },
+  "timestamp": "2026-04-08 23:03:04"
+}

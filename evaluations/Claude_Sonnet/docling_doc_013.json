@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 40,
+    "total_score": 67.25,
+    "notes": "Multiple spelling errors (OCOBER, PROJECIIONS, PUIMONARY, PHARMAOOTOGY, MISCELLANDOUS, etc.) and significant missing content including document header, organization name, date, and detailed contextual analysis. Table structure and numeric values are mostly accurate, but lacks comprehensive document information present in ground truth."
+  },
+  "timestamp": "2026-04-08 22:54:57"
+}

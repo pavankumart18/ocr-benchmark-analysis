@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_020",
+  "model": "tesseract",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/101.png",
+  "category": "general_doc",
+  "source_dataset": "omni",
+  "processing_time_seconds": 1.29,
+  "output_length_chars": 973,
+  "timestamp": "2026-04-08 22:09:02"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 50,
+    "completeness": 90,
+    "total_score": 69,
+    "notes": "Text accuracy suffers from extra characters (e.g., '&amp;'), missing/incorrect words (e.g., '8110O'), and irrelevant sections (e.g., 'tan woon yann'). Table structure is partially preserved but includes incorrect/misaligned data. Numeric precision is mostly correct but has minor rounding discrepancies. Layout is garbled with mixed sections and incorrect reading order. Completeness is high as most ground truth text is captured."
+  },
+  "timestamp": "2026-04-08 23:28:01"
+}

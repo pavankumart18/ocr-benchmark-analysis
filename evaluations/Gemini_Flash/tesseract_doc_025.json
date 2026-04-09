@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 0,
+    "numeric_precision": 80,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 62.5,
+    "notes": "The OCR output correctly identified the company name and total amount. However, the date is incorrect (Phi 01s instead of 25/12/2018) and the address is partially incorrect (HOI? JALAN DEDAR 13 instead of NO 122.124. JALAN DEDAP 13). The ground truth is a structured JSON, implying specific fields, but the OCR output is raw text, hence table structure is 0. The layout preservation is poor as the specific fields from the ground truth are not clearly delineated in the OCR output. Completeness is fair, as most key information is present, but with errors."
+  },
+  "timestamp": "2026-04-08 22:47:57"
+}

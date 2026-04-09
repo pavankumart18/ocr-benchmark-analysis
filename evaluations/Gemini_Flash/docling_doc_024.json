@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 100,
+    "numeric_precision": 80,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 81,
+    "notes": "Text accuracy is impacted by several character recognition errors in the company name and address. Numeric precision is good for the total, but the date format is slightly off in the OCR output. The overall structure and completeness are good, with all key fields present."
+  },
+  "timestamp": "2026-04-08 22:46:13"
+}

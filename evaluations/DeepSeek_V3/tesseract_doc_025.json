@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 20,
+    "numeric_precision": 80,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 51.5,
+    "notes": "Major text inaccuracies (e.g., 'HOI? JALAN DEDAR 13' vs correct address), garbled table structure, but correct total amount and date partially captured. Missing/incorrect company name and address details."
+  },
+  "timestamp": "2026-04-08 23:35:30"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 30,
+    "layout_preservation": 15,
+    "completeness": 10,
+    "total_score": 20.5,
+    "notes": "The OCR output is severely garbled and lacks most of the ground truth content. There are numerous misspellings, incorrect characters, and missing words. Tables and numeric values are not accurately represented, and the overall layout and completeness are significantly compromised."
+  },
+  "timestamp": "2026-04-08 23:16:14"
+}

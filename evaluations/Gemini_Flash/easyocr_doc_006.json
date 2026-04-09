@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 81.5,
+    "notes": "Text accuracy is good for the extracted fields, but 'ABC HO TRADING' has a 'c' instead of 'G'. The address has 'JOHOk' instead of 'JOHOR'. Numeric precision is high, with only the 'total' having an extra space in the OCR output. Completeness is good for the requested fields, but the OCR output contains a lot of extraneous text not present in the ground truth. Layout preservation is decent for the extracted fields, but the OCR output includes many other elements not in the ground truth."
+  },
+  "timestamp": "2026-04-08 22:48:39"
+}

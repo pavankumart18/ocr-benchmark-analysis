@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 30,
+    "layout_preservation": 15,
+    "completeness": 25,
+    "total_score": 20.75,
+    "notes": "The OCR output contains numerous errors including garbled text, incorrect characters, and missing words. Tables and numeric values are not accurately represented, and the layout is severely distorted."
+  },
+  "timestamp": "2026-04-08 23:12:05"
+}

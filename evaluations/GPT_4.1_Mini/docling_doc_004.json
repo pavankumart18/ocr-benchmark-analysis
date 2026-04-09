@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 80,
+    "layout_preservation": 60,
+    "completeness": 75,
+    "total_score": 67.75,
+    "notes": "Company name missing space ('YONGFATTENTERPRISE' vs 'YONGFATT ENTERPRISE'). Address concatenated without spaces and slightly different wording ('JALANDEDAP13' vs 'JALAN DEDAP 13'). Total amount mostly correct but minor rounding differences (80.90 vs 80.91 in some places). Date matches exactly. Table structure is partially preserved but many columns and rows are merged or unclear. Layout is somewhat jumbled with extra unrelated text and sections not clearly separated. Some ground truth fields like 'company' and 'address' are present but with formatting issues. Overall, key data is present but formatting and spacing errors reduce accuracy."
+  },
+  "timestamp": "2026-04-08 23:03:42"
+}

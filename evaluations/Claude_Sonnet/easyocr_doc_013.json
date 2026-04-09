@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_013",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 60,
+    "numeric_precision": 75,
+    "layout_preservation": 50,
+    "completeness": 40,
+    "notes": "Significant OCR errors including misspellings (KESEARCH, PHRMOOIDSY, EMUNOLOGI, etc.), missing column headers, incomplete table data (missing April '83 values for Epidemiology), and garbled explanatory text. Many numeric values are correct but some totals are wrong (888 vs 3,888). Document structure is partially preserved but lacks proper formatting and complete content extraction."
+  },
+  "timestamp": "2026-04-08 22:59:17"
+}

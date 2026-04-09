@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 75,
+    "layout_preservation": 40,
+    "completeness": 60,
+    "total_score": 48,
+    "notes": "Major OCR errors include garbled company name 'MR D.I.Y.' appearing as '. (MW) SON BHD', corrupted address with '1851' becoming '1Q51', and significant character recognition issues throughout. Date and total amount are correctly extracted. OCR captured additional receipt content not in ground truth but failed on key identifying information."
+  },
+  "timestamp": "2026-04-08 22:56:27"
+}

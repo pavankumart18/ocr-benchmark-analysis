@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 55,
+    "numeric_precision": 75,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 64.75,
+    "notes": "The OCR output contains many formatting and spacing errors (e.g., missing spaces in headers, inconsistent parentheses, and misplaced punctuation). The table structure is partially preserved but columns and rows are misaligned, with some data merged incorrectly (e.g., '1986 1987' combined in one column). Numeric values mostly match but some totals and subtotals differ or are unclear. Layout is disrupted by inconsistent sectioning and missing clear headings. Some key text elements like 'Document Type' and 'Key Details' are missing, reducing completeness. Footnotes are captured but with minor formatting issues."
+  },
+  "timestamp": "2026-04-08 23:04:25"
+}

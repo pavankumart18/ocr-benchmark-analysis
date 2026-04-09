@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 85,
+    "total_score": 93,
+    "notes": "OCR output is highly accurate with excellent preservation of structure and formatting. Missing the document header 'EX-24 2 hsic-ex24.htm EX-24' and the text appears to be cut off at the end, but the main body content is captured with near-perfect fidelity. No character errors or formatting issues detected in the extracted portion."
+  },
+  "timestamp": "2026-04-08 22:50:34"
+}

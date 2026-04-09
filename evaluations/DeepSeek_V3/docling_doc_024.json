@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 40,
+    "numeric_precision": 80,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 59.5,
+    "notes": "Key issues: 'MR D.I.Y.' misread as 'MRO.I.Y', address has typos and extra characters, total amount slightly off (33.92 vs 33.90), receipt includes many irrelevant lines not in ground truth, layout is garbled with mixed sections."
+  },
+  "timestamp": "2026-04-08 23:31:31"
+}

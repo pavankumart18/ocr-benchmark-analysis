@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 98.25,
+    "notes": "Minor text accuracy issues with 'Robert. J. Hombach' instead of 'Robert J. Hombach' and 'RobertJ. Hombach' instead of 'Robert J. Hombach'. Numeric precision is slightly affected by the date being part of the text accuracy issue."
+  },
+  "timestamp": "2026-04-08 22:42:55"
+}

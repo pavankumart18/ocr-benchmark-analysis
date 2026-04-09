@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 40,
+    "numeric_precision": 75,
+    "layout_preservation": 55,
+    "completeness": 70,
+    "total_score": 56.75,
+    "notes": "Significant character errors in company name and address (e.g., '0.I.Y' vs 'D.I.Y.', 'JohuR)' vs 'JOHOR)'). Table structure is poorly preserved with misaligned columns and rows. Numeric values mostly correct but minor rounding discrepancy noted (33.92 vs 33.90). Layout is somewhat preserved but reading order is disrupted by scattered text and inconsistent formatting. Most ground truth text is present but fragmented and partially garbled."
+  },
+  "timestamp": "2026-04-08 23:06:45"
+}

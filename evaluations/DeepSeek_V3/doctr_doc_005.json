@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 82.25,
+    "notes": "Minor typos in company name ('SON' instead of 'SDN'), extra irrelevant text (e.g., 'tan woon yann'), and slight misalignment in layout. Numeric values and key fields (date, address, total) are mostly correct."
+  },
+  "timestamp": "2026-04-08 23:24:00"
+}

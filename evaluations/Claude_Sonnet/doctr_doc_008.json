@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 90,
+    "notes": "Minor errors found: extra period in '/s/ Robert. J. Hombach' and missing space in 'RobertJ. Hombach'. All other text, dates, and structure are accurate. No tables present to evaluate."
+  },
+  "timestamp": "2026-04-08 22:52:26"
+}

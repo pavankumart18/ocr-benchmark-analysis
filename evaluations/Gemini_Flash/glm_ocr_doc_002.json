@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 95.15,
+    "notes": "The OCR output is very good. Minor issues include 'DEDAF' instead of 'DEDAP' in the address, and the total amount being '60.31' before rounding adjustment, though the final '60.30' is present. The ground truth only provides specific fields, so the 'table structure' score is high as the relevant fields are extracted correctly from the surrounding text. Layout preservation is good as the key information is in a logical reading order, even though the ground truth is a structured JSON."
+  },
+  "timestamp": "2026-04-08 22:40:46"
+}

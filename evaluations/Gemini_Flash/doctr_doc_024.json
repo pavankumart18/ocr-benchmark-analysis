@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 90.25,
+    "notes": "The company name has a minor misspelling ('MP 0.1.Y.' instead of 'MR D.I.Y.' and 'JOMOR' instead of 'JOHOR'). The date and total are correctly extracted. The address is mostly correct, with 'OIY' instead of 'DIY' in the last line. The overall structure and numeric values for the target fields are well preserved."
+  },
+  "timestamp": "2026-04-08 22:44:06"
+}

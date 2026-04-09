@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_012",
+  "model": "docling",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/000.png",
+  "category": "financial_mixed",
+  "source_dataset": "sujet",
+  "processing_time_seconds": 2.25,
+  "output_length_chars": 727,
+  "timestamp": "2026-04-08 22:07:57"
+}

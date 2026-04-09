@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_007",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 89.25,
+    "notes": "Minor OCR errors include missing spaces (e.g., 'EXHIBIT24'), incorrect characters (e.g., '\uff09' instead of ')'), and minor omissions (e.g., missing '4)' before the last bullet point). Layout is mostly preserved but with some spacing issues. No tables or numeric errors found."
+  },
+  "timestamp": "2026-04-08 23:28:41"
+}

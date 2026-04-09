@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 80,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 65.25,
+    "notes": "Key issues: Extra text (e.g., 'tan woon yann', 'M05177261'), incorrect address format ('NO12124' vs 'NO 122.124'), date typo ('25/122018'), and garbled table structure. Numeric values are mostly correct but with minor errors (e.g., '8091' vs '80.90'). Layout is disrupted by irrelevant sections."
+  },
+  "timestamp": "2026-04-08 23:26:59"
+}

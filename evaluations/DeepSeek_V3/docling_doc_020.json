@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 65,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 71.25,
+    "notes": "Text accuracy suffers from misspellings (e.g., 'housingintact', 'functional'Safety') and inconsistent formatting. Table structure is partially preserved but has alignment issues and missing borders. Numeric precision is good with correct dates. Layout preservation is poor due to fragmented sections and unclear reading order. Completeness is decent but some text is truncated."
+  },
+  "timestamp": "2026-04-08 23:30:58"
+}

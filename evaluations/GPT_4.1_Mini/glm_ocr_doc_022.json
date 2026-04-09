@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 75.25,
+    "notes": "Company name mostly correct but with minor spacing issues; address partially incorrect ('NO.55,57 & 59' vs 'NO.53 55,57 & 59' and 'JALAN SAGU IR' vs 'JALAN SAGU 18', 'TANAN DAYA' vs 'TAMAN DAYA'). Date and total amounts match well. Table structure is loosely preserved but not clearly formatted as in ground truth. Layout order is generally correct but extra unrelated text and formatting reduce clarity. Some ground truth elements like 'NO.53' missing, and extra unrelated text present."
+  },
+  "timestamp": "2026-04-08 23:01:38"
+}

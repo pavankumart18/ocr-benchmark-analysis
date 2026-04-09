@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 80,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 85,
+    "total_score": 77.25,
+    "notes": "The OCR output preserves the overall table structure and numeric values well, with only minor numeric discrepancies (e.g., '4,916(a)' in total 84 projections not in ground truth). Text accuracy suffers from multiple misspellings (e.g., 'OCOBER' for October, 'PUIMONARY', 'PHARMAOOTOGY', 'MISCELLANDOUS', 'iuplied cormitmont'). Layout is mostly preserved but lacks the initial document type and key details sections, focusing mainly on the table and notes. Completeness is good but missing introductory context and some formatting elements."
+  },
+  "timestamp": "2026-04-08 23:04:17"
+}

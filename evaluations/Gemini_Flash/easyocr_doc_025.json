@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 0,
+    "numeric_precision": 10,
+    "layout_preservation": 5,
+    "completeness": 15,
+    "total_score": 12.25,
+    "notes": "The OCR output is largely garbled and fails to extract most of the ground truth information. Only 'YONGFATT ENTERPRISE' is somewhat correctly extracted, though its context is lost. Dates, addresses, and totals are either missing or completely incorrect. The output contains a lot of irrelevant text and numbers, indicating poor extraction quality for this document type. The JSON structure of the ground truth implies a structured extraction, which the OCR completely failed to achieve."
+  },
+  "timestamp": "2026-04-08 22:49:53"
+}

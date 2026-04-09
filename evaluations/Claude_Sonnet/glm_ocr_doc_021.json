@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 45,
+    "numeric_precision": 80,
+    "layout_preservation": 35,
+    "completeness": 75,
+    "total_score": 66,
+    "notes": "Text accuracy is good with readable company names and addresses. Major issues include severely broken table structure with misaligned columns, poor layout preservation where data runs together without clear separation, and some missing reference numbers. Numeric values appear mostly accurate but table formatting makes verification difficult."
+  },
+  "timestamp": "2026-04-08 22:51:31"
+}

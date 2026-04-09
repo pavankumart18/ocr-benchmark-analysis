@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "docling",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 75,
+    "layout_preservation": 60,
+    "completeness": 55,
+    "total_score": 65.75,
+    "notes": "The OCR output has several issues: text accuracy is compromised with misspellings like 'FOURTH OUARTER' and 'NEWPRODUCTAFORECASTSUMMARY'. The table structure is partially preserved but lacks some columns and rows. Numeric precision is mostly correct but has some discrepancies like '11.45' instead of '36.2' for CPM in 1988. Layout preservation is poor as sections are not clearly separated, and completeness is lacking with missing key details and assumptions."
+  },
+  "timestamp": "2026-04-08 23:14:17"
+}

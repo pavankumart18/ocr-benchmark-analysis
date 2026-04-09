@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 86.25,
+    "notes": "Minor OCR errors such as '1qck' instead of '1qck' (unclear if typo or model name), and missing checkmarks for 'Power cord undamaged' in Physical Condition. Table columns and rows mostly preserved but some alignment issues in checkmarks. Dates and IDs appear accurate. Layout and section order maintained well. Overall, good extraction with minor text and table structure issues."
+  },
+  "timestamp": "2026-04-08 23:01:30"
+}

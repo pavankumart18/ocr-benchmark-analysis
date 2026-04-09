@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 84,
+    "notes": "Key issues: Company name has 'SON' instead of 'SDN', some product names have minor OCR errors, and there's extra customer name at top. However, all critical information (company, date, address, total) is correctly extracted with high accuracy."
+  },
+  "timestamp": "2026-04-08 22:52:13"
+}

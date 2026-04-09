@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 79,
+    "notes": "The OCR output has minor typos (e.g., '0' instead of 'O', missing punctuation in emails, inconsistent temperature units). Table structure is somewhat preserved but lacks clear alignment. Numeric precision is good, but some units and symbols are incorrect. Layout is mostly preserved, but reading order could be improved. Completeness is high, with all major sections captured."
+  },
+  "timestamp": "2026-04-08 23:38:21"
+}

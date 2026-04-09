@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 85,
+    "total_score": 87.25,
+    "notes": "The OCR output has minor text accuracy issues such as missing punctuation, extra spaces, and slight formatting differences. There are no tables in the document, so table structure is not applicable. Numeric precision is perfect as there are no numbers to compare. Layout preservation is mostly correct but with some minor discrepancies. Completeness is good, but some small sections are slightly altered."
+  },
+  "timestamp": "2026-04-08 23:18:23"
+}

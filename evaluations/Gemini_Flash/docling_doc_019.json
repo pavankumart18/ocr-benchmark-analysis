@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 90,
+    "layout_preservation": 95,
+    "completeness": 95,
+    "total_score": 89,
+    "notes": "Some minor text accuracy issues, primarily with concatenated words in the product descriptions (e.g., 'LEDIuminaireforarchitecturallighting', 'recessedmountedversionwithadjustablemountingbracket'). Otherwise, the extraction is very good."
+  },
+  "timestamp": "2026-04-08 22:45:57"
+}

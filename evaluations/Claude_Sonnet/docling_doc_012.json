@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 40,
+    "total_score": 62.5,
+    "notes": "OCR captured raw text elements but missed critical document analysis and interpretation. Multiple character recognition errors (& symbols, 0 instead of O), spacing issues, and completely missing the analytical sections about document type, insights, and observations that comprise majority of ground truth content."
+  },
+  "timestamp": "2026-04-08 22:54:52"
+}

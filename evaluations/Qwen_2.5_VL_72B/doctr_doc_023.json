@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 73.5,
+    "notes": "The OCR output contains several misspellings and wrong characters, such as 'INDAR DIFT & HEME BECO' instead of 'INDAH GIFT & HOME DECO'. The table structure is not preserved as there is no clear table format in the OCR output. Numeric values like the total amount are mostly accurate. The layout is somewhat preserved but not perfectly, and some parts of the ground truth are missing or altered."
+  },
+  "timestamp": "2026-04-08 23:12:32"
+}

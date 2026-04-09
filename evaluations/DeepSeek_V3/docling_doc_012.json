@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 60,
+    "total_score": 75,
+    "notes": "OCR output has minor typos (e.g., 'GR&amp;DCRESEARCHPR0GRAMME&amp;RES0URCEALL0CATI0N1984-1986'), missing sections (e.g., 'Document Type', 'Key Details', 'Insights and Observations'), and layout deviations (e.g., unordered distribution list). However, key numeric data (dates) and table-like structures (distribution list) are mostly preserved."
+  },
+  "timestamp": "2026-04-08 23:29:31"
+}

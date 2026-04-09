@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 65,
+    "completeness": 85,
+    "total_score": 76,
+    "notes": "Company name missing space (YONGFATTENTERPRISE vs YONGFATT ENTERPRISE), address has spacing issues and missing periods, but all key data fields are present. Date and total amount are correctly extracted. OCR captured extensive additional invoice details not in ground truth."
+  },
+  "timestamp": "2026-04-08 22:54:09"
+}

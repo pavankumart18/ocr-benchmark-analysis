@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "glm_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 94.5,
+    "notes": "The OCR output is highly accurate with only minor discrepancies such as additional text at the beginning ('tan woon yann') and extra details like registration number and item descriptions. The numeric values, date, and company details match perfectly. The layout is mostly preserved, though additional information is present."
+  },
+  "timestamp": "2026-04-08 23:10:18"
+}

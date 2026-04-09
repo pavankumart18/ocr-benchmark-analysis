@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 85,
+    "total_score": 88,
+    "notes": "Text accuracy is good but suffers from missing phrases like 'responsibility to comply with the requirements of the Exchange Act,' and 'liability of the undersigned for profit disgorgement under Section 16(b) of the Exchange Act; and (e) thi'. There are also several instances of missing spaces between words (e.g., 'to thisLimited', 'shallbe', 'PowerofAttorneyshallremaininfullforce andeffectuntil theundersignedisno', 'executedasofthis4thdayofFebruary2025', 'J.Hombach (Signabove) Print name:Robert J.Hombach'). Numeric precision is good, with only minor spacing issues around numbers and dates. Layout is mostly preserved, but the missing line breaks and spacing issues affect readability. Completeness is impacted by the omitted phrases."
+  },
+  "timestamp": "2026-04-08 22:44:40"
+}

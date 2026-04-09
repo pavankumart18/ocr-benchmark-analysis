@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 50,
+    "numeric_precision": 75,
+    "layout_preservation": 30,
+    "completeness": 60,
+    "total_score": 49.25,
+    "notes": "Text accuracy is low due to numerous character substitutions and missing punctuation in company name and address. The address is heavily garbled. Numeric precision is fair for date and total, but the date format is slightly off. Completeness is impacted by the garbled address. Layout preservation is poor as the key-value pairs are not clearly extracted, and the address is fragmented."
+  },
+  "timestamp": "2026-04-08 22:46:07"
+}

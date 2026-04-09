@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 20,
+    "numeric_precision": 70,
+    "layout_preservation": 30,
+    "completeness": 60,
+    "total_score": 42.5,
+    "notes": "Major OCR errors: 'YONGFATTENTERPRISE' missing space, garbled address, incorrect date format ('25n2.018'). Numeric precision mostly correct ('80.90' vs '8091'). Layout is chaotic with mixed sections. Missing 'company' and 'address' clarity, but some correct data present."
+  },
+  "timestamp": "2026-04-08 23:31:36"
+}

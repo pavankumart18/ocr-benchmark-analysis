@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 40,
+    "numeric_precision": 85,
+    "layout_preservation": 50,
+    "completeness": 30,
+    "total_score": 56.75,
+    "notes": "OCR output captures some numeric values accurately but misses large portions of text, especially descriptive and explanatory sections. The table structure is poorly preserved with many formatting errors and excessive dashes, making it unreadable. Text accuracy suffers from missing words and incomplete lines. Layout and section formatting are not maintained, and significant content such as New Product B details and overall spending summaries are missing."
+  },
+  "timestamp": "2026-04-08 23:01:13"
+}

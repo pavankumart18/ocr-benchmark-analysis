@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 55,
+    "completeness": 65,
+    "total_score": 60.75,
+    "notes": "The OCR output contains numerous misspellings (e.g., 'Sabof rromotion', 'Mapef M&P'), misplaced or unclear labels, and some garbled text. The table structure is poorly preserved with columns and rows misaligned and unclear grouping, making it difficult to interpret. Numeric values are mostly correct but some are misplaced or associated with wrong labels. Layout and reading order are disrupted, with sections and headings not clearly separated or formatted. Some key text is missing or fragmented, especially in notes and headings, reducing completeness."
+  },
+  "timestamp": "2026-04-08 23:02:44"
+}

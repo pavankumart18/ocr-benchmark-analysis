@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 80,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 30,
+    "total_score": 59.5,
+    "notes": "The OCR output captures some key elements like the document title, sections, and distribution list, and the 'RESTRICTED' notice. However, it misses a significant amount of the ground truth, including the document type, company, date received, addressee, and the detailed insights and observations. The layout is partially preserved for the distribution list, but the overall structure of the ground truth is lost. There's a discrepancy in the date (November 1983 vs. January 19, 1984)."
+  },
+  "timestamp": "2026-04-08 22:41:25"
+}

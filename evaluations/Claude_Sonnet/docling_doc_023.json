@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 35,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 26.5,
+    "notes": "Severely garbled OCR output with major text corruption. Company name 'INDAH GIFT & HOME DECO' is completely mangled as 'INAROETETEREE'. Address is partially recognizable but heavily corrupted. Date 19/10/2018 is missing entirely. Total amount 60.30 appears to be present but embedded in corrupted text. Overall structure is completely lost with random characters, formatting artifacts, and unreadable segments throughout."
+  },
+  "timestamp": "2026-04-08 22:55:49"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 94.5,
+    "notes": "The OCR output successfully extracted all the required fields from the ground truth. Minor discrepancies in the address formatting (e.g., 'NO 122.124' vs 'NO.122,124') were noted but did not affect the overall accuracy significantly. The ground truth only provides specific fields, while the OCR output provides the full document text, which is not a negative for completeness. Table structure is not applicable as the ground truth is a flat JSON, but the OCR output correctly identifies the key-value pairs."
+  },
+  "timestamp": "2026-04-08 22:40:53"
+}

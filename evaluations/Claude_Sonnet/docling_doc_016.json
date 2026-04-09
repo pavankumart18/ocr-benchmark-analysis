@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 40,
+    "total_score": 63,
+    "notes": "Major issues: Missing extensive analysis section with insights and observations (significant completeness loss). Text errors include 'NEWPRODUCTAFORECASTSUMMARY' (missing spaces), 'OUARTER' instead of 'QUARTER', 'BARcLAY' capitalization, incomplete assumption #4. Table structure mostly preserved but has extra change index columns not in ground truth. One numeric error: CPM 1988 shows 11.45 vs 36.2, and Contribution 1987 shows 21.5 vs 11.5. Layout reasonably maintained for captured content."
+  },
+  "timestamp": "2026-04-08 22:55:13"
+}

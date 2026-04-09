@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 80,
+    "total_score": 90.25,
+    "notes": "The OCR output is highly accurate with minor issues in text accuracy (e.g., missing some descriptive text from ground truth). Table structure and numeric precision are excellent. Layout preservation is good but lacks some contextual sections. Completeness is slightly lower due to missing some non-tabular details."
+  },
+  "timestamp": "2026-04-08 23:21:30"
+}

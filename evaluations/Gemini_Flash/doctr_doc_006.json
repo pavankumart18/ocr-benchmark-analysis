@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 90,
+    "notes": "The OCR output accurately extracted the 'company', 'date', and 'total' fields. The 'address' field had a minor character error (NO.2&4 instead of NO.2&4) and a missing space (JOHOR BAHRUJOHOR instead of JOHOR BAHRU JOHOR). The OCR output also included additional text not present in the ground truth, but this is expected for a full document OCR."
+  },
+  "timestamp": "2026-04-08 22:42:38"
+}

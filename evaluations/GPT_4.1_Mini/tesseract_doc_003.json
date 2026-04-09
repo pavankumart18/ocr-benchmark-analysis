@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 75,
+    "layout_preservation": 65,
+    "completeness": 90,
+    "total_score": 68.75,
+    "notes": "Company name OCR has multiple character errors (e.g., 'MR O.1.\u00a5.' vs 'MR D.I.Y.'), affecting text accuracy. Table structure is poorly preserved as the OCR output includes itemized lines but no clear tabular format matching ground truth. Numeric values mostly match but minor discrepancies in total (33,92 vs 33.90) and rounding lines reduce numeric precision. Layout is somewhat maintained but extra unrelated text and formatting noise disrupt reading order. Most ground truth text is present, so completeness is high."
+  },
+  "timestamp": "2026-04-08 23:05:11"
+}

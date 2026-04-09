@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 83.25,
+    "notes": "Text accuracy is impacted by missing words (e.g., missing 'for,' in item (1)), incorrect quotation marks, and some garbled or misplaced words (e.g., 'information 0n' instead of 'information on', '4)' missing parentheses, misplaced underscores). Numeric precision is mostly intact with minor punctuation spacing issues. Table structure is preserved as there are no tables in the source. Layout preservation suffers from some line breaks and formatting inconsistencies, especially in item numbering and paragraph breaks. Completeness is good but the last line is cut off and some words are misplaced or missing."
+  },
+  "timestamp": "2026-04-08 23:07:11"
+}

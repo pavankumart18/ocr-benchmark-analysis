@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 84,
+    "notes": "Minor typos in address ('DEDAF' instead of 'DEDAP'), extra irrelevant text present, but key fields (company, date, address, total) are correctly captured with correct numeric values."
+  },
+  "timestamp": "2026-04-08 23:22:59"
+}

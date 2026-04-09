@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 75,
+    "total_score": 71.75,
+    "notes": "Key issues include misspellings (e.g., 'OUARTER' instead of 'QUARTER'), incorrect table structure with extra columns (Chg. Index), missing sections (Insights and Observations), and minor numeric errors (e.g., '21.5' instead of '11.5' in Contribution). Layout and completeness are affected by missing text and formatting deviations."
+  },
+  "timestamp": "2026-04-08 23:30:23"
+}

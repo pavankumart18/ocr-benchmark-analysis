@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_023",
+  "model": "doctr",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_001.jpg",
+  "category": "degraded_scan",
+  "source_dataset": "sroie_degraded",
+  "processing_time_seconds": 2.38,
+  "output_length_chars": 552,
+  "timestamp": "2026-04-08 22:07:16"
+}

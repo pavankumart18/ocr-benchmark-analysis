@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 40,
+    "total_score": 69.5,
+    "notes": "The OCR output accurately extracts the initial text and some numeric values. However, it misses a significant portion of the 'Introduction Summary' details, the entire 'Purpose of the Proposal' section, and all 'Insights and Observations'. There's a minor typo 'INHALEES' instead of 'INMATES' and 'puls' instead of 'pulse'. The OCR output also includes additional details not present in the ground truth's summary (e.g., specific cigarette types, CO levels, number of subjects), which indicates it's extracting raw text rather than a summarized version. The ground truth is a summary/evaluation, not the raw document itself."
+  },
+  "timestamp": "2026-04-08 22:41:41"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 30,
+    "numeric_precision": 75,
+    "layout_preservation": 40,
+    "completeness": 80,
+    "total_score": 58,
+    "notes": "Company name correctly extracted with minor spacing issue. Address has multiple errors: 'SAGU' instead of 'SAGU 18', 'TANAN DATA' instead of 'TAMAN DAYA', 'KAHRU' instead of 'BAHRU'. Date and total amount are correct. OCR captured much extraneous text not in ground truth and has poor structure preservation with many garbled characters throughout."
+  },
+  "timestamp": "2026-04-08 22:57:50"
+}

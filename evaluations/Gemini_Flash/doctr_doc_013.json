@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 86,
+    "notes": "The OCR output accurately captures most of the text and numerical data. Minor text accuracy issues include 'For' instead of 'for', 'OCIOBER' instead of 'OCTOBER', 'PHARMACOLDGY' instead of 'PHARMACOLOGY', 'EPIDEMICLOGY' instead of 'EPIDEMIOLOGY', 'MISCELLANBOUS' instead of 'MISCELLANEOUS', 'camitmont' instead of 'commitment', and 'ncw' instead of 'new'. The 'TOTAL' row in the OCR output has an extra value '4,916 (a)' which is not present in the ground truth's financial figures for 'Total Spending' but is part of the 'Notes on Budget' in the ground truth. The ground truth provides a more structured and descriptive overview, while the OCR is a direct extraction of the table and its footnotes. The layout is generally preserved, but the ground truth adds significant contextual information and insights not present in the raw OCR."
+  },
+  "timestamp": "2026-04-08 22:43:11"
+}

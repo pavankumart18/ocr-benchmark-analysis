@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 35,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 52,
+    "notes": "Significant OCR errors including 'lqck' instead of 'lock', 'let cctrical Salety' instead of 'Electrical Safety', 'er ormance Te ests' instead of 'Performance Tests'. Table structure is severely corrupted with garbled text like 'F<}', 'OAEPAE SERS', random characters, and misaligned Pass/Fail/N/A columns. Dates and equipment ID are accurate. Layout sections are recognizable but table formatting is largely broken."
+  },
+  "timestamp": "2026-04-08 22:57:39"
+}

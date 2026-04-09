@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 88,
+    "completeness": 95,
+    "total_score": 89,
+    "notes": "Minor spelling error in 'JOHOR BAHRI' (should be 'JOHOR BAHRU'). All key information accurately extracted including company name, date, address, and total amount. Table structure well preserved with clear item details and GST summary. Numeric values are precise with correct total of 80.90."
+  },
+  "timestamp": "2026-04-08 22:51:49"
+}

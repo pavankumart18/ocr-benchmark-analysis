@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 45,
+    "numeric_precision": 70,
+    "layout_preservation": 40,
+    "completeness": 75,
+    "total_score": 58,
+    "notes": "Multiple OCR errors including misspellings (ADDITLONAL, HANDLINGI, WEEKENDT, etc.), poor table structure with misaligned columns and merged cells, inconsistent spacing disrupting readability, but most numeric values and core content appear captured despite formatting issues."
+  },
+  "timestamp": "2026-04-08 22:53:30"
+}

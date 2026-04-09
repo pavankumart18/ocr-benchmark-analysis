@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 10,
+    "numeric_precision": 85,
+    "layout_preservation": 50,
+    "completeness": 55,
+    "total_score": 58.75,
+    "notes": "Significant text errors including missing spaces, merged words, and partial sentences. The numbered list is incomplete and partially missing (e.g., item 4 is missing). No tables present in ground truth, but OCR output shows no preservation of original formatting or spacing, resulting in poor structure. Numeric data (forms, section numbers, years) mostly correct. Layout is disrupted with missing headings and improper paragraph breaks. Large portions of text are truncated or omitted, notably the ending and some clauses."
+  },
+  "timestamp": "2026-04-08 23:04:01"
+}

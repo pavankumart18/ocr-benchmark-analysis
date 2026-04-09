@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 83.25,
+    "notes": "Text accuracy is good with minor typos. Table structure has some misalignments, especially in the 'Description of Additional Charges' column. Numeric precision is excellent with correct decimal points and amounts. Layout preservation is decent but could be improved with better alignment. Completeness is high with all visible text captured."
+  },
+  "timestamp": "2026-04-08 23:22:38"
+}

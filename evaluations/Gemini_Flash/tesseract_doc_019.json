@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 98,
+    "total_score": 93.8,
+    "notes": "Minor OCR errors like 'ins\u2019 tallation' instead of 'installation' and 'KO8' instead of 'IK08'. The table structure is mostly preserved, but the 'SN' column header is slightly misaligned with the 'TYPE' column. Numeric data and layout are generally well-preserved."
+  },
+  "timestamp": "2026-04-08 22:47:24"
+}

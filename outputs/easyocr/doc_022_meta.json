@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_022",
+  "model": "easyocr",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_000.jpg",
+  "category": "degraded_scan",
+  "source_dataset": "sroie_degraded",
+  "processing_time_seconds": 0.58,
+  "output_length_chars": 315,
+  "timestamp": "2026-04-08 22:09:36"
+}

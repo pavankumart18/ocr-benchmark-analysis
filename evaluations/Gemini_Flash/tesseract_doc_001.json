@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 91.25,
+    "notes": "Text accuracy is high for the extracted fields, with minor discrepancies like 'NO.5? $5.57' instead of 'NO.53 55,57'. Numeric precision is good, with the date and total matching. Layout preservation is acceptable for the extracted fields, though the OCR output contains a lot of extraneous text not present in the ground truth. Completeness is good for the specified fields."
+  },
+  "timestamp": "2026-04-08 22:46:18"
+}

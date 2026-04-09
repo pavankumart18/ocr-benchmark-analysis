@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 5,
+    "numeric_precision": 15,
+    "layout_preservation": 5,
+    "completeness": 5,
+    "total_score": 9.5,
+    "notes": "The OCR output is extremely poor. It fails to capture the vast majority of the ground truth text, including key headings, product details, and insights. The extracted text is largely gibberish or fragmented data points without context. There is no discernible table structure that matches the ground truth, and most numerical values are either missing or incorrectly associated. The layout is completely lost, and the completeness is abysmal."
+  },
+  "timestamp": "2026-04-08 22:47:11"
+}

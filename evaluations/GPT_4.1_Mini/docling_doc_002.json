@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 40,
+    "numeric_precision": 60,
+    "layout_preservation": 50,
+    "completeness": 60,
+    "total_score": 60.5,
+    "notes": "Company name mostly correct but includes HTML entity (&amp;). Address has OCR error ('8110O' instead of '81100'). Date correct but extra time included. Table is present but does not match ground truth (different items, quantities, prices). Numeric values differ significantly from ground truth total (60.30 vs 60.31 and other amounts). Layout is cluttered with unrelated receipt details and extraneous sections, disrupting reading order. Ground truth fields like 'company', 'date', 'address', and 'total' are partially captured but mixed with unrelated data, reducing completeness."
+  },
+  "timestamp": "2026-04-08 23:03:35"
+}

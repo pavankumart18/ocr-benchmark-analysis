@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 94.25,
+    "notes": "The OCR output accurately extracted all the requested fields. Minor discrepancies include the time in the date field and the extra 'Total Amount' line, which are not present in the ground truth. The address is split into multiple lines in the OCR output but is correctly concatenated in the ground truth. The ground truth only contains specific fields, while the OCR output contains additional information from the document."
+  },
+  "timestamp": "2026-04-08 22:41:09"
+}

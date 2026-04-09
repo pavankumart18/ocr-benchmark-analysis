@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 65,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 47,
+    "notes": "Major OCR errors include: company name 'MRO.I.Y' instead of 'MR D.I.Y.', address has multiple character substitutions and spacing issues, total amount shows as 'RM03.90' instead of '33.90'. OCR captured extra receipt content not in ground truth but missed proper formatting. Date is correct but embedded in longer string. Overall text heavily corrupted with character recognition failures."
+  },
+  "timestamp": "2026-04-08 22:55:54"
+}

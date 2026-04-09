@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 40,
+    "numeric_precision": 80,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 60,
+    "notes": "Major issues include incorrect company name ('Book TA _k' vs 'BOOK TA .K'), address errors ('NO5' vs 'NO.53', '$' vs '59', 'In' vs '18'), and garbled text. Numeric values (date, total) are correct but embedded in noisy text. Layout is disrupted by unrelated text and poor structure."
+  },
+  "timestamp": "2026-04-08 23:35:37"
+}

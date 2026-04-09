@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83.25,
+    "notes": "Minor typos in company name (extra space) and address formatting. Table structure has some inconsistencies but key data is preserved. Numeric values are accurate except for a minor rounding difference. Layout is mostly preserved but has some extra irrelevant text."
+  },
+  "timestamp": "2026-04-08 23:23:37"
+}

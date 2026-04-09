@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 95,
+    "numeric_precision": 90,
+    "layout_preservation": 88,
+    "completeness": 98,
+    "total_score": 89,
+    "notes": "Minor errors include: missing space in 'ofJanuary', 'TSMS' instead of 'TSMs', extra 'l' in 'stockl', and incorrect colons after 'authorized:' and 'are:'. Overall structure and content well preserved with high completeness."
+  },
+  "timestamp": "2026-04-08 22:52:39"
+}

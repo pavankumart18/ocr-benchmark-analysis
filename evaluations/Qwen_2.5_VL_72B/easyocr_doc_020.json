@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 80,
+    "layout_preservation": 65,
+    "completeness": 70,
+    "total_score": 66.25,
+    "notes": "The OCR output contains several misspellings and garbled text, such as 'Kuvalis Iqck', 'Eceeicr SQreRlete', and 'OenSP4RSSEERGK'. The table structure is not well-preserved, with some rows and columns misaligned. Numeric values like dates are mostly correct, but the layout and reading order are disrupted by the garbled text. Some sections appear to be missing or incomplete."
+  },
+  "timestamp": "2026-04-08 23:19:11"
+}

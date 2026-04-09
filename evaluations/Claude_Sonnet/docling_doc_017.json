@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 90,
+    "numeric_precision": 85,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 82.25,
+    "notes": "Several text errors found: 'Germany (EUA)' should likely be 'Germany (GER)', 'Switzerland (sUI)' should be 'Switzerland (SUI)', and 'United States (USA)' total shows 'L' instead of '1'. Table structure is well-preserved with proper alignment and formatting."
+  },
+  "timestamp": "2026-04-08 22:55:17"
+}

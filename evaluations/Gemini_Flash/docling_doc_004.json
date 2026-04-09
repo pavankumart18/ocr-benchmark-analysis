@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 93.25,
+    "notes": "The OCR output is very good. 'YONGFATT ENTERPRISE' is missing a space. The address has some minor formatting differences (missing spaces, periods). The total '80.90' is perfectly matched. All required fields are present."
+  },
+  "timestamp": "2026-04-08 22:44:20"
+}

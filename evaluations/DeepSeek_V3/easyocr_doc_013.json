@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 70,
+    "notes": "The OCR output has several misspellings and formatting issues (e.g., 'Tc CoUNCI For ToBAcCO KESEARCH-U,S.A_Inc.', 'EMUNOLOGI', 'HISCELLANEOUS'). Table structure is partially preserved but with errors in alignment and labels. Numeric precision is mostly correct, but layout preservation suffers due to garbled text and incorrect reading order. Completeness is decent but missing some minor details."
+  },
+  "timestamp": "2026-04-08 23:37:26"
+}

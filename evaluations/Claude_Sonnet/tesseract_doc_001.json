@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 74,
+    "notes": "Company name has minor OCR error ('TA -K' vs 'TA .K'), address has character substitutions ('5?' vs '53', '$5' vs '55'), and 'JOHOR BARU' missing 'H'. Date and total amount are correct. Extra content captured beyond ground truth requirements, but core information mostly accurate with typical OCR character recognition errors."
+  },
+  "timestamp": "2026-04-08 22:56:08"
+}

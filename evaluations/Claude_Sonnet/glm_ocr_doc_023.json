@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83,
+    "notes": "Minor spelling error in address (DEDAF vs DEDAP). OCR captured all key information accurately including company name, date, address, and total amount. Table structure partially preserved but not in structured format. Extra content extracted beyond ground truth requirements but core data is correct."
+  },
+  "timestamp": "2026-04-08 22:51:41"
+}

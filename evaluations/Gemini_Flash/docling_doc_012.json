@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 10,
+    "numeric_precision": 70,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 44,
+    "notes": "The OCR output is missing a significant portion of the ground truth text, including the document type, key details, and insights. The extracted text is largely a list of names from the distribution list and some fragmented phrases. Text accuracy is fair for the extracted parts, but there are issues like 'GR&amp;DCRESEARCHPR0GRAMME&amp;RES0URCEALL0CATI0N' instead of 'GR&DC Research Programme & Resource Allocation'. Numeric precision is impacted by 'J4N191984' instead of 'January 19, 1984'. Table structure is completely lost as the ground truth is structured text, not a table, but the OCR presents a list of names without context. Layout preservation is poor due to the missing sections and jumbled order. Completeness is very low as most of the ground truth is absent."
+  },
+  "timestamp": "2026-04-08 22:45:32"
+}

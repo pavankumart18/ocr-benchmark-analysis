@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 55,
+    "layout_preservation": 65,
+    "completeness": 60,
+    "total_score": 58.75,
+    "notes": "Several misalignments and misplaced numbers in the table; some rows have extra or missing values (e.g., Australia and Italy rows). Semicolons appear instead of numbers for USA and Great Britain. Nation names mostly correct but inconsistent formatting. Overall, the table structure is disrupted, numeric values are inaccurate or missing, and some data appears incomplete."
+  },
+  "timestamp": "2026-04-08 23:07:45"
+}

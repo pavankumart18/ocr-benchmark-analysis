@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 91,
+    "notes": "Minor OCR errors include 'January. 1' instead of 'January 1', 'TSMS' instead of 'TSMs', 'stockl' instead of 'stock', and 'misappropriated' misspelled as 'misappropriated'. Formatting and layout are well preserved, and all content is captured."
+  },
+  "timestamp": "2026-04-08 23:24:44"
+}

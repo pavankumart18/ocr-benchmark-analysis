@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 80,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 73,
+    "notes": "Multiple text accuracy issues including missing spaces in company names (King,TrantowandKlein), concatenated words in product descriptions (LEDLuminaireforarchitecturallighting), and some garbled characters. Table structure is well preserved with proper columns. Most numbers and codes appear correct. Layout maintains proper sections but product descriptions lack proper spacing between words."
+  },
+  "timestamp": "2026-04-08 22:55:27"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 65,
+    "numeric_precision": 85,
+    "layout_preservation": 40,
+    "completeness": 25,
+    "total_score": 50,
+    "notes": "Major issues: Severely garbled organization name and header text, missing critical document metadata (date, full title), incomplete table with missing projections total and budget information, and absent explanatory notes. However, most numerical data in the main table is accurate and table structure is partially preserved."
+  },
+  "timestamp": "2026-04-08 22:57:04"
+}

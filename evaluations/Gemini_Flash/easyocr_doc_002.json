@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 90,
+    "notes": "Text accuracy is good, with minor case differences and a slight typo in 'INDAH GIFT'. Numeric precision is high, with the 'total' matching exactly. The address is correctly extracted, though split across lines in the OCR output. All requested fields from the ground truth are present."
+  },
+  "timestamp": "2026-04-08 22:48:13"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 40,
+    "numeric_precision": 60,
+    "layout_preservation": 50,
+    "completeness": 75,
+    "total_score": 60.25,
+    "notes": "Text contains some errors and unclear fragments (e.g., 'BD Life 1 ) 3'), missing words, and awkward breaks. Table structure is poorly preserved with no clear rows or columns, and numbers are not aligned or clearly associated with categories. Numeric precision is moderate but some numbers are missing or unclear. Layout is disrupted with mixed sections and headers not clearly separated. Some text appears missing or incomplete, especially numeric data and labels."
+  },
+  "timestamp": "2026-04-08 23:06:06"
+}

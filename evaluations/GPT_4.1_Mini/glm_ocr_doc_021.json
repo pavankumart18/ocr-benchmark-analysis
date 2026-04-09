@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 65,
+    "completeness": 80,
+    "total_score": 69.25,
+    "notes": "Text contains some misalignments and inconsistent spacing, causing partial merging of fields and unclear separation of rows and columns. Some addresses and names appear truncated or merged. Numeric values and dates mostly accurate but some fields like shipment numbers and addresses are not clearly separated. Layout order is mostly preserved but table structure is weak, affecting readability. Overall, most text is captured but with notable formatting and alignment issues."
+  },
+  "timestamp": "2026-04-08 23:01:34"
+}

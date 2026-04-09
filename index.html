@@ -713,6 +713,28 @@ const PR = {};
 let _pid = 0;
 function reg(ctx) { const id = ++_pid; PR[id] = ctx; return id; }
 
+// ── Map original manifest path → benchmark_docs/ inside ui/ ──
+function docImagePath(manifestPath) {
+  // degraded scans are already in benchmark_docs/
+  if (manifestPath.includes('/benchmark_docs/')) {
+    return 'benchmark_docs/' + manifestPath.split('/benchmark_docs/')[1];
+  }
+  // SROIE receipts: datasets/sroie/data/img/NNN.jpg → benchmark_docs/sroie_NNN.jpg
+  const sroie = manifestPath.match(/sroie\/data\/img\/(\d+\.jpg)$/);
+  if (sroie) return 'benchmark_docs/sroie_' + sroie[1];
+  // multifinben SEC: datasets/multifinben-images/NNN.png → benchmark_docs/multifinben_NNN.png
+  const multi = manifestPath.match(/multifinben-images\/(\d+\.png)$/);
+  if (multi) return 'benchmark_docs/multifinben_' + multi[1];
+  // sujet finance: datasets/sujet-images/NNN.png → benchmark_docs/sujet_NNN.png
+  const sujet = manifestPath.match(/sujet-images\/(\d+\.png)$/);
+  if (sujet) return 'benchmark_docs/sujet_' + sujet[1];
+  // omni-ocr general: datasets/omni-ocr-benchmark/test/images/N.png → benchmark_docs/omni_N.png
+  const omni = manifestPath.match(/omni-ocr-benchmark\/test\/images\/(\d+\.(?:png|jpg))$/);
+  if (omni) return 'benchmark_docs/omni_' + omni[1];
+  // fallback
+  return manifestPath.replace('/home/pavan-kumar/ocr-benchmark/', '');
+}
+
 // ── Score helpers ─────────────────────────────────────────
 function scoreBg(v) {
   if (v == null) return '';
@@ -997,7 +1019,7 @@ function renderDocsTable() {
     const maxV    = valid.length ? Math.max(...valid) : null;
     const minV    = valid.length ? Math.min(...valid) : null;
     const winnerM = maxV != null ? MODELS[scores.indexOf(maxV)] : null;
-    const imgRel  = doc.path.replace('/home/pavan-kumar/ocr-benchmark/', '');
+    const imgRel  = docImagePath(doc.path);
     const thumbCell = `<td data-val="${doc.doc_id}" style="padding:0.35rem">
       <img src="${imgRel}" alt="${doc.doc_id}" class="doc-thumb"
            loading="lazy"
@@ -1262,7 +1284,7 @@ async function openDoc(docId) {
   const docMeta = manifest.find(d => d.doc_id === docId);
   if (!docMeta) { body.innerHTML = '<p class="text-danger p-3">Not found in manifest.</p>'; return; }
 
-  const imgRel   = docMeta.path.replace('/home/pavan-kumar/ocr-benchmark/', '');
+  const imgRel   = docImagePath(docMeta.path);
   const docScores = docScoreMap[docId] || {};
   let winnerModel = null, winnerScore = -1;
   for (const m of MODELS) { const s = docScores[m]?.total_score??-1; if (s>winnerScore){winnerScore=s;winnerModel=m;} }

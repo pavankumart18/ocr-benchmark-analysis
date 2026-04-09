@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 67.75,
+    "notes": "Major text inaccuracies in company name and address ('MR D.I.Y.' misread as 'wh 0.1,\u00a5.', '1851-A' as '1B51-A', etc.). Table structure is garbled with mixed content. Numeric values (total, date) are correct. Layout is somewhat preserved but noisy. Most ground truth content is present but with errors."
+  },
+  "timestamp": "2026-04-08 23:35:26"
+}

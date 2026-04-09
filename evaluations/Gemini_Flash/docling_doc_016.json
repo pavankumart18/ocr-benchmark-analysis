@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 85,
+    "completeness": 60,
+    "total_score": 72,
+    "notes": "Text accuracy is fair, with several minor OCR errors like 'OUARTER' instead of 'QUARTER', 'Volumebased' instead of 'Volume based', 'l98l' instead of '1981', 's3.65/m' instead of '$3.65/M'. The table structure is mostly preserved, but the 'Chg. Index' columns are not present in the ground truth and are an OCR artifact. Numeric precision is generally good, but there's a significant error in 'CPM($)' for 1988 (11.45 vs 36.2) and 'Contribution ($MM)' for 1987 (21.5 vs 11.5). The 'Cumulative Contribution' row also has a misplaced value and is missing the 1984 value. Layout preservation is decent, maintaining headings and bullet points. However, completeness is low because the entire 'Insights and Observations' section from the ground truth is missing, and some key details from the initial summary are also absent."
+  },
+  "timestamp": "2026-04-08 22:45:47"
+}

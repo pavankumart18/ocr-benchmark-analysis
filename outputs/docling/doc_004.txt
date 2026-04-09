@@ -1,0 +1,115 @@
+## tan woon yann
+
+## YONGFATTENTERPRISE
+
+(JM0517726) NO.122124.JALANDEDAP13 81100JOHORBAHRU
+
+TEL07-3523888
+
+GSTID:000849813504
+
+## SIMPLIFIEDTAXINVOICE
+
+<!-- image -->
+
+CASH
+
+DocNo
+
+CS00031663
+
+Date
+
+25/12/2018
+
+Cashlet
+
+USER
+
+Time
+
+1231.00
+
+Sal.sperson
+
+Ref.
+
+lun
+
+Qty
+
+S/Price
+
+Amount
+
+Tax
+
+E8318
+
+1
+
+8091
+
+8091
+
+SR
+
+ELEGANTSCHTRBAG15
+
+Total Qy
+
+1
+
+8091
+
+Total Sales(Excluding GST)
+
+80.91
+
+Discount
+
+000
+
+Total GST
+
+0.00
+
+Rounding
+
+-001
+
+Total Salog(Inclusivaof GST):
+
+80.90
+
+CASH:
+
+100.00
+
+0608
+
+Change:
+
+19.10
+
+GSTSUMMARY
+
+Tax Code
+
+% 0
+
+Amt(RM)
+
+Tax(RM)
+
+SR
+
+80.91
+
+000
+
+Total:
+
+80.91
+
+0.00

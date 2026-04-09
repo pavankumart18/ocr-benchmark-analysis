@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 80,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 30,
+    "total_score": 59,
+    "notes": "The OCR output captures the main table structure and most numerical values correctly. However, there are significant text recognition errors, especially in the header and some row labels. A large portion of the ground truth, including the document type, key details, insights, and budget notes, is completely missing from the OCR output. The 'TOTAL' row's 'Projections '84' value is incorrect, and the 'MISCELLANEOUS' row has missing values and garbled text. The header 'The Council For Tobacco Research\u2014U.S.A., Inc.' is heavily garbled."
+  },
+  "timestamp": "2026-04-08 22:46:57"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 50,
+    "numeric_precision": 60,
+    "layout_preservation": 45,
+    "completeness": 40,
+    "total_score": 49.25,
+    "notes": "Significant OCR errors in text (e.g., organization name garbled), missing document type and notes sections. Table partially preserved but with misaligned rows and corrupted labels (e.g., 'EPIDEMIOLOGY' and 'MISCELLANEOUS'). Numeric values mostly correct but some corrupted or unclear (e.g., 'EPIDEMIOLOGY' projection '1a.' and 'MISCELLANEOUS' line). Layout is fragmented, reading order disrupted, and many sections missing, resulting in poor completeness."
+  },
+  "timestamp": "2026-04-08 23:05:49"
+}

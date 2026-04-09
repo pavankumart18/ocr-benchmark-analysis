@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 35,
+    "numeric_precision": 60,
+    "layout_preservation": 40,
+    "completeness": 30,
+    "total_score": 43,
+    "notes": "Major OCR errors include: misspelled words (PRQDUCT, FQRECAST, SUMMARX, EQURTH), missing/incorrect numeric values (several table entries wrong or missing), garbled assumptions section with incomplete text, missing document analysis and insights entirely, poor character recognition throughout, and significant structural issues in table formatting."
+  },
+  "timestamp": "2026-04-08 22:59:32"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 96.5,
+    "notes": "The OCR output correctly extracted all the requested fields. There was a minor difference in the 'total' field, where the OCR output had '33-90' instead of '33.90', which is a common OCR error for decimal points. The 'company' field had 'D.1.Y.' instead of 'D.I.Y.', a minor character error. The 'date' and 'address' fields were extracted perfectly."
+  },
+  "timestamp": "2026-04-08 22:42:25"
+}

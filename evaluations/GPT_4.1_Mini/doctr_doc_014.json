@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 0,
+    "numeric_precision": 60,
+    "layout_preservation": 30,
+    "completeness": 50,
+    "total_score": 38.5,
+    "notes": "Severe OCR errors with many misspellings and wrong characters (e.g., 'OP SHOKE', 'INDALERS', 'DEALIH FOONDATION'). No tables present in ground truth or OCR output, so table structure score is 0. Numeric data partially correct but many decimals and units are garbled or incorrect (e.g., nicotine values, dates). Layout is poorly preserved with broken reading order and missing section formatting. Large portions of text are missing or unreadable, resulting in low completeness."
+  },
+  "timestamp": "2026-04-08 23:02:41"
+}

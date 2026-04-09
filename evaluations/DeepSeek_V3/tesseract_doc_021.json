@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 64.25,
+    "notes": "The OCR output contains numerous garbled text segments (e.g., 'IIZYYWVEM', 'JUHYHVXPSL'), incorrect dates (e.g., '1214-1981'), and mixed-up sections. Table structure is poorly preserved, and some numeric values are incorrect or misplaced. However, most visible text appears to be captured, albeit with errors."
+  },
+  "timestamp": "2026-04-08 23:35:00"
+}

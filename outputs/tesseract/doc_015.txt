@@ -1,0 +1,38 @@
+lge4 1985 1986 1987 1988
+New Product A
+(4th Qtr., 1984, Launch)
+Advertising Medja (2) 31.9 54.9 64.3
+Sales, Promotion 17.4 28.6 23.9
+erat 3.4 4.5 3.6
+Sample Program 0.
+
+set
+
+Total Advertising/Promo 51.8
+
+B
+(ist Qtr., 1986, Launch)
+
+Advertising Meaja{2)
+Naa
+
+Sample Program
+Total Advertising/Promo
+
+i Total
+Advertising Medja(1) 31.9 54.9 156.7
+tf
++ Salqp, Promotion ) 17.4 28.6 59.9
+; Map 3.4 4.5 12
+Sample Promotion 0.4 0.6 =-=
+Total Advertising/Promo 53.1 38.6 223.8
+
+(1) Assumes 60/40 A/P split in Year 1; 70/30 thereafter.
+(2) a Product A absorbs 1/4 of contract package display costs in 1984, 1/3 in 1985, 1/4 in
+(3) Assumes Product B absorbs 1/3 of contract package display cost in 1986, 1/4 in 1987-88.
+
+i)
+wes/tae —- PRSOOTETS
+
+10/18/83
+

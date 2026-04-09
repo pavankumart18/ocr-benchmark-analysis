@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 68.75,
+    "notes": "Company name has multiple OCR errors (e.g., 'MP 0.1.Y. (JOMOR) SON BHD' vs 'MR D.I.Y. (JOHOR) SDN BHD'). Minor errors in address but mostly correct. Numeric values mostly accurate except slight rounding adjustment noted. Table structure is poorly preserved; item rows are present but not well aligned or clearly tabulated. Layout order is mostly maintained but some text like 'tan woon yann' and registration number appear extraneous. Overall, most ground truth content is present but with significant text inaccuracies and weak table formatting."
+  },
+  "timestamp": "2026-04-08 23:03:24"
+}

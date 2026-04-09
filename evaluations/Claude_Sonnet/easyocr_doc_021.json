@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 30,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 24,
+    "notes": "Severely garbled OCR output with extensive character recognition errors throughout. Words like 'POSTAL SERVICE' are readable but most text is corrupted (e.g., 'SElacnenl AFbcr', 'FEAK SEASO'). Table structure is completely broken with misaligned columns. Many numeric values are corrupted or fragmented. Document appears to be a USPS invoice but most content is unintelligible due to poor OCR quality."
+  },
+  "timestamp": "2026-04-08 22:59:59"
+}

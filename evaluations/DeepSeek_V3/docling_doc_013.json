@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 89.25,
+    "notes": "Minor OCR errors include misspellings ('OCOBER' instead of 'October', 'PUIMONARY' instead of 'Pulmonary', 'PHARMAOOTOGY' instead of 'Pharmacology', 'MISCELLANDOUS' instead of 'Miscellaneous', 'iuplied cormitmont' instead of 'implied commitment', 'counitment' instead of 'commitment', 'ncw' instead of 'new'). Table structure and numeric precision are excellent. Layout and completeness are well-preserved with minor formatting deviations."
+  },
+  "timestamp": "2026-04-08 23:29:39"
+}

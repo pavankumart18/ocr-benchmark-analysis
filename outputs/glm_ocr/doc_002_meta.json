@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_002",
+  "model": "glm_ocr",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/001.jpg",
+  "category": "invoice_receipt",
+  "source_dataset": "sroie",
+  "processing_time_seconds": 4.29,
+  "output_length_chars": 583,
+  "timestamp": "2026-04-08 22:02:09"
+}

@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_014",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 50,
+    "numeric_precision": 40,
+    "layout_preservation": 30,
+    "completeness": 35,
+    "notes": "Severe OCR errors throughout with extensive character misrecognition (e.g., 'DETAKE O? ShOKE' for 'Uptake of Smoke'), garbled words, missing sections, and poor formatting. Key content like organization name and research details are heavily corrupted. Date partially preserved but other numbers distorted."
+  },
+  "timestamp": "2026-04-08 22:59:22"
+}

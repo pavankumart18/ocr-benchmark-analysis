@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 77.25,
+    "notes": "The OCR output captures most content but has multiple spelling errors (e.g., 'PHARMACOLDGY', 'EPIDEMICLOGY', 'MISCELLANBOUS', 'camitmont', 'inplied', 'ncw'), and some minor formatting issues. The table structure is mostly preserved but column headers are misaligned and some rows are not clearly separated. Numeric values are mostly accurate except an unexplained '4,916 (a)' under TOTAL projections '84' which is not in ground truth. Layout and reading order are generally maintained but introductory and descriptive text is missing. Overall, the OCR output is fairly complete but with notable textual and structural inaccuracies."
+  },
+  "timestamp": "2026-04-08 23:02:34"
+}

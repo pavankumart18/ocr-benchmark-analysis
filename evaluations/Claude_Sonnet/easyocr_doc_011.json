@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 78,
+    "notes": "Multiple punctuation errors (periods replaced with underscores), missing words ('Key' and 'your' appear at end instead of proper location), some formatting issues with bullet points and spacing. Structure generally preserved but reading flow disrupted by punctuation substitutions and word displacement."
+  },
+  "timestamp": "2026-04-08 22:59:06"
+}

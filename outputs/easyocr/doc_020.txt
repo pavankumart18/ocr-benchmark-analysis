@@ -1,0 +1,52 @@
+Medical Equipment Inspection Checklist
+Equipment ID: HOZCYSCQ
+Model: Parisian
+Kuvalis Iqck
+Department: ICU
+Inspection Date: 2025-02-13
+Inspector: Margie Rohan
+Physical Condition
+Checkpoint
+Pass
+Fail
+NIA
+Notes
+Equipment housing intact
+Display screen clear
+Control buttons functional
+Power cord undamaged
+Mounting brackets secure
+Wheels/casters condition
+Labels and markings legible
+Eceeicr SQreRlete
+Checkpoint
+Pass
+Fail
+NIA
+Notes
+Ground connection
+Insulation resistance
+Leakage current
+Power supply stable
+Battery backup functional
+Circuit breaker operation
+protection
+feblaFonGgtiogesecure
+Checkpoint
+Pass
+Fail
+NIA
+Notes
+Self-test passed
+Calibration check
+Alarm systems
+Backup systems
+Output accuracy
+Not required for this equipment type
+Response time
+Data storagelretrieval
+Network connectivity
+OenSP4RSSEERGK
+Inspection Result:
+Next Inspection Due: 2025-06-22
+Surge -

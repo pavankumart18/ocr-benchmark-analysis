@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 88.25,
+    "notes": "Minor OCR errors include misspellings (e.g., 'PHARMACOLDGY', 'EPIDEMICLOGY', 'MISCELLANBOUS', 'OCIOBER'), incorrect formatting of notes (a) and (b), and minor layout deviations. However, all key details, numeric values, and table structures are accurately captured."
+  },
+  "timestamp": "2026-04-08 23:25:04"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 65,
+    "completeness": 70,
+    "total_score": 76.25,
+    "notes": "The OCR output has some misspellings (e.g., 'EPIDEMICLOGY' instead of 'Epidemiology'), missing words, and incorrect formatting. The table structure is mostly preserved but lacks headers and some details. Numeric values are mostly accurate, but the projected total for 1984 is incorrect. The layout is somewhat disrupted, and some sections from the ground truth are missing or not fully captured."
+  },
+  "timestamp": "2026-04-08 23:11:41"
+}

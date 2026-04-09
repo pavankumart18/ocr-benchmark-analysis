@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 97.5,
+    "notes": "The OCR output accurately extracted all the requested fields from the ground truth. There were no significant errors in text, numeric values, or structure. The 'company' field in the ground truth is 'MR D.I.Y. (JOHOR) SDN BHD', and the OCR output matches this exactly. The 'address' field is also perfectly matched. The 'date' and 'total' fields are also exact matches. The OCR output contains additional information not present in the ground truth, but this is expected as the ground truth only specifies a subset of fields for extraction."
+  },
+  "timestamp": "2026-04-08 22:40:49"
+}

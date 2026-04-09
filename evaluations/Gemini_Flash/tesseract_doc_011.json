@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 99,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 98.2,
+    "notes": "The OCR output is very accurate. The only minor discrepancies are some extra line breaks in the OCR output, specifically before 'INSIDER TRADING POLICY', '1. Purpose', '2. Scope', '3. Policy', and 'A. What is insider trading?'. These do not affect readability or content, but slightly alter the layout from the ground truth."
+  },
+  "timestamp": "2026-04-08 22:46:49"
+}

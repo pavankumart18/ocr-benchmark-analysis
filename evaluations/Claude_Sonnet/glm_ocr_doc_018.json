@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 98,
+    "layout_preservation": 90,
+    "completeness": 92,
+    "total_score": 92,
+    "notes": "Very good OCR extraction with accurate text and precise numbers. Minor issues with table formatting - revenue data appears as list format rather than proper table structure. All key financial figures, geographic regions, and segment data captured correctly. Layout and reading order well preserved."
+  },
+  "timestamp": "2026-04-08 22:51:18"
+}

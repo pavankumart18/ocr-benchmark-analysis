@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 60,
+    "layout_preservation": 70,
+    "completeness": 40,
+    "total_score": 59,
+    "notes": "The OCR output is missing the entire 'Document Type', 'Key Details' (except for some table data), and 'Insights and Observations' sections. The table data that is present has significant errors in values and formatting (e.g., 'SOM * +20 82 (410)' instead of 'SOM: 1984: 0.20 1985: 0.82'). Numeric values are frequently incorrect or malformed. The 'Assumptions' section is mostly accurate but has minor character errors. The overall completeness is very low due to large missing sections."
+  },
+  "timestamp": "2026-04-08 22:47:14"
+}

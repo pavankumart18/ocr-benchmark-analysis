@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 80,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 91.0,
+    "notes": "The main issue is 'Germany (EUA)' which should likely be 'Germany (GER)' or 'Germany (FRG/GDR)' depending on the context, but 'EUA' is a clear text error. Also, the last row 'France (FRA)' is missing its rank number, indicating a minor table structure/layout issue."
+  },
+  "timestamp": "2026-04-08 22:41:52"
+}

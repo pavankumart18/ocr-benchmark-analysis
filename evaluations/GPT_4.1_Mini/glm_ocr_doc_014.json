@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 0,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 50,
+    "total_score": 68.25,
+    "notes": "Text accuracy is moderate with some misspellings ('inhalees' vs 'inmates', 'puls' vs 'pulse') and slight wording differences. No tables or structured data present in ground truth, so table structure score is 0. Numeric precision is fairly good with dates and nicotine values mostly correct, though some numeric details differ slightly. Layout is partially preserved but lacks section headings and bullet points from ground truth. Completeness is low as large portions of the ground truth text, especially key details and insights, are missing or truncated."
+  },
+  "timestamp": "2026-04-08 23:01:10"
+}

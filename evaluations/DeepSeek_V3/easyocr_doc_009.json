@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 91,
+    "notes": "Minor OCR errors include missing words ('for,' in section (1)), incorrect characters ('0n' instead of 'on'), and punctuation issues (underscore instead of period). Overall structure, numeric precision, and completeness are well preserved."
+  },
+  "timestamp": "2026-04-08 23:36:35"
+}

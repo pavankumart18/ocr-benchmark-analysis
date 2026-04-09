@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 40,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 77.25,
+    "notes": "Text accuracy is high with correct company name and address, minor differences like 'WINDSHILED' vs 'WINDSHIELD' not in ground truth but not critical. Table structure is poor since the ground truth has no detailed item list, but OCR shows a detailed invoice table not present in ground truth, so structure does not match. Numeric precision is good with total rounded matching exactly, date matches perfectly. Layout is mostly preserved but extra sections (items, operator info) affect reading order. Completeness is good as all ground truth fields are present, no major missing text."
+  },
+  "timestamp": "2026-04-08 23:00:29"
+}

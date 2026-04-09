@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_015",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 75,
+    "layout_preservation": 40,
+    "completeness": 30,
+    "notes": "OCR captured the table data reasonably well with most numbers correct, but completely missed the detailed analysis, insights, and strategic observations that comprise the majority of the ground truth content. Several text errors like '\uff08' instead of '(' and formatting issues. The document structure and interpretive content are entirely absent."
+  },
+  "timestamp": "2026-04-08 22:55:07"
+}

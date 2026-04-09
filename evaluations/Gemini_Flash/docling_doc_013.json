@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 95,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 60,
+    "total_score": 75.25,
+    "notes": "Text accuracy suffers from several misspellings (e.g., 'OCOBER', 'PROJECIIONS', 'PUIMONARY', 'PHARMAOOTOGY', 'MISCELLANDOUS', 'iuplied cormitmont'). Numeric precision is good, with only one minor discrepancy in the 'TOTAL' row for '84 PROJECTIONS' where the OCR output has '4,916(a)' instead of the implied sum from the ground truth. Table structure is very well preserved. Layout preservation is decent for the table, but the introductory and concluding text from the ground truth is not present in the OCR output. Completeness is significantly impacted by the missing introductory and concluding descriptive text, as well as the detailed notes (a) and (b) being different in content and interpretation compared to the ground truth."
+  },
+  "timestamp": "2026-04-08 22:45:38"
+}

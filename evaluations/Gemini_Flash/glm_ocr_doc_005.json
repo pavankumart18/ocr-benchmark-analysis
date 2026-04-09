@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 95,
+    "total_score": 96.0,
+    "notes": "The OCR output is very good. The only minor discrepancies are in the address where 'LOT 1851-A & 1851-B' in the ground truth is 'LOT 1051-A & 1051-B' in the OCR output, and the total is extracted from 'TOTAL ROUNDED' which is correct, but the ground truth only specifies 'total'."
+  },
+  "timestamp": "2026-04-08 22:41:06"
+}

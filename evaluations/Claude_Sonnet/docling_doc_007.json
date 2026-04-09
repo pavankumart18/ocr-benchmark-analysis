@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_007",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 75,
+    "total_score": 72,
+    "notes": "Multiple spacing issues throughout (missing spaces between words like 'SecuritiesandExchangeCommission'), missing header information (EX-24 2 hsic-ex24.htm), incomplete section (4) content, missing text in final paragraph, and some formatting inconsistencies. However, core legal content structure is preserved with numbered sections intact."
+  },
+  "timestamp": "2026-04-08 22:54:25"
+}

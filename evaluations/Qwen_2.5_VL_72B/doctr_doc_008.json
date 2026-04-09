@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 95,
+    "total_score": 94.25,
+    "notes": "Minor issues include a missing space in 'RobertJ. Hombach' and a slight discrepancy in the signature line. Otherwise, the text is highly accurate and complete."
+  },
+  "timestamp": "2026-04-08 23:11:14"
+}

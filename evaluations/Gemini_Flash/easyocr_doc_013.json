@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 55,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 65,
+    "completeness": 60,
+    "total_score": 63,
+    "notes": "The OCR output has numerous spelling errors, particularly in organization name and category names (e.g., 'Tc CoUNCI For ToBAcCO KESEARCH-U,S.A_Inc.', 'PULENARY', 'PHRMOOIDSY', 'EMUNOLOGI', 'EPIDEMTOLOGY', 'HISCELLANEOUS', 'UUASSIGED BALINCE', 'TEMTATIVE BUBXTET'). The table structure is partially preserved but some rows and columns are misaligned or missing (e.g., Epidemiology row is incomplete, Total Spending row is missing October '83 and Total '83 figures). Numeric values are mostly correct, but some are missing or misaligned. The layout is somewhat preserved for the table, but the explanatory notes are heavily garbled and incomplete. Significant portions of the ground truth, especially the introductory and concluding insights, are entirely missing."
+  },
+  "timestamp": "2026-04-08 22:49:12"
+}

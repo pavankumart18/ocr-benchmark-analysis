@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 20,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 90,
+    "total_score": 65.25,
+    "notes": "Company name OCR misread 'SDN' as 'SON'. Date and total amount mostly correct but total slightly off by 0.01 before rounding. Address fully captured. No table structure present in ground truth, but OCR output includes itemized list which is not part of ground truth, causing low table structure score. Layout somewhat preserved but extra unrelated text and items disrupt reading order. Overall, most ground truth text is present but with minor errors and added extraneous content."
+  },
+  "timestamp": "2026-04-08 23:02:05"
+}

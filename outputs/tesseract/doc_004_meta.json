@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_004",
+  "model": "tesseract",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/003.jpg",
+  "category": "invoice_receipt",
+  "source_dataset": "sroie",
+  "processing_time_seconds": 0.54,
+  "output_length_chars": 510,
+  "timestamp": "2026-04-08 22:08:37"
+}

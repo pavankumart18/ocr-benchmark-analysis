@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 100,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 98.5,
+    "notes": "The OCR output is highly accurate. The only minor difference is the removal of a blank line between the first and second paragraphs, and between the second and third paragraphs, and between the date line and the signature line. This is a minor layout preservation issue but does not affect text content or reading order."
+  },
+  "timestamp": "2026-04-08 22:43:01"
+}

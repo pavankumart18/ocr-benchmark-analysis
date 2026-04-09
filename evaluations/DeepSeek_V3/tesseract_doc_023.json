@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 20,
+    "numeric_precision": 50,
+    "layout_preservation": 30,
+    "completeness": 60,
+    "total_score": 39.5,
+    "notes": "Major errors in text accuracy (e.g., 'INDAH GIFT & HOME DECO' misread as 'TWBAH GIFT. B ee 2609'), poor table structure, incorrect numeric values (e.g., total '60.30' not clearly captured), garbled layout, and missing/incorrect sections."
+  },
+  "timestamp": "2026-04-08 23:35:19"
+}

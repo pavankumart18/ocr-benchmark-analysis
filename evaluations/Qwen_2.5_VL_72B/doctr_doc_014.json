@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 55,
+    "table_structure": 100,
+    "numeric_precision": 70,
+    "layout_preservation": 40,
+    "completeness": 45,
+    "total_score": 56.25,
+    "notes": "The OCR output contains numerous misspellings and incorrect characters, affecting text accuracy. There are no tables in the ground truth, so table structure is not applicable. Numeric values are mostly preserved but some are incorrect. The layout is disrupted with missing sections and incorrect formatting. Significant portions of the text are missing, impacting completeness."
+  },
+  "timestamp": "2026-04-08 23:11:46"
+}

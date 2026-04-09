@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 100,
+    "numeric_precision": 80,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 79.5,
+    "notes": "Text accuracy suffers from misspellings (e.g., 'OP SHOKE' instead of 'OF SMOKE', 'INDALERS' instead of 'INMATES'). Numeric precision is mostly correct but has minor OCR errors (e.g., '0.94 mg tar' vs. '0.86 mg tar'). Layout preservation is good, with correct section headings and reading order. Completeness is high, with only minor omissions."
+  },
+  "timestamp": "2026-04-08 23:25:21"
+}

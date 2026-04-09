@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 68,
+    "notes": "The OCR output has minor typos and formatting issues, such as 'MRD.I.Y.' instead of 'MR D.I.Y.', and incorrect spacing in the address. The table structure is not well preserved, with mixed content and no clear separation. Numeric precision is good, with the total amount correctly captured. Layout preservation suffers due to garbled sections and mixed content. Completeness is decent, but some minor details like the company registration number are incorrectly captured."
+  },
+  "timestamp": "2026-04-08 23:28:08"
+}

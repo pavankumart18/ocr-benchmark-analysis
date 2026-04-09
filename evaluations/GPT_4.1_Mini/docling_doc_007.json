@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_007",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 10,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 55,
+    "total_score": 58.25,
+    "notes": "Significant text accuracy issues due to missing spaces, merged words, and some missing phrases. No tables present in ground truth, but OCR output shows no table structure, so very low score there. Numeric data mostly correct. Layout is disrupted with missing sections and improper formatting, including missing numbered item (4) and incomplete paragraphs. Completeness is low due to omitted text and partial sentences."
+  },
+  "timestamp": "2026-04-08 23:03:54"
+}

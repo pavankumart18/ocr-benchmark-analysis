@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 40,
+    "total_score": 63.25,
+    "notes": "OCR output has significant issues with table structure and completeness, with garbled text and missing sections. Numeric precision is mostly correct, but text accuracy suffers from missing words and incorrect formatting. Layout preservation is compromised due to incorrect reading order and missing sections."
+  },
+  "timestamp": "2026-04-08 23:21:44"
+}

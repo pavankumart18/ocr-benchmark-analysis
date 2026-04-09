@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 88,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 95,
+    "completeness": 90,
+    "total_score": 91.15,
+    "notes": "Several minor text errors were found, including missing words ('any' and 'for'), a missing comma, and a period replaced by an underscore. The '/s/' was incorrectly transcribed as 'Is/'. A few extra words ('any' and 'for') were appended at the end of the OCR output. Numeric precision is slightly affected by the missing comma in the date. Layout and completeness are generally good, with only minor omissions."
+  },
+  "timestamp": "2026-04-08 22:48:57"
+}

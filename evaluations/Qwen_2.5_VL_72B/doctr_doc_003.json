@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 88.5,
+    "notes": "The OCR output has high text accuracy with only minor discrepancies like 'D.1.Y.' instead of 'D.I.Y.'. The table structure is partially preserved but not fully as the ground truth doesn't contain a table. Numeric values are mostly accurate except for the total rounded amount. Layout is well-preserved with correct reading order. Completeness is good, capturing all key details from the ground truth."
+  },
+  "timestamp": "2026-04-08 23:10:49"
+}

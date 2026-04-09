@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 86.5,
+    "notes": "Minor text inaccuracies in company name and address (e.g., 'TA .K' vs 'TA _k', 'NO.53 55,57 & 59' vs 'NO5 55,57 & $'). Numeric precision is good for date and total. Layout is generally preserved, but the OCR output includes a lot of extraneous text not in the ground truth, which impacts layout and completeness slightly. Table structure is not directly applicable as the ground truth is a JSON object, but the relevant fields are extracted correctly."
+  },
+  "timestamp": "2026-04-08 22:48:10"
+}

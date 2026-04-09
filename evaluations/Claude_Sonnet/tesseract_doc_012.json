@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 0,
+    "numeric_precision": 15,
+    "layout_preservation": 10,
+    "completeness": 5,
+    "total_score": 16,
+    "notes": "OCR captured only a small fragment from the distribution list with numerous errors (e.g., 'te A.' Richardson', 'Rk Heath', 'stquetra'). Missing critical content including document title, company name, dates, main sections, and most document details. The restriction notice is partially captured but garbled. Overall extraction is severely incomplete and inaccurate."
+  },
+  "timestamp": "2026-04-08 22:56:58"
+}

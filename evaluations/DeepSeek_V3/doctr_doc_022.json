@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 100,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 69.25,
+    "notes": "Key issues: 'BOOK TA .K' missing a dot, 'SDN BHD' merged without space, address has typos ('I8' instead of '18', '61100' instead of '81100', 'BAHRO' instead of 'BAHRU'), extra irrelevant text (e.g., 'tan woon yann', 'Cashier MANIS'). Numeric values and date are correct. Layout is somewhat preserved but cluttered with unrelated info."
+  },
+  "timestamp": "2026-04-08 23:26:35"
+}

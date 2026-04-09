@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 20,
+    "numeric_precision": 100,
+    "layout_preservation": 30,
+    "completeness": 60,
+    "total_score": 51,
+    "notes": "Major issues include garbled text ('tanwoonyann', 'I5-S557&amp;5.IAANSM018 YANANDAYA GTUOOHGRUAHRU'), incorrect company name format ('BOOKTA K(TAMANDAYA)SDN BHD'), and missing/incorrect address. Numeric precision is perfect for the total amount. Layout is poorly preserved with random line breaks and mixed content."
+  },
+  "timestamp": "2026-04-08 23:31:12"
+}

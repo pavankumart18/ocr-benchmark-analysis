@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_014",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 85,
+    "numeric_precision": 75,
+    "layout_preservation": 60,
+    "completeness": 40,
+    "notes": "Major OCR errors include 'SHOKE' for 'SMOKE', 'INDALERS' for 'INMATES', 'DEALIH FOONDATION' for 'HEALTH FOUNDATION', 'nacotine-cot'nine' for 'nicotine-cotinine', and many other character recognition failures. Document is incomplete - missing the purpose section and all analytical content from ground truth. Some numbers are correct (dates, nicotine levels) but many text portions are garbled. Layout structure is partially preserved but readability is severely compromised."
+  },
+  "timestamp": "2026-04-08 22:52:55"
+}

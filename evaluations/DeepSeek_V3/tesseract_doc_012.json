@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 0,
+    "numeric_precision": 0,
+    "layout_preservation": 10,
+    "completeness": 10,
+    "total_score": 10.5,
+    "notes": "OCR output is severely garbled and incomplete. Major sections, key details, and structure are missing or incorrect. Only a small fragment of the distribution list and a distorted 'RESTRICTED' note are recognizable."
+  },
+  "timestamp": "2026-04-08 23:33:19"
+}

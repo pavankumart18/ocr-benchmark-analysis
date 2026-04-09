@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 60,
+    "completeness": 50,
+    "total_score": 68.5,
+    "notes": "The OCR output has several character-level errors and missing words, affecting text accuracy. The distribution list structure is preserved but lacks some names. Dates and numbers are mostly accurate. The layout and sections are somewhat preserved but not entirely faithful to the ground truth. Significant portions of the ground truth text are missing, impacting completeness."
+  },
+  "timestamp": "2026-04-08 23:11:36"
+}

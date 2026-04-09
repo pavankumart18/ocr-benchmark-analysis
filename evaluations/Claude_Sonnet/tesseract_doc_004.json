@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 75,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 80,
+    "notes": "Company name and address correctly extracted. Date has minor error (26/12/2018 vs 25/12/2018). Total amount correct but appears in multiple formats. OCR captured extra receipt details not in ground truth. Some character recognition issues with symbols and formatting."
+  },
+  "timestamp": "2026-04-08 22:56:22"
+}

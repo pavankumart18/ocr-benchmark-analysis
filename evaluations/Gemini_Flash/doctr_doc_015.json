@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 80,
+    "layout_preservation": 10,
+    "completeness": 10,
+    "total_score": 26,
+    "notes": "The OCR output is a raw extraction of a table, not a summary. It completely misses the 'Document Type', 'Key Details', 'Insights and Observations' sections. The extracted text is mostly numerical data from the table, with many misspellings and incorrect labels ('Sabof rromotion', 'Mapef M&P'). The structure is not preserved as a summary but as a raw table. While many numbers are correct, their context and labels are often wrong or missing. The overall completeness is very low as it fails to capture the vast majority of the ground truth's narrative and structured summary."
+  },
+  "timestamp": "2026-04-08 22:43:17"
+}

@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_008",
+  "model": "easyocr",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/001.png",
+  "category": "sec_filing",
+  "source_dataset": "multifinben",
+  "processing_time_seconds": 1.81,
+  "output_length_chars": 1674,
+  "timestamp": "2026-04-08 22:09:15"
+}

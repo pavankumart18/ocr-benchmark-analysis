@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 67.5,
+    "notes": "The OCR output correctly identified most of the text for 'company', 'date', and 'address', with minor errors like 'BECO' instead of 'DECO' and 'TANAN' instead of 'TAMAN'. The 'total' amount was not extracted directly but was present in the OCR output as 'TOTAL AHT..+6' and '60.30' was not explicitly extracted as the total. The ground truth is a JSON object, not a table, so table structure is not applicable and scored 0. Numeric precision is high for the date, but the total is not extracted as a single numeric value. Layout preservation is good for the extracted fields, but the overall document structure is not a simple JSON. Completeness is good for the requested fields, with only the total being ambiguous."
+  },
+  "timestamp": "2026-04-08 22:46:20"
+}

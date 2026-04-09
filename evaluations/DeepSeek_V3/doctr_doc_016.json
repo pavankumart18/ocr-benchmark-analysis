@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 83,
+    "notes": "The OCR output has minor typos and formatting issues, such as 'adj us tments' and garbled 'Chg.' labels. The table structure is mostly preserved but has some alignment issues. Numeric precision is high, with all key figures matching the ground truth. Layout preservation suffers due to garbled labels and inconsistent spacing. Completeness is good, with all major sections and data points captured."
+  },
+  "timestamp": "2026-04-08 23:25:35"
+}

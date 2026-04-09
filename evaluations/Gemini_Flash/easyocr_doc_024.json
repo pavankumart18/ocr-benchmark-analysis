@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 0,
+    "numeric_precision": 50,
+    "layout_preservation": 0,
+    "completeness": 10,
+    "total_score": 12,
+    "notes": "The OCR output is largely garbled and contains significant errors. The company name is barely recognizable, the address is fragmented and contains many errors, and the date is completely incorrect. While the total amount is somewhat close, the overall text accuracy is very low. The output also includes a lot of irrelevant text not present in the ground truth, and the structure is not preserved at all."
+  },
+  "timestamp": "2026-04-08 22:49:49"
+}

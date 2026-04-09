@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "glm_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 95,
+    "total_score": 96.25,
+    "notes": "The OCR output is nearly identical to the ground truth with only minor differences in the initial text formatting. There are no tables, numeric values, or major layout issues to consider. The completeness is high as all relevant text is captured."
+  },
+  "timestamp": "2026-04-08 23:09:04"
+}

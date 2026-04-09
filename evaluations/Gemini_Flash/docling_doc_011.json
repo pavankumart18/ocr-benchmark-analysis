@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 90,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 73,
+    "notes": "The OCR output has several missing lines of text, particularly in the header and within section 2. There are also some merged words and incorrect line breaks, affecting readability and layout. The 'INSIDER TRADING POLICY' and its date are misplaced at the end of the document. Numeric precision is good for the most part, but the missing header affects the overall score."
+  },
+  "timestamp": "2026-04-08 22:45:26"
+}

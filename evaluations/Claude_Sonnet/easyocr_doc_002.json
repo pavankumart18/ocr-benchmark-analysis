@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 79,
+    "notes": "Company name has case inconsistencies (INdAh GIFt vs INDAH GIFT), address has semicolon instead of comma. Table structure mostly preserved but some formatting issues with spacing and special characters. Key numeric values (date, total) are accurate. Layout generally maintained with proper reading order. All essential information captured despite minor OCR artifacts."
+  },
+  "timestamp": "2026-04-08 22:58:14"
+}

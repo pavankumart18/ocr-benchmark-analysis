@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 50,
+    "numeric_precision": 55,
+    "layout_preservation": 30,
+    "completeness": 25,
+    "total_score": 40.5,
+    "notes": "The OCR output has significant issues. Text accuracy is low due to numerous missing words and incorrect characters. Table structure is partially preserved but lacks headers and proper alignment. Numeric precision is compromised with several incorrect values. Layout preservation is poor as sections and formatting are not maintained. Completeness is low as major parts of the document are missing."
+  },
+  "timestamp": "2026-04-08 23:16:19"
+}

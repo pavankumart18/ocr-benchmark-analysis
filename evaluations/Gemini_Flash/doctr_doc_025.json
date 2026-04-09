@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.25,
+    "notes": "The OCR output correctly identified the company name, date, and total. The address had a minor character error (NO12124 instead of NO 122.124). All key fields from the ground truth were present. The overall structure and numeric values were well-preserved."
+  },
+  "timestamp": "2026-04-08 22:44:09"
+}

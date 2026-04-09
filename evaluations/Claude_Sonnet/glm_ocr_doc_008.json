@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 98,
+    "notes": "Excellent OCR extraction with near-perfect accuracy. Only minor difference is slightly reduced spacing between paragraphs, but all text content, formatting, dates, names, and legal language are captured exactly as in the ground truth."
+  },
+  "timestamp": "2026-04-08 22:50:28"
+}

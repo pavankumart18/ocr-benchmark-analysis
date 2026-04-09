@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 75,
+    "total_score": 66.75,
+    "notes": "Company name correctly extracted but address has errors (e.g., 'NO.284' vs 'NO.2&4', 'OHOR' missing 'J' in Johor). Date and total amount are accurate. Table structure partially preserved but columns and rows are not clearly delineated as in ground truth. Layout is somewhat jumbled with extra unrelated text and order issues. Most key fields present but some address details and formatting are incorrect or missing."
+  },
+  "timestamp": "2026-04-08 23:02:09"
+}

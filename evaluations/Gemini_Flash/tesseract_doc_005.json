@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 60,
+    "total_score": 56.5,
+    "notes": "The OCR output has significant issues with text accuracy, especially for the company name and address. The table structure is not preserved at all as the ground truth is a JSON object, not a table. Numeric precision is good for the total, but the date is slightly off in its context. Layout preservation is poor due to the extra text and misaligned information. Completeness is also low as much of the ground truth is either missing or heavily garbled."
+  },
+  "timestamp": "2026-04-08 22:46:28"
+}

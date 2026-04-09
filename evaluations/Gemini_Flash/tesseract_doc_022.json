@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 90,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 82.75,
+    "notes": "The 'company' and 'date' fields are accurately extracted. The 'address' field has several character-level errors (e.g., '1O.8* $8.57' instead of 'NO.53 55,57', 'SACU HE' instead of 'SAGU 18', 'TANAN DATA' instead of 'TAMAN DAYA', 'KAHRU' instead of 'BAHRU'). The 'total' field is correctly extracted. The overall layout and reading order are mostly preserved, though some irrelevant text is also extracted."
+  },
+  "timestamp": "2026-04-08 22:47:37"
+}

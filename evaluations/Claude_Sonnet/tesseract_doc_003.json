@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 77,
+    "notes": "Key issues: Company name has OCR errors (O.1.\u00a5. instead of D.I.Y.), some character recognition errors throughout (\u00a5 symbols, spacing issues), but core information like address, date, and total amount are correctly captured. Invoice structure is preserved reasonably well."
+  },
+  "timestamp": "2026-04-08 22:56:17"
+}

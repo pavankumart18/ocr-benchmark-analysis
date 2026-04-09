@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_007",
+  "model": "tesseract",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/000.png",
+  "category": "sec_filing",
+  "source_dataset": "multifinben",
+  "processing_time_seconds": 3.39,
+  "output_length_chars": 3217,
+  "timestamp": "2026-04-08 22:08:42"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 65,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 30,
+    "notes": "Severe OCR errors throughout. Company name completely garbled ('MR D.I.Y.' became 'tan woon yann Mk Suw Biid'). Address fragmented with many character recognition errors ('BALAKONG' became 'RalAKunG', 'KEMBANGAN' became 'KEMBANGAH'). Product descriptions heavily corrupted. However, key numeric values like total (30.90) and date (18-11-18) were captured correctly. Overall text is largely unreadable due to extensive character misrecognition."
+  },
+  "timestamp": "2026-04-08 22:58:29"
+}

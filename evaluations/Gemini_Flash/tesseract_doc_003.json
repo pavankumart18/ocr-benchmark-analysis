@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 96.5,
+    "notes": "The OCR output is very accurate. Minor discrepancies include 'O.1.\u00a5.' instead of 'D.I.Y.' in the company name and '33, 92' instead of '33.90' for the total before rounding adjustment, though the final total '33,90' is correct. The date '12-01-19' is also correctly extracted. All requested fields are present and correctly identified."
+  },
+  "timestamp": "2026-04-08 22:46:23"
+}

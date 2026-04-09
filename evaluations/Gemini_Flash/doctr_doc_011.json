@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 98,
+    "completeness": 100,
+    "total_score": 97.9,
+    "notes": "Minor text differences include 'January. 1' instead of 'January 1', 'TSMS' instead of 'TSMs', 'stockl' instead of 'stock', and 'authorized:' instead of 'authorized'. The colon after 'authorized' and 'are:' instead of 'are' are also minor errors. Otherwise, the OCR output is very accurate."
+  },
+  "timestamp": "2026-04-08 22:43:04"
+}

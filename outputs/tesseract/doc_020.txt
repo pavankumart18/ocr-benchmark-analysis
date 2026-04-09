@@ -1,0 +1,97 @@
+Medical Equipment Inspection Checklist
+
+Equipment ID: HO7CYSCQ
+Model: Parisian - Kuvalis lqck
+Department: ICU
+
+Inspection Date: 2025-02-13
+Inspector: Margie Rohan
+
+Physical Condition
+
+Checkpoint
+
+Equipment housing intact
+Display screen clear
+
+Control buttons functional
+Power cord undamaged
+
+Mounting brackets secure
+Wheels/casters condition
+
+Labels and markings legible
+let
+cctrical Salety
+
+Checkpoint
+
+Ground connection
+Insulation resistance
+Leakage current
+
+Power supply stable
+Battery backup functional
+
+Circuit breaker operation
+
+Surge protection
+bi able connections secure
+er ormance Te ests
+
+Checkpoint Pass Fail N/A
+Self-test passed 7
+Calibration check
+
+Alarm systems
+
+Sees
+
+Backup systems
+
+Output accuracy -
+
+F<}
+
+Response time
+
+Data storage/retrieval x
+
+g
+
+Network connectivity
+
+OAEPAE SERS
+
+Inspection Result:
+Next Inspection Due: 2025-06-22
+
+Fail
+
+ia]
+Seas;
+
+8ea
+
+Ss)
+
+Fail
+
+a7]
+SF
+
+Sees
+
+SJ
+
+Notes
+
+Not required for this equipment type
+
+N/A
+
+N/A
+
+Notes
+
+Notes

@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_015",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 85,
+    "layout_preservation": 20,
+    "completeness": 10,
+    "notes": "OCR output is severely corrupted with massive repetition of dashes that obscures most content. While the title, some numerical values, and basic product structure are captured correctly, the majority of the document is unreadable due to formatting artifacts. Critical information about New Product B, totals, and insights are completely missing."
+  },
+  "timestamp": "2026-04-08 22:51:03"
+}

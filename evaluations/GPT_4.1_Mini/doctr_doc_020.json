@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 55,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 69.75,
+    "notes": "Several misspellings and garbled words (e.g., 'Asecerecirsareplete', 'OVEPARSEatIS', 'connectiopesecure') reduce text accuracy. Table columns and rows are partially preserved but many entries are misaligned or merged incorrectly, affecting table structure. Numeric data such as dates and equipment ID are mostly correct, supporting a higher numeric precision score. Layout is generally maintained with clear headers and sections, but some reading order issues and misplaced text reduce the score. Most visible text appears captured with no major omissions."
+  },
+  "timestamp": "2026-04-08 23:03:08"
+}

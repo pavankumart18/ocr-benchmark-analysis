@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 63.75,
+    "notes": "Key issues: 'YONGFATT ENTERPRISE' is correct, but address has errors ('No12124' instead of 'NO 122.124', 'JOHIOR EAHIRU' instead of 'JOHOR BAHRU'). Date is wrong ('26/1202018' instead of '25/12/2018'). Total amount is correct but appears multiple times with minor formatting issues. Layout is garbled with extra unrelated text."
+  },
+  "timestamp": "2026-04-08 23:35:58"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 40,
+    "numeric_precision": 60,
+    "layout_preservation": 55,
+    "completeness": 70,
+    "total_score": 60.25,
+    "notes": "The OCR output contains numerous character errors (e.g., 'J4N191984' instead of 'January 19, 1984', 'GR&amp;DCRESEARCHPR0GRAMME&amp;RES0URCEALL0CATI0N1984-1986' with zeroes instead of 'O's), missing spaces, and some garbled names and numbering in the distribution list. The table/structured list of recipients is poorly preserved with inconsistent numbering and formatting. Numeric data such as dates and numbering are often incorrect or merged. Layout and section formatting are partially maintained but reading order is disrupted and some sections are merged or misplaced. Some key text is missing or incomplete, such as the document type description and signature/annotation notes. Overall, the OCR output captures the general content but with significant fidelity and formatting issues."
+  },
+  "timestamp": "2026-04-08 23:04:13"
+}

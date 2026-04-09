@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 85,
+    "numeric_precision": 75,
+    "layout_preservation": 40,
+    "completeness": 35,
+    "total_score": 52,
+    "notes": "Major issues include missing spaces throughout (e.g., 'tothisLimited', 'shallbe'), incomplete sentences with missing text in middle sections, missing critical phrases like 'responsibility to comply with the requirements of the Exchange Act', incomplete final sentence cutting off at 'tobe', and poor spacing in signature section. Date '20 day of February 2025' is preserved but formatting is compromised."
+  },
+  "timestamp": "2026-04-08 22:54:41"
+}

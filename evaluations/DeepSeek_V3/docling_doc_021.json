@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 60,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 67.75,
+    "notes": "Text accuracy suffers from misspellings (e.g., 'Descriptionf', 'Serrtoel', 'Relerenze') and wrong characters (e.g., '38:36' instead of '38.36'). Table structure is mostly preserved but has alignment issues and missing data. Numeric precision is inconsistent with incorrect decimal points and formats (e.g., '118:68', 'K.59'). Layout is generally correct, but some sections are truncated. Completeness is good, but minor omissions exist."
+  },
+  "timestamp": "2026-04-08 23:31:04"
+}

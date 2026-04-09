@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "docling",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 75,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 79.75,
+    "notes": "The OCR output has minor text accuracy issues such as '1qck' instead of '1QCK' and 'Mountingbrackets' instead of 'Mounting brackets'. The table structure is mostly preserved but some rows are not aligned correctly. Numeric values like dates appear accurate. The layout preservation is decent but some sections are slightly misaligned. The completeness is good with only minor truncations."
+  },
+  "timestamp": "2026-04-08 23:14:37"
+}

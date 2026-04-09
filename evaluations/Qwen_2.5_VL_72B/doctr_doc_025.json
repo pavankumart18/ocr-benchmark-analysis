@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 68.75,
+    "notes": "The OCR output contains most of the correct text but has additional irrelevant information. The table structure is not preserved as there are no tables in the ground truth. Numeric values are mostly accurate except for some formatting issues. The layout is partially preserved but includes extra sections. Completeness is good as all ground truth text is captured, though with additional content."
+  },
+  "timestamp": "2026-04-08 23:12:44"
+}

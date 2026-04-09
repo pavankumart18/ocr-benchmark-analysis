@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "docling",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 0,
+    "numeric_precision": 50,
+    "layout_preservation": 20,
+    "completeness": 30,
+    "total_score": 30.25,
+    "notes": "The OCR output contains significant errors in text accuracy, with many misspellings and wrong characters. There is no clear table structure preserved. Numeric values are mostly incorrect, with some matching the ground truth. The layout is not preserved, and the reading order is disrupted. Several key pieces of information from the ground truth are missing or garbled."
+  },
+  "timestamp": "2026-04-08 23:15:01"
+}

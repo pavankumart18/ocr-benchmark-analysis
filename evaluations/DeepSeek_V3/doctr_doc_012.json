@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 79.5,
+    "notes": "The OCR output has minor text inaccuracies (e.g., '\u00e0 AT authinpton' instead of 'British-American Tobacco Company Limited', 'Dr. 1. W. Hughes' instead of 'Dr. I. W. Hughes'). Table structure is mostly preserved but lacks some formatting clarity. Numeric precision is good with correct dates. Layout is generally maintained but with some formatting deviations. Most text is captured, missing only minor details like 'Document Type' and 'Insights and Observations' sections."
+  },
+  "timestamp": "2026-04-08 23:24:58"
+}

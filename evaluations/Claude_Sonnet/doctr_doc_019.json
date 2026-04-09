@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 77,
+    "notes": "Multiple text accuracy issues including 'High-efficiencyl', 'compacts steel', 'professional-gradel', missing spaces in 'ofcorrosion-resistant', 'andi industrial', and '100-277vi'. Table structure is mostly preserved but some alignment issues. Numeric data appears accurate. Layout maintains logical flow with proper header/detail separation."
+  },
+  "timestamp": "2026-04-08 22:53:21"
+}

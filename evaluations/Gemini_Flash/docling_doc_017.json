@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 95,
+    "notes": "One minor text error: 'Germany (EUA)' should likely be 'Germany (GER)'. One numeric error: 'L' instead of '1' for United States total."
+  },
+  "timestamp": "2026-04-08 22:45:50"
+}

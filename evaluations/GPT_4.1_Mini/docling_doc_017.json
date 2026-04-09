@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 85,
+    "numeric_precision": 70,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 81.75,
+    "notes": "Most text is accurate with minor OCR errors such as 'sUI' instead of 'SUI' and 'L' instead of '1' in the Total column for USA. Table structure is mostly preserved with correct columns and rows, but the numeric error affects precision. Layout and completeness are good with all visible data captured."
+  },
+  "timestamp": "2026-04-08 23:04:32"
+}

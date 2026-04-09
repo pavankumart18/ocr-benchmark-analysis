@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 67.5,
+    "notes": "Key issues: 'INDAH GIFT & HOME DECO' misread as 'INDAR DIFT & HEME BECO', 'DEDAP' as 'JEDAP', and extra irrelevant text (e.g., 'tan woon yann', receipt details). Numeric values (date, total) are correct. Layout is somewhat preserved but cluttered with noise."
+  },
+  "timestamp": "2026-04-08 23:26:39"
+}

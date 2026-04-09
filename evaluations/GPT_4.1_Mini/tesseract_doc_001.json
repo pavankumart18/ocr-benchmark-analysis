@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 30,
+    "numeric_precision": 85,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 63.75,
+    "notes": "Company name mostly correct with minor OCR errors ('TA -K' vs 'TA .K'). Address partially corrupted ('NO.5? $5.57 & 59' instead of 'NO.53 55,57 & 59'). Date correctly extracted. Total amount correct but formatting inconsistent ('9,00' vs '9.00'). Table structure poorly preserved; no clear columns or rows matching ground truth. Layout is disorganized with extra unrelated text and mixed reading order. Most ground truth text present but some parts garbled or merged with unrelated content."
+  },
+  "timestamp": "2026-04-08 23:05:04"
+}

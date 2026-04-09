@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83.5,
+    "notes": "Company name has HTML entity '&amp;' instead of '&', address missing spaces and has '8110O' instead of '81100'. Date and total amount are correct. OCR captured additional receipt details not in ground truth, showing good completeness. Table structure is present but not required by ground truth format."
+  },
+  "timestamp": "2026-04-08 22:54:00"
+}

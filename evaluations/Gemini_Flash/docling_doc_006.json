@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 85.25,
+    "notes": "The OCR output correctly extracted all the fields present in the ground truth. There are minor character errors in the company name (ABCHOTRADING instead of ABC HO TRADING) and the address (missing space after NO.2&4, and 'amp;' instead of '&'). The date includes a timestamp not in the ground truth, but the date itself is correct. The total amount is correctly extracted."
+  },
+  "timestamp": "2026-04-08 22:44:32"
+}

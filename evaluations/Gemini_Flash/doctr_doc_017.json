@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 81,
+    "notes": "Text accuracy is good with one minor error ('EUA' instead of 'GER' or 'DEU' for Germany, assuming it's an abbreviation for Germany). Table structure has issues with the last two rows being misaligned and missing rank numbers. Numeric precision is high, with only one hyphen instead of a zero. Layout preservation suffers from the misaligned last two rows. Completeness is good, but the missing rank numbers and the hyphen instead of a zero are minor omissions."
+  },
+  "timestamp": "2026-04-08 22:43:24"
+}

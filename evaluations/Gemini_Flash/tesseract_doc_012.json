@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 5,
+    "table_structure": 0,
+    "numeric_precision": 0,
+    "layout_preservation": 5,
+    "completeness": 0,
+    "total_score": 2.25,
+    "notes": "The OCR output is almost entirely missing the ground truth content. It only captures a small portion of a distribution list and a 'RESTRICTED' label, with significant errors in character recognition and formatting. No document structure, key details, or insights are present. The text accuracy is extremely low due to numerous misrecognitions and missing content. Table structure and numeric precision are irrelevant as no such data was extracted correctly. Layout preservation is poor as the overall structure is lost. Completeness is virtually zero."
+  },
+  "timestamp": "2026-04-08 22:46:53"
+}

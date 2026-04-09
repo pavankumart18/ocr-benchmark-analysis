@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 75,
+    "total_score": 81.25,
+    "notes": "Text accuracy impacted by missing words ('any' before 'attorney-in-fact'), omitted phrase 'nor any' before 'attorney-in-fact', missing 'for' in one clause, and OCR misread '/s/' as 'Is/'. Layout mostly preserved but some punctuation replaced by underscores and minor formatting issues. No tables present, so table structure fully preserved. Numeric data including date fully accurate. Some trailing extraneous words at the end reduce completeness."
+  },
+  "timestamp": "2026-04-08 23:07:15"
+}

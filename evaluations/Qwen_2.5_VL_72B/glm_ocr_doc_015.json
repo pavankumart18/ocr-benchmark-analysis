@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "glm_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 40,
+    "layout_preservation": 10,
+    "completeness": 5,
+    "total_score": 17.5,
+    "notes": "The OCR output is severely truncated and lacks most of the content from the ground truth. It only partially captures the table structure and numeric data for New Product A, with significant portions of the text and details missing. The layout and completeness are severely compromised."
+  },
+  "timestamp": "2026-04-08 23:09:33"
+}

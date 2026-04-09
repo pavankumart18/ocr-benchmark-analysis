@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 70,
+    "total_score": 79.75,
+    "notes": "Minor text inaccuracies (e.g., 'Chg. Index' columns not in ground truth). Table structure altered with extra columns. Numeric precision mostly correct except for 'Contribution ($MM)' in 1987 (21.5 vs. 11.5). Layout preserved but sections like 'Insights and Observations' missing. Completeness affected by missing sections and assumptions."
+  },
+  "timestamp": "2026-04-08 23:22:01"
+}

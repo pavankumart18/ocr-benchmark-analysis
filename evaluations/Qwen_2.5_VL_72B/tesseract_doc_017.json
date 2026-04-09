@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 65,
+    "completeness": 75,
+    "total_score": 70.25,
+    "notes": "There are several text accuracy issues such as incorrect country abbreviations (e.g., 'iT' for Italy, 'EUA' for Germany) and symbols (e.g., '@im' instead of 'Australia'). The table structure is somewhat preserved but with alignment issues. Numeric values seem mostly correct. Layout preservation is moderate with some misalignment and incorrect symbols. Completeness is decent but with some missing or incorrect data."
+  },
+  "timestamp": "2026-04-08 23:16:25"
+}

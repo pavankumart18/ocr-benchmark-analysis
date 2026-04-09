@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 70,
+    "total_score": 82.5,
+    "notes": "The OCR output has several minor text accuracy issues, such as missing words ('any' and 'for') and a typo ('Is/' instead of '/s/'). The table structure is not applicable as there are no tables. Numeric precision is perfect. Layout preservation is mostly correct but has some minor issues. Completeness is affected by the missing words."
+  },
+  "timestamp": "2026-04-08 23:18:18"
+}

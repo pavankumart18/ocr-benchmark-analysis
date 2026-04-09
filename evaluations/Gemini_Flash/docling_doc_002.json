@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 95.0,
+    "notes": "The OCR output accurately extracted the company name, date, and address. There was a minor typo in the address (8110O instead of 81100) and the total amount (60.31 instead of 60.30, though 60.30 is also present later). The table structure is well-preserved, and the layout is generally good. All key information from the ground truth is present."
+  },
+  "timestamp": "2026-04-08 22:44:14"
+}

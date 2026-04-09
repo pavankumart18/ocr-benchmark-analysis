@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 15,
+    "table_structure": 0,
+    "numeric_precision": 25,
+    "layout_preservation": 5,
+    "completeness": 8,
+    "total_score": 12,
+    "notes": "OCR output is severely garbled with extensive character recognition errors, missing most of the document content including title, organization, date, and structured sections. Only fragments of text are recognizable, with heavy misspellings throughout. Document structure and formatting completely lost."
+  },
+  "timestamp": "2026-04-08 22:57:09"
+}

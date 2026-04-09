@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 20,
+    "numeric_precision": 30,
+    "layout_preservation": 75,
+    "completeness": 25,
+    "total_score": 55.5,
+    "notes": "Text is mostly accurate with minor spacing issues. Major problems include: tables replaced with placeholder comments, most numeric data missing except isolated '$1.4', incomplete content with only fragment 'Critical Care' visible, and significant data loss in revenue sections."
+  },
+  "timestamp": "2026-04-08 22:55:21"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 40,
+    "numeric_precision": 75,
+    "layout_preservation": 45,
+    "completeness": 85,
+    "total_score": 60.5,
+    "notes": "Company name correct, but address has OCR errors ('No12124' vs 'NO 122.124', 'JOHIOR EAHIRU' vs 'JOHOR BAHRU'). Date shows '26/12/2018' vs correct '25/12/2018'. Total amount '80.90' is correct. Many extraneous characters and garbled text throughout. Table structure poorly preserved with fragmented layout."
+  },
+  "timestamp": "2026-04-08 22:58:24"
+}

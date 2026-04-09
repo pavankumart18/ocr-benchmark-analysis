@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 0,
+    "numeric_precision": 100,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 55,
+    "notes": "Text accuracy suffers from misspellings (e.g., 'TANAN DATA' for 'TAMAN DAYA', 'JALAN SACU HE' for 'JALAN SAGU 18'). Table structure is missing as the OCR output doesn't preserve any tabular format. Numeric precision is perfect with correct total amount and date. Layout preservation is poor due to incorrect reading order and mixed sections. Completeness is good as most key information is captured but with errors."
+  },
+  "timestamp": "2026-04-08 23:35:06"
+}

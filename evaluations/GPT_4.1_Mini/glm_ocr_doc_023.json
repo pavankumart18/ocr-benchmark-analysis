@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 40,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 72.25,
+    "notes": "Company name mostly correct; minor typo in address ('DEDAP' vs 'DEDAF'). Numeric values mostly accurate except total line confusing with multiple amounts. Table structure poorly preserved with mixed item lines and unclear totals. Layout order mostly correct but extra unrelated text present. Overall, most ground truth text captured but with formatting and structural issues."
+  },
+  "timestamp": "2026-04-08 23:01:41"
+}

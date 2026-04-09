@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 0,
+    "table_structure": 0,
+    "numeric_precision": 0,
+    "layout_preservation": 0,
+    "completeness": 0,
+    "total_score": 0,
+    "notes": "The OCR output is completely empty, containing only an HTML comment for an image. No text from the ground truth was extracted, resulting in a score of 0 across all criteria."
+  },
+  "timestamp": "2026-04-08 22:45:41"
+}

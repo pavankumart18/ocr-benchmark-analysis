@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 85,
+    "layout_preservation": 40,
+    "completeness": 60,
+    "total_score": 53.75,
+    "notes": "Significant text errors including company name ('ABC HO TRADING' misread as 'Ac HO TRADINc'), address fragmented and incorrect, extraneous unrelated text present. Table structure poorly preserved with scattered columns and rows. Numeric data mostly accurate (dates and totals match), but some unrelated numbers appear. Layout and reading order disrupted by mixed irrelevant lines. Partial completeness with key fields present but many details missing or garbled."
+  },
+  "timestamp": "2026-04-08 23:06:55"
+}

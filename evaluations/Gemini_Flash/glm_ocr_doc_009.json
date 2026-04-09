@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 99,
+    "total_score": 98.05,
+    "notes": "The OCR output is very accurate. The only minor discrepancies are the missing 'EX-24 2 hsic-ex24.htm EX-24' at the very beginning and some minor formatting differences in line breaks and spacing, which slightly impacts layout preservation and completeness. Character-level accuracy is excellent."
+  },
+  "timestamp": "2026-04-08 22:41:17"
+}

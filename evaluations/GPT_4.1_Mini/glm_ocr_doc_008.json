@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 90,
+    "total_score": 96.25,
+    "notes": "OCR output matches ground truth very closely with no spelling or character errors. Numeric data including dates and section numbers are exact. Layout and reading order are preserved well. The only minor issue is a missing line break between paragraphs in the first section, causing slight formatting difference and a minor completeness deduction for that subtle omission."
+  },
+  "timestamp": "2026-04-08 23:00:48"
+}

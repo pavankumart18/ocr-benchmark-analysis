@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 40,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 74.25,
+    "notes": "Company name, date, and address mostly correct with minor spacing issues. Table structure poorly preserved with extra unrelated data and no clear alignment of columns/rows. Numeric values mostly accurate except total amount shows slight rounding adjustments and extra cash/change info not in ground truth. Layout order mostly correct but cluttered with extraneous receipt details. Overall, most ground truth text present but table and formatting significantly degraded."
+  },
+  "timestamp": "2026-04-08 23:01:55"
+}

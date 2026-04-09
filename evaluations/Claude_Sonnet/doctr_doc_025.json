@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 74,
+    "notes": "Company name and total amount correctly extracted. Date has minor formatting issue (25/122018 vs 25/12/2018). Address missing periods and has spacing issues (NO12124 vs NO 122.124). OCR captured extensive additional content not in ground truth, with some garbled text in table structure and mixed formatting throughout."
+  },
+  "timestamp": "2026-04-08 22:53:50"
+}

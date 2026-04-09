@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 15,
+    "table_structure": 10,
+    "numeric_precision": 25,
+    "layout_preservation": 20,
+    "completeness": 30,
+    "total_score": 18.5,
+    "notes": "OCR output is severely garbled with most text unrecognizable. Company name completely corrupted ('Inn4k WFE' vs 'INDAH GIFT & HOME DECO'), address fragmented and illegible, date missing entirely. Only partial numeric values detected (60.30 appears as fragments). Text is largely unintelligible with random characters and broken formatting throughout."
+  },
+  "timestamp": "2026-04-08 23:00:09"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "glm_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 81.25,
+    "notes": "The OCR output contains additional text not present in the ground truth, such as the cashier's name and transaction details. The table structure is not preserved as the ground truth does not include a table. Numeric values and dates match the ground truth. The layout is mostly preserved but includes extra information. All key text from the ground truth is captured."
+  },
+  "timestamp": "2026-04-08 23:08:48"
+}

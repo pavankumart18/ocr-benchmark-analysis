@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 88.25,
+    "notes": "The OCR output has high fidelity to the ground truth with minor issues such as missing spaces (e.g., 'EXHIBIT24'), incorrect punctuation (e.g., '\uff081\uff09' instead of '(1)'), and some formatting inconsistencies. The content is complete and numeric precision is perfect. Layout is mostly preserved but with some spacing and formatting errors."
+  },
+  "timestamp": "2026-04-08 23:29:03"
+}

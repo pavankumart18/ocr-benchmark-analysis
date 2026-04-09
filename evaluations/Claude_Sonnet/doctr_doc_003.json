@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 82,
+    "notes": "Minor OCR errors include 'D.1.Y.' instead of 'D.I.Y.' and some formatting inconsistencies. The OCR captured significantly more detail than the ground truth including full receipt content, product details, and transaction information. Key data points (company name, date, address, total) are accurately extracted with only minor character-level errors."
+  },
+  "timestamp": "2026-04-08 22:52:03"
+}

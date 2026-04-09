@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 96.0,
+    "notes": "All fields from the ground truth are present in the OCR output. 'company' and 'address' are exact matches. 'date' is an exact match. 'total' is '80.90' in ground truth and '80.90' in OCR, which is an exact match. The OCR output contains additional information not in the ground truth, but this does not detract from the accuracy of the extracted ground truth fields."
+  },
+  "timestamp": "2026-04-08 22:42:28"
+}

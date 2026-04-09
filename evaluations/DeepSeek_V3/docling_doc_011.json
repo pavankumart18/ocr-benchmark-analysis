@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 89,
+    "notes": "Minor text inaccuracies include missing spaces, incorrect numbering (e.g., 'ii.' repeated), and minor formatting issues. The layout is mostly preserved but has some inconsistencies in section headers and bullet points. All numeric values and dates are correct. No major text is missing."
+  },
+  "timestamp": "2026-04-08 23:29:24"
+}

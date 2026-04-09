@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 0,
+    "numeric_precision": 0,
+    "layout_preservation": 0,
+    "completeness": 10,
+    "total_score": 10,
+    "notes": "The OCR output is highly garbled with numerous character-level errors, missing words, and incorrect formatting. There are no tables preserved, numeric values are not accurately represented, and the layout is completely disrupted. Only a small portion of the original text is captured."
+  },
+  "timestamp": "2026-04-08 23:18:39"
+}

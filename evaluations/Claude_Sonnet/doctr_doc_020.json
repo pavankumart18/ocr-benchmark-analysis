@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 45,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 64.5,
+    "notes": "Multiple OCR errors including 'Asecerecirsareplete' (Assessment complete), 'connectiopesecure' (connections secure), 'OVEPARSEatIS' (Overall Status). Table structure severely damaged with misaligned columns and missing Pass/Fail/N/A markings. Header information and dates captured correctly."
+  },
+  "timestamp": "2026-04-08 22:53:25"
+}

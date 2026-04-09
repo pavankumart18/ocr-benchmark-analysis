@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 66.25,
+    "notes": "Key issues: Misspellings ('Ac HO TRADINc', 'JOHOk'), incorrect address format ('No,284' vs 'NO.2&4'), extra irrelevant text (cashier, change, footer notes). Numeric values and date are correct. Table structure is garbled with mixed content."
+  },
+  "timestamp": "2026-04-08 23:36:22"
+}

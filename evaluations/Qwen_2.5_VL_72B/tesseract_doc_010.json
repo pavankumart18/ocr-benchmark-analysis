@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 96.25,
+    "notes": "The OCR output is nearly identical to the ground truth with no significant errors. There are no tables to evaluate, and all numeric and date information is preserved accurately. The layout and completeness are also well-maintained."
+  },
+  "timestamp": "2026-04-08 23:15:49"
+}

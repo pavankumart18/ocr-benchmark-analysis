@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 70,
+    "notes": "Text accuracy suffers from missing spaces and minor errors (e.g., 'ABCHOTRADING'). Table structure is partially preserved but lacks proper formatting. Numeric precision is good except for a minor date format issue. Layout is garbled with mixed sections. Most ground truth content is captured but with formatting issues."
+  },
+  "timestamp": "2026-04-08 23:28:36"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 40,
+    "numeric_precision": 85,
+    "layout_preservation": 45,
+    "completeness": 80,
+    "total_score": 62,
+    "notes": "Company name has spacing issues (TA .K vs TA_k), address missing characters and has symbol errors (NO.53 vs NO5, & $ vs &). Date and total amount are correct. OCR captured extra receipt content not in ground truth, but core required fields are present with moderate accuracy issues."
+  },
+  "timestamp": "2026-04-08 22:58:09"
+}

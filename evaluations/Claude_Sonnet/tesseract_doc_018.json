@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 40,
+    "numeric_precision": 60,
+    "layout_preservation": 45,
+    "completeness": 70,
+    "total_score": 59,
+    "notes": "Text is mostly accurate with minor issues. Major problems include: fragmented table structure with business units scattered without clear organization, missing actual revenue numbers (only shows unit labels), poor spatial relationships between elements, and incomplete table formatting. The content appears to be from a revenue breakdown chart but lacks the critical numerical data and proper tabular structure."
+  },
+  "timestamp": "2026-04-08 22:57:29"
+}

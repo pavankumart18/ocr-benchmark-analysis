@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_015",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 35,
+    "numeric_precision": 40,
+    "layout_preservation": 30,
+    "completeness": 20,
+    "notes": "OCR output is severely garbled with numerous misspellings ('Medja' for 'Media', 'Salqp' for 'Sales'), missing critical data (most numeric values for 1986-1988), incomplete table structure, and lacks document title and key contextual information. Only fragments of the original financial forecast are captured."
+  },
+  "timestamp": "2026-04-08 22:57:14"
+}

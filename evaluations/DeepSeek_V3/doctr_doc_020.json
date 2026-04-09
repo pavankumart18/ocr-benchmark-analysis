@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 79.25,
+    "notes": "Key issues include misspellings (e.g., 'Asecerecirsareplete', 'connectiopesecure', 'OVEPARSEatIS'), garbled text in critical sections, and minor table alignment issues. Numeric data (dates, IDs) is accurately captured."
+  },
+  "timestamp": "2026-04-08 23:26:09"
+}

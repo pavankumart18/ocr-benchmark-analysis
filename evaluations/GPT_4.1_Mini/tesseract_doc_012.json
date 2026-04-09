@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 5,
+    "layout_preservation": 15,
+    "completeness": 10,
+    "total_score": 13.25,
+    "notes": "The OCR output is heavily garbled with many misspellings and incorrect characters, resulting in very low text accuracy. The table or list structure is poorly preserved, with rows and columns not clearly defined or aligned. Numeric data such as dates and numbering are mostly incorrect or missing, leading to very low numeric precision. The reading order and layout are not maintained, with fragmented and disorganized text flow. Overall, the output captures only a small fraction of the ground truth content, missing most key information."
+  },
+  "timestamp": "2026-04-08 23:05:45"
+}

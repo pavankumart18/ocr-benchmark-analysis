@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 100,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 72,
+    "notes": "Text accuracy suffers from minor typos (e.g., 'TANAN DAYA' instead of 'TAMAN DAYA', 'JALAN SAGU IR' instead of 'JALAN SAGU 18'). Table structure is partially preserved but includes irrelevant sections. Numeric precision is perfect. Layout preservation is compromised by extra text and incorrect reading order. Completeness is good but missing 'company' field and includes unrelated text."
+  },
+  "timestamp": "2026-04-08 23:22:55"
+}

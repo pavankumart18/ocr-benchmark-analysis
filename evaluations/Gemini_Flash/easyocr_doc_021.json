@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 40,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 44,
+    "notes": "Significant issues with text accuracy, especially in the item descriptions and names. Many words are misspelled or garbled. Table structure is poorly preserved, with columns misaligned and data mixed. Numeric precision is also affected by misread characters and incorrect values. Layout is somewhat preserved in terms of general flow but specific alignments are lost. Completeness is fair, as most text seems to be present, but the quality is very low."
+  },
+  "timestamp": "2026-04-08 22:49:38"
+}

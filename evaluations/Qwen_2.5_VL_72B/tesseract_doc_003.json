@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 0,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 74.75,
+    "notes": "The OCR output has high text accuracy for the company name, address, and total amount. However, it lacks table structure preservation as there are no tables in the ground truth. Numeric precision is high except for minor discrepancies in the total amount. Layout preservation is moderate as the reading order is somewhat maintained but with additional content. Completeness is good but includes extra information not present in the ground truth."
+  },
+  "timestamp": "2026-04-08 23:15:16"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "glm_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 94.5,
+    "notes": "The OCR output is highly accurate with only minor differences in formatting and structure. The text is mostly identical to the ground truth, with only slight variations in layout and section numbering. No tables are present, so table structure is not applicable. Numeric precision is perfect as there are no numbers to compare. Layout preservation is slightly off due to missing section labels like 'Page 1'. Completeness is high, with all major content captured."
+  },
+  "timestamp": "2026-04-08 23:09:14"
+}

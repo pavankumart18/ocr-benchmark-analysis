@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 45,
+    "layout_preservation": 20,
+    "completeness": 35,
+    "total_score": 27,
+    "notes": "Severely garbled OCR output with extensive character recognition errors throughout. Company name fragmented, address heavily corrupted with misspellings like 'Balakowg' for 'BALAKONG', 'PerindustrIam' for 'PERINDUSTRIAN'. Date partially captured but in wrong format. Total amount correct (33.90) but other numerical values are incorrect or extraneous. Receipt structure completely lost with random text fragments and poor reading order."
+  },
+  "timestamp": "2026-04-08 23:00:14"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 75,
+    "total_score": 85.25,
+    "notes": "The OCR output accurately captures most text and numeric data with very few errors. The table structure is well preserved with correct columns and rows. Numeric values match the ground truth precisely except for the '84 projections' total which is given as 4,916 (a) instead of being omitted or clarified in the ground truth. The layout is mostly maintained but the introductory document type and key details sections are missing, reducing completeness. Notes (a) and (b) are present but slightly paraphrased. Overall, the OCR output focuses on the financial table and budget notes, omitting the descriptive text and document metadata."
+  },
+  "timestamp": "2026-04-08 23:01:05"
+}

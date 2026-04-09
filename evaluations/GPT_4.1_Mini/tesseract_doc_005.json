@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 10,
+    "numeric_precision": 70,
+    "layout_preservation": 30,
+    "completeness": 50,
+    "total_score": 39.5,
+    "notes": "The OCR output has major text inaccuracies, especially in the company name and address, with many garbled and incorrect characters. The table structure is almost entirely lost, with no clear preservation of columns or rows. Numeric precision is somewhat better, with the total amount close but with minor rounding differences and date correctly extracted. Layout is poorly preserved, with reading order disrupted and extraneous unrelated text included. Completeness is partial; key fields like company name and address are present but heavily corrupted."
+  },
+  "timestamp": "2026-04-08 23:05:18"
+}

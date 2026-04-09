@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 20,
+    "numeric_precision": 70,
+    "layout_preservation": 40,
+    "completeness": 50,
+    "total_score": 46.75,
+    "notes": "Significant OCR errors in company name and address (e.g., 'INDAR DIFT & HEME BECO' vs 'INDAH GIFT & HOME DECO'), many misspellings and garbled words. Table structure is poorly preserved with mixed item descriptions and quantities/prices not clearly aligned. Numeric data like total amount and date are mostly correct but some prices and totals are inconsistent or unclear. Layout and reading order are disrupted by inserted unrelated text and formatting loss. Key fields like company, date, address, and total are present but with errors and extra unrelated content."
+  },
+  "timestamp": "2026-04-08 23:03:20"
+}

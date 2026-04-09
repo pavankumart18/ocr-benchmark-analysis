@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 81.25,
+    "notes": "The OCR output has minor text accuracy issues like additional text and slight variations in numbers. The table structure is not perfectly preserved as the OCR output includes more details not present in the ground truth. Numeric precision is high except for minor discrepancies. Layout preservation is decent but not perfect. Completeness is good but includes extra information."
+  },
+  "timestamp": "2026-04-08 23:15:23"
+}

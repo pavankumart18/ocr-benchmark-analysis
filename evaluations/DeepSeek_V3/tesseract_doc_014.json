@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 0,
+    "numeric_precision": 0,
+    "layout_preservation": 10,
+    "completeness": 5,
+    "total_score": 11.5,
+    "notes": "OCR output is severely garbled with major errors, missing most of the ground truth text, incorrect characters, and no preservation of structure or numeric details."
+  },
+  "timestamp": "2026-04-08 23:33:49"
+}

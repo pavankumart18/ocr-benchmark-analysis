@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 96.5,
+    "notes": "Minor text error in company name (SON instead of SDN). Numeric precision for total is correct, but the OCR output shows 'RM 30.91' before 'TOTAL ROUNDED RM 30.90', which is a slight deviation from the direct ground truth value, though the final total is correct. All other fields are perfectly extracted."
+  },
+  "timestamp": "2026-04-08 22:42:32"
+}

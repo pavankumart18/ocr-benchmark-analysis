@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 55,
+    "total_score": 62,
+    "notes": "The OCR output captures some key details but misses a significant portion of the descriptive text and overall document structure. Text accuracy is fair for the extracted parts, but there are some character errors and missing words. The distribution list is partially preserved as a list, but not as a structured table. Numeric precision is good for dates and numbers that are present. Layout is fragmented, and completeness is low due to missing introductory and concluding paragraphs, and the detailed breakdown of sections."
+  },
+  "timestamp": "2026-04-08 22:43:08"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 0,
+    "numeric_precision": 0,
+    "layout_preservation": 5,
+    "completeness": 5,
+    "total_score": 5,
+    "notes": "The OCR output is largely garbled and does not accurately extract the key information from the ground truth. 'company' is partially recognized but with significant errors ('TWBAH GIFT. B ee 2609' instead of 'INDAH GIFT & HOME DECO'). 'date' is completely wrong ('L9F1G72018' instead of '19/10/2018'). 'address' has some recognizable parts but with errors and missing information. 'total' is not found at all. The overall structure and layout are not preserved, and much of the ground truth is missing or incorrect."
+  },
+  "timestamp": "2026-04-08 22:47:40"
+}

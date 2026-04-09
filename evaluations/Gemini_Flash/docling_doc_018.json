@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 85,
+    "completeness": 50,
+    "total_score": 59.5,
+    "notes": "Text accuracy is good for the extracted text. However, the output explicitly states '<!-- image -->' for two sections, indicating that the content of these sections (likely tables or charts) was not extracted as text. This significantly impacts table structure, numeric precision (as numbers within those images are missing), and completeness. The 'Critical Care' and '$1.4' seem to be orphaned text, possibly from one of the missing images, which also affects layout and completeness."
+  },
+  "timestamp": "2026-04-08 22:45:55"
+}

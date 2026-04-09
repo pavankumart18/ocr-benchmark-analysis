@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 95.0,
+    "notes": "The OCR output accurately extracted the 'company', 'date', 'address', and 'total' fields. Minor discrepancies include the extra space in 'TA .K' in the ground truth vs 'TA K' in OCR, and the full timestamp for the date in OCR. The structure is not a table in the ground truth, so table structure is considered perfect. All required fields are present."
+  },
+  "timestamp": "2026-04-08 22:42:20"
+}

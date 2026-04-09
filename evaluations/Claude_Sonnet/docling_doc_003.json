@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 75,
+    "notes": "Good extraction of key data fields with minor OCR errors like 'MRD.I.Y.' instead of 'MR D.I.Y.' and '&amp;' instead of '&'. Table structure partially preserved but mixed with other receipt content. All critical numbers (date, total) are accurate. Layout readable but includes extra receipt details not in ground truth."
+  },
+  "timestamp": "2026-04-08 22:54:05"
+}

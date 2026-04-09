@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "glm_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 91.25,
+    "notes": "The OCR output is highly accurate with minor discrepancies in table structure and layout preservation. The text accuracy is excellent except for the inclusion of additional text not present in the ground truth. Numeric values and dates are perfectly matched. The layout is mostly preserved but includes extra information."
+  },
+  "timestamp": "2026-04-08 23:08:19"
+}

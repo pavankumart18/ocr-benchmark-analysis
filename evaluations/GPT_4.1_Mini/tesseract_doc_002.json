@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 20,
+    "numeric_precision": 60,
+    "layout_preservation": 40,
+    "completeness": 45,
+    "total_score": 46.75,
+    "notes": "Significant misspelling of company name ('BECO' vs 'DECO'), address errors ('TANAN' vs 'TAMAN'), and missing punctuation. The receipt includes many unrelated lines and extraneous text not in ground truth. No clear table structure matching ground truth; item lines are present but do not correspond to ground truth data. Date matches exactly, but total amount is missing. Layout is disorganized with mixed unrelated content. Overall, major portions of ground truth text are missing or incorrect."
+  },
+  "timestamp": "2026-04-08 23:05:07"
+}

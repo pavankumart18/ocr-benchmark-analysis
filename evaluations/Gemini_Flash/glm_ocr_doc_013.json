@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 60,
+    "total_score": 75.25,
+    "notes": "The OCR output accurately captures the table structure and most numeric values. However, it misses significant contextual text from the ground truth, including the document type, organization, date, and detailed insights/observations. The notes (a) and (b) are present but rephrased, and note (b) in the OCR output is significantly different from the ground truth's note (b) and the 'Unassigned Balance' note. The 'Total Spending' for '84 Projections' is incorrect in the OCR output (4,916 vs 8,500 in ground truth's implied total budget). The ground truth also has a 'Total for '83' for Total Spending which is not explicitly present in the OCR table's 'TOTAL' row, though the sum is correct."
+  },
+  "timestamp": "2026-04-08 22:41:37"
+}

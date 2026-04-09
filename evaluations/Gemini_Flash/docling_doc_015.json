@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 10,
+    "numeric_precision": 30,
+    "layout_preservation": 20,
+    "completeness": 20,
+    "total_score": 28,
+    "notes": "The OCR output completely misinterprets the document's structure, presenting a detailed table with many extra rows and data not present in the ground truth summary. It fails to extract the high-level summary points and key details. While some numbers are present, they are often in the wrong context or combined with incorrect data. The text accuracy is low due to numerous OCR errors, missing information, and the inclusion of extraneous data. The overall layout and completeness are very poor as the OCR output is a detailed table rather than a summary."
+  },
+  "timestamp": "2026-04-08 22:45:44"
+}

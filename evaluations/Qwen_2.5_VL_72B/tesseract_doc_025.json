@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 80,
+    "layout_preservation": 55,
+    "completeness": 70,
+    "total_score": 65.5,
+    "notes": "The OCR output contains several misspellings and wrong characters, such as 'HOI? JALAN DEDAR 13' instead of 'NO 122.124. JALAN DEDAP 13'. The table structure is not preserved correctly, and the date is missing. Numeric values are mostly accurate, but there are minor discrepancies. The layout is somewhat preserved but not entirely correct. Most of the ground truth text is captured, but some details are missing or incorrect."
+  },
+  "timestamp": "2026-04-08 23:17:17"
+}

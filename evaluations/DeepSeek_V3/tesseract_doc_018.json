@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83,
+    "notes": "Minor typos and alignment issues in table structure. Text accuracy is good with minor errors like 'BD Life 1 ) 3' instead of 'BD Life Sciences Biosciences'. Numeric precision and completeness are strong. Layout is mostly preserved but with some formatting inconsistencies."
+  },
+  "timestamp": "2026-04-08 23:34:26"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 89,
+    "notes": "The OCR output is highly accurate with minor issues in table structure and layout preservation. There are slight discrepancies in the distribution list formatting and a minor typo ('TECHNICAL' vs 'TECHNICAL'). The numeric precision is perfect, and the completeness is nearly flawless with all key details captured."
+  },
+  "timestamp": "2026-04-08 23:21:25"
+}

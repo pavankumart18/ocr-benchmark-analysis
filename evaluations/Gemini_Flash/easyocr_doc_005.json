@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 0,
+    "numeric_precision": 60,
+    "layout_preservation": 10,
+    "completeness": 20,
+    "total_score": 24,
+    "notes": "The OCR output is highly inaccurate for text fields, with significant misspellings and missing information for 'company' and 'address'. The 'company' name is completely missing. The 'address' is fragmented and contains many errors. While the 'date' is present, the 'total' is only partially correct in its final form. The overall structure and layout are not preserved, and much of the ground truth information is either absent or heavily corrupted."
+  },
+  "timestamp": "2026-04-08 22:48:22"
+}

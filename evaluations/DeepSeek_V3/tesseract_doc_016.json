@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 64.25,
+    "notes": "OCR output has significant text inaccuracies (e.g., 'SOM * +20' instead of 'SOM:'), garbled table structure (missing headers, incorrect alignment), and numeric errors (e.g., '734.6' instead of '-34.6'). Some sections are incomplete or misformatted, but key data is mostly captured."
+  },
+  "timestamp": "2026-04-08 23:34:15"
+}

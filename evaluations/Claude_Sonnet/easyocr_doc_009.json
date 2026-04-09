@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_009",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 70,
+    "notes": "Multiple text errors including missing 'for,' in section (1), '0n' instead of 'on', missing opening parenthesis in section (4), period instead of period at end of long paragraph, 'Or' instead of 'or', and colon instead of period. Document is incomplete - cuts off mid-sentence. Layout and numbered sections are generally preserved well."
+  },
+  "timestamp": "2026-04-08 22:58:56"
+}

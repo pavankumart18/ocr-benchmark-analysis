@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 55,
+    "table_structure": 100,
+    "numeric_precision": 80,
+    "layout_preservation": 85,
+    "completeness": 60,
+    "total_score": 68,
+    "notes": "Text accuracy is significantly impacted by numerous misspellings and character errors (e.g., 'SHOKE' instead of 'SMOKE', 'INDALERS' instead of 'INMATES', 'CDANGING' instead of 'CHANGING', 'DEALIH FOONDATION' instead of 'HEALTH FOUNDATION'). While the document type and key details are present, the structured format of the ground truth is not replicated in the OCR output. Numeric precision is fair, with most numbers correct but some missing context. Layout is generally preserved for the extracted text, but the ground truth's structured breakdown is lost. Completeness is low as only the introduction and purpose are extracted, missing the insights and observations section."
+  },
+  "timestamp": "2026-04-08 22:43:14"
+}

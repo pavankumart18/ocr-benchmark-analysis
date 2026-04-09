@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 10,
+    "numeric_precision": 80,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 58.5,
+    "notes": "The OCR output contains many concatenated words and missing spaces, causing reduced text accuracy. The table structure is not preserved at all, as the original document has no tables but the OCR output uses list markers inconsistently and merges lines. Numeric precision is mostly intact with correct dates and numbering. Layout preservation is poor due to incorrect reading order, misplaced headings, and missing section breaks. Completeness is moderate; some text is missing or truncated, especially in section 2 and 3C. Overall, the output is a partial and noisy extraction with significant formatting and spacing errors."
+  },
+  "timestamp": "2026-04-08 23:04:08"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 30,
+    "numeric_precision": 70,
+    "layout_preservation": 50,
+    "completeness": 65,
+    "total_score": 55.5,
+    "notes": "Significant misspellings in address (HARMONT vs HARMONI), missing company prefix line, garbled and incomplete table data, partial numeric matches (date correct, total amount unclear), poor layout with mixed sections and missing clear formatting, and incomplete capture of ground truth text."
+  },
+  "timestamp": "2026-04-08 23:05:21"
+}

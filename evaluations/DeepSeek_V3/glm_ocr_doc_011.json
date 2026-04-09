@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 95,
+    "notes": "The OCR output is highly accurate with minor omissions (header 'EX-19.1 2 exhibit191.htm EXHIBIT 19.1' and 'Page 1' at the end). Layout is well preserved with correct section ordering and formatting. No issues with numeric precision or table structure."
+  },
+  "timestamp": "2026-04-08 23:21:18"
+}

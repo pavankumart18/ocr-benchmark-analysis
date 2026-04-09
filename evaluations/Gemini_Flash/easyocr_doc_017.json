@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 75,
+    "notes": "Text accuracy is good with a few minor errors like 'EUA' instead of 'GER' or 'FRG' for Germany, and ';' instead of numbers. Table structure is significantly flawed due to misaligned rows and missing data, especially for the last few entries. Numeric precision is impacted by the missing numbers and the ';' characters. Layout preservation is decent, but the broken table structure affects reading order for the last few rows. Completeness is relatively high, as most of the visible text is present, though some numerical data is missing."
+  },
+  "timestamp": "2026-04-08 22:49:24"
+}

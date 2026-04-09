@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 75,
+    "total_score": 75.25,
+    "notes": "OCR output has multiple missing words and phrases (e.g., missing 'any' before 'attorney-in-fact' in one place, missing '(e)' clause punctuation), some punctuation errors (semicolon replaced by comma), and a garbled signature line ('Is/' instead of '/s/'). Numeric data including the date is mostly correct. No tables present, so table structure is perfect. Layout is mostly preserved but some line breaks and section separations are inconsistent, and the final lines have extraneous words. Overall, significant omissions and minor errors reduce text accuracy and completeness."
+  },
+  "timestamp": "2026-04-08 23:07:05"
+}

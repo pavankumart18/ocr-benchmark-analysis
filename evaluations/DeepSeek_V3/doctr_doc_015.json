@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 70,
+    "notes": "OCR output has minor typos (e.g., 'Promotiont)', 'Sabof rromotion') and layout issues (e.g., misaligned tables, incorrect section breaks). Numeric values are mostly accurate, but some labels and footnotes are garbled or missing. Overall structure is preserved but with formatting errors."
+  },
+  "timestamp": "2026-04-08 23:25:29"
+}

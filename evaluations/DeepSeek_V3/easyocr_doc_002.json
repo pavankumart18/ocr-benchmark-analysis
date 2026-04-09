@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 68.5,
+    "notes": "Text accuracy suffers from minor typos (e.g., 'INdAh GIFt'). Table structure is poorly preserved with mixed data. Numeric precision is good (total matches). Layout is disrupted by extra text and incorrect ordering. Most ground truth content is captured but with noise."
+  },
+  "timestamp": "2026-04-08 23:35:43"
+}

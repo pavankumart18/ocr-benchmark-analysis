@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 65,
+    "notes": "Key issues: Incorrect company name ('tan woon yann' instead of 'MR D.I.Y. (M) SDN BHD'), garbled address with extra characters, missing 'INVOICE-' in ground truth. Numeric values and date are mostly correct. Layout is somewhat preserved but with extra irrelevant text."
+  },
+  "timestamp": "2026-04-08 23:32:11"
+}

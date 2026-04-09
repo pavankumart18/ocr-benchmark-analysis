@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 92,
+    "notes": "Excellent OCR extraction with all key information accurately captured. Minor issues include slight formatting differences in address presentation and table structure not perfectly preserved, but all critical data (company name, date, address, total) matches ground truth exactly."
+  },
+  "timestamp": "2026-04-08 22:51:59"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 40,
+    "numeric_precision": 75,
+    "layout_preservation": 45,
+    "completeness": 80,
+    "total_score": 60,
+    "notes": "Company name correctly extracted. Address has errors (DEDAR vs DEDAP, missing NO 122.124). Date extraction failed completely. Total amount 80.90 correctly identified. OCR captured extensive receipt content but with significant character recognition errors and garbled formatting throughout."
+  },
+  "timestamp": "2026-04-08 22:58:04"
+}

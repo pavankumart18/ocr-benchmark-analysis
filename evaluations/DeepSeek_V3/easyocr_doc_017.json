@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 50,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 66,
+    "notes": "Text accuracy suffers from minor errors like ';' instead of numbers. Table structure is disrupted with misaligned numbers and extra/missing entries. Numeric precision is poor due to incorrect or missing values. Layout is mostly preserved but reading order may be affected. Completeness is good but some numbers are missing."
+  },
+  "timestamp": "2026-04-08 23:38:10"
+}

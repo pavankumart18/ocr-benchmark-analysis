@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 60,
+    "completeness": 75,
+    "total_score": 64.75,
+    "notes": "The OCR output contains several errors in text accuracy, such as incorrect dates (e.g., '1214-1981' instead of '12-14-1981'), misspellings, and missing characters. The table structure is not well-preserved, with misalignment of rows and columns. Numeric precision is moderately accurate, but some dates and numbers are incorrect. The layout preservation is fair but not perfect, with some sections and headers not maintained correctly. Completeness is relatively good, but some parts of the text are missing or garbled."
+  },
+  "timestamp": "2026-04-08 23:16:53"
+}

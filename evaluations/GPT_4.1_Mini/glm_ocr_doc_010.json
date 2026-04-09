@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 90,
+    "total_score": 95.25,
+    "notes": "OCR output is nearly identical to ground truth with very minor differences: the ground truth has line breaks within the paragraph after '(i)', '(ii)', and '(iii)' which are merged into a single line in OCR output. This affects completeness slightly as the line breaks contribute to clarity but no words are missing. No spelling or character errors detected. No tables present, so table structure is perfect. Numeric data including date and form numbers match exactly. Layout and reading order are preserved well except for paragraph line breaks."
+  },
+  "timestamp": "2026-04-08 23:00:54"
+}

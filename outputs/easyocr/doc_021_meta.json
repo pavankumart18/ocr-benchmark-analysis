@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_021",
+  "model": "easyocr",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/103.png",
+  "category": "general_doc",
+  "source_dataset": "omni",
+  "processing_time_seconds": 3.8,
+  "output_length_chars": 2087,
+  "timestamp": "2026-04-08 22:09:36"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 74,
+    "notes": "Company name has typo 'BECO' instead of 'DECO'. Address has 'TANAN' instead of 'TAMAN'. Date and total amount are correct. OCR captured much more detail than ground truth including receipt items and formatting, but with some character recognition errors in key fields."
+  },
+  "timestamp": "2026-04-08 22:56:13"
+}

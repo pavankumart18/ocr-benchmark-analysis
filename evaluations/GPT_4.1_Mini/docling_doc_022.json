@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 10,
+    "numeric_precision": 70,
+    "layout_preservation": 30,
+    "completeness": 50,
+    "total_score": 39.5,
+    "notes": "Company name is partially recognized but with errors and missing spaces; address is heavily garbled and mostly unreadable; date is present but without separators; total amount '9.00' is correctly extracted but other numeric details are unclear; no clear table structure or columns preserved; layout is disorganized with mixed unrelated text; significant missing and corrupted text reduces completeness."
+  },
+  "timestamp": "2026-04-08 23:04:52"
+}

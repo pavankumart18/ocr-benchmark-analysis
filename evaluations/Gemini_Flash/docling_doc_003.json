@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 97.5,
+    "notes": "The OCR output is very accurate. The only minor discrepancy in text accuracy is the inclusion of '(C0.REG:933109-X)' and the slight formatting difference in the address, which are not present in the ground truth but do not detract from the core information."
+  },
+  "timestamp": "2026-04-08 22:44:17"
+}

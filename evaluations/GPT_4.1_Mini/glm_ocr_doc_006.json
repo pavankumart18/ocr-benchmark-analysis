@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 81.25,
+    "notes": "Company name correctly extracted but missing 'tan chay yee' (likely extraneous). Address mostly correct with minor casing differences. Date and total amounts match exactly. Table structure partially preserved but only one item row shown, no clear column alignment. Layout order mostly correct but extra unrelated text present. Overall, good numeric precision and completeness with minor text and structure issues."
+  },
+  "timestamp": "2026-04-08 23:00:40"
+}

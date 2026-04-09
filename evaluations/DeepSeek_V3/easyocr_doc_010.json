@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 90.25,
+    "notes": "Minor issues include missing words ('any' and 'for' misplaced), incorrect punctuation ('_' instead of '.'), and a typo ('Is/' instead of '/s/'). Overall, the OCR output is very close to the ground truth with no major errors."
+  },
+  "timestamp": "2026-04-08 23:36:56"
+}

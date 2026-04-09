@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 89.5,
+    "notes": "The OCR output captures most of the ground truth text accurately, with minor discrepancies in table structure and layout. The numeric values and dates match closely, but there are some additional details in the OCR output not present in the ground truth."
+  },
+  "timestamp": "2026-04-08 23:10:53"
+}

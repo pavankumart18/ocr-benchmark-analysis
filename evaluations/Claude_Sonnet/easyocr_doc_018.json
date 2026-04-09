@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 45,
+    "numeric_precision": 75,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 61,
+    "notes": "Multiple spelling errors ('indluding', 'Sysgerostic', '81,476' instead of '$1,476'). Table structure is severely compromised with misaligned data and unclear relationships between labels and values. Geographic revenue section is particularly garbled. Some numeric values appear correct but currency formatting is inconsistent. Layout shows attempt to preserve sections but poor alignment makes data relationships unclear."
+  },
+  "timestamp": "2026-04-08 22:59:42"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 79,
+    "notes": "Company name missing space (ABCHOTRADING vs ABC HO TRADING), address has HTML entity (&amp;) and spacing issues, but all key information is present. Numbers and date are accurate. Table structure is reasonably preserved though not in exact ground truth format."
+  },
+  "timestamp": "2026-04-08 22:54:19"
+}

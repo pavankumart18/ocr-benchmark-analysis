@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 90.25,
+    "notes": "Minor text inaccuracies in 'company' field (INDAR DIFT & HEME BECO instead of INDAH GIFT & HOME DECO). All other fields are accurately extracted with correct numeric values and layout. The ground truth does not contain table data, so table structure is considered perfect if the relevant fields are extracted correctly."
+  },
+  "timestamp": "2026-04-08 22:44:03"
+}

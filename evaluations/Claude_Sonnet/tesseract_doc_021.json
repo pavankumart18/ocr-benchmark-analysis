@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 55,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 44,
+    "notes": "Significant OCR errors throughout including garbled company names (IIZYYWVEM, WZAAGIKKVX), corrupted addresses, incomplete postal codes, missing currency symbols and amounts, poor table structure with misaligned data, and numerous character recognition failures. While most text sections are present, the quality is severely compromised."
+  },
+  "timestamp": "2026-04-08 22:57:45"
+}
