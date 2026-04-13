@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 92,
+    "notes": "Excellent OCR extraction with all key ground truth elements perfectly captured. Company name, date, address, and total amount are exactly correct. Minor issues include some formatting variations in the itemized table structure, but all critical financial data is accurate. The OCR captured significantly more detail than the ground truth baseline, including complete transaction information."
+  },
+  "timestamp": "2026-04-13 01:49:24"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 75,
+    "total_score": 76,
+    "notes": "Good text accuracy with minor name variations (e.g., 'Bergnaum' vs likely 'Bergmann'). Table structure partially preserved but columns not properly aligned - data appears mixed between BB and Puer sections. Numeric values and currencies captured accurately. Several consultant entries appear incomplete with missing financial data. Header information well preserved."
+  },
+  "timestamp": "2026-04-13 01:57:13"
+}

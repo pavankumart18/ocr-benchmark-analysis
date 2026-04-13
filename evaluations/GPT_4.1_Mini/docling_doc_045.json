@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 5,
+    "table_structure": 0,
+    "numeric_precision": 0,
+    "layout_preservation": 10,
+    "completeness": 5,
+    "total_score": 5.75,
+    "notes": "OCR output is mostly garbled and does not resemble the ground truth text. No recognizable company name, address, or date. Numeric values and table structure are completely missing or incorrect. Layout and reading order are not preserved. Overall, the extracted text fails to capture any meaningful content from the original."
+  },
+  "timestamp": "2026-04-13 02:13:06"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 40,
+    "layout_preservation": 20,
+    "completeness": 60,
+    "total_score": 26,
+    "notes": "Severely garbled OCR output with extensive character corruption throughout. Text appears to be upside down or rotated, causing systematic misrecognition of letters (e.g., 'u' as 'n', 'a' as 'e'). Time formats and some numbers are partially preserved, but most text is unintelligible. Document structure is completely lost with scrambled reading order."
+  },
+  "timestamp": "2026-04-13 01:56:37"
+}

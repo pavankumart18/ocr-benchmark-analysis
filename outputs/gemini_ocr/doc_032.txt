@@ -1,0 +1,7 @@
+Staff Shift Schedule
+Baumbachfort Medical Center -
+Week of June 12, 2025
+
+Employee	ID	Department	Thu 12	Fri 13	Sat 14	Sun 15	Mon 16	Tue 17	Wed 18
+Helen Thiel	IWSXAL	ICU		Afternoon 15:00-23:00	Night 23:00-07:00	Leave Sick Leave		Night 23:00-07:00	Afternoon 15:00-23:00
+Terrance Kunze	DVDGEB	Cardiology				Leave Sick Leave		Leave Sick Leave	Night

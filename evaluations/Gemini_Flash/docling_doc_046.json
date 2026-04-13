@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 0,
+    "numeric_precision": 70,
+    "layout_preservation": 50,
+    "completeness": 60,
+    "total_score": 50.5,
+    "notes": "Text accuracy is low due to significant errors in company name and address. Table structure is not preserved as the ground truth is a JSON object, not a table. Numeric precision is fair, with the total matching but the date having extra characters. Layout preservation is difficult to assess as the ground truth is structured data, but the OCR output has extraneous text. Completeness is moderate, as some key fields are present but others are missing or heavily garbled."
+  },
+  "timestamp": "2026-04-13 01:39:34"
+}

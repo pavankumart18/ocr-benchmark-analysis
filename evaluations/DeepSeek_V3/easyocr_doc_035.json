@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 65,
+    "numeric_precision": 75,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 69.25,
+    "notes": "The OCR output has several issues including misspellings (e.g., '7,.2' instead of '7.2'), incorrect characters (e.g., '0.' instead of '0'), and misaligned columns. The table structure is somewhat preserved but numbers are not always aligned correctly. Some numeric values are captured accurately, but there are errors in decimal points and formatting. The layout is partially preserved, but reading order is occasionally disrupted. Most of the visible text is captured, but there are minor omissions and garbled sections."
+  },
+  "timestamp": "2026-04-13 03:17:49"
+}

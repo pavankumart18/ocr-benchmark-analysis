@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 90,
+    "total_score": 95.25,
+    "notes": "OCR output closely matches ground truth with no spelling or character errors. Numeric data and formatting of numbered points are preserved perfectly. Layout and reading order are well maintained. The only issue is the OCR output truncates the last sentence, missing the ending after 'without independent verification of such', causing a slight completeness deduction."
+  },
+  "timestamp": "2026-04-13 02:18:36"
+}

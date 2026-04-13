@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 30,
+    "table_structure": 10,
+    "numeric_precision": 70,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 33.5,
+    "notes": "The OCR output contains severe text errors including misspellings and garbled words, especially in company name and address. The table structure is almost entirely lost with no clear columns or rows matching ground truth. Numeric values like total amount and date are partially correct but date is wrong and some amounts differ slightly. Layout and reading order are poorly preserved with unrelated sections mixed and formatting lost. Significant portions of the address and company name are missing or merged incorrectly, resulting in low completeness."
+  },
+  "timestamp": "2026-04-13 02:13:17"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 30,
+    "numeric_precision": 60,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 48.5,
+    "notes": "Significant OCR errors with many misspellings and incorrect characters (e.g., 'fornerly knoxn as', 'McDona Id'), company name partially correct but with case and spelling issues. Table structure is poorly preserved; item rows and totals are jumbled and unclear. Numeric values mostly present but some totals differ (20.60 vs 26.60), date is correct. Layout is disorganized with mixed reading order and extraneous unrelated text. Most ground truth fields are present but embedded in noisy text."
+  },
+  "timestamp": "2026-04-13 02:15:45"
+}

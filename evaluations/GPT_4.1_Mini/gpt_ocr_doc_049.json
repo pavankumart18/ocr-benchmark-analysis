@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 60,
+    "total_score": 67.5,
+    "notes": "Company name is correct, but address has multiple errors (NO.69 vs NO.59, JALAN PERMAS 15/5 vs 9/5, postal code 81750 vs 81760). Date and total amount match exactly. The OCR output includes many extra unrelated details and a full invoice table not present in ground truth, causing lower table structure and completeness scores. Layout is somewhat preserved but reading order is affected by added content. Overall, key fields partially correct but address errors and extraneous content reduce scores."
+  },
+  "timestamp": "2026-04-13 02:20:19"
+}

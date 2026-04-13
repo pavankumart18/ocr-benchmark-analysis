@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_007",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 89.75,
+    "notes": "Minor issues include extra text (e.g., 'tan chay yee', contact details) not in ground truth, but all key fields (company, date, address, total) are accurately captured. Table structure is mostly preserved but includes additional irrelevant rows. Numeric values and dates match perfectly."
+  },
+  "timestamp": "2026-04-13 03:34:17"
+}

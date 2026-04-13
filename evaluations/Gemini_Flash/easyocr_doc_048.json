@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 0,
+    "numeric_precision": 50,
+    "layout_preservation": 0,
+    "completeness": 10,
+    "total_score": 12,
+    "notes": "The OCR output is largely garbled and bears little resemblance to the ground truth. The company name is completely unrecognizable. The address is partially recognizable but heavily misspelled. The date is incorrect (21-01-2019 vs 23-01-2019). The total amount is correct, but its context is lost. No table structure is preserved, and the overall layout is chaotic. Many key pieces of information are missing or severely distorted."
+  },
+  "timestamp": "2026-04-13 01:41:43"
+}

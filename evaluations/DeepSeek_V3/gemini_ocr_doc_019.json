@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 85,
+    "total_score": 94.25,
+    "notes": "The OCR output is highly accurate with minor omissions in the 'Material, non-public information' section. The structure, layout, and numeric precision are well-preserved. The main issue is the incomplete capture of the bullet points under 'Information that may be material includes, but is not limited to'."
+  },
+  "timestamp": "2026-04-13 03:22:08"
+}

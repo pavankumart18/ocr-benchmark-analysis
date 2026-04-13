@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 0,
+    "numeric_precision": 70,
+    "layout_preservation": 50,
+    "completeness": 40,
+    "total_score": 43,
+    "notes": "Text accuracy is low due to significant misspellings and incorrect characters in the company name and address. The OCR output does not preserve any table structure as the ground truth is a flat JSON. Numeric precision is fair for the total and date, but the date format is slightly off. Layout preservation is poor as the OCR output includes a lot of extraneous information not present in the ground truth, and the reading order for the relevant fields is not ideal. Completeness is low because the company name is heavily garbled, and the address has some errors."
+  },
+  "timestamp": "2026-04-13 01:40:41"
+}

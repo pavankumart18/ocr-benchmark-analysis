@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 90,
+    "notes": "The OCR output correctly extracted all the required fields. There was a minor misspelling in the address ('BAHRI' instead of 'BAHRU') and a slight difference in the address number format ('No.284' instead of 'NO.2&4'). The date and total amount were extracted perfectly. The ground truth is a structured JSON, so table structure is not applicable in the traditional sense, but the relevant fields were found within the OCR output."
+  },
+  "timestamp": "2026-04-13 01:37:27"
+}

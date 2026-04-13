@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 95,
+    "total_score": 96.25,
+    "notes": "OCR output closely matches ground truth with very minor issues: an extraneous '?' at the start and an extra blank line before section i. No spelling or numeric errors. Layout and section formatting are well preserved. All text is present except the initial '?' which is extraneous but does not affect meaning."
+  },
+  "timestamp": "2026-04-13 02:18:46"
+}

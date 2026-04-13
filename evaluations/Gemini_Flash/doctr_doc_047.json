@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 0,
+    "numeric_precision": 95,
+    "layout_preservation": 0,
+    "completeness": 100,
+    "total_score": 59,
+    "notes": "The OCR output correctly extracted all the requested fields with high text accuracy and numeric precision. However, the ground truth is a structured JSON, implying that the OCR output should also be structured or at least easily parsable into the given JSON format. The provided OCR output is a raw text dump of the entire document, not a structured extraction of the requested fields. Therefore, table structure and layout preservation scores are very low as the OCR did not present the information in a structured way that matches the ground truth's implied structure."
+  },
+  "timestamp": "2026-04-13 01:38:36"
+}

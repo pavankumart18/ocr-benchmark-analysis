@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 10,
+    "numeric_precision": 50,
+    "layout_preservation": 10,
+    "completeness": 10,
+    "total_score": 32,
+    "notes": "The OCR output correctly identified the header and the initial employee data. However, it completely failed to capture the actual shift assignments for each employee. Instead, it repeated the shift definitions ('Afternoon 15:00-23:00 Night 23:00-07:00 Leave Personal/Training') over 100 times, which is a severe error in both text accuracy, table structure, and completeness. The numeric precision for the dates and times is correct where it appears, but the vast majority of the numeric data (the actual shift times for each day) is missing."
+  },
+  "timestamp": "2026-04-13 01:36:52"
+}

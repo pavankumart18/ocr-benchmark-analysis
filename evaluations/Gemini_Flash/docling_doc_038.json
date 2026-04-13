@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 90,
+    "layout_preservation": 95,
+    "completeness": 95,
+    "total_score": 90,
+    "notes": "The 'City' and 'Year' columns in the table appear to be swapped based on the data. 'San Francisco' is under 'Year' and '2024' is under 'City'. This is a significant structural and data interpretation error. Otherwise, the text and numbers are well-captured."
+  },
+  "timestamp": "2026-04-13 01:39:15"
+}

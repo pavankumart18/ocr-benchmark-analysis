@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 90,
+    "notes": "The OCR output is largely accurate in terms of text content. Minor discrepancies include the absence of the 'Document Type' and 'Key Details' headings, and the 'Insights and Observations' section from the ground truth, which are interpretive rather than direct OCR extractions. The distribution list is presented as a table, which is good, but the ground truth describes it in a more narrative way. The 'November 1983' at the end of the OCR output is not explicitly mentioned in the ground truth's summary, though it might be a date from the original document. The OCR successfully captures the core information, including the title, company, date, addressee, sections covered, and the restricted notice. The 'COPY NO. 11' is also correctly identified."
+  },
+  "timestamp": "2026-04-13 01:46:29"
+}

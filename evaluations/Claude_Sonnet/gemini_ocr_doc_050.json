@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 85,
+    "numeric_precision": 15,
+    "layout_preservation": 60,
+    "completeness": 25,
+    "total_score": 46.5,
+    "notes": "Company name partially correct but missing critical data: date (18/01/2018) and total amount (26.60) are completely absent. Address is partially captured but incomplete. OCR extracted additional irrelevant text not in ground truth. Major missing financial information significantly impacts completeness and numeric precision scores."
+  },
+  "timestamp": "2026-04-13 02:01:57"
+}

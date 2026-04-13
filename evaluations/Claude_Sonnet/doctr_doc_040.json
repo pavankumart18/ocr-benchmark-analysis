@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 69,
+    "notes": "Multiple OCR errors including 'Advertsement' instead of 'Advertisement', 'oft' instead of 'of', 'teach\u00e9st' instead of 'teaches', fragmented words like 'Facterisland', and numerous spacing issues. Layout is somewhat preserved but text flow is disrupted. Most numbers and dates are correct. Speaker information is present but formatting is poor."
+  },
+  "timestamp": "2026-04-13 01:50:54"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 75,
+    "layout_preservation": 40,
+    "completeness": 85,
+    "total_score": 49.25,
+    "notes": "Major OCR errors include company name 'PERNIAGAANZHENGHUI' (missing space), address severely garbled with wrong numbers and missing spaces, date format corrupted '12005018' vs '12/02/2018'. Table structure poorly preserved with mixed formatting. However, total amount 112.45 is correctly extracted and most content is present despite formatting issues."
+  },
+  "timestamp": "2026-04-13 01:53:49"
+}

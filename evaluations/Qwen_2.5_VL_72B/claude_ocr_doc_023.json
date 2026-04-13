@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "claude_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 100,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 60,
+    "total_score": 74.5,
+    "notes": "The OCR output has several minor text accuracy issues, such as 'inmates' being replaced with 'inhalers' and some missing words. There are no tables in the ground truth, so table structure is not applicable. Numeric values are mostly correct but some details are missing. The layout is somewhat preserved but not perfectly. Completeness is lacking as significant portions of the ground truth are not captured."
+  },
+  "timestamp": "2026-04-13 02:59:36"
+}

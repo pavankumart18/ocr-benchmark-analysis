@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 40,
+    "numeric_precision": 70,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 57,
+    "notes": "The OCR output has significant issues with text accuracy, particularly in the 'City' column where only 'San Francisco' is present for the first row, and the subsequent rows are missing city names. There are also garbled characters and repeated patterns at the bottom of the document. The table structure is poorly preserved due to missing data and misaligned columns (e.g., 'Year' and 'Transactions (Total)' are only present for the first row, and the subsequent rows are shifted). Numeric precision is fair for the extracted numbers, but the missing context makes it hard to fully evaluate. Layout preservation is poor due to the table structure issues and the presence of extraneous characters. Completeness is also affected by the missing city names and the garbled text at the bottom."
+  },
+  "timestamp": "2026-04-13 01:40:16"
+}

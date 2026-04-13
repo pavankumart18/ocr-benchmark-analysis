@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 77.25,
+    "notes": "Company name correctly extracted; minor address errors ('JOHOR BAHRU' as 'JOHOR BAHRI', missing dot in '122.124'). Date matches exactly. Total amount matches ground truth inclusive of GST, but minor discrepancy in intermediate amounts (80.91 vs 80.90). Table structure partially preserved but not fully aligned with ground truth format. Layout mostly maintained with correct reading order. All ground truth fields present, but extra unrelated text included."
+  },
+  "timestamp": "2026-04-13 02:10:29"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 88,
+    "table_structure": 75,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 85.05,
+    "notes": "Good overall extraction with minor issues: 'SCO' appears to be OCR error (likely 'ESG' or similar), chart/legend structure partially preserved but could be clearer, and some formatting inconsistencies in the survey legend. Numbers and percentages captured accurately."
+  },
+  "timestamp": "2026-04-13 01:54:51"
+}

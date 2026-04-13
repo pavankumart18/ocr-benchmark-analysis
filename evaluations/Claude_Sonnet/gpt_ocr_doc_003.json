@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 92,
+    "notes": "Excellent extraction with all key information correctly captured. Minor issues include extra customer name at top and some formatting variations in the itemized list structure, but all critical data (company, date, address, total) matches perfectly."
+  },
+  "timestamp": "2026-04-13 02:02:09"
+}

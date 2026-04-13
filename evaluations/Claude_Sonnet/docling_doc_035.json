@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 45,
+    "numeric_precision": 70,
+    "layout_preservation": 40,
+    "completeness": 75,
+    "total_score": 58,
+    "notes": "Major issues include: missing spaces between words (e.g., 'DuckFat', 'FrenchFries', 'ChickenWrap'), severely fragmented table structure with misaligned columns and rows, inconsistent formatting across sections, and poor layout preservation with mixed content organization. While most numeric values appear correct and content seems complete, the structural integrity is significantly compromised."
+  },
+  "timestamp": "2026-04-13 01:52:46"
+}

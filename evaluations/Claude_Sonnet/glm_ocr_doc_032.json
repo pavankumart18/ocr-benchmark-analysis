@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 20,
+    "numeric_precision": 85,
+    "layout_preservation": 25,
+    "completeness": 30,
+    "total_score": 50.5,
+    "notes": "Header and employee information captured well, but major structural failure in table format. Schedule data appears to be repetitive shift type definitions rather than actual daily assignments. Table columns for days Thu-Wed are present but corresponding schedule data is missing or misaligned. Document appears incomplete with abrupt cutoff."
+  },
+  "timestamp": "2026-04-13 01:48:15"
+}

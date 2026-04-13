@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 20,
+    "numeric_precision": 50,
+    "layout_preservation": 30,
+    "completeness": 45,
+    "total_score": 37.5,
+    "notes": "Significant text errors including company name misspelled ('INRAH' vs 'INDAH'), address partially incorrect with multiple typos, and extraneous unrelated text present. Table structure is poorly preserved with no clear columns or rows matching ground truth. Numeric values partially correct (date matches, total amount present but also conflicting totals shown). Layout is disorganized, reading order disrupted by extraneous receipt details. Overall, major portions of ground truth missing or garbled."
+  },
+  "timestamp": "2026-04-13 02:11:36"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 0,
+    "numeric_precision": 100,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 58,
+    "notes": "Text accuracy suffers due to missing 'company' label and extra unrelated text. Table structure is absent. Numeric precision is perfect for date and total. Layout is disrupted by unrelated sections. Completeness is decent but missing 'address' label and has extra unrelated info."
+  },
+  "timestamp": "2026-04-13 03:20:51"
+}

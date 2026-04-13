@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "claude_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 60,
+    "total_score": 74.5,
+    "notes": "The OCR output captures most of the text accurately but has some discrepancies. The CPM value for 1988 is incorrect (11.45 instead of 36.2). The table structure is preserved but lacks the 'Chg. Index' column headers. Numeric precision is mostly correct except for the CPM value. The layout is somewhat preserved but lacks the detailed insights and observations section. Completeness is impacted by the missing insights section."
+  },
+  "timestamp": "2026-04-13 02:59:46"
+}

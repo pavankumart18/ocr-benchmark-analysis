@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 10,
+    "numeric_precision": 95,
+    "layout_preservation": 40,
+    "completeness": 50,
+    "total_score": 67.25,
+    "notes": "Company name and date are correct, but address has a postcode error (81750 vs 81760). The OCR output includes a large unrelated invoice table not present in ground truth, causing poor table structure and layout preservation scores. Numeric values like total and date match well. The ground truth is a simple JSON with 4 fields, but OCR output is a full invoice with many extra details, so completeness is low as the exact ground truth text is not fully isolated or clearly extracted."
+  },
+  "timestamp": "2026-04-13 02:20:47"
+}

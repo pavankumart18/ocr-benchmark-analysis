@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 77.25,
+    "notes": "Text is mostly accurate with minor issues (e.g., 'Christian Bergnaum I' likely has an extraneous 'I'). Table structure is weak: columns and rows are not well aligned, some data like 'Man: Juan Brown' is misplaced, and BB Returns and Puer Returns sections are incomplete or inconsistent. Numeric data is mostly precise with correct currency and decimals. Layout is somewhat preserved but reading order and section grouping are inconsistent. Some text appears missing or fragmented, especially in returns and totals."
+  },
+  "timestamp": "2026-04-13 02:14:05"
+}

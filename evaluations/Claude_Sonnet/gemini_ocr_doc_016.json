@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 25,
+    "total_score": 71,
+    "notes": "OCR output is highly accurate for the text it captures, with perfect numeric precision and good formatting. However, it's severely incomplete - only capturing about 25% of the full document (cuts off at section ii). The extracted portion maintains good structure with proper bolding and indentation, but the major incompleteness significantly impacts the overall score."
+  },
+  "timestamp": "2026-04-13 01:59:13"
+}

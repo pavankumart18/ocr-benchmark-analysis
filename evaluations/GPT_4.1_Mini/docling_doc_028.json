@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 76.75,
+    "notes": "Text accuracy suffers from missing spaces and some concatenated words (e.g., 'King,TrantowandKlein', 'LEDLuminaireforarchitecturallighting'). Table structure is mostly preserved but columns are not clearly separated, making it harder to read. Numeric data like quantities, dates, and VAT numbers appear accurate. Layout is somewhat preserved but the reading order is slightly disrupted by missing spaces and merged words. Overall, most visible text is captured with minor formatting issues."
+  },
+  "timestamp": "2026-04-13 02:12:09"
+}

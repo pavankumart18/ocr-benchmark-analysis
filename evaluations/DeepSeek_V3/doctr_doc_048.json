@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 80,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 80.5,
+    "notes": "Text accuracy affected by minor typos in company name ('SON, BHO.' instead of 'SDN. BHD.') and extra unrelated text. Table structure and layout are mostly preserved with some additional invoice details. Numeric precision is perfect. Completeness is high as all ground truth fields are captured with some extra information."
+  },
+  "timestamp": "2026-04-13 03:08:08"
+}

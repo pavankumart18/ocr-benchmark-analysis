@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 10,
+    "numeric_precision": 15,
+    "layout_preservation": 20,
+    "completeness": 5,
+    "total_score": 11,
+    "notes": "The OCR output is extremely incomplete, capturing only a small fraction of the ground truth. It misses almost all key details, assumptions, and insights. The table structure is partially recognized for the few lines extracted, but the 'Chg. Index' columns are not present in the ground truth's data structure. Numeric data is mostly correct for the extracted lines, but the overall lack of content severely impacts all scores."
+  },
+  "timestamp": "2026-04-13 01:42:44"
+}

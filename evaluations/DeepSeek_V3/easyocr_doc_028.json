@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.75,
+    "notes": "Minor typos in text (e.g., '40OOK' instead of '4000K', 'Sm' instead of '5m', '32'C t0 8'C' instead of '32\u00b0C to 8\u00b0C'). Table structure is well-preserved. Numeric values are mostly accurate. Layout is mostly correct but has some reading order issues. Almost all text is captured."
+  },
+  "timestamp": "2026-04-13 03:16:34"
+}

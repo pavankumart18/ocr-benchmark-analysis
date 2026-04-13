@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 70,
+    "total_score": 79,
+    "notes": "Good overall extraction with some issues: duplicated text in section 3 ('is required. payable monthly with the first payment due upon the' appears twice), incomplete checkbox section 4 with missing renewal period details, and some formatting inconsistencies. Most critical information like dates, amounts, and addresses are captured correctly."
+  },
+  "timestamp": "2026-04-13 02:04:49"
+}

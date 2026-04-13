@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 74,
+    "notes": "Company name has minor capitalization differences, address is accurate, date and total are correct. OCR captured extensive additional content not in ground truth including full receipt details. Some formatting issues with table structure and mixed markdown/HTML elements, but core information is preserved with good numeric accuracy."
+  },
+  "timestamp": "2026-04-13 01:53:55"
+}

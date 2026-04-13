@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.25,
+    "notes": "Minor issues include extra text (e.g., 'tan woon yann', GST details) not in ground truth, but all required fields are accurately captured. Numeric values and dates match perfectly. Layout is mostly preserved with correct reading order."
+  },
+  "timestamp": "2026-04-13 03:25:56"
+}

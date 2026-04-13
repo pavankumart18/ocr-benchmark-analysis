@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 10,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 85,
+    "total_score": 57.75,
+    "notes": "The OCR output contains numerous misspellings, missing spaces, and some garbled words (e.g., 'throttie', 'bumed', 'acar torunrough'). There is no evidence of tables or numeric data requiring alignment, so table structure is poorly preserved (mostly absent). Numeric precision is high as there are few numbers and those present are mostly correct. Layout preservation is moderate: headers and sections are somewhat maintained but reading order is disrupted and some paragraphs are fragmented or merged incorrectly. Completeness is good with most visible text captured, though some lines are truncated or incomplete."
+  },
+  "timestamp": "2026-04-13 02:12:23"
+}

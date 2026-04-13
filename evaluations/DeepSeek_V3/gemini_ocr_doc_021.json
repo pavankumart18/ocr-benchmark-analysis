@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 60,
+    "total_score": 79.75,
+    "notes": "The OCR output captures most of the key details accurately, including the document title, company name, date received, and addressee. However, it misses significant portions of the distribution list and sections covered, impacting completeness. The layout is mostly preserved but lacks some formatting fidelity. Numeric precision is perfect, including the date. Text accuracy is high with minor formatting deviations."
+  },
+  "timestamp": "2026-04-13 03:22:35"
+}

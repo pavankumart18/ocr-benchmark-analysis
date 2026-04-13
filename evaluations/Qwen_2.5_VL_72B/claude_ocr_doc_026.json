@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "claude_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 82.75,
+    "notes": "The OCR output has some text accuracy issues, such as incorrect country codes for Germany (EUA instead of DEU) and the Soviet Union (URS). The table structure is mostly preserved, but the country codes are not correctly represented. Numeric values are accurate, and the layout is generally well-maintained. Completeness is good, with all visible text captured."
+  },
+  "timestamp": "2026-04-13 02:59:50"
+}

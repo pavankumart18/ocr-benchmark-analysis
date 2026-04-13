@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 92.25,
+    "notes": "Text is accurately captured with no misspellings or missing words. Tables are well structured with proper alignment of numbers and labels. Numeric values, including decimals and currency symbols, are precise. Layout and reading order are preserved, with clear section headers and paragraphs. All visible text appears included. Minor formatting nuances could be improved but overall very good."
+  },
+  "timestamp": "2026-04-13 02:09:40"
+}

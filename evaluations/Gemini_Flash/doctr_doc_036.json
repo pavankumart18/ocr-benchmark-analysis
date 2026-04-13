@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 70,
+    "layout_preservation": 95,
+    "completeness": 95,
+    "total_score": 85,
+    "notes": "Text accuracy is good overall, but there are some character recognition errors like '2075-05-11' instead of '2023-05-11' (assumed based on context), 'Lalifornia' instead of 'California', 'Le mke Inc' instead of 'Lemke Inc', 'Gorczant' instead of 'Gorham'. Numeric precision suffers from incorrect dates ('20z4 5 day of May 2025' and 'March 2028 day of March 2028' are garbled) and a potential misinterpretation of '34 00' as '3400' for the monthly payment. Completeness is high, with only minor omissions or misinterpretations."
+  },
+  "timestamp": "2026-04-13 01:38:06"
+}

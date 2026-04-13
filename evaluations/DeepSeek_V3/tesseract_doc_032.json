@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 15,
+    "layout_preservation": 10,
+    "completeness": 30,
+    "total_score": 18.25,
+    "notes": "The OCR output is heavily garbled with numerous misspellings, wrong characters, and inconsistent formatting. There is no clear preservation of table structure or layout. Numeric values and text are often incorrect or unreadable. While some text fragments are captured, the overall extraction is poor."
+  },
+  "timestamp": "2026-04-13 03:13:44"
+}

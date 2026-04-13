@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 40,
+    "numeric_precision": 70,
+    "layout_preservation": 45,
+    "completeness": 60,
+    "total_score": 53.75,
+    "notes": "Significant deviations in company name spelling and formatting; address mostly correct but with OCR errors (e.g., 'Peta1ing'). Date embedded in a table row rather than standalone. Table structure is not preserved as ground truth has no table, and OCR output's table is unrelated. Numeric values mostly correct for total but date format and other numbers are embedded in text. Layout is cluttered with unrelated text and poor reading order. Ground truth fields are partially captured but mixed with unrelated content and extraneous text."
+  },
+  "timestamp": "2026-04-13 02:13:20"
+}

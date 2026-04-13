@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 40,
+    "numeric_precision": 75,
+    "layout_preservation": 45,
+    "completeness": 85,
+    "total_score": 60.5,
+    "notes": "Company name correct, but address has errors ('IDEDAR' vs 'DEDAP', 'BABRU' vs 'BAHRU'). Date and total amount are accurate. OCR captured much extra text not in ground truth and has poor table structure with garbled column headers and misaligned data. Layout is disrupted with scattered text placement."
+  },
+  "timestamp": "2026-04-13 01:51:13"
+}

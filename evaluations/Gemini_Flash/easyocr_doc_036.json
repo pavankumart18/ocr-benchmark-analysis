@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 90,
+    "numeric_precision": 70,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 79,
+    "notes": "Text accuracy suffers from several misspellings (e.g., 'Z0zs', 'Weod sid & Zoad', 'Lalifornia', 'Iac', 'Letrti Landing', 'Lal; fornic', 'Gorezaw Tkroughwal', 'Mercl', 'Merck'). Numeric precision is impacted by the date 'Z0zs -0s-11' and 'Z0zs' for years, and 'Mercl'/'Merck' for months. The '93& &' for square feet is also an issue. Table structure and layout are generally well-preserved, and most text is captured, though some minor characters like the 'Mc Mel day' at the bottom seem out of place or incomplete."
+  },
+  "timestamp": "2026-04-13 01:41:15"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 85,
+    "total_score": 93,
+    "notes": "Excellent text accuracy with no character errors or misspellings. All numbers, dates, and legal references are perfect. The numbered list structure is well preserved. Layout shows good formatting with proper indentation. Main issue is incomplete text - the document cuts off mid-sentence at the end, missing the final portion of the ground truth. Minor formatting differences in spacing and alignment but overall structure is maintained well."
+  },
+  "timestamp": "2026-04-13 01:58:54"
+}

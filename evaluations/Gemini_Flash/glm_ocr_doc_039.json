@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 76,
+    "notes": "Text accuracy is generally good, but there's a 'I' in 'Christian Bergnaum I' that seems like an OCR error. The table structure is significantly flawed; the column headers don't align with the data, and some rows have missing values or misaligned data, making it hard to parse programmatically. Numeric precision is decent, but the misalignment makes it difficult to verify all values against their intended columns. Layout preservation is fair, but the table's internal structure is broken. Completeness seems good, with most visible text captured."
+  },
+  "timestamp": "2026-04-13 01:37:10"
+}

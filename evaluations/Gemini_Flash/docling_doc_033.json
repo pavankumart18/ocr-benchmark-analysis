@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87,
+    "notes": "Several minor OCR errors, mostly single character mistakes or missing spaces (e.g., 'thatmaintains', 'throttie', 'intemal', 'oiltight', 'throtte', 'i', 'twovariable-diameter pulleysanda steel belt'). The layout is generally preserved as a glossary, but some headers are repeated (e.g., 'H', 'R') and some definitions run into the next line without proper indentation or clear separation. The definition for 'Hybrid Electric Vehicle(HEV)' appears to be cut off."
+  },
+  "timestamp": "2026-04-13 01:39:03"
+}

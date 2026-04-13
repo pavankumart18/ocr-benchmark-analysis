@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 100,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 71.5,
+    "notes": "Text accuracy suffers from minor typos (e.g., 'BOOK TA K' missing '.', 'BANRU' instead of 'BAHRU'). Table structure is disrupted by extra lines and misplaced data. Numeric precision is perfect. Layout is somewhat preserved but cluttered with irrelevant text. Most ground truth content is captured but with formatting issues."
+  },
+  "timestamp": "2026-04-13 03:07:17"
+}

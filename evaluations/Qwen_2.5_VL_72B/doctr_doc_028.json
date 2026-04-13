@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 86.5,
+    "notes": "Minor issues with text accuracy (e.g., 'H.S. Code 66021212' instead of 'HS Code 66021212'), some table structure inconsistencies, and a few layout preservation issues. Numeric precision is high, and completeness is good with only minor omissions."
+  },
+  "timestamp": "2026-04-13 02:24:55"
+}

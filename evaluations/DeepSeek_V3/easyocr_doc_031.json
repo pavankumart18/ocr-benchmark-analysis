@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 60,
+    "layout_preservation": 55,
+    "completeness": 70,
+    "total_score": 60,
+    "notes": "Major issues include garbled text (e.g., 'S2O8M', 'S21SM'), misaligned table structure, incorrect numeric values (e.g., 'SIZ.7M'), and disrupted layout with mixed sections. Some data is missing or misplaced, but most visible text is captured."
+  },
+  "timestamp": "2026-04-13 03:17:09"
+}

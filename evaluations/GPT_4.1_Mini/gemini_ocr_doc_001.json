@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 10,
+    "numeric_precision": 90,
+    "layout_preservation": 60,
+    "completeness": 50,
+    "total_score": 63.5,
+    "notes": "Company name OCR has minor errors ('BOOK TALK' vs 'BOOK TA .K'), address mostly correct but missing punctuation. No table structure present in OCR output, so very low score there. Date matches exactly, but total amount missing entirely. Layout order is roughly preserved but extra unrelated text and missing key fields reduce score. Overall incomplete extraction with missing total and some text inaccuracies."
+  },
+  "timestamp": "2026-04-13 02:15:47"
+}

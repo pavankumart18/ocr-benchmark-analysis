@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 30,
+    "numeric_precision": 60,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 49,
+    "notes": "The OCR output has significant issues with text accuracy, especially in the 'Revenue by geography' section where many characters are misrecognized as '0', 'D', 'C', 'a', etc. This also severely impacts table structure and numeric precision in that section. While the 'Revenue by segment' section is better, there are still some minor errors like '51.1' instead of '$1.1'. The overall layout is somewhat preserved for the segment section, but the geography section is garbled. Completeness is fair, as most text is present, but much of it is unreadable."
+  },
+  "timestamp": "2026-04-13 01:37:43"
+}

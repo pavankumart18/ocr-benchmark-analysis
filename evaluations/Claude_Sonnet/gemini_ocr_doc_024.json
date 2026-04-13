@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 25,
+    "total_score": 67.25,
+    "notes": "OCR captured the document title, table headers, and initial data accurately with correct numeric values for New Product A's advertising media figures. However, it's severely incomplete - missing all of New Product B data, totals, footnotes, and cuts off mid-table. Table structure is partially preserved but incomplete. The extracted portion shows good accuracy for what was captured."
+  },
+  "timestamp": "2026-04-13 01:59:47"
+}

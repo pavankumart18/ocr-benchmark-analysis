@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "gemini_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 100,
+    "numeric_precision": 0,
+    "layout_preservation": 70,
+    "completeness": 50,
+    "total_score": 56.5,
+    "notes": "The OCR output contains the company name and address correctly but lacks the date and total amount. There are additional unrelated details and no numeric values match the ground truth. The layout is somewhat preserved but includes extraneous information."
+  },
+  "timestamp": "2026-04-13 02:54:02"
+}

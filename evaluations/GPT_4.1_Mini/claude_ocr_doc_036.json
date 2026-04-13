@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 77.25,
+    "notes": "Text is mostly accurate with minor repeated phrases and awkward spacing (e.g., 'day of May 2025 day of May 2025'). Table structure is weak as the options to renew section is not clearly formatted and contains duplicated checkboxes with incomplete blanks. Numeric data such as dates, amounts, and square footage are mostly correct. Layout is generally preserved but some lines are repeated or misplaced, affecting reading flow. Overall, most visible text is captured with no major omissions."
+  },
+  "timestamp": "2026-04-13 02:22:06"
+}

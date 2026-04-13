@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 80,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 65,
+    "notes": "Key issues: 'ABC HO TRADING' misread as 'ABC HOTRADING', address has typos ('No.284' instead of 'NO.2&4', 'HARMONT' instead of 'HARMONI'), '81100' misread as '1100'. Table structure is garbled with extra unrelated text. Numeric values are mostly correct but '31.00' is misread as '3100' once. Layout is disrupted by unrelated sections like 'Cash Bill' and 'Goods Sold' notes."
+  },
+  "timestamp": "2026-04-13 03:07:55"
+}

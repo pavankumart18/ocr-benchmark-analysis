@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_007",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 84.25,
+    "notes": "Minor text inaccuracies (e.g., extra header 'tan chay yee', missing GST details in ground truth). Table structure has extra irrelevant rows. Numeric values and dates match perfectly. Layout is mostly preserved but includes additional unrelated sections. All ground truth content is captured with minor extras."
+  },
+  "timestamp": "2026-04-13 03:28:03"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 90,
+    "notes": "Text accuracy is good for the extracted fields, with a minor error in the address (NO.51 instead of NO.53). Numeric precision is high, with the date and total matching. The ground truth only provides specific fields, not a full document structure, so table structure is considered perfect as no tables were expected in the ground truth. Completeness is good for the requested fields, but the OCR output contains much more information than the ground truth, which is not penalized here as the ground truth is a subset. Layout preservation is good for the extracted fields."
+  },
+  "timestamp": "2026-04-13 01:37:14"
+}

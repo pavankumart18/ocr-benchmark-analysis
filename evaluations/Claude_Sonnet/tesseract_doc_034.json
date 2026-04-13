@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 40,
+    "numeric_precision": 70,
+    "layout_preservation": 45,
+    "completeness": 75,
+    "total_score": 58,
+    "notes": "Multiple OCR errors including garbled document number (OONSJCOOKP), scrambled text like 'seston dsiz-205', misaligned table structure with poor column separation, and fragmented layout. Some numeric values and dates appear correct but overall readability is significantly compromised by structural issues and text corruption."
+  },
+  "timestamp": "2026-04-13 01:54:32"
+}

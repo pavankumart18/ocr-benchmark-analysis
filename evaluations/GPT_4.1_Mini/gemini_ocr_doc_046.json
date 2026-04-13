@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 80,
+    "total_score": 77.25,
+    "notes": "Company name mostly correct but missing 'HO' in OCR line 'ABC HO TRADING' is correct, but extra text 'tan chay yee' appears. Address mostly correct with minor punctuation differences. Date matches exactly. Total amount matches but OCR shows an incorrect 'Total Amount: 3' line. Table columns and rows are mostly preserved but extra description lines and inconsistent spacing reduce clarity. Layout reading order is mostly maintained but extra phone and cashier info not in ground truth. Overall, minor text and formatting deviations with some extra content."
+  },
+  "timestamp": "2026-04-13 02:17:51"
+}

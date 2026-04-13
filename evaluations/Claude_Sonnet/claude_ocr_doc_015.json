@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 97.85,
+    "notes": "Excellent OCR output with only one minor issue: contains '[?]' placeholder after 'Exhibit 19.1' that doesn't exist in ground truth. All text content, dates, company names, and legal terminology are perfectly captured. Document structure and formatting are well preserved."
+  },
+  "timestamp": "2026-04-13 02:06:59"
+}

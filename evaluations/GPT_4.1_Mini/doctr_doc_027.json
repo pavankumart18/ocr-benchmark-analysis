@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 30,
+    "numeric_precision": 50,
+    "layout_preservation": 35,
+    "completeness": 70,
+    "total_score": 41.75,
+    "notes": "The OCR output contains many garbled characters, incorrect symbols, and misspellings that severely impact text accuracy. Table structures are poorly preserved with misaligned columns and rows, making it difficult to interpret numeric data correctly. Numeric values are partially correct but decimal points and currency symbols are often missing or misplaced. The reading order and layout are disrupted, with headers and sections not clearly separated. Despite this, most visible text appears to be captured, though some parts are unclear or corrupted."
+  },
+  "timestamp": "2026-04-13 02:10:52"
+}

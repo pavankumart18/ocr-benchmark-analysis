@@ -1,0 +1,37 @@
+tan woon yann
+
+YONGFATT ENTERPRISE
+(JM0517776)
+NO 123 124 JALAN DEDAP 13
+81100 JOHOR BAHRU
+
+TEL : 07- 3
+GST ID 000854613584
+SIMPLIFIED TAX INVOICE
+
+CASH
+Doc No        CS0003 3803        Date    26/12/2018
+Cashier       USER               Time    13:31:60
+Salesperson                      Ref
+
+Item          Qty   S.Price   Amount   Tax
+15318         1     80.91     80.91    SR
+ELEGANT SHOP TR BAG 15
+
+              Total Qty                  1          80.91
+              Total Sales (Excluding GST)           80.91
+              Discount                             0.00
+              Total GST                            0.00
+              Rounding                            -0.01
+Total Sales (Inclusive of GST)                    80.90
+
+80.90                         CASH                100.00
+                              Change               19.10
+
+GST SUMMARY
+
+Tax Code   %     Amt (RM)   Tax (RM)
+SR         0     80.91      0.00
+Total            80.91      0.00
+
+GOODS SOLD ARE NOT REFUNDABLE OR XCHY

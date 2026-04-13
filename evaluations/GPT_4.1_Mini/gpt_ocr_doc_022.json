@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 90.25,
+    "notes": "OCR output closely matches ground truth with correct spelling and terminology. Table columns and rows are well preserved, though the 'Total Spending' label is simplified to 'TOTAL' and the 1984 projection for total spending is included with a note '(a)', which differs slightly from ground truth. Numeric values are accurate with no errors. Layout and reading order are mostly maintained, but the document type and descriptive header are missing, and some notes are slightly reworded or reordered. Overall, minor omissions and slight formatting differences prevent a perfect score."
+  },
+  "timestamp": "2026-04-13 02:19:04"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 0,
+    "numeric_precision": 70,
+    "layout_preservation": 50,
+    "completeness": 60,
+    "total_score": 58.5,
+    "notes": "The OCR output correctly identified the company name and address with high accuracy. However, it completely missed the 'date' field from the ground truth. The 'total' field was present in the OCR output but not explicitly labeled as 'total' and was part of a table-like structure that was not requested in the ground truth. The ground truth did not contain any table structure, so the OCR output's table-like presentation of items is irrelevant to the requested fields. The layout preservation is poor due to the inclusion of extra text and the absence of the date field. Numeric precision is affected by the missing date."
+  },
+  "timestamp": "2026-04-13 01:43:38"
+}

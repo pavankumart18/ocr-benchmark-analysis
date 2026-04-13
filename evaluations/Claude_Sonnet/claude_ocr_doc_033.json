@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 92,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 88,
+    "completeness": 90,
+    "total_score": 90,
+    "notes": "Very good OCR extraction with minor issues: some inconsistent capitalization (e.g., 'an automatic transmission' should be 'An automatic transmission'), duplicate 'H' section header, and minor formatting inconsistencies in the glossary structure. Text content is highly accurate with proper technical terminology preserved."
+  },
+  "timestamp": "2026-04-13 02:08:25"
+}

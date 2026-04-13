@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 77,
+    "notes": "Text accuracy is generally good, with only minor potential OCR errors like 'QJFAH2WZ5U' which could be 'QJFAH2WZ5U' or similar. However, the table structure is significantly compromised. The header row is present, but the data rows are not clearly delineated into columns as implied by the header. Multiple fields are concatenated or misaligned, making it difficult to parse the data programmatically. For example, '8477 Bernardo Ranch 3505 Theresa Mission NORTH GARRICKSHIRE, 33047-5826' appears to be a single entry spanning multiple intended columns. Numeric precision is fair, but the lack of clear column separation makes it hard to verify all numbers against their intended categories. Layout preservation is impacted by the poor table structure, as the logical flow of data within the table is broken. Completeness seems good, with most visible text captured."
+  },
+  "timestamp": "2026-04-13 01:36:47"
+}

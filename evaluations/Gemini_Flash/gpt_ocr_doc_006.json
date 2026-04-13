@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 93,
+    "notes": "Minor discrepancies in text accuracy for 'company' (HIO vs HO) and 'address' (No.2&4 vs No.284, missing comma before JOHOR). Numeric precision is good, with only the 'total' having an extra line in the OCR output. All ground truth fields are present and correctly identified."
+  },
+  "timestamp": "2026-04-13 01:43:56"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 65,
+    "completeness": 80,
+    "total_score": 75,
+    "notes": "Several text accuracy issues including 'ins'tallation' breaks, inconsistent spacing, and some garbled characters. Table structure is mostly preserved but formatting is inconsistent. Most numbers and codes appear correct. Layout has some issues with section breaks and flow. Overall readable but needs improvement in text rendering quality."
+  },
+  "timestamp": "2026-04-13 01:54:08"
+}

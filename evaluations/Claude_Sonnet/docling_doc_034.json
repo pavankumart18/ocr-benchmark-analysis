@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 80,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 60,
+    "total_score": 75,
+    "notes": "Good table structure preservation with proper columns and alignment. Most numeric values appear accurate including dates, amounts, and shipment numbers. However, there are several text accuracy issues like 'VATBILLINGRECEIPT' (should be 'VAT BILLING RECEIPT'), spacing issues in company names and addresses, and some garbled text. The document appears truncated at the end, affecting completeness. Layout is generally maintained but some formatting inconsistencies exist."
+  },
+  "timestamp": "2026-04-13 01:52:38"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 0,
+    "numeric_precision": 100,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 58.75,
+    "notes": "The OCR output contains several misspellings and incorrect characters, affecting text accuracy. There is no preservation of table structure as the content appears to be a list rather than a table. Numeric values are not present, so precision is assumed perfect. The layout is partially preserved but lacks clear sectioning and headers. Some content appears to be cut off or incomplete."
+  },
+  "timestamp": "2026-04-13 02:25:20"
+}

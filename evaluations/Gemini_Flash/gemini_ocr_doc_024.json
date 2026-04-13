@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 30,
+    "table_structure": 20,
+    "numeric_precision": 50,
+    "layout_preservation": 10,
+    "completeness": 10,
+    "total_score": 26,
+    "notes": "The OCR output is extremely incomplete, capturing only a small fraction of the ground truth. It misses entire sections like 'Key Details', 'Overall Spending', 'Additional Notes', and 'Insights and Observations'. While some numbers are correct, the context and many other numerical values are missing. The table structure is partially recognized for 'New Product A' but is incomplete and lacks the full detail provided in the ground truth. The layout is significantly different due to the missing content."
+  },
+  "timestamp": "2026-04-13 01:42:42"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 40,
+    "total_score": 77.75,
+    "notes": "Text accuracy is high with no significant errors in the extracted portion. Numeric precision and table structure are perfect as no numeric data or tables are involved. Layout is mostly preserved with correct reading order and section headings. However, the OCR output is incomplete, capturing only sections vi and part of vii, missing all subsequent text, which significantly lowers completeness."
+  },
+  "timestamp": "2026-04-13 02:16:32"
+}

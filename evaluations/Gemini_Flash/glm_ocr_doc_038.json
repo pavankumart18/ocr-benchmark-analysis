@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 65,
+    "completeness": 95,
+    "total_score": 79,
+    "notes": "The text accuracy is generally good with no obvious misspellings. However, the table structure is significantly broken, especially for the 'Transaction Amount ($M)' and 'Transactions by Quarter' sections where the data is presented as a continuous string of numbers rather than structured rows/columns. This also impacts layout preservation. Numeric precision is high for the extracted numbers, but the lack of table structure makes it hard to interpret. Completeness is good as most visible text seems to be present."
+  },
+  "timestamp": "2026-04-13 01:37:07"
+}

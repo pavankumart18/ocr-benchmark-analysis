@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 74,
+    "notes": "Key issues: Company name missing space ('HOTRADING' vs 'HO TRADING'), address has typos ('HARMONT' vs 'HARMONI', missing '8' in postal code '1100' vs '81100'). Date and total amount are correct. OCR captured extra receipt content not in ground truth, but all required fields are present with minor character-level errors."
+  },
+  "timestamp": "2026-04-13 01:51:22"
+}

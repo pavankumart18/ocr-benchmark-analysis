@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 15,
+    "layout_preservation": 20,
+    "completeness": 25,
+    "total_score": 17.75,
+    "notes": "Severe character errors and garbled text throughout. Company name and address are heavily distorted and incomplete. Date is partially correct but mixed with extraneous characters. Numeric total is incorrect and missing decimal. No recognizable table structure or columns preserved. Layout is disorganized with poor reading order. Large portions of ground truth text are missing or unreadable."
+  },
+  "timestamp": "2026-04-13 02:12:53"
+}

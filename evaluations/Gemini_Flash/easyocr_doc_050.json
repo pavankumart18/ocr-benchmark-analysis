@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 90,
+    "total_score": 90,
+    "notes": "The OCR output correctly identified all the fields from the ground truth. There were minor character errors in the company name and address, such as 'knoxn' instead of 'known' and 'Petal Jaya' instead of 'Petaling Jaya'. The date and total amount were extracted perfectly. The overall structure and layout were well preserved."
+  },
+  "timestamp": "2026-04-13 01:41:48"
+}

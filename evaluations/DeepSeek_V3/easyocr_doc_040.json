@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 0,
+    "numeric_precision": 80,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 49.5,
+    "notes": "Text accuracy suffers from numerous misspellings and garbled phrases (e.g., 'Crueee', 'oageoorapboebiogye'). No table structure is preserved. Numeric precision is decent but has minor errors (e.g., 'University 0l the Pacific'). Layout is disrupted with mixed reading order. Some text is missing or fragmented, but major sections are captured."
+  },
+  "timestamp": "2026-04-13 03:18:30"
+}

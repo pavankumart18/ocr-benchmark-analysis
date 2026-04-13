@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 88,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 92,
+    "completeness": 95,
+    "total_score": 91,
+    "notes": "Very good OCR extraction with minor issues: 'throttie' should be 'throttle', 'whee!' should be 'wheel', missing 'D' section header, and 'Acamera' should be 'A camera'. Layout and structure are well preserved with proper alphabetical organization and definitions clearly separated."
+  },
+  "timestamp": "2026-04-13 01:54:29"
+}

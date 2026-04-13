@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 91,
+    "notes": "One notable error: 'Germany (EUA)' should likely be 'Germany (GER)' - EUA is not a standard country code for Germany. All other text, numbers, and structure are accurately captured."
+  },
+  "timestamp": "2026-04-13 02:03:48"
+}

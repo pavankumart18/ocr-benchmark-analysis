@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 96.0,
+    "notes": "One minor text error: '07:00-15:00 Night' should be '07:00-15:00 Morning' for Rudolph Zieme on Sun 15. Otherwise, the extraction is excellent."
+  },
+  "timestamp": "2026-04-13 01:46:56"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 86.75,
+    "notes": "The OCR output correctly identified the company name, date, address, and total. Minor text inaccuracies were found in the address (e.g., 'NO.S3 JSLAN' instead of 'NO.53 JALAN'). The overall structure and numeric values for the key fields were well-preserved. The ground truth only provides specific fields, so the OCR output contains a lot of additional text not present in the ground truth, which is not penalized for completeness as it's not 'missing' from the ground truth."
+  },
+  "timestamp": "2026-04-13 01:40:39"
+}

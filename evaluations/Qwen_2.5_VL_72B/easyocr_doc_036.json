@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 90,
+    "numeric_precision": 70,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 75.5,
+    "notes": "The OCR output contains several misspellings (e.g., 'Lalifornia', 'Merck'), incorrect date formats, and inconsistent text formatting. Numeric values like dates and amounts are mostly correct but some are garbled. The layout is generally preserved but with some errors in reading order and section alignment."
+  },
+  "timestamp": "2026-04-13 02:43:10"
+}

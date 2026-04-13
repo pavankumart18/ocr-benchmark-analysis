@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 60,
+    "total_score": 79.25,
+    "notes": "Text accuracy is good for the extracted fields, with minor differences like 'NO.122,124' vs 'NO 122.124'. Numeric precision is high for the date. However, the 'total' field is completely missing from the OCR output, significantly impacting completeness. The OCR output contains a lot of extra information not present in the ground truth, which is not penalized here but indicates a lack of targeted extraction. The address has a slight punctuation difference (comma vs period)."
+  },
+  "timestamp": "2026-04-13 01:41:58"
+}

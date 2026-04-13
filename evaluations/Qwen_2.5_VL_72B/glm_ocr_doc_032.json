@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "glm_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 40,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 66.5,
+    "notes": "The text accuracy is relatively high, but the table structure is poorly preserved, with no clear alignment of columns and rows. Numeric precision is good as there are no apparent issues with numbers. The layout preservation is moderate, with some sections and headers maintained but overall structure lost. Completeness is decent, but the repetitive shift information suggests missing or incorrectly formatted data."
+  },
+  "timestamp": "2026-04-13 02:23:15"
+}

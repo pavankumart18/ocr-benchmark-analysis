@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 70,
+    "total_score": 77.25,
+    "notes": "Text is mostly accurate with minor formatting issues. Table columns are misaligned, especially for 'Cost' row percentages and missing some data for 'Improving energy performance' row. Numeric values appear correct. Layout order is mostly preserved but some spacing and alignment issues affect readability. The last row is incomplete, indicating missing text."
+  },
+  "timestamp": "2026-04-13 02:17:27"
+}

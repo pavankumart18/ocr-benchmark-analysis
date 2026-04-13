@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 25,
+    "total_score": 71.5,
+    "notes": "OCR output is highly accurate for the text it captures, with perfect character-level fidelity and proper section numbering. However, it only captures approximately 25% of the total document content, cutting off mid-sentence in section vii and missing the entire F section with its three subsections (i, ii, iii) plus the page number. Layout and structure are well-preserved for the captured portion."
+  },
+  "timestamp": "2026-04-13 01:59:19"
+}

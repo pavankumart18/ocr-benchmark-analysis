@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 55,
+    "layout_preservation": 45,
+    "completeness": 75,
+    "total_score": 56.75,
+    "notes": "The OCR output contains numerous errors including misrecognized characters (e.g., '7,.2', '03'), inconsistent units and misplaced values, and some words are garbled or incomplete. Table columns and rows are poorly aligned, making it difficult to associate values with correct headers. Numeric data often lacks proper decimal points or is shifted, reducing precision. The reading order is disrupted with repeated headers and mixed sections, impairing layout flow. However, most text appears captured with no major missing sections."
+  },
+  "timestamp": "2026-04-13 02:15:04"
+}

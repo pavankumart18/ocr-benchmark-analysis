@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 66.25,
+    "notes": "The OCR output contains several misspellings and garbled text, such as 'Electrical Asecerecirsareplete' and 'OVEPARSEatIS'. The table structure is partially preserved but lacks clear alignment and separation of columns. Numeric values like dates are mostly accurate. The layout is somewhat preserved but sections are not clearly maintained. Some text is missing or incorrectly captured."
+  },
+  "timestamp": "2026-04-13 02:25:00"
+}

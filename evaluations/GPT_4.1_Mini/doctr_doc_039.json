@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 75,
+    "layout_preservation": 60,
+    "completeness": 65,
+    "total_score": 65.75,
+    "notes": "Text has missing separators and inconsistent line breaks causing confusion in names and data alignment. Table columns and rows are not clearly preserved, with some data merged or misplaced. Numeric values appear mostly correct but some totals and returns are not clearly aligned with their labels. Layout reading order is disrupted, mixing names and data irregularly. Several consultant entries are incomplete or missing data, indicating partial extraction."
+  },
+  "timestamp": "2026-04-13 02:11:28"
+}

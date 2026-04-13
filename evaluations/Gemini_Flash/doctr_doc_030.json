@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 81,
+    "notes": "Text accuracy has several minor OCR errors like 'Refermee' instead of 'Reference', 'Typeofs Servicel' instead of 'Type of Service', 'Adfitlonal' instead of 'Additional', 'Gros Valur' instead of 'Gross Value', 'HANDLINGI FEE' instead of 'HANDLING FEE', 'ENVIRONMENTALSURCHARGE' instead of 'ENVIRONMENTAL SURCHARGE', 'HANDLINGE FEF' instead of 'HANDLING FEE', 'PERISHABLE ITEM: SURCHARGE' instead of 'PERISHABLE ITEM SURCHARGE', 'SEASONAL: SURCHARGE' instead of 'SEASONAL SURCHARGE', 'FLIELADIUSTMENT CHARGE' instead of 'FUEL ADJUSTMENT CHARGE', 'WEEKENDT DELIVERY FEE' instead of 'WEEKEND DELIVERY FEE', 'ADDRESS CORRECTIONT FEE' instead of 'ADDRESS CORRECTION FEE', 'REPACKING FER' instead of 'REPACKING FEE', 'OUT-OF-HOURS DELIVERY FFE' instead of 'OUT-OF-HOURS DELIVERY FEE', 'DANGEROUS GOODS HANDLINGI FEE' instead of 'DANGEROUS GOODS HANDLING FEE', 'WEEKENDI DELIVERY FEE' instead of 'WEEKEND DELIVERY FEE', 'URBAN CONGESTIONT CHARGE' instead of 'URBAN CONGESTION CHARGE'. Table structure is somewhat preserved but column headers are not perfectly aligned with their data, and some data points seem to bleed into other columns. Numeric precision is generally good, but some numbers are slightly off or have extra characters, e.g., '11X.68' instead of '11.68', '1o' instead of '1.0', 'N59' instead of '1.59', 'N143' instead of '1.43', '25N' instead of '2.50'. Layout preservation is good, and completeness is high with most text captured."
+  },
+  "timestamp": "2026-04-13 01:37:51"
+}

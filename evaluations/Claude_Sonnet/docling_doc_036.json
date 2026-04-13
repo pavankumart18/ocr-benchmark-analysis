@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 75,
+    "numeric_precision": 45,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 63.5,
+    "notes": "Multiple OCR errors including: 'ozs-os-11' for date, 'Lalif\u3002ruia' for California, 'Le wke Yxc' for name, '938 8' for square feet, 'Gorczauy Throughway' for street name, inconsistent date formats (MaY z02s, Mal ZoZs S, March zoz8), 'e3400' for $3400, 'zo89' for $2089. Layout and structure generally preserved but numerous character recognition errors throughout."
+  },
+  "timestamp": "2026-04-13 01:52:52"
+}

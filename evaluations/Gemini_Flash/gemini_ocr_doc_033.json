@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 60,
+    "numeric_precision": 100,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 79,
+    "notes": "Text accuracy is generally good with only minor issues like 'drivers' instead of 'driver's'. Table structure is poor; the columns are not well-defined, and the descriptions run into each other without clear separation. The horizontal lines are also not preserved as table lines. Layout preservation suffers due to the poor column structure, making the reading order confusing for the definitions. Completeness is fair, but the full glossary is not present, only a partial view."
+  },
+  "timestamp": "2026-04-13 01:43:03"
+}

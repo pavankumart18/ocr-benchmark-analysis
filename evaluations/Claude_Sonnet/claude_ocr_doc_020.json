@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 92,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 98,
+    "total_score": 92.1,
+    "notes": "Very high accuracy with minor formatting differences. OCR added markdown-style bold formatting (**text**) and included an extra '?' at the beginning. All text content is accurately captured with correct spelling and punctuation. Numbers, dates, and monetary amounts are perfect. Structure and completeness are excellent with only minor layout variations."
+  },
+  "timestamp": "2026-04-13 02:07:20"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 91.5,
+    "notes": "The OCR output accurately extracted the requested fields. Minor discrepancies include an extra comma in the address and an extra digit in the total amount in the OCR output, which was not part of the ground truth total. The ground truth only contains specific fields, not the full document content, so the additional text in the OCR output is not penalized for completeness or layout."
+  },
+  "timestamp": "2026-04-13 01:43:33"
+}

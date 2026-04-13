@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 30,
+    "table_structure": 0,
+    "numeric_precision": 80,
+    "layout_preservation": 10,
+    "completeness": 40,
+    "total_score": 29.5,
+    "notes": "Major text inaccuracies (e.g., 'BOOK TA .K' vs 'Book Ta *'), garbled layout, missing/incorrect address and company name. Only the total amount (9.00) is correctly extracted. No table structure preserved."
+  },
+  "timestamp": "2026-04-13 03:18:37"
+}

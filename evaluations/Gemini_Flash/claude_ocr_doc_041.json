@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 90,
+    "total_score": 90.5,
+    "notes": "Text accuracy is good, with minor discrepancies in the address (JALAN SAGU 18 vs JATAN SAGU 3B). Numeric precision is high, with the date and total matching perfectly. Completeness is good, as all requested fields are present, though the address has a slight variation. Table structure and layout preservation are perfect as the ground truth only specifies individual fields, not a table."
+  },
+  "timestamp": "2026-04-13 01:47:18"
+}

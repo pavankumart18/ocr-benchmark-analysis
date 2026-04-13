@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 98.4,
+    "notes": "The OCR output is nearly perfect with only minor issues: an extraneous '?' at the beginning and slight formatting differences (bold headers in OCR vs plain in ground truth). All content, including numeric values and structure, is accurately preserved."
+  },
+  "timestamp": "2026-04-13 03:35:54"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 68,
+    "notes": "Text accuracy suffers from misspellings (e.g., 'Parisian - Kuvalis lqck', 'let cctrical Salety'), garbled text (e.g., 'F<}', 'OAEPAE SERS'), and inconsistent formatting. Table structure is poorly preserved with misaligned checkpoints and results. Numeric precision is good (dates and IDs are correct). Layout preservation is fair but disrupted by garbled sections. Completeness is decent, but some notes and headers are fragmented or missing."
+  },
+  "timestamp": "2026-04-13 03:13:27"
+}

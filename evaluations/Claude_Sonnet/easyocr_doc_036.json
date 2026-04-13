@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 70,
+    "numeric_precision": 55,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 57,
+    "notes": "Multiple critical errors including misspelled names (Jeckie berkold, Lemke Iac), addresses (Weod sid, Letrti Landing, Gorezaw Tkroughwal), state names (Lalifornia, Lal;fornic), and garbled text throughout. Date format inconsistent (Z0zs vs 2025). Some numeric values unclear (93& & for square feet, Zo89 for security deposit). Layout structure generally preserved but text accuracy severely compromised."
+  },
+  "timestamp": "2026-04-13 01:56:55"
+}

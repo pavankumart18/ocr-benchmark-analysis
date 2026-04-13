@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 85,
+    "completeness": 95,
+    "total_score": 86,
+    "notes": "Text accuracy is generally good with no obvious misspellings. Numeric precision is also high. However, the table structure is significantly flawed, especially in the 'Description of Additional Charges', 'Additional Charges', 'VAT / Code', and 'Gross Value' columns where multi-line entries are not correctly aligned or grouped with their respective 'Shipment Number' rows. This leads to misinterpretation of which charges belong to which shipment. Layout preservation is decent, but the table structure issues impact the overall readability and data extraction. Completeness seems good, with all visible text captured."
+  },
+  "timestamp": "2026-04-13 01:36:57"
+}

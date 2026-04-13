@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 40,
+    "layout_preservation": 20,
+    "completeness": 35,
+    "total_score": 26,
+    "notes": "Severe OCR errors throughout. Company name has spacing issues (BOOKTA K vs BOOK TA .K), address is heavily garbled and incomplete, date has extra characters (25/12201881339P9 vs 25/12/2018), total amount is incorrect (9100 vs 9.00). Text is fragmented with many unrecognizable character sequences and missing critical information."
+  },
+  "timestamp": "2026-04-13 01:53:17"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 30,
+    "table_structure": 20,
+    "numeric_precision": 60,
+    "layout_preservation": 40,
+    "completeness": 50,
+    "total_score": 37.5,
+    "notes": "Severe text inaccuracies with most company name and key words garbled or missing. Table structure is poorly preserved with no clear columns or rows matching ground truth. Numeric data partially correct (total amount matches), but date is incorrect and formatting inconsistent. Layout is disorganized, reading order is disrupted, and many sections are missing or unreadable. Overall, major errors and garbled text reduce scores significantly."
+  },
+  "timestamp": "2026-04-13 02:14:30"
+}

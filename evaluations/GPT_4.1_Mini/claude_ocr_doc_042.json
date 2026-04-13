@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 66.75,
+    "notes": "Company name misspelled as 'INDAN' instead of 'INDAH'. Date year incorrect (2010 vs 2018). Address mostly correct but spacing issues. Table includes extra unrelated items and discounts not in ground truth, so structure differs. Numeric totals mostly correct but minor rounding adjustment present. Layout order mostly preserved but extraneous text and receipt details reduce clarity. Ground truth fields mostly present but embedded in longer receipt text."
+  },
+  "timestamp": "2026-04-13 02:22:24"
+}

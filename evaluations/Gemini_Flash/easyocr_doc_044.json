@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 0,
+    "numeric_precision": 30,
+    "layout_preservation": 0,
+    "completeness": 10,
+    "total_score": 16,
+    "notes": "The OCR output is highly garbled and bears little resemblance to the ground truth. Only 'YongFATT ENTERPRISE' and '80 91' (close to 80.90) are somewhat recognizable. The address and date are completely missing or incorrect. There is no table structure to evaluate. The overall layout is chaotic."
+  },
+  "timestamp": "2026-04-13 01:41:34"
+}

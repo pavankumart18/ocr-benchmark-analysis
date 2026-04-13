@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 85,
+    "total_score": 92,
+    "notes": "Very high accuracy with nearly perfect character-level matching. The document is incomplete - cuts off mid-sentence at the end. Layout is well-preserved with proper indentation and structure, though some spacing differs from ground truth. No tables present. All numbers, dates, and legal references are correctly captured."
+  },
+  "timestamp": "2026-04-13 02:02:48"
+}

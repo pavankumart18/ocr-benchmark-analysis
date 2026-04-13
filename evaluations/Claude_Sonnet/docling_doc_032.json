@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 65,
+    "completeness": 80,
+    "total_score": 75,
+    "notes": "Text accuracy issues include spacing problems in names (e.g., 'MarcellaDeckow', 'VernonBlanda', 'LeaveSickLeave' merged together). Table structure is mostly preserved but some cells appear misaligned. Time formats and dates are accurate. Layout has the table inverted (headers at bottom instead of top) and some formatting inconsistencies. Most content appears captured but some spacing and formatting issues affect readability."
+  },
+  "timestamp": "2026-04-13 01:52:29"
+}

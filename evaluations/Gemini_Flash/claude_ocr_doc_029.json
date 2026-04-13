@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 97.55,
+    "notes": "The OCR output is very good. There's a minor typo in '1qck' which should likely be '10ck' or similar, but without the original image, it's hard to confirm. The table structures are well-preserved, and all data appears to be present and correctly formatted."
+  },
+  "timestamp": "2026-04-13 01:46:49"
+}

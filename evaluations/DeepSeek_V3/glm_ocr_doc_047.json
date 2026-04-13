@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 100,
+    "total_score": 89.25,
+    "notes": "Minor text inaccuracies in company name format and address formatting, but all key information (company, date, address, total) is correctly captured. Numeric values and table structure are perfect. Layout is mostly preserved with correct reading order."
+  },
+  "timestamp": "2026-04-13 03:04:38"
+}

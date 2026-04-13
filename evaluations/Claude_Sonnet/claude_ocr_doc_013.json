@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 98,
+    "total_score": 94.6,
+    "notes": "Excellent OCR accuracy with nearly perfect text extraction. Minor formatting differences include added bold markdown formatting around the title section. The document appears to be cut off at the end (incomplete final sentence), but this matches the ground truth truncation. All legal text, names, numbers, and structured content are accurately preserved."
+  },
+  "timestamp": "2026-04-13 02:06:51"
+}

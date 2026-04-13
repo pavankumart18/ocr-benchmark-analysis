@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 70,
+    "layout_preservation": 90,
+    "completeness": 70,
+    "total_score": 81,
+    "notes": "The OCR output accurately extracted the company name and address. The date was mostly correct but included a timestamp not present in the ground truth. The 'total' field was completely missing from the OCR output, significantly impacting numeric precision and completeness. The ground truth is a JSON object, not a table, so table structure is considered perfect as there's no table to misinterpret."
+  },
+  "timestamp": "2026-04-13 01:41:51"
+}

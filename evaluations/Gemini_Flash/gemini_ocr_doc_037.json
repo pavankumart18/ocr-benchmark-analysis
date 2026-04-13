@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 93.1,
+    "notes": "Text accuracy is very high with no obvious errors. Numeric precision is perfect for the extracted numbers. Layout preservation is good, maintaining headers and question text. Completeness is good, but it appears the table is truncated, and the 'uptime INTELLIGENCE' might be a logo or stylized text that isn't fully captured as text. Table structure is decent, but the alignment of the percentages within the implied columns could be better, especially for the 'Not concerned' column where the '3%' is not aligned with the '9%' below it."
+  },
+  "timestamp": "2026-04-13 01:43:12"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 40,
+    "numeric_precision": 45,
+    "layout_preservation": 55,
+    "completeness": 80,
+    "total_score": 50.75,
+    "notes": "Significant OCR errors with many misspellings and garbled words (e.g., addresses, names). Numeric data such as dates and zip codes are often incorrect or malformed. Table and list structures are poorly preserved, with misaligned and fragmented entries. Reading order is somewhat maintained but sections and headers are inconsistent. Most visible text appears captured but with major quality issues."
+  },
+  "timestamp": "2026-04-13 02:13:38"
+}

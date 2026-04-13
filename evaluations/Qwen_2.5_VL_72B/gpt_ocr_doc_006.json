@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "gpt_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 64.5,
+    "notes": "Text accuracy is decent but has some errors like 'HIO' instead of 'HO'. No table structure is preserved. Numeric values are mostly correct except for the total format. Layout is partially preserved but not entirely accurate. Completeness is lacking as some ground truth fields are not captured."
+  },
+  "timestamp": "2026-04-13 02:54:32"
+}

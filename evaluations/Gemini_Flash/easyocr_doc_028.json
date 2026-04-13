@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 80,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 86,
+    "notes": "Some minor text recognition errors like 't0 8\"C' instead of 'to 80\u00b0C', 'Sm' instead of '5m', 'O' instead of '0', '308C' instead of '-30\u00b0C'. Numeric precision is affected by these character errors. The table structure is well-preserved, and most of the content is complete."
+  },
+  "timestamp": "2026-04-13 01:40:53"
+}

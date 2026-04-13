@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 97.75,
+    "notes": "The OCR output is nearly perfect with minor typo ('an automatic transmission' should start with a capital 'A'). Structure, layout, and completeness are fully preserved. No numeric or table issues detected."
+  },
+  "timestamp": "2026-04-13 03:02:35"
+}

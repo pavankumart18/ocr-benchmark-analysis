@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 79.5,
+    "notes": "The OCR output contains several minor misspellings and formatting issues, such as 'crulse' instead of 'cruise', 'inroltle' instead of 'interval', and 'tne' instead of 'the'. The table structure is mostly preserved but some lines are broken or merged incorrectly. Numeric values appear to be accurate. The layout is somewhat disrupted with some sentences split across lines. Most of the content is captured, but there are minor omissions and formatting issues."
+  },
+  "timestamp": "2026-04-13 02:42:55"
+}

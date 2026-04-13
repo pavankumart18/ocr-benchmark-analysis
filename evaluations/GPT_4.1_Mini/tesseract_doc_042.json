@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 5,
+    "numeric_precision": 0,
+    "layout_preservation": 10,
+    "completeness": 5,
+    "total_score": 6.5,
+    "notes": "OCR output is heavily garbled with almost no correct text matching ground truth. Company name, address, date, and total amount are all incorrect or unreadable. No table structure is preserved. Numeric data including date and total are missing or wrong. Reading order and layout are not maintained. Most ground truth text is missing or unrecognizable."
+  },
+  "timestamp": "2026-04-13 02:14:13"
+}

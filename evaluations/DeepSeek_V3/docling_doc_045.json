@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 0,
+    "numeric_precision": 5,
+    "layout_preservation": 10,
+    "completeness": 5,
+    "total_score": 6.75,
+    "notes": "OCR output is severely garbled with almost no correct matches to ground truth. Key fields like company name, address, and total are missing or incorrect. Numeric values and layout are also poorly preserved."
+  },
+  "timestamp": "2026-04-13 03:11:56"
+}

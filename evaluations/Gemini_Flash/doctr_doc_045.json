@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 10,
+    "completeness": 50,
+    "total_score": 49,
+    "notes": "The OCR output has significant issues with text accuracy, especially for the company name and address. The table structure is completely lost as the ground truth doesn't contain a table, but the OCR output presents itemized lists. Numeric precision is good for the total, but the date is incorrect. Layout preservation is poor due to the jumbled text and lack of clear field identification. Completeness is low as much of the ground truth information is either missing or heavily garbled."
+  },
+  "timestamp": "2026-04-13 01:38:31"
+}

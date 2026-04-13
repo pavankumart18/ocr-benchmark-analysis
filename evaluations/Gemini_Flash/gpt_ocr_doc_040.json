@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 99,
+    "total_score": 97.05,
+    "notes": "Minor OCR errors like 'His-' instead of 'History' and 'Geophysi-' instead of 'Geophysical'. The list of cities for the cruise itinerary is not perfectly aligned as a table, but the information is present. The speaker seminar lists are well-preserved."
+  },
+  "timestamp": "2026-04-13 01:45:18"
+}

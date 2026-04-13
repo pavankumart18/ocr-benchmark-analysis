@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 86.25,
+    "notes": "Company name and address mostly correct with minor spacing differences; date and total amounts exactly match. Table structure preserved well with clear columns and rows, though the original ground truth does not explicitly show a table, the invoice table is well captured. Layout and reading order are logical and consistent. Completeness is high with all key fields present, though extraneous text (e.g., 'tan chay yee', phone/fax, invoice details) is included but does not affect core data extraction."
+  },
+  "timestamp": "2026-04-13 02:18:23"
+}

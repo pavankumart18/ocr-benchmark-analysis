@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 95,
+    "total_score": 96,
+    "notes": "The OCR output is very good. The only minor issue is the 'EUA' for Germany instead of 'GER', and the missing flag for Germany and Soviet Union. Otherwise, the text, numbers, and table structure are perfectly preserved."
+  },
+  "timestamp": "2026-04-13 01:46:42"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 80,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 93,
+    "notes": "Text accuracy is very good with only a few minor OCR errors like 'throttie' instead of 'throttle' and 'whee!' instead of 'wheel'. Table structure is not applicable as there are no tables, but the glossary format with terms and definitions is mostly preserved. Numeric precision is perfect as there are no complex numbers. Layout preservation is good, maintaining the glossary format and reading order. Completeness is high, with only a few minor omissions or misinterpretations of characters."
+  },
+  "timestamp": "2026-04-13 01:40:03"
+}

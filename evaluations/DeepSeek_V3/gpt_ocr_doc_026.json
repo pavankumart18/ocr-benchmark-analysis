@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 98.25,
+    "notes": "The OCR output is nearly perfect with no visible errors in text, table structure, numeric precision, layout, or completeness. Minor deduction in text accuracy for potential very minor formatting inconsistencies."
+  },
+  "timestamp": "2026-04-13 03:30:07"
+}

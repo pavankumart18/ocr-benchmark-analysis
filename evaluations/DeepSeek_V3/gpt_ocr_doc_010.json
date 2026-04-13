@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 85,
+    "notes": "The OCR output captures most of the ground truth accurately, including the company name, date, address, and total amount. However, there are minor formatting issues and extra text not present in the ground truth. The table structure is somewhat preserved but includes additional irrelevant lines. Numeric precision is perfect, and the layout is mostly correct with minor deviations."
+  },
+  "timestamp": "2026-04-13 03:28:21"
+}

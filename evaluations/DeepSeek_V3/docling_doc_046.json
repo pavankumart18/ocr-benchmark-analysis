@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 56.5,
+    "notes": "Major text inaccuracies (e.g., 'ACHOTRADING' instead of 'ABC HO TRADING', garbled address). Table structure partially preserved but with extra noise. Numeric values mostly correct except for minor formatting issues. Layout is disrupted with mixed sections. Some ground truth fields are missing or incorrect."
+  },
+  "timestamp": "2026-04-13 03:12:09"
+}

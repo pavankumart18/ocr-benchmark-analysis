@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 86,
+    "notes": "The text accuracy is generally good with only minor formatting issues. However, the table structure is significantly compromised, especially in the 'Additional Charges' and 'VAT / Code' columns where values are not aligned with their corresponding descriptions. This also impacts numeric precision for these specific columns. The overall layout is mostly preserved, but the table's column integrity is lost."
+  },
+  "timestamp": "2026-04-13 01:43:06"
+}

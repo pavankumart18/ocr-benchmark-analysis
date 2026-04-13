@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 68.25,
+    "notes": "Major text inaccuracies (e.g., 'MD.I.V(JUHOR)' instead of 'MR D.I.Y. (JOHOR)'), garbled address, and incorrect table structure. Numeric values are mostly correct, but layout and reading order are disrupted."
+  },
+  "timestamp": "2026-04-13 03:11:38"
+}

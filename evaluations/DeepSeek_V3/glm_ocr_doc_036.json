@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 90.25,
+    "notes": "Minor text duplication in lease term and base rent sections, otherwise accurate and complete."
+  },
+  "timestamp": "2026-04-13 03:02:56"
+}

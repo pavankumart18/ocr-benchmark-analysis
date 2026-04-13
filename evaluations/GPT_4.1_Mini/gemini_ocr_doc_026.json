@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 80,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 70,
+    "total_score": 86.25,
+    "notes": "Text is mostly accurate with correct nation names and medal counts. Table structure is mostly preserved but the last row for France lacks a rank number, causing slight misalignment. Numeric data is fully correct. Reading order and headers are maintained well. Completeness is reduced because France's rank is missing and the last row is not aligned properly."
+  },
+  "timestamp": "2026-04-13 02:16:59"
+}

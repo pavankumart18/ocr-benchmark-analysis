@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 65,
+    "completeness": 70,
+    "total_score": 69.25,
+    "notes": "The OCR output contains several inconsistencies and errors. Text accuracy is moderately affected by incorrect symbols and missing words. Table structure is disrupted with misaligned rows and columns. Numeric precision is compromised by incorrect currency symbols and decimal points. Layout preservation is partially maintained but sections and headers are not consistently preserved. Completeness is moderately affected with some missing data."
+  },
+  "timestamp": "2026-04-13 02:43:19"
+}

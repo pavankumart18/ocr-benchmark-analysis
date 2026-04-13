@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 82,
+    "notes": "Minor spelling errors in address ('JOHOR BAHRI' vs 'JOHOR BAHRU', 'B1100' vs '81100'). All key numeric values match perfectly. OCR captured additional receipt details not in ground truth, showing good completeness. Layout and structure well preserved with clear sections and proper formatting."
+  },
+  "timestamp": "2026-04-13 01:49:20"
+}

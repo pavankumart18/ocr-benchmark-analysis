@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 45,
+    "numeric_precision": 70,
+    "layout_preservation": 40,
+    "completeness": 60,
+    "total_score": 57,
+    "notes": "Multiple text errors including 'Contruction' instead of 'Construction', 'SIZ.7M' instead of '$12.7M', and 'S21SM' formatting issues. Table structure is severely compromised with misaligned columns and fragmented data. The bottom section appears garbled with scattered numbers and incomplete chart data. Layout is disrupted with poor section separation."
+  },
+  "timestamp": "2026-04-13 01:56:30"
+}

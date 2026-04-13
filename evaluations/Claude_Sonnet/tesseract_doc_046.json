@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 72,
+    "notes": "Company name has OCR error (ARC vs ABC), address has multiple misspellings (HARMONT vs HARMONI, DEGA vs DESA, HARMCHINL vs HARMONI, OROR vs JOHOR). Date and total amount are correctly extracted. Extra content captured beyond ground truth requirements including customer name, phone, receipt details."
+  },
+  "timestamp": "2026-04-13 01:55:45"
+}

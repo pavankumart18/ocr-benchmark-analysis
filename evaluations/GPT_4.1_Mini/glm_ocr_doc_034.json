@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 69.25,
+    "notes": "The OCR captured most text correctly but with some misspellings (e.g., 'MACEJKOVIC', 'CONCEPCIONBOROUGH'), inconsistent line breaks within cells, and some misplaced or missing separators. Table columns and rows are partially preserved but numeric alignment is inconsistent, especially in additional charges and VAT columns. Numeric values mostly appear correct but some VAT/code and gross value columns seem misaligned or merged incorrectly. The reading order is mostly maintained but some multi-line addresses and charges are not clearly separated. Overall, the extraction is mostly complete but some text lines and charge descriptions are merged or fragmented."
+  },
+  "timestamp": "2026-04-13 02:10:01"
+}

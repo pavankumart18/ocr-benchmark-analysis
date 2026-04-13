@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 84,
+    "notes": "Company name, date, and total amount are correctly extracted. Address has minor formatting differences (missing spaces, comma). OCR captured extensive additional content not in ground truth including item details, contact info, and transaction data. Some character recognition errors in item descriptions and formatting inconsistencies in tabular data, but core required fields are accurate."
+  },
+  "timestamp": "2026-04-13 01:51:26"
+}

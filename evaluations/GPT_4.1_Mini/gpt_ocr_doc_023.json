@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 100,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 50,
+    "total_score": 68.75,
+    "notes": "Text accuracy suffers from multiple errors: 'Inhalers' instead of 'Inmates', missing title phrase, and incomplete sentences. No tables present in ground truth or OCR, so table structure is perfect by default. Numeric precision mostly good, though date differs (Sept 23 vs Sept 28) and some nicotine values differ slightly. Layout is partially preserved but sections and formatting are incomplete and reading order is truncated. Large portions of the ground truth text, including key details and insights, are missing, reducing completeness significantly."
+  },
+  "timestamp": "2026-04-13 02:19:06"
+}

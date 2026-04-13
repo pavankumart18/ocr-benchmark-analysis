@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 55,
+    "completeness": 60,
+    "total_score": 61.25,
+    "notes": "The OCR output contains several issues: misspellings like 'ups' and 'Shipments' instead of 'Shipments', incorrect alignment of table columns, some numeric values are slightly off, and the layout is disrupted with missing sections and incorrect reading order. These errors significantly impact the overall quality of the extraction."
+  },
+  "timestamp": "2026-04-13 02:25:24"
+}

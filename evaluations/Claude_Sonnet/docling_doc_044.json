@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 75,
+    "layout_preservation": 25,
+    "completeness": 70,
+    "total_score": 47,
+    "notes": "Major issues include: company name missing spaces ('YONGFATTENTERPRISE' vs 'YONGFATT ENTERPRISE'), address severely garbled and incomplete ('A1OO JOHCRBAHRU' vs full address), date format corrupted ('25126018' vs '25/12/2018'), and total amount has minor error ('80:91' vs '80.90'). OCR captured much extraneous text not in ground truth and failed to preserve proper structure and formatting."
+  },
+  "timestamp": "2026-04-13 01:53:28"
+}

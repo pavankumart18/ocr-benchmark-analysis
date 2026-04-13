@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 0,
+    "numeric_precision": 95,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 66.25,
+    "notes": "The OCR output contains several text inaccuracies, such as 'NO60' instead of 'NO.59' and '81700' instead of '81760'. There are no tables in the ground truth, so table structure is not applicable. Numeric values are mostly correct except for the total amount. The layout is somewhat preserved but not perfectly. The completeness is decent but some details are missing or incorrect."
+  },
+  "timestamp": "2026-04-13 02:26:37"
+}

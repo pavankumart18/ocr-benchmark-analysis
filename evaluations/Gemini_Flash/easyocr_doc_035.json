@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 72,
+    "notes": "Text accuracy suffers from several misspellings (e.g., 'Carbohydrates' vs 'Carbohydrates', 'Protein (g' vs 'Protein (g)', 'Sugar '' vs 'Sugar'). Table structure is significantly impacted by misaligned columns and rows, especially in the 'Dips + Spreads' and 'Wraps' sections where values are shifted. Numeric precision is affected by some decimal point errors and transposed digits (e.g., '7,3' instead of '7.3', '316' instead of '3.16' or similar, '7,.2' instead of '7.2'). Layout preservation is fair, but the table structure issues make it difficult to follow the data. Completeness is good, most text is captured."
+  },
+  "timestamp": "2026-04-13 01:41:13"
+}

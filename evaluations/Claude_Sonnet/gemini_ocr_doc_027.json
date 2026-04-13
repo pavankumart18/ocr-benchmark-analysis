@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 92,
+    "table_structure": 75,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 88,
+    "total_score": 86.1,
+    "notes": "High text accuracy with minor issues like incomplete parenthetical text for Greater Asia region. Table structure somewhat preserved but could be clearer in separating geographic vs segment data. Numbers are highly accurate. Some layout challenges in presenting the original tabular format as flowing text. Minor completeness issues with potentially missing formatting elements."
+  },
+  "timestamp": "2026-04-13 02:00:21"
+}

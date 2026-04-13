@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 65,
+    "numeric_precision": 80,
+    "layout_preservation": 60,
+    "completeness": 85,
+    "total_score": 71,
+    "notes": "The OCR output has minor typos and misspellings, especially in the table descriptions. The table structure is somewhat preserved but lacks proper alignment and formatting. Numeric precision is good, but layout preservation suffers due to inconsistent spacing and formatting. Completeness is high as most text appears to be captured."
+  },
+  "timestamp": "2026-04-13 03:08:47"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 90.25,
+    "notes": "Minor typo in 'Contruction' (should be 'Construction'). Table columns and rows are mostly preserved with proper alignment. Numeric values, including decimals and currency symbols, are accurate. Layout and reading order are maintained well. No major text missing."
+  },
+  "timestamp": "2026-04-13 02:17:11"
+}

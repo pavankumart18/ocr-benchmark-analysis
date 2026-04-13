@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 100,
+    "total_score": 88.25,
+    "notes": "Minor issues: 'INDAH' misspelled as 'INDAN', date format includes time (not in ground truth), and some extra irrelevant text. Numeric values and structure are well-preserved."
+  },
+  "timestamp": "2026-04-13 03:38:50"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 15,
+    "table_structure": 20,
+    "numeric_precision": 25,
+    "layout_preservation": 10,
+    "completeness": 30,
+    "total_score": 19,
+    "notes": "Severe OCR errors throughout. Company name 'INDAH GIFT & HOME DECO' completely garbled as 'ALNDEA ADHORTAYA'. Address missing entirely. Date partially recognizable but corrupted. Total amount 60.30 not clearly extracted. Text is largely illegible with random characters and poor structure preservation."
+  },
+  "timestamp": "2026-04-13 01:53:21"
+}

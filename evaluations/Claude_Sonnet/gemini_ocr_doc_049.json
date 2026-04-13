@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 20,
+    "numeric_precision": 25,
+    "layout_preservation": 60,
+    "completeness": 30,
+    "total_score": 38.5,
+    "notes": "Major issues: Company name correct but address has wrong number (50 vs 59) and postal code (81750 vs 81760). Date 12/02/2018 completely missing. Total amount 112.45 not found. OCR captured header info but missed critical transaction details. Contains extra irrelevant text not in ground truth."
+  },
+  "timestamp": "2026-04-13 02:01:53"
+}

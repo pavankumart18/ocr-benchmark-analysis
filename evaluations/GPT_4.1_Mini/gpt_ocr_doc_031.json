@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 83.25,
+    "notes": "Overall good text capture with minor spelling error ('Contruction' instead of 'Construction'). Table columns and rows mostly preserved, but some alignment issues in quarterly transaction numbers and their labels. Numeric values including decimals and currency symbols are accurate. Layout order is mostly correct but quarterly data and labels are somewhat confusingly arranged. All major visible text appears included."
+  },
+  "timestamp": "2026-04-13 02:19:29"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 72,
+    "table_structure": 65,
+    "numeric_precision": 78,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 72,
+    "notes": "Multiple OCR errors including misspellings (Glen76@yahoo com missing dot, 15261lm should likely be a different format), character recognition issues (40OOK instead of 4000K, 32'C t0 8'C with wrong 'to'), incomplete table structure with missing weight values (0, 4), and formatting issues in technical specifications. Table columns are present but alignment is poor. Most content is captured but with significant accuracy issues in technical details."
+  },
+  "timestamp": "2026-04-13 01:56:17"
+}

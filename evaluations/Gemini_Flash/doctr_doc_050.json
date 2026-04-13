@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 0,
+    "numeric_precision": 95,
+    "layout_preservation": 50,
+    "completeness": 90,
+    "total_score": 67,
+    "notes": "Text accuracy is good for the extracted fields, with only minor case differences in the company name. Table structure is not applicable as the ground truth does not define a table. Numeric precision is high, with the date and total matching perfectly. Layout preservation is fair, as the OCR output contains a lot of extraneous text not present in the ground truth, making it difficult to isolate the relevant information without prior knowledge. Completeness is good for the requested fields, as all ground truth information is present in the OCR output."
+  },
+  "timestamp": "2026-04-13 01:38:43"
+}

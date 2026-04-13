@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 85,
+    "completeness": 60,
+    "total_score": 77.25,
+    "notes": "Text accuracy is impacted by 'INHALERS' instead of 'INMATES' and some minor wording differences. No tables present, so table structure is perfect. Numeric data mostly matches except slight differences in nicotine values and missing some numeric details from ground truth. Layout is mostly preserved with clear sections and headings. Completeness is low due to the OCR output being truncated and missing large parts of the proposal text."
+  },
+  "timestamp": "2026-04-13 02:16:51"
+}

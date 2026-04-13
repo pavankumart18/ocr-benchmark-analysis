@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 75,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 78,
+    "notes": "Good text recognition with minor issues. Table structure has some misaligned values (e.g., 'Nacho Cheese 262' merged incorrectly). Several numeric values appear questionable or misplaced across columns. Layout generally preserved with clear section breaks. Document appears complete but truncated at end."
+  },
+  "timestamp": "2026-04-13 02:04:43"
+}

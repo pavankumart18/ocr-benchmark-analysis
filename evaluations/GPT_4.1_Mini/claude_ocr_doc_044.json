@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 81.25,
+    "notes": "Text accuracy is high with correct company name and address except minor punctuation differences (commas vs periods). Table structure is weaker since the ground truth has no table but OCR output includes a detailed invoice table not in ground truth, so structure does not match. Numeric precision is good with date and total matching closely; minor rounding difference in amounts noted but total matches ground truth. Layout is mostly preserved but OCR adds extra sections and details not in ground truth, affecting reading order. Completeness is good as all ground truth fields are present."
+  },
+  "timestamp": "2026-04-13 02:22:30"
+}

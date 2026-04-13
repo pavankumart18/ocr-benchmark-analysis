@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 20,
+    "total_score": 69,
+    "notes": "The OCR output is highly accurate for the text it did capture, with no misspellings or character errors. Numeric precision and table structure are perfect as there are no tables or complex numbers in the captured text. Layout is good for the captured portion. However, a significant portion of the document is missing, leading to a very low completeness score."
+  },
+  "timestamp": "2026-04-13 01:42:17"
+}

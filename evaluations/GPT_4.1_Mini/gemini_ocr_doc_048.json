@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 70,
+    "total_score": 77.25,
+    "notes": "Company name mostly correct with minor spacing differences; address mostly correct except 'Kurau' vs 'Kurau' (minor OCR error). Date missing entirely. Table present but not matching ground truth table structure; only invoice item shown, no date or total line as in ground truth. Numeric values for total correct. Layout roughly preserved but extra unrelated text ('tan chay yee', phone/fax) present and date missing. Overall, key fields partially captured but incomplete and some structural elements missing."
+  },
+  "timestamp": "2026-04-13 02:17:56"
+}

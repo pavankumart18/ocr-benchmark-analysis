@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 96.25,
+    "notes": "The OCR output is nearly perfect with minor layout preservation issues, such as potential misalignment of headers or paragraphs. Text accuracy is high with no noticeable misspellings or missing words. Numeric precision and table structure are flawless. All visible text appears to be captured."
+  },
+  "timestamp": "2026-04-13 03:03:31"
+}

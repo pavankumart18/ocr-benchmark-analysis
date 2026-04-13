@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 80,
+    "notes": "The OCR output shows several text accuracy issues, including misspellings ('crulse' instead of 'cruise', 'thal' instead of 'that', 't0' instead of 'to', 'Wnen' instead of 'When', 'Ihe' instead of 'The', 'modesily' instead of 'modestly', 'reganerative' instead of 'regenerative', 'tumns' instead of 'turns', 'electrica' instead of 'electrical', 'veny' instead of 'very', 'detemmine' instead of 'determine', 'mainienance' instead of 'maintenance', 'vlbrations' instead of 'vibrations', 'traclion' instead of 'traction', 'cartain' instead of 'certain', 'connecling' instead of 'connecting', 'pistors' instead of 'pistons', 'tne' instead of 'the', 'IIme' instead of 'time', 'drivabllity' instead of 'drivability', 'Oven' instead of 'even', 'radlation' instead of 'radiation', 'wlthin' instead of 'within', 'glven' instead of 'given', 'connecling' instead of 'connecting', 'Irue' instead of 'true', 'Iransmission' instead of 'transmission', 'drlve' instead of 'drive', 'clanfication' instead of 'clarification'). The document is a two-column glossary, and while the terms and definitions are generally paired correctly, the OCR sometimes merges parts of the definition from the next line or column, affecting layout and readability. Numeric precision is good as there are few numbers to extract. Completeness is good, with most text captured."
+  },
+  "timestamp": "2026-04-13 01:41:06"
+}

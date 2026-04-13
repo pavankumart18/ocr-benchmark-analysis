@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 90,
+    "notes": "Minor spacing issue in company name 'BOOK TA .K' vs 'BOOK TA K', but all key information accurately extracted. Date, address, and total amount are perfect matches. OCR captured additional receipt details beyond ground truth requirements."
+  },
+  "timestamp": "2026-04-13 02:05:52"
+}

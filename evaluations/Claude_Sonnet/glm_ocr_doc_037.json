@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 92,
+    "notes": "Excellent text accuracy with no spelling errors. All percentages and numbers are correct. Table structure is mostly preserved but lacks clear column headers and formatting. Layout maintains proper reading order with clear sections. All visible content appears captured including the detailed analysis paragraph."
+  },
+  "timestamp": "2026-04-13 01:48:37"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 60,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 29,
+    "notes": "Severe OCR errors throughout. Company name heavily corrupted ('SaA, MTIR | SULAL FHBIT' vs 'S.H.H. MOTOR (SUNGAI RENGIT) SDN. BHD.'). Address partially recognizable but with many character errors. Date incorrect (21-01-2019 vs 23-01-2019). Total amount correct (20.00) but surrounded by garbled text. Most text is illegible with random characters and fragments."
+  },
+  "timestamp": "2026-04-13 01:57:56"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 84,
+    "notes": "Company name, date, and total amount are correctly extracted. Address has minor formatting differences (NO.S3 vs NO.53, missing full address in structured format). OCR captured extensive additional receipt details not in ground truth. Some character recognition errors in item codes and descriptions, but core financial data is accurate."
+  },
+  "timestamp": "2026-04-13 01:55:50"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 96.5,
+    "notes": "Minor OCR errors include a stray '?' at the beginning and slight punctuation variations (e.g., 'Company\u2019s' vs 'Company's'). Overall, the OCR output is highly accurate with no major omissions or structural issues."
+  },
+  "timestamp": "2026-04-13 03:35:44"
+}

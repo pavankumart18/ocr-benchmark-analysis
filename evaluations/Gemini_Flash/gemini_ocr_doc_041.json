@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 96.5,
+    "notes": "The OCR output accurately extracted all the requested fields. The only minor discrepancy is the 'address' field in the ground truth has a period at the end which is missing in the OCR output, and the 'total' field in the ground truth is '9.00' while the OCR output has multiple instances of '9.00' for total, but the specific 'Total :' line matches. The ground truth is a structured JSON, not a raw text, so table structure and layout preservation are considered perfect as the relevant data points are correctly identified and extracted from the raw OCR text."
+  },
+  "timestamp": "2026-04-13 01:43:22"
+}

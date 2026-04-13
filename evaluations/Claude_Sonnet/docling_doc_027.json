@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 20,
+    "numeric_precision": 30,
+    "layout_preservation": 75,
+    "completeness": 25,
+    "total_score": 55.5,
+    "notes": "Text is mostly accurate with minor spacing issue in first paragraph. Major issues include complete loss of table data (replaced with <!-- image --> placeholders), isolated '$1.4' and 'Critical Care' fragments suggest significant missing content. Layout structure is partially preserved but substantial data loss severely impacts completeness and numeric precision."
+  },
+  "timestamp": "2026-04-13 01:52:00"
+}

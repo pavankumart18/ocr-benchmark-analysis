@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 85,
+    "total_score": 77.25,
+    "notes": "Key issues: 'MR D.I.Y.' misread as 'MR 0.1.Y.', 'JOHOR' as 'JOKOR', 'SDN BHD' as 'SON BHD'. Address and total are mostly correct. Extra invoice details present but not in ground truth. Numeric values are accurate except for minor rounding note."
+  },
+  "timestamp": "2026-04-13 03:07:37"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 10,
+    "numeric_precision": 0,
+    "layout_preservation": 40,
+    "completeness": 30,
+    "total_score": 34.5,
+    "notes": "Company name mostly correct but case differences and extra text present; address mostly correct but split and partially missing punctuation; date and total amount missing entirely; no table structure present; layout is disorganized with unrelated text before and after; major missing fields cause low completeness and numeric precision scores."
+  },
+  "timestamp": "2026-04-13 02:18:02"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 95,
+    "total_score": 94.25,
+    "notes": "One minor text error: 'Germany (EUA)' should likely be 'Germany (GER)'. The last row is missing a 'Rank' value, which is a minor structural and completeness issue. Otherwise, the extraction is very good."
+  },
+  "timestamp": "2026-04-13 01:42:47"
+}

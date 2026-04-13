@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 90,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 60,
+    "total_score": 75,
+    "notes": "Key issues: 'INMATES' incorrectly read as 'INHALERS' in title, missing structured analysis sections from ground truth (Document Type, Key Details, Insights sections), text cuts off mid-sentence. However, the core document content is accurately captured with proper formatting, dates, and most numerical values correct."
+  },
+  "timestamp": "2026-04-13 02:07:35"
+}

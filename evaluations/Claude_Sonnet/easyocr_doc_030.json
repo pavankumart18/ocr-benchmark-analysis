@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 30,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 24,
+    "notes": "Severely garbled OCR output with extensive character recognition errors throughout. Words are fragmented and misspelled (e.g., 'POSTAL SERVICE' becomes fragmented, 'ECONOMY' becomes 'CONOMT', 'SURCHARGE' becomes 'SURCIARGE'). Table structure is completely broken with misaligned columns and scattered data. Many numeric values appear corrupted or incomplete. Document layout is poorly preserved with mixed-up sections. While some text fragments are recognizable, the overall quality is extremely poor and would require significant manual correction."
+  },
+  "timestamp": "2026-04-13 01:56:27"
+}

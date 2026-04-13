@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 83.25,
+    "notes": "Minor typos and misalignments in table structure, but numeric values and completeness are well-preserved. Some layout inconsistencies noted."
+  },
+  "timestamp": "2026-04-13 03:12:59"
+}

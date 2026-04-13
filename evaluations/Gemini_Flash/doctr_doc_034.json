@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 80,
+    "notes": "Text accuracy is generally good, but there are some minor OCR errors like 'OONSICOOKP' instead of a likely document number, 'Issuel Date' instead of 'Issue Date', and some inconsistent spacing in words like 'OUT-OF-HOURSI' and 'SPECIALHANDLING:'. Table structure is somewhat preserved but column headers are not perfectly aligned with their data, and some data points seem to bleed into other columns or are not clearly separated. Numeric precision is fair, with most numbers and dates appearing correct, but the alignment issues make it harder to verify. Layout preservation is decent, with the overall flow maintained. Completeness is good, with most visible text captured."
+  },
+  "timestamp": "2026-04-13 01:38:02"
+}

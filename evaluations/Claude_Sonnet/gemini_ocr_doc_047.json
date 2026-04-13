@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 30,
+    "numeric_precision": 40,
+    "layout_preservation": 70,
+    "completeness": 60,
+    "total_score": 62.5,
+    "notes": "Company name and address are accurately extracted. However, the date is incomplete (11/ instead of 11/01/2019), the total amount 327.00 is completely missing, and the OCR includes extra content not in ground truth like customer name, phone numbers, and document structure that wasn't required."
+  },
+  "timestamp": "2026-04-13 02:01:47"
+}

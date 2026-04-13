@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 98,
+    "layout_preservation": 85,
+    "completeness": 92,
+    "total_score": 92.4,
+    "notes": "Very good OCR extraction with only minor issues: one misspelling ('Contruction' instead of 'Construction'), some ambiguity in chart data alignment with quarters, and minor layout spacing issues. All financial figures, city names, and structural elements are accurately captured."
+  },
+  "timestamp": "2026-04-13 02:04:22"
+}

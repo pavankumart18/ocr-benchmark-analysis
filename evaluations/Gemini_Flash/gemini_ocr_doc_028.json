@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 100,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 98,
+    "notes": "The text accuracy, numeric precision, and completeness are perfect. The layout preservation and table structure are very good, with only a minor deviation in the 'From' and 'To' alignment, which is not perfectly centered above their respective columns but still clearly indicates the separation."
+  },
+  "timestamp": "2026-04-13 01:42:52"
+}

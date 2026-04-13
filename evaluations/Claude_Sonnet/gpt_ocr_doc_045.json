@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 45,
+    "layout_preservation": 20,
+    "completeness": 30,
+    "total_score": 26.5,
+    "notes": "OCR extracted completely different document content. Ground truth shows MR D.I.Y. receipt from 18-11-18, but OCR shows different company (tan woon yann) with different date (11/01/2020), different address, and different itemized products. Only the total amount 30.90 matches. This appears to be OCR output from an entirely different receipt/invoice."
+  },
+  "timestamp": "2026-04-13 02:05:26"
+}

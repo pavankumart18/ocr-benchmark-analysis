@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 63.25,
+    "notes": "Text accuracy suffers from numerous misspellings and wrong characters (e.g., 'Advertsement', 'oft', 'thef'). Table structure is poorly preserved with no clear alignment. Numeric precision is mostly correct but has minor errors (e.g., '175th' is correct, but '20+' is unclear). Layout preservation is disrupted with mixed reading order. Completeness is good, but some minor text may be missing."
+  },
+  "timestamp": "2026-04-13 03:07:00"
+}

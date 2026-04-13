@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 90,
+    "total_score": 91.75,
+    "notes": "The OCR output has a minor error in the address, specifically the house number (NO.69 instead of NO.59) and the postcode (81750 instead of 81760). All other fields match perfectly. The table structure and layout are not directly applicable to the ground truth's simple JSON structure, so they are scored high based on the assumption that the relevant fields were extracted correctly from the overall document layout."
+  },
+  "timestamp": "2026-04-13 01:44:04"
+}

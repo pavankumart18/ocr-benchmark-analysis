@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83.25,
+    "notes": "Company name and address mostly correct with minor punctuation differences; date and total amounts match exactly. Table structure is partially preserved but extra unrelated text and additional columns present, reducing clarity. Layout order is generally maintained but includes extra lines and spacing changes. All key ground truth text is present, though OCR added extra content not in ground truth."
+  },
+  "timestamp": "2026-04-13 02:20:39"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 75,
+    "layout_preservation": 88,
+    "completeness": 95,
+    "total_score": 85.25,
+    "notes": "Company name has minor spacing differences, address has 'B1620' instead of '81620', date and total are correct. OCR captured much more detail than ground truth including full invoice structure, item details, and additional fields. Main error is the postal code digit substitution."
+  },
+  "timestamp": "2026-04-13 01:49:27"
+}

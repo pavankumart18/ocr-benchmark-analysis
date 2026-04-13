@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 100,
+    "total_score": 89,
+    "notes": "Minor issues include extra text (e.g., 'tan chay yee', 'INVOICE', 'TOKEN NO') not in ground truth, and slight formatting deviations. However, all key ground truth fields (company, date, address, total) are accurately captured with correct numeric values."
+  },
+  "timestamp": "2026-04-13 03:20:30"
+}

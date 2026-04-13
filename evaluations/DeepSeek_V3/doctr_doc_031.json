@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 67,
+    "notes": "Text accuracy is decent but has minor errors like 'Contruction' instead of 'Construction'. Table structure is partially preserved but misaligned in some rows. Numeric precision is good with correct amounts. Layout preservation is poor due to garbled text and incorrect reading order. Completeness is acceptable but some sections are messy or unclear."
+  },
+  "timestamp": "2026-04-13 03:05:31"
+}

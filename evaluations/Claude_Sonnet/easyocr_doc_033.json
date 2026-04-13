@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 68,
+    "notes": "Multiple OCR errors including 'crulse' for 'cruise', 'gravlty' for 'gravity', 'Utllity' for 'Utility', spacing issues like 'I0' for 'to', and fragmented text flow. Layout structure is partially preserved but reading order is disrupted with definitions appearing disconnected from terms. Numbers and technical specifications are mostly accurate."
+  },
+  "timestamp": "2026-04-13 01:56:41"
+}

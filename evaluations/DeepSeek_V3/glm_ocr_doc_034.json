@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.75,
+    "notes": "Minor typos and missing sender/reference numbers observed. Table structure and numeric precision are well-preserved. Layout is mostly correct but could be improved with better alignment."
+  },
+  "timestamp": "2026-04-13 03:02:47"
+}

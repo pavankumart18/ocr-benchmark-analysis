@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 75,
+    "layout_preservation": 65,
+    "completeness": 85,
+    "total_score": 68.75,
+    "notes": "The OCR output contains multiple misspellings (e.g., 'Annamarieberg', 'CEJULITUV', 'underwater installationl'), incorrect characters (e.g., '\u20ac' instead of '\u00b0'), and formatting errors. The table structure is partially preserved but columns and rows are not clearly aligned, making it difficult to parse data cleanly. Numeric values such as temperatures and weights have some errors or inconsistencies (e.g., '32'C t0 8\"C', '0' weight for power supply). Layout is somewhat maintained but reading order is disrupted, and some sections blend together without clear separation. Most visible text is captured, but some warranty years are missing and some lines are truncated or merged."
+  },
+  "timestamp": "2026-04-13 02:14:44"
+}

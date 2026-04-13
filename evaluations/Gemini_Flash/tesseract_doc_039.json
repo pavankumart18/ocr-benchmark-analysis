@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 82,
+    "notes": "Text accuracy is good with minor issues like 'Bergnaum I' instead of 'Bergnaum' and 'Puer' instead of 'Pure'. Table structure has some alignment issues, especially with the 'BB Sales' and subsequent columns where some rows are missing values or misaligned. Numeric precision is generally good, but the missing values in the table affect the overall structure. Layout preservation is decent, but the table's column integrity is compromised. Completeness is high, with most visible text captured."
+  },
+  "timestamp": "2026-04-13 01:40:19"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 76,
+    "notes": "Text accuracy suffers from several misspellings and character substitutions (e.g., 'lqck' for 'lock', 'let cctrical Salety' for 'Electrical Safety', 'bi able' for 'cable', 'er ormance Te ests' for 'Performance Tests', 'Sees' for 'Pass', 'F<}' for 'Fail', 'OAEPAE SERS' for 'Notes'). Table structure is significantly impacted by the misinterpretation of 'Pass', 'Fail', 'N/A' columns, leading to 'Sees', 'ia]', '8ea', 'Ss)', 'a7]', 'SF', 'Sees', 'SJ' and 'F<}'. Numeric precision is good for dates and the equipment ID. Layout preservation is generally good, but the misinterpretation of column headers affects the visual flow. Completeness is fair, with most content present despite the errors."
+  },
+  "timestamp": "2026-04-13 01:39:54"
+}

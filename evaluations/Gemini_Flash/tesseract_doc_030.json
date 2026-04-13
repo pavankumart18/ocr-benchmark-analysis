@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 83,
+    "notes": "There are several minor text recognition errors, such as 'sy' instead of 'by', 'IIZYYWVEM' and 'JUHYHVXPSL' which appear to be gibberish, and '1214-1981' instead of '12-14-1981'. The table-like structure for addresses and charges is not perfectly preserved, with some misalignment and missing implied columns. Numeric precision is generally good, but some dates have minor formatting issues (e.g., '12-1420)' instead of '12-14-20xx'). The overall layout and completeness are decent, but the address blocks could be better structured."
+  },
+  "timestamp": "2026-04-13 01:39:56"
+}

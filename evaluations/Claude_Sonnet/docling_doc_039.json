@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 83.5,
+    "notes": "Good overall extraction with well-preserved table structure and accurate numbers. Main issues: several name concatenation errors (MathewBailey, ChristianBergnaumI, BrookeWaters, GarrettLakin, ByronBecker, AliceSchinner should have spaces), and 'Man:' should likely be 'Manager:'. Table alignment and numeric values are excellent."
+  },
+  "timestamp": "2026-04-13 01:53:08"
+}

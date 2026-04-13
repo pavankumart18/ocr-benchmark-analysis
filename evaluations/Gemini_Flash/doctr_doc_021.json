@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 0,
+    "table_structure": 0,
+    "numeric_precision": 0,
+    "layout_preservation": 0,
+    "completeness": 0,
+    "total_score": 0,
+    "notes": "The OCR output is completely different from the ground truth. It appears to be an invoice or shipping manifest, while the ground truth is a descriptive document about a corporate research program. There is no overlap in content, structure, or numerical data."
+  },
+  "timestamp": "2026-04-13 01:37:38"
+}

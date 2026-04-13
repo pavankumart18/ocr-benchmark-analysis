@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 84.25,
+    "notes": "Minor typos in company name ('bnd' instead of 'BHD') and extra irrelevant text. Table structure partially preserved but includes unrelated items. Numeric values (date, total) match perfectly. Layout is mostly correct but cluttered with additional non-ground-truth content. All ground truth text is captured but mixed with extra details."
+  },
+  "timestamp": "2026-04-13 03:08:35"
+}

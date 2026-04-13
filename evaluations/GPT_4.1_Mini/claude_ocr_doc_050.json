@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 20,
+    "numeric_precision": 90,
+    "layout_preservation": 40,
+    "completeness": 30,
+    "total_score": 52.5,
+    "notes": "The OCR output contains significant extra text not in ground truth and misses the exact company name casing and formatting. The table structure is poorly preserved, with item lines and totals present but not clearly aligned or formatted as a table. Numeric data like date and total amount match well, but other numeric details are extraneous. Layout is disrupted by added sections and unrelated text, breaking reading order. Overall, the OCR captures some key numeric info but fails to accurately reproduce the ground truth text, structure, and completeness."
+  },
+  "timestamp": "2026-04-13 02:22:45"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 73,
+    "notes": "Text accuracy suffers from several character substitutions (e.g., 'Numher' for 'Number', 'Dale' for 'Date', 'Kase' for 'Case', 'Churges' for 'Charges', 'FFF' for 'FEE', 'WFE' for 'FEE', 'Rg' for 'Kg', 'J8' for '38', 'X' for 'X', 'A47' for '47', 'OUFOF' for 'OUTOF', 'WTDE' for 'WIDE', 'SuSI' for '51'). Table structure is somewhat preserved but column alignment is off, especially for the 'Gross Value' and 'Additional VAT / Code' columns, and some data seems to bleed into other columns. Numeric precision is impacted by some of these character substitutions and potential misinterpretations of decimal points (e.g., '33.,84' for '33.84', '49,J8' for '49.38', '25,0X' for '25.08', '120,05' for '120.05', '745.26' for '745.26' - this one is correct but others are not, '198,.03' for '198.03'). Layout preservation is generally good, with sections and headers mostly maintained. Completeness is high, with most visible text captured."
+  },
+  "timestamp": "2026-04-13 01:41:10"
+}

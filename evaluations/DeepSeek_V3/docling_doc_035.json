@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 65,
+    "completeness": 85,
+    "total_score": 74,
+    "notes": "Text accuracy is affected by misspellings and merged words (e.g., 'FrenchFries', 'YogurtDill'). Table structure has misalignments and inconsistent formatting (e.g., 'BBQChicken280 Wrap' appears twice). Numeric precision is mostly correct but has some alignment issues. Layout preservation suffers from incorrect reading order and mixed sections. Completeness is good, with only minor omissions."
+  },
+  "timestamp": "2026-04-13 03:10:12"
+}

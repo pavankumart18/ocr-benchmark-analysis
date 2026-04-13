@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 79.25,
+    "notes": "Company name and address mostly correct with minor punctuation differences; extra unrelated text present. Table structure partially preserved but original ground truth has no table, OCR shows detailed invoice table not in ground truth. Numeric data mostly matches, slight rounding difference in item price (80.91 vs 80.90) but total matches. Layout somewhat preserved but OCR includes additional sections and lines not in ground truth, affecting reading order. Ground truth is minimal, OCR output is more detailed, so some mismatch in completeness."
+  },
+  "timestamp": "2026-04-13 02:18:13"
+}

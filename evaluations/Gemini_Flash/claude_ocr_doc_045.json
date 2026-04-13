@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 95,
+    "total_score": 96.25,
+    "notes": "The OCR output is very accurate. Minor discrepancies include 'MR.D.I.Y.' instead of 'MR D.I.Y.' and 'LOT 1251-A' instead of 'LOT 1851-A' in the address. The total amount was initially 30.91 before rounding adjustment, but the final rounded total matches the ground truth."
+  },
+  "timestamp": "2026-04-13 01:47:28"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 95.5,
+    "notes": "Minor issues in layout preservation with a line break in the street address. Text accuracy is high with no misspellings or wrong characters. Numeric precision is perfect with correct dates and square footage. Completeness is good with all major text captured."
+  },
+  "timestamp": "2026-04-13 03:24:17"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 86.25,
+    "notes": "Company name spacing differs slightly (extra spaces around parentheses). Address capitalization varies but content matches. Date and amounts are exact. Table columns and rows are mostly preserved but the OCR includes extra unrelated text lines. Layout and reading order are good. Overall, minor formatting and spacing issues but no major text errors or missing data."
+  },
+  "timestamp": "2026-04-13 02:20:44"
+}

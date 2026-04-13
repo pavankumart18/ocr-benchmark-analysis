@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 60,
+    "notes": "Text accuracy is fair, with some minor misspellings ('INRAH' instead of 'INDAH', 'TAMANE' instead of 'TAMAN', 'JONOR' instead of 'JOHOR'). Table structure is not applicable as the ground truth is not a table, but the OCR output contains tabular data not present in the ground truth. Numeric precision is good for the extracted fields. Layout preservation is poor as the OCR output includes a lot of extraneous information and the reading order for the relevant fields is not strictly preserved. Completeness is good for the requested fields, but the OCR output contains a lot of extra text not in the ground truth."
+  },
+  "timestamp": "2026-04-13 01:38:23"
+}

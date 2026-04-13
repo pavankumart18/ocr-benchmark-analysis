@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "docling",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 20,
+    "completeness": 50,
+    "total_score": 50.75,
+    "notes": "The OCR output contains significant text accuracy issues, such as missing spaces and incorrect characters. There is no clear table structure preserved. Numeric values like the total amount are correct, but the date format is incorrect. The layout is not preserved, and sections are not clearly maintained. Some key information from the ground truth is missing or garbled."
+  },
+  "timestamp": "2026-04-13 02:28:33"
+}

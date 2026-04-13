@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 100,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 40,
+    "total_score": 67,
+    "notes": "The OCR output has good character-level accuracy for the text it did extract, but it is significantly incomplete, missing large sections of the ground truth. There's a typo 'INHALERS' instead of 'INMATES'. Numeric precision is good for the extracted numbers, but some are missing. Layout is generally preserved for the extracted text, but the structured 'Key Details' and 'Insights and Observations' sections are entirely absent."
+  },
+  "timestamp": "2026-04-13 01:42:39"
+}

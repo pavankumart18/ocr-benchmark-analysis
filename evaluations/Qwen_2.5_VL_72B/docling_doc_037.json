@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "docling",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 0,
+    "numeric_precision": 100,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 63.75,
+    "notes": "The text accuracy is relatively high with minor issues like 'Al' instead of 'AI'. However, there are placeholders for images where tables should be, resulting in a complete failure in table structure preservation. Layout preservation is moderately accurate but lacks proper structure due to missing tables. Completeness is decent but could be better if tables were included."
+  },
+  "timestamp": "2026-04-13 02:27:40"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 92,
+    "notes": "Excellent OCR extraction with accurate text and perfect numeric capture. Minor issues include some spacing irregularities in the table structure and potential missing visual elements like logos. The survey data percentages and all numerical values are precisely captured. Text flows logically with proper paragraph breaks and section organization."
+  },
+  "timestamp": "2026-04-13 02:04:54"
+}

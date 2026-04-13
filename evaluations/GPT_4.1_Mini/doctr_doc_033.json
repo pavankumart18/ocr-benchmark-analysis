@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 10,
+    "numeric_precision": 90,
+    "layout_preservation": 40,
+    "completeness": 80,
+    "total_score": 47.5,
+    "notes": "The OCR output contains numerous misspellings, incorrect characters, and fragmented words, significantly reducing text accuracy. There is no clear preservation of table structure or alignment, with columns and rows merged or jumbled. Numeric data is mostly unaffected, with few numbers present and those mostly correct. The reading order is disrupted, with paragraphs and sections blending together and headers not clearly distinguished. Most visible text is captured, but some parts are garbled or incomplete."
+  },
+  "timestamp": "2026-04-13 02:11:10"
+}

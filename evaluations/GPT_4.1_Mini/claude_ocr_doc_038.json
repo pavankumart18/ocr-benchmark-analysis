@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.25,
+    "notes": "Text is mostly accurate with no misspellings; table columns and rows are preserved well though some numeric alignment in the quarterly transactions section is unclear; numeric values including decimals and currency symbols are correct; layout is generally maintained but the quarterly transactions section is somewhat confusing and disrupts reading flow; no major text appears missing."
+  },
+  "timestamp": "2026-04-13 02:22:11"
+}

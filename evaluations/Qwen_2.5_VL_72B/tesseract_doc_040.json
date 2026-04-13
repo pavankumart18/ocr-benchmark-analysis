@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 0,
+    "numeric_precision": 80,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 50.5,
+    "notes": "The text contains several misspellings and wrong characters, such as 'Pp.' instead of 'Pacific' and 'Sz' instead of 'S.' The table structure is not preserved at all, as there are no clear tables in the output. Numeric values like the conference fee are correctly captured. The layout is disrupted with incorrect reading order and missing sections. Some text is captured, but there are noticeable omissions and errors."
+  },
+  "timestamp": "2026-04-13 02:41:07"
+}

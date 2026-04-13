@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 92.25,
+    "notes": "OCR output is very accurate with correct spelling and no missing words. Table columns and rows are well preserved with proper alignment. Numeric values, including decimals and currency symbols, are precise. Layout and reading order are maintained. No major text or data appears missing."
+  },
+  "timestamp": "2026-04-13 02:17:30"
+}

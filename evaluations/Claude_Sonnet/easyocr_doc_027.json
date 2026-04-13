@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 45,
+    "numeric_precision": 75,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 61,
+    "notes": "Multiple spelling errors (indluding, Sysgerostic, nd Asia), poor table structure with misaligned data and fragmented labels, some numeric values appear correct but currency symbols inconsistent ($81,476 vs 51.6), layout is confusing with mixed formatting between geographic and segment data"
+  },
+  "timestamp": "2026-04-13 01:56:10"
+}

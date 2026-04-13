@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 20,
+    "numeric_precision": 30,
+    "layout_preservation": 25,
+    "completeness": 70,
+    "total_score": 36.75,
+    "notes": "The OCR output contains numerous misspellings, wrong characters, and garbled text (e.g., 'SElacnenl AFbcr', 'Decaplan b Adlllla CLrzE'). Table structure is poorly preserved, with misaligned numbers and broken rows. Numeric precision is low due to incorrect dates and garbled numbers (e.g., '02-16-1951', '1207 [986'). Layout is disrupted, with incorrect reading order and missing headers. Completeness is relatively better, but major sections are still garbled or missing."
+  },
+  "timestamp": "2026-04-13 03:16:58"
+}

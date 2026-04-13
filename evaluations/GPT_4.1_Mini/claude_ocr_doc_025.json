@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 80,
+    "total_score": 82.25,
+    "notes": "Text is mostly accurate with minor issues such as missing 'Title' and 'Years Covered' headings and some missing negative signs in Contribution row (e.g., 1987 Contribution is 21.5 instead of 11.5). Table columns are mostly preserved but the 'Chg. Index' columns add extra data not in ground truth, and some alignment is off. Numeric values mostly match except for Contribution 1987 and CPM 1988 (11.45 vs 36.2). Layout is generally preserved but lacks section headers like Document Type and Key Details. Completeness is good but missing some descriptive text and the Insights section entirely."
+  },
+  "timestamp": "2026-04-13 02:21:35"
+}

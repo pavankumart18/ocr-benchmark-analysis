@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 60,
+    "total_score": 78,
+    "notes": "Minor spelling error 'Contruction' instead of 'Construction'. Table structure mostly preserved but San Diego row appears incomplete with missing value in last column. All numeric values and currency formatting appear accurate. Header and tabular layout maintained well, but the incomplete final row suggests missing data."
+  },
+  "timestamp": "2026-04-13 02:00:42"
+}

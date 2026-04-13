@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 82.25,
+    "notes": "Company name and address mostly correct with minor spacing and capitalization differences. Date and amounts match exactly. Table structure is present but not clearly aligned or labeled as in ground truth. Layout order is mostly preserved but extra unrelated text and invoice details appear. Overall, good text fidelity and numeric precision, but table formatting and strict layout could be improved."
+  },
+  "timestamp": "2026-04-13 02:20:16"
+}

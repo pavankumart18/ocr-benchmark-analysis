@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 40,
+    "numeric_precision": 70,
+    "layout_preservation": 55,
+    "completeness": 60,
+    "total_score": 58.75,
+    "notes": "The OCR output contains several misspellings and incorrect characters, such as 'indluding' instead of 'including' and 'Sysgerostic' instead of 'Diagnostic'. The table structure is poorly preserved, with misaligned rows and columns, especially in the 'Revenue by geography' section. Numeric values are mostly correct but some are misplaced or unclear. The layout is disrupted with incorrect reading order and missing section headers. Some text is missing or garbled, impacting completeness."
+  },
+  "timestamp": "2026-04-13 02:42:09"
+}

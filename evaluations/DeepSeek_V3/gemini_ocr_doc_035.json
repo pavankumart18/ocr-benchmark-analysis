@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 88,
+    "notes": "The OCR output is mostly accurate with minor issues in table structure alignment and layout preservation. Text accuracy is high with no misspellings, and numeric precision is excellent. The table structure is preserved but could be better aligned. Layout preservation shows slight reading order inconsistencies."
+  },
+  "timestamp": "2026-04-13 03:24:13"
+}

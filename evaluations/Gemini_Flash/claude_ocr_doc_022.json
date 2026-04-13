@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 86.75,
+    "notes": "The OCR output accurately captures most of the text and numerical data. Minor text inaccuracies include slight variations in phrasing for the notes and the absence of the 'Document Type' and 'Key Details' introductory text. The table structure is well-preserved, and numerical data is almost perfectly extracted. Layout is generally good, though the ground truth provides more structured headings and bullet points which are not present in the OCR output. The OCR output also includes an extra number '517002760' at the end which is not in the ground truth."
+  },
+  "timestamp": "2026-04-13 01:46:32"
+}

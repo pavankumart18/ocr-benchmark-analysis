@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 20,
+    "total_score": 65,
+    "notes": "OCR output is accurate in the extracted portion with no spelling or character errors, preserving numeric data and table structure well. However, it is incomplete, missing most of the text after '(e) this Limited Power of', resulting in a major loss of content and lower layout preservation due to truncation."
+  },
+  "timestamp": "2026-04-13 02:16:18"
+}

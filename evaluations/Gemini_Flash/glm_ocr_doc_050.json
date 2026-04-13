@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 96.5,
+    "notes": "The OCR output accurately extracted all the requested fields. There were no tables in the ground truth, so table structure is 100. The layout preservation is good, with the relevant information being easily identifiable within the larger text block. The only minor 'issue' is that the address in the OCR output has a space after 'UPTOWN3' and before 'NO.3' which is not present in the ground truth, but this is a very minor formatting difference."
+  },
+  "timestamp": "2026-04-13 01:37:36"
+}

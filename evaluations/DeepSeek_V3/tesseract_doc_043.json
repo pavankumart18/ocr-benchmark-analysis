@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 69.25,
+    "notes": "Key issues: Company name misspelled ('MR D.I.Y.' \u2192 '#P 0.1.1.'), address has minor errors ('BALAKONG' \u2192 'GALAKONG'), extra irrelevant text (e.g., 'tan woon yann', item list). Numeric values and date are correct. Layout is somewhat preserved but cluttered with unrelated content."
+  },
+  "timestamp": "2026-04-13 03:15:00"
+}

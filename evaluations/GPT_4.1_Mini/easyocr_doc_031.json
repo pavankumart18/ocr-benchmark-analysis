@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 45,
+    "layout_preservation": 55,
+    "completeness": 70,
+    "total_score": 54.75,
+    "notes": "Significant OCR errors with misrecognized characters (e.g., 'S' instead of '$', 'Contruction' instead of 'Construction', 'S2O8M' instead of '$208M'), garbled numeric values, and inconsistent formatting. Table columns and rows are partially preserved but many numbers are misaligned or corrupted. Layout is somewhat maintained but reading order is confusing with repeated quarters and misplaced averages. Some text appears missing or truncated."
+  },
+  "timestamp": "2026-04-13 02:14:52"
+}

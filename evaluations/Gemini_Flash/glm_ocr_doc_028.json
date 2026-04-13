@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 92,
+    "notes": "The text accuracy is very good with no obvious misspellings or wrong characters. Numeric precision is also high. Layout preservation is good, maintaining the overall structure. Completeness is high, with all visible text captured. The main area for improvement is table structure, as the 'UNIT TYPE', 'BRAND', and 'REFERENCE' columns are missing their respective values, which are instead merged into the 'DESCRIPTION' column. The 'QTY' column is also missing its values."
+  },
+  "timestamp": "2026-04-13 01:36:41"
+}

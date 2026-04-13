@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 94.25,
+    "notes": "The OCR output accurately extracted the requested fields. Minor discrepancies include an extra period in the address and the time component in the date, which were not part of the ground truth. The 'total' field was extracted correctly."
+  },
+  "timestamp": "2026-04-13 01:42:02"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 80.25,
+    "notes": "Company name mostly correct except missing dot after 'TA' and missing comma after '55'. Address lines mostly preserved but split into multiple lines. Date exactly matched. Total amount correct. Table structure is present but not clearly formatted as a table; columns and rows are not well aligned. Layout order is generally correct but extra unrelated text (e.g., cashier, document no) is included, and some formatting is lost. Overall, most ground truth text is captured with minor formatting and punctuation errors."
+  },
+  "timestamp": "2026-04-13 02:20:24"
+}

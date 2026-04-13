@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 96.5,
+    "notes": "The OCR output is very good. The only minor discrepancy is the 'total' value, where the ground truth is '60.30' and the OCR output shows '60.31' in one line and '60.30' in another, but the final '60.30' is clearly marked. The ground truth only provides specific fields, and the OCR successfully extracted all of them with high accuracy. No tables were expected in the ground truth, so table structure is perfect."
+  },
+  "timestamp": "2026-04-13 01:43:47"
+}

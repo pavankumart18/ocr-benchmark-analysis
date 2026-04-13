@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 84.25,
+    "notes": "The OCR output has good text accuracy for the key fields, though there are some minor character substitutions and case inconsistencies ('Soon HUAT Machinery Enterprise' vs 'SOON HUAT MACHINERY ENTERPRISE', 'Uvjjs oiki' for date, 'Nos}' for 'NO.53', 'Tanansripuira' for 'TAMAN SRI PUTRA', '01200 johOR BAHRU JoHOR' for '81200 JOHOR BAHRU JOHOR'). The table structure is not applicable as the ground truth only contains key-value pairs, not a table. Numeric precision is good for the total and date, with only minor formatting differences. Layout preservation is reasonable for the extracted fields, but the OCR output includes a lot of extraneous text not present in the ground truth. Completeness is high for the requested fields."
+  },
+  "timestamp": "2026-04-13 01:41:41"
+}

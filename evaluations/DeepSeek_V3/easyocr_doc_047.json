@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 30,
+    "numeric_precision": 80,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 52.5,
+    "notes": "Key issues: Company name has minor errors ('SOONH4UITzoooCHOimail Cov'), address is fragmented and misspelled ('Nos} JALAN PutRA', 'Tanansripuira'), date format is incorrect ('1101noig'). Numeric values like 'total' are correct but surrounded by garbled text. Layout is poorly preserved with mixed reading order and irrelevant text included."
+  },
+  "timestamp": "2026-04-13 03:19:12"
+}

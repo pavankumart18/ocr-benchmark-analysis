@@ -1,1252 +1,232 @@
 [
   {
-    "doc_id": "doc_001",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/000.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 19.3,
-    "output_length_chars": 514,
-    "timestamp": "2026-04-08 22:02:05"
-  },
-  {
-    "doc_id": "doc_002",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/001.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 4.29,
-    "output_length_chars": 583,
-    "timestamp": "2026-04-08 22:02:09"
-  },
-  {
-    "doc_id": "doc_003",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/002.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 5.98,
-    "output_length_chars": 738,
-    "timestamp": "2026-04-08 22:02:15"
-  },
-  {
-    "doc_id": "doc_004",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/003.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 4.38,
-    "output_length_chars": 607,
-    "timestamp": "2026-04-08 22:02:19"
-  },
-  {
-    "doc_id": "doc_005",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/004.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 6.64,
-    "output_length_chars": 799,
-    "timestamp": "2026-04-08 22:02:26"
-  },
-  {
-    "doc_id": "doc_006",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/005.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 2.59,
-    "output_length_chars": 381,
-    "timestamp": "2026-04-08 22:02:29"
-  },
-  {
-    "doc_id": "doc_007",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/000.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 11.93,
-    "output_length_chars": 3186,
-    "timestamp": "2026-04-08 22:02:40"
-  },
-  {
-    "doc_id": "doc_008",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/001.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 7.67,
-    "output_length_chars": 1676,
-    "timestamp": "2026-04-08 22:02:48"
-  },
-  {
-    "doc_id": "doc_009",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/002.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 12.03,
-    "output_length_chars": 3186,
-    "timestamp": "2026-04-08 22:03:00"
-  },
-  {
-    "doc_id": "doc_010",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/003.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 7.75,
-    "output_length_chars": 1673,
-    "timestamp": "2026-04-08 22:03:08"
-  },
-  {
-    "doc_id": "doc_011",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/004.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 10.64,
-    "output_length_chars": 2800,
-    "timestamp": "2026-04-08 22:03:19"
-  },
-  {
-    "doc_id": "doc_012",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/000.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 4.36,
-    "output_length_chars": 662,
-    "timestamp": "2026-04-08 22:03:23"
-  },
-  {
-    "doc_id": "doc_013",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/001.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 5.45,
-    "output_length_chars": 849,
-    "timestamp": "2026-04-08 22:03:28"
-  },
-  {
-    "doc_id": "doc_014",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/002.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 4.06,
-    "output_length_chars": 1041,
-    "timestamp": "2026-04-08 22:03:32"
-  },
-  {
-    "doc_id": "doc_015",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/003.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 50.43,
-    "output_length_chars": 15989,
-    "timestamp": "2026-04-08 22:04:23"
-  },
-  {
-    "doc_id": "doc_016",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/004.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 7.25,
-    "output_length_chars": 1125,
-    "timestamp": "2026-04-08 22:04:30"
-  },
-  {
-    "doc_id": "doc_017",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/0.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 1.85,
-    "output_length_chars": 246,
-    "timestamp": "2026-04-08 22:04:32"
-  },
-  {
-    "doc_id": "doc_018",
-    "model": "glm_ocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/1.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 4.26,
-    "output_length_chars": 681,
-    "timestamp": "2026-04-08 22:04:36"
-  },
-  {
-    "doc_id": "doc_019",
-    "model": "glm_ocr",
+    "doc_id": "doc_028",
+    "model": "claude_ocr",
     "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/100.png",
     "category": "general_doc",
     "source_dataset": "omni",
-    "processing_time_seconds": 15.79,
-    "output_length_chars": 2819,
-    "timestamp": "2026-04-08 22:04:52"
+    "processing_time_seconds": 28.71,
+    "output_length_chars": 3088,
+    "timestamp": "2026-04-13 01:28:28"
   },
   {
-    "doc_id": "doc_020",
-    "model": "glm_ocr",
+    "doc_id": "doc_029",
+    "model": "claude_ocr",
     "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/101.png",
     "category": "general_doc",
     "source_dataset": "omni",
-    "processing_time_seconds": 7.76,
-    "output_length_chars": 985,
-    "timestamp": "2026-04-08 22:05:00"
+    "processing_time_seconds": 12.36,
+    "output_length_chars": 1348,
+    "timestamp": "2026-04-13 01:28:40"
   },
   {
-    "doc_id": "doc_021",
-    "model": "glm_ocr",
+    "doc_id": "doc_030",
+    "model": "claude_ocr",
     "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/103.png",
     "category": "general_doc",
     "source_dataset": "omni",
-    "processing_time_seconds": 22.49,
-    "output_length_chars": 2466,
-    "timestamp": "2026-04-08 22:05:22"
+    "processing_time_seconds": 42.73,
+    "output_length_chars": 3313,
+    "timestamp": "2026-04-13 01:29:23"
   },
   {
-    "doc_id": "doc_022",
-    "model": "glm_ocr",
+    "doc_id": "doc_031",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/104.png",
+    "category": "general_doc",
+    "source_dataset": "omni",
+    "processing_time_seconds": 13.82,
+    "output_length_chars": 1824,
+    "timestamp": "2026-04-13 01:29:37"
+  },
+  {
+    "doc_id": "doc_032",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/105.png",
+    "category": "general_doc",
+    "source_dataset": "omni",
+    "processing_time_seconds": 21.5,
+    "output_length_chars": 2013,
+    "timestamp": "2026-04-13 01:29:58"
+  },
+  {
+    "doc_id": "doc_033",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/106.png",
+    "category": "general_doc",
+    "source_dataset": "omni",
+    "processing_time_seconds": 37.85,
+    "output_length_chars": 5744,
+    "timestamp": "2026-04-13 01:30:36"
+  },
+  {
+    "doc_id": "doc_034",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/107.png",
+    "category": "general_doc",
+    "source_dataset": "omni",
+    "processing_time_seconds": 34.35,
+    "output_length_chars": 2839,
+    "timestamp": "2026-04-13 01:31:10"
+  },
+  {
+    "doc_id": "doc_035",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/108.png",
+    "category": "general_doc",
+    "source_dataset": "omni",
+    "processing_time_seconds": 38.08,
+    "output_length_chars": 3969,
+    "timestamp": "2026-04-13 01:31:49"
+  },
+  {
+    "doc_id": "doc_036",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/109.png",
+    "category": "general_doc",
+    "source_dataset": "omni",
+    "processing_time_seconds": 15.95,
+    "output_length_chars": 1630,
+    "timestamp": "2026-04-13 01:32:04"
+  },
+  {
+    "doc_id": "doc_037",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/11.png",
+    "category": "general_doc",
+    "source_dataset": "omni",
+    "processing_time_seconds": 16.3,
+    "output_length_chars": 1583,
+    "timestamp": "2026-04-13 01:32:21"
+  },
+  {
+    "doc_id": "doc_038",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/110.png",
+    "category": "general_doc",
+    "source_dataset": "omni",
+    "processing_time_seconds": 14.64,
+    "output_length_chars": 1018,
+    "timestamp": "2026-04-13 01:32:35"
+  },
+  {
+    "doc_id": "doc_039",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/111.png",
+    "category": "general_doc",
+    "source_dataset": "omni",
+    "processing_time_seconds": 15.57,
+    "output_length_chars": 1278,
+    "timestamp": "2026-04-13 01:32:51"
+  },
+  {
+    "doc_id": "doc_040",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/112.png",
+    "category": "general_doc",
+    "source_dataset": "omni",
+    "processing_time_seconds": 27.03,
+    "output_length_chars": 3064,
+    "timestamp": "2026-04-13 01:33:18"
+  },
+  {
+    "doc_id": "doc_041",
+    "model": "claude_ocr",
     "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_000.jpg",
     "category": "degraded_scan",
     "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 3.61,
-    "output_length_chars": 489,
-    "timestamp": "2026-04-08 22:05:26"
+    "processing_time_seconds": 14.33,
+    "output_length_chars": 831,
+    "timestamp": "2026-04-13 01:33:32"
   },
   {
-    "doc_id": "doc_023",
-    "model": "glm_ocr",
+    "doc_id": "doc_042",
+    "model": "claude_ocr",
     "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_001.jpg",
     "category": "degraded_scan",
     "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 4.49,
-    "output_length_chars": 573,
-    "timestamp": "2026-04-08 22:05:30"
+    "processing_time_seconds": 13.93,
+    "output_length_chars": 794,
+    "timestamp": "2026-04-13 01:33:46"
   },
   {
-    "doc_id": "doc_024",
-    "model": "glm_ocr",
+    "doc_id": "doc_043",
+    "model": "claude_ocr",
     "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_002.jpg",
     "category": "degraded_scan",
     "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 6.25,
-    "output_length_chars": 729,
-    "timestamp": "2026-04-08 22:05:37"
+    "processing_time_seconds": 15.87,
+    "output_length_chars": 885,
+    "timestamp": "2026-04-13 01:34:02"
   },
   {
-    "doc_id": "doc_025",
-    "model": "glm_ocr",
+    "doc_id": "doc_044",
+    "model": "claude_ocr",
     "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_003.jpg",
     "category": "degraded_scan",
     "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 4.54,
-    "output_length_chars": 585,
-    "timestamp": "2026-04-08 22:05:41"
+    "processing_time_seconds": 13.93,
+    "output_length_chars": 878,
+    "timestamp": "2026-04-13 01:34:16"
   },
   {
-    "doc_id": "doc_001",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/000.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 4.58,
-    "output_length_chars": 536,
-    "timestamp": "2026-04-08 22:05:46"
-  },
-  {
-    "doc_id": "doc_002",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/001.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 2.42,
-    "output_length_chars": 561,
-    "timestamp": "2026-04-08 22:05:48"
-  },
-  {
-    "doc_id": "doc_003",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/002.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 2.68,
-    "output_length_chars": 728,
-    "timestamp": "2026-04-08 22:05:51"
-  },
-  {
-    "doc_id": "doc_004",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/003.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 2.43,
-    "output_length_chars": 583,
-    "timestamp": "2026-04-08 22:05:53"
-  },
-  {
-    "doc_id": "doc_005",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/004.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 3.12,
-    "output_length_chars": 803,
-    "timestamp": "2026-04-08 22:05:56"
-  },
-  {
-    "doc_id": "doc_006",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/005.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 2.07,
-    "output_length_chars": 383,
-    "timestamp": "2026-04-08 22:05:58"
-  },
-  {
-    "doc_id": "doc_007",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/000.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 7.88,
-    "output_length_chars": 3208,
-    "timestamp": "2026-04-08 22:06:06"
-  },
-  {
-    "doc_id": "doc_008",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/001.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 4.88,
-    "output_length_chars": 1673,
-    "timestamp": "2026-04-08 22:06:11"
-  },
-  {
-    "doc_id": "doc_009",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/002.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 7.95,
-    "output_length_chars": 3208,
-    "timestamp": "2026-04-08 22:06:19"
-  },
-  {
-    "doc_id": "doc_010",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/003.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 4.88,
-    "output_length_chars": 1670,
-    "timestamp": "2026-04-08 22:06:24"
-  },
-  {
-    "doc_id": "doc_011",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/004.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 7.22,
-    "output_length_chars": 2853,
-    "timestamp": "2026-04-08 22:06:31"
-  },
-  {
-    "doc_id": "doc_012",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/000.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 3.05,
-    "output_length_chars": 788,
-    "timestamp": "2026-04-08 22:06:34"
-  },
-  {
-    "doc_id": "doc_013",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/001.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 2.95,
-    "output_length_chars": 757,
-    "timestamp": "2026-04-08 22:06:37"
-  },
-  {
-    "doc_id": "doc_014",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/002.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 4.21,
-    "output_length_chars": 1160,
-    "timestamp": "2026-04-08 22:06:42"
-  },
-  {
-    "doc_id": "doc_015",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/003.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 3.43,
-    "output_length_chars": 970,
-    "timestamp": "2026-04-08 22:06:45"
-  },
-  {
-    "doc_id": "doc_016",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/004.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 3.25,
-    "output_length_chars": 925,
-    "timestamp": "2026-04-08 22:06:48"
-  },
-  {
-    "doc_id": "doc_017",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/0.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 2.17,
-    "output_length_chars": 244,
-    "timestamp": "2026-04-08 22:06:50"
-  },
-  {
-    "doc_id": "doc_018",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/1.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 5.4,
-    "output_length_chars": 1229,
-    "timestamp": "2026-04-08 22:06:56"
-  },
-  {
-    "doc_id": "doc_019",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/100.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 6.47,
-    "output_length_chars": 3023,
-    "timestamp": "2026-04-08 22:07:02"
-  },
-  {
-    "doc_id": "doc_020",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/101.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 2.61,
-    "output_length_chars": 901,
-    "timestamp": "2026-04-08 22:07:05"
-  },
-  {
-    "doc_id": "doc_021",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/103.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 6.73,
-    "output_length_chars": 2745,
-    "timestamp": "2026-04-08 22:07:12"
-  },
-  {
-    "doc_id": "doc_022",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_000.jpg",
+    "doc_id": "doc_045",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_004.jpg",
     "category": "degraded_scan",
     "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 2.39,
-    "output_length_chars": 477,
-    "timestamp": "2026-04-08 22:07:14"
+    "processing_time_seconds": 17.5,
+    "output_length_chars": 1000,
+    "timestamp": "2026-04-13 01:34:34"
   },
   {
-    "doc_id": "doc_023",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_001.jpg",
+    "doc_id": "doc_046",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_005.jpg",
     "category": "degraded_scan",
     "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 2.38,
-    "output_length_chars": 552,
-    "timestamp": "2026-04-08 22:07:16"
+    "processing_time_seconds": 10.45,
+    "output_length_chars": 588,
+    "timestamp": "2026-04-13 01:34:44"
   },
   {
-    "doc_id": "doc_024",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_002.jpg",
+    "doc_id": "doc_047",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_006.jpg",
     "category": "degraded_scan",
     "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 2.8,
-    "output_length_chars": 726,
-    "timestamp": "2026-04-08 22:07:19"
+    "processing_time_seconds": 17.97,
+    "output_length_chars": 1354,
+    "timestamp": "2026-04-13 01:35:02"
   },
   {
-    "doc_id": "doc_025",
-    "model": "doctr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_003.jpg",
+    "doc_id": "doc_048",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_007.jpg",
     "category": "degraded_scan",
     "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 2.47,
-    "output_length_chars": 545,
-    "timestamp": "2026-04-08 22:07:22"
+    "processing_time_seconds": 10.91,
+    "output_length_chars": 666,
+    "timestamp": "2026-04-13 01:35:13"
   },
   {
-    "doc_id": "doc_001",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/000.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 4.69,
-    "output_length_chars": 1194,
-    "timestamp": "2026-04-08 22:07:26"
-  },
-  {
-    "doc_id": "doc_002",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/001.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 1.71,
-    "output_length_chars": 1098,
-    "timestamp": "2026-04-08 22:07:28"
-  },
-  {
-    "doc_id": "doc_003",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/002.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 1.58,
-    "output_length_chars": 748,
-    "timestamp": "2026-04-08 22:07:30"
-  },
-  {
-    "doc_id": "doc_004",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/003.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 1.74,
-    "output_length_chars": 595,
-    "timestamp": "2026-04-08 22:07:31"
-  },
-  {
-    "doc_id": "doc_005",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/004.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 1.73,
-    "output_length_chars": 800,
-    "timestamp": "2026-04-08 22:07:33"
-  },
-  {
-    "doc_id": "doc_006",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/005.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 1.54,
-    "output_length_chars": 400,
-    "timestamp": "2026-04-08 22:07:35"
-  },
-  {
-    "doc_id": "doc_007",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/000.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 4.86,
-    "output_length_chars": 2961,
-    "timestamp": "2026-04-08 22:07:39"
-  },
-  {
-    "doc_id": "doc_008",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/001.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 3.78,
-    "output_length_chars": 1463,
-    "timestamp": "2026-04-08 22:07:43"
-  },
-  {
-    "doc_id": "doc_009",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/002.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 4.48,
-    "output_length_chars": 2961,
-    "timestamp": "2026-04-08 22:07:48"
-  },
-  {
-    "doc_id": "doc_010",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/003.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 3.14,
-    "output_length_chars": 1423,
-    "timestamp": "2026-04-08 22:07:51"
-  },
-  {
-    "doc_id": "doc_011",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/004.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 4.22,
-    "output_length_chars": 2589,
-    "timestamp": "2026-04-08 22:07:55"
-  },
-  {
-    "doc_id": "doc_012",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/000.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 2.25,
-    "output_length_chars": 727,
-    "timestamp": "2026-04-08 22:07:57"
-  },
-  {
-    "doc_id": "doc_013",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/001.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 2.35,
-    "output_length_chars": 1392,
-    "timestamp": "2026-04-08 22:08:00"
-  },
-  {
-    "doc_id": "doc_014",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/002.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 2.33,
-    "output_length_chars": 14,
-    "timestamp": "2026-04-08 22:08:02"
-  },
-  {
-    "doc_id": "doc_015",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/003.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 2.91,
-    "output_length_chars": 2003,
-    "timestamp": "2026-04-08 22:08:05"
-  },
-  {
-    "doc_id": "doc_016",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/004.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 3.3,
-    "output_length_chars": 1490,
-    "timestamp": "2026-04-08 22:08:08"
-  },
-  {
-    "doc_id": "doc_017",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/0.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 1.77,
-    "output_length_chars": 771,
-    "timestamp": "2026-04-08 22:08:10"
-  },
-  {
-    "doc_id": "doc_018",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/1.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 3.2,
-    "output_length_chars": 272,
-    "timestamp": "2026-04-08 22:08:13"
-  },
-  {
-    "doc_id": "doc_019",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/100.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 4.69,
-    "output_length_chars": 5201,
-    "timestamp": "2026-04-08 22:08:18"
-  },
-  {
-    "doc_id": "doc_020",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/101.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 3.94,
-    "output_length_chars": 8952,
-    "timestamp": "2026-04-08 22:08:22"
-  },
-  {
-    "doc_id": "doc_021",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/103.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 7.58,
-    "output_length_chars": 12815,
-    "timestamp": "2026-04-08 22:08:29"
-  },
-  {
-    "doc_id": "doc_022",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_000.jpg",
+    "doc_id": "doc_049",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_008.jpg",
     "category": "degraded_scan",
     "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 1.38,
-    "output_length_chars": 358,
-    "timestamp": "2026-04-08 22:08:31"
+    "processing_time_seconds": 18.94,
+    "output_length_chars": 1374,
+    "timestamp": "2026-04-13 01:35:32"
   },
   {
-    "doc_id": "doc_023",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_001.jpg",
+    "doc_id": "doc_050",
+    "model": "claude_ocr",
+    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_009.jpg",
     "category": "degraded_scan",
     "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 1.25,
-    "output_length_chars": 327,
-    "timestamp": "2026-04-08 22:08:32"
-  },
-  {
-    "doc_id": "doc_024",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_002.jpg",
-    "category": "degraded_scan",
-    "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 1.39,
-    "output_length_chars": 696,
-    "timestamp": "2026-04-08 22:08:33"
-  },
-  {
-    "doc_id": "doc_025",
-    "model": "docling",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_003.jpg",
-    "category": "degraded_scan",
-    "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 1.5,
-    "output_length_chars": 479,
-    "timestamp": "2026-04-08 22:08:35"
-  },
-  {
-    "doc_id": "doc_001",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/000.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 0.56,
-    "output_length_chars": 487,
-    "timestamp": "2026-04-08 22:08:36"
-  },
-  {
-    "doc_id": "doc_002",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/001.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 0.57,
-    "output_length_chars": 523,
-    "timestamp": "2026-04-08 22:08:36"
-  },
-  {
-    "doc_id": "doc_003",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/002.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 0.82,
-    "output_length_chars": 757,
-    "timestamp": "2026-04-08 22:08:37"
-  },
-  {
-    "doc_id": "doc_004",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/003.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 0.54,
-    "output_length_chars": 510,
-    "timestamp": "2026-04-08 22:08:37"
-  },
-  {
-    "doc_id": "doc_005",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/004.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 0.83,
-    "output_length_chars": 722,
-    "timestamp": "2026-04-08 22:08:38"
-  },
-  {
-    "doc_id": "doc_006",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/005.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 0.39,
-    "output_length_chars": 350,
-    "timestamp": "2026-04-08 22:08:39"
-  },
-  {
-    "doc_id": "doc_007",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/000.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 3.39,
-    "output_length_chars": 3217,
-    "timestamp": "2026-04-08 22:08:42"
-  },
-  {
-    "doc_id": "doc_008",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/001.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 1.92,
-    "output_length_chars": 1678,
-    "timestamp": "2026-04-08 22:08:44"
-  },
-  {
-    "doc_id": "doc_009",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/002.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 3.38,
-    "output_length_chars": 3217,
-    "timestamp": "2026-04-08 22:08:47"
-  },
-  {
-    "doc_id": "doc_010",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/003.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 1.87,
-    "output_length_chars": 1675,
-    "timestamp": "2026-04-08 22:08:49"
-  },
-  {
-    "doc_id": "doc_011",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/004.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 2.95,
-    "output_length_chars": 2868,
-    "timestamp": "2026-04-08 22:08:52"
-  },
-  {
-    "doc_id": "doc_012",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/000.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 0.6,
-    "output_length_chars": 290,
-    "timestamp": "2026-04-08 22:08:53"
-  },
-  {
-    "doc_id": "doc_013",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/001.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 0.49,
-    "output_length_chars": 387,
-    "timestamp": "2026-04-08 22:08:53"
-  },
-  {
-    "doc_id": "doc_014",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/002.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 0.51,
-    "output_length_chars": 213,
-    "timestamp": "2026-04-08 22:08:54"
-  },
-  {
-    "doc_id": "doc_015",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/003.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 0.76,
-    "output_length_chars": 745,
-    "timestamp": "2026-04-08 22:08:55"
-  },
-  {
-    "doc_id": "doc_016",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/004.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 0.87,
-    "output_length_chars": 788,
-    "timestamp": "2026-04-08 22:08:55"
-  },
-  {
-    "doc_id": "doc_017",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/0.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 0.39,
-    "output_length_chars": 279,
-    "timestamp": "2026-04-08 22:08:56"
-  },
-  {
-    "doc_id": "doc_018",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/1.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 0.68,
-    "output_length_chars": 566,
-    "timestamp": "2026-04-08 22:08:56"
-  },
-  {
-    "doc_id": "doc_019",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/100.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 3.78,
-    "output_length_chars": 3086,
-    "timestamp": "2026-04-08 22:09:00"
-  },
-  {
-    "doc_id": "doc_020",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/101.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 1.29,
-    "output_length_chars": 973,
-    "timestamp": "2026-04-08 22:09:02"
-  },
-  {
-    "doc_id": "doc_021",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/103.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 1.77,
-    "output_length_chars": 2024,
-    "timestamp": "2026-04-08 22:09:03"
-  },
-  {
-    "doc_id": "doc_022",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_000.jpg",
-    "category": "degraded_scan",
-    "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 0.74,
-    "output_length_chars": 486,
-    "timestamp": "2026-04-08 22:09:04"
-  },
-  {
-    "doc_id": "doc_023",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_001.jpg",
-    "category": "degraded_scan",
-    "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 0.77,
-    "output_length_chars": 557,
-    "timestamp": "2026-04-08 22:09:05"
-  },
-  {
-    "doc_id": "doc_024",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_002.jpg",
-    "category": "degraded_scan",
-    "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 0.83,
-    "output_length_chars": 744,
-    "timestamp": "2026-04-08 22:09:06"
-  },
-  {
-    "doc_id": "doc_025",
-    "model": "tesseract",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_003.jpg",
-    "category": "degraded_scan",
-    "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 0.69,
-    "output_length_chars": 484,
-    "timestamp": "2026-04-08 22:09:06"
-  },
-  {
-    "doc_id": "doc_001",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/000.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 1.69,
-    "output_length_chars": 453,
-    "timestamp": "2026-04-08 22:09:08"
-  },
-  {
-    "doc_id": "doc_002",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/001.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 0.38,
-    "output_length_chars": 553,
-    "timestamp": "2026-04-08 22:09:08"
-  },
-  {
-    "doc_id": "doc_003",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/002.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 0.47,
-    "output_length_chars": 708,
-    "timestamp": "2026-04-08 22:09:09"
-  },
-  {
-    "doc_id": "doc_004",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/003.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 0.41,
-    "output_length_chars": 555,
-    "timestamp": "2026-04-08 22:09:09"
-  },
-  {
-    "doc_id": "doc_005",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/004.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 0.68,
-    "output_length_chars": 717,
-    "timestamp": "2026-04-08 22:09:10"
-  },
-  {
-    "doc_id": "doc_006",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sroie/data/img/005.jpg",
-    "category": "invoice_receipt",
-    "source_dataset": "sroie",
-    "processing_time_seconds": 0.28,
-    "output_length_chars": 367,
-    "timestamp": "2026-04-08 22:09:10"
-  },
-  {
-    "doc_id": "doc_007",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/000.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 3.19,
-    "output_length_chars": 3210,
-    "timestamp": "2026-04-08 22:09:13"
-  },
-  {
-    "doc_id": "doc_008",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/001.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 1.81,
-    "output_length_chars": 1674,
-    "timestamp": "2026-04-08 22:09:15"
-  },
-  {
-    "doc_id": "doc_009",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/002.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 2.98,
-    "output_length_chars": 3210,
-    "timestamp": "2026-04-08 22:09:18"
-  },
-  {
-    "doc_id": "doc_010",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/003.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 1.69,
-    "output_length_chars": 1671,
-    "timestamp": "2026-04-08 22:09:20"
-  },
-  {
-    "doc_id": "doc_011",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/004.png",
-    "category": "sec_filing",
-    "source_dataset": "multifinben",
-    "processing_time_seconds": 2.76,
-    "output_length_chars": 2836,
-    "timestamp": "2026-04-08 22:09:23"
-  },
-  {
-    "doc_id": "doc_012",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/000.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 0.52,
-    "output_length_chars": 665,
-    "timestamp": "2026-04-08 22:09:23"
-  },
-  {
-    "doc_id": "doc_013",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/001.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 0.57,
-    "output_length_chars": 681,
-    "timestamp": "2026-04-08 22:09:24"
-  },
-  {
-    "doc_id": "doc_014",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/002.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 0.85,
-    "output_length_chars": 869,
-    "timestamp": "2026-04-08 22:09:25"
-  },
-  {
-    "doc_id": "doc_015",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/003.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 0.76,
-    "output_length_chars": 861,
-    "timestamp": "2026-04-08 22:09:25"
-  },
-  {
-    "doc_id": "doc_016",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/004.png",
-    "category": "financial_mixed",
-    "source_dataset": "sujet",
-    "processing_time_seconds": 0.78,
-    "output_length_chars": 893,
-    "timestamp": "2026-04-08 22:09:26"
-  },
-  {
-    "doc_id": "doc_017",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/0.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 0.26,
-    "output_length_chars": 222,
-    "timestamp": "2026-04-08 22:09:26"
-  },
-  {
-    "doc_id": "doc_018",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/1.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 0.94,
-    "output_length_chars": 910,
-    "timestamp": "2026-04-08 22:09:27"
-  },
-  {
-    "doc_id": "doc_019",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/100.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 3.16,
-    "output_length_chars": 3006,
-    "timestamp": "2026-04-08 22:09:31"
-  },
-  {
-    "doc_id": "doc_020",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/101.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 1.27,
-    "output_length_chars": 870,
-    "timestamp": "2026-04-08 22:09:32"
-  },
-  {
-    "doc_id": "doc_021",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/103.png",
-    "category": "general_doc",
-    "source_dataset": "omni",
-    "processing_time_seconds": 3.8,
-    "output_length_chars": 2087,
-    "timestamp": "2026-04-08 22:09:36"
-  },
-  {
-    "doc_id": "doc_022",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_000.jpg",
-    "category": "degraded_scan",
-    "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 0.58,
-    "output_length_chars": 315,
-    "timestamp": "2026-04-08 22:09:36"
-  },
-  {
-    "doc_id": "doc_023",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_001.jpg",
-    "category": "degraded_scan",
-    "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 0.6,
-    "output_length_chars": 451,
-    "timestamp": "2026-04-08 22:09:37"
-  },
-  {
-    "doc_id": "doc_024",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_002.jpg",
-    "category": "degraded_scan",
-    "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 0.64,
-    "output_length_chars": 659,
-    "timestamp": "2026-04-08 22:09:37"
-  },
-  {
-    "doc_id": "doc_025",
-    "model": "easyocr",
-    "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_003.jpg",
-    "category": "degraded_scan",
-    "source_dataset": "sroie_degraded",
-    "processing_time_seconds": 0.67,
-    "output_length_chars": 398,
-    "timestamp": "2026-04-08 22:09:38"
+    "processing_time_seconds": 15.67,
+    "output_length_chars": 1054,
+    "timestamp": "2026-04-13 01:35:48"
   }
 ]

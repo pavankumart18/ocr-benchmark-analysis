@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 100,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 77.75,
+    "notes": "Key issues: Minor typos in company name ('fornerly knoxn as'), address ('Leve]', 'Petaling' split), and layout errors (reading order mixed). Numeric values and dates are correct. Most ground truth text is captured but with formatting/spacing issues."
+  },
+  "timestamp": "2026-04-13 03:19:35"
+}

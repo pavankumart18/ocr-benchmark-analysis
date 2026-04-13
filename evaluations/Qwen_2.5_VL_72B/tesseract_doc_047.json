@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 81.25,
+    "notes": "Minor text accuracy issues with address and date format. Table structure is partially preserved but not perfectly aligned. Numeric values are mostly accurate. Layout preservation is decent but not perfect. Completeness is good but with some minor omissions."
+  },
+  "timestamp": "2026-04-13 02:41:45"
+}

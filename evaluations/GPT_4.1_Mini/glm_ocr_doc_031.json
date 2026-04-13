@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 65,
+    "completeness": 75,
+    "total_score": 76.25,
+    "notes": "Text is mostly accurate with no misspellings, but some table rows and columns are misaligned or incomplete, especially in the 'Transaction Amount ($M)' section where data appears truncated or missing. Numeric values are mostly precise. Layout is somewhat disrupted with repeated quarter labels and unclear section breaks. Some data likely missing or partially extracted."
+  },
+  "timestamp": "2026-04-13 02:09:51"
+}

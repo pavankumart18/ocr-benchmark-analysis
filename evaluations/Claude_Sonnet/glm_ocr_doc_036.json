@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 70,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 77,
+    "notes": "Several issues found: Monthly rent shows '$3400' in parentheses but '34.00 dollars' in text (major discrepancy), redundant phrases in lease term section ('day of May 2025 day of May 2025'), incomplete sentence in base rent section with duplicated text, and contradictory checkboxes both marked as checked in renewal options. Layout and overall structure are well preserved."
+  },
+  "timestamp": "2026-04-13 01:48:34"
+}

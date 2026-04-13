@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 80,
+    "layout_preservation": 90,
+    "completeness": 80,
+    "total_score": 85.25,
+    "notes": "Text accuracy is good for the extracted fields, with 'ABC HO TRADING' being 'AHC HO TRADING' and 'NO.2&4' being 'No 264'. The date is incorrect in the OCR output (09/04/2019 vs 09/01/2019). All other fields match well. Table structure is not applicable as the ground truth is not a table. Numeric precision is affected by the incorrect date. Layout preservation is good for the extracted fields. Completeness is good for the requested fields, but the OCR output contains much more information than the ground truth."
+  },
+  "timestamp": "2026-04-13 01:45:33"
+}

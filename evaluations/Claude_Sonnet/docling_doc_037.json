@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 88,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 82.1,
+    "notes": "Good text accuracy with minor spacing issues ('withforecasting' should be 'with forecasting'). Table/chart structure indicated by image placeholders but actual data not captured. Numbers like percentages (65%) and sample size (n=638) are accurate. Layout mostly preserved but missing visual elements. Some content gaps due to image placeholders replacing actual charts/tables."
+  },
+  "timestamp": "2026-04-13 01:52:59"
+}

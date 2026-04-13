@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "docling",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 74.25,
+    "notes": "The OCR output has several issues: 'State&amp;Federal Contruction' is misspelled and uses an HTML entity instead of '&'. The table structure is incorrect as the 'City' and 'Year' columns are swapped. Numeric values seem mostly correct but the table structure affects their alignment. The layout is mostly preserved but with some errors. Most text is captured, but the table structure and some text accuracy issues lower the score."
+  },
+  "timestamp": "2026-04-13 02:27:10"
+}

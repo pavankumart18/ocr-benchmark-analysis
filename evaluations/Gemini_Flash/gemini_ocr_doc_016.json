@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 30,
+    "total_score": 69,
+    "notes": "The OCR output is very accurate for the text it did extract, with no misspellings or incorrect characters. However, a significant portion of the ground truth text is missing, leading to a low completeness score. The formatting (bolding, indentation) is well-preserved for the extracted content."
+  },
+  "timestamp": "2026-04-13 01:42:24"
+}

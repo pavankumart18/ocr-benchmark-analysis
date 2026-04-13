@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.75,
+    "notes": "Minor issues include extra text ('tan woon yann'), slight formatting differences, and a rounding adjustment note. Key fields (company, date, address, total) are accurately captured with minor deviations."
+  },
+  "timestamp": "2026-04-13 03:25:51"
+}

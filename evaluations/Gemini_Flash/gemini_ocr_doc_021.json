@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 10,
+    "numeric_precision": 80,
+    "layout_preservation": 40,
+    "completeness": 30,
+    "total_score": 48,
+    "notes": "The OCR output captures some key phrases and numbers but misses a significant amount of the descriptive text and the full distribution list. The table structure is not preserved at all, as the ground truth is a descriptive summary, not a table. The layout is partially preserved for the main title and sections but lacks the hierarchical structure of the ground truth. Numeric precision is good for the dates and copy number present. Text accuracy is fair for the extracted text, but many details are missing."
+  },
+  "timestamp": "2026-04-13 01:42:34"
+}

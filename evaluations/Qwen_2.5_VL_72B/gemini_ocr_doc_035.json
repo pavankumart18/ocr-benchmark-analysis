@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "gemini_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 82.75,
+    "notes": "The OCR output has some issues with table structure, particularly with the alignment of the 'Seasoned Fries' and 'Duck Fat Fries' rows. The text accuracy is good but not perfect, as there are some inconsistencies in the calorie values. Numeric precision is high, but the layout preservation could be better, especially regarding the reading order and alignment of columns."
+  },
+  "timestamp": "2026-04-13 02:47:00"
+}

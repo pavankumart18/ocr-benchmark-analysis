@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 80,
+    "notes": "Text accuracy is generally good, but there are some minor misinterpretations like 'ia Fat' instead of 'Sat Fat', 'qyans Fat' instead of 'trans Fat', and 'ae Fat' instead of 'Sat Fat'. Table structure is somewhat preserved, but the alignment of columns, especially for the nutritional information, is very poor, making it hard to associate values with the correct headers. Numeric precision is fair, with most numbers correctly extracted, but some single-digit numbers are misaligned or appear to be part of other numbers due to poor spacing. Layout preservation suffers from the misaligned columns and the 'Calories from Fat' section being separated from its corresponding 'Calories' column. Completeness is good, as most visible text appears to be captured."
+  },
+  "timestamp": "2026-04-13 01:40:09"
+}

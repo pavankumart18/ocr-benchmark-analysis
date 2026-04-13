@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 88.25,
+    "notes": "Text is mostly accurate with no misspellings; minor layout issues with some text alignment and spacing; no tables present but columns and locations are reasonably preserved; numeric data such as dates are correct; overall completeness is good with no major missing text."
+  },
+  "timestamp": "2026-04-13 02:17:35"
+}

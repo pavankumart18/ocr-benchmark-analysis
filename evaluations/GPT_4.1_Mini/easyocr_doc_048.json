@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 60,
+    "layout_preservation": 25,
+    "completeness": 40,
+    "total_score": 27.5,
+    "notes": "OCR output is heavily garbled with many misspellings and incorrect characters, especially in company name and address. Table structure is almost completely lost, with no clear columns or rows preserved. Numeric data such as total amount and date are partially correct but contain errors (e.g., date '21-01-2019' vs '23-01-2019'). Layout and reading order are poor, making it difficult to identify sections. Some key text elements are missing or unreadable, resulting in low completeness."
+  },
+  "timestamp": "2026-04-13 02:15:39"
+}

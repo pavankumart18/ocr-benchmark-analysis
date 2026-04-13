@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 65,
+    "completeness": 80,
+    "total_score": 69.25,
+    "notes": "Text contains multiple OCR errors such as misrecognized names and inconsistent spacing. Table columns and rows are partially preserved but many numeric values and descriptions are misaligned or merged, reducing clarity. Numeric data like dates and amounts are mostly correct but some decimal placements and codes appear inconsistent. Layout order is roughly maintained but some sections run together, affecting readability. Overall, most content is present but some formatting and text integrity issues reduce quality."
+  },
+  "timestamp": "2026-04-13 02:17:20"
+}

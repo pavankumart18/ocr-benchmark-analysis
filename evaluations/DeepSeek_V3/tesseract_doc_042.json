@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 0,
+    "numeric_precision": 50,
+    "layout_preservation": 20,
+    "completeness": 60,
+    "total_score": 31.5,
+    "notes": "Major OCR errors: company name ('THDAN GIFT & RE BECO' vs 'INDAH GIFT & HOME DECO'), address garbled ('TALAN DEDAP 43' vs 'JALAN DEDAP 13'), missing/incorrect total ('ROUNDING BHP... 00scena ee' vs '60.30'). No table structure preserved. Layout is disordered with mixed sections."
+  },
+  "timestamp": "2026-04-13 03:14:53"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 40,
+    "numeric_precision": 80,
+    "layout_preservation": 30,
+    "completeness": 75,
+    "total_score": 64,
+    "notes": "Text accuracy is good with readable company names and addresses. However, table structure is severely compromised - columns are misaligned and data flows incorrectly across rows. Many cells appear merged or displaced. Layout preservation is poor due to broken table formatting. Some shipment entries appear incomplete or cut off. Numeric values seem mostly accurate where visible, but table corruption makes verification difficult."
+  },
+  "timestamp": "2026-04-13 01:48:07"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 55,
+    "table_structure": 40,
+    "numeric_precision": 50,
+    "layout_preservation": 45,
+    "completeness": 70,
+    "total_score": 50.75,
+    "notes": "The OCR output contains numerous misspellings, incorrect characters, and garbled words (e.g., 'ae Fat trans Fat', 'Fat qrans Fat', 'Fat qyans Fat', 'Fat Say Fat'). Numeric data is often misaligned or mixed with text, making it difficult to interpret. Decimal points and units are inconsistently captured. Table columns and rows are poorly preserved, with many numbers not aligned properly under headers. The reading order is disrupted, with headers and sections interspersed irregularly. Despite these issues, most visible text appears present, though some parts are confusing or corrupted."
+  },
+  "timestamp": "2026-04-13 02:13:54"
+}

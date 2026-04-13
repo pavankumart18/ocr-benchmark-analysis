@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 30,
+    "numeric_precision": 60,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 48.5,
+    "notes": "Significant OCR errors in company name (missing space, misspelling), address (missing spaces, garbled text), and date format (missing slash). The table is poorly preserved with many garbled entries and inconsistent columns. Numeric values for total are mostly correct but some amounts in the table are incorrect or inconsistent. Layout is disrupted with unrelated text and poor section separation. Most key fields are present but with errors and extraneous unrelated text included."
+  },
+  "timestamp": "2026-04-13 02:13:11"
+}

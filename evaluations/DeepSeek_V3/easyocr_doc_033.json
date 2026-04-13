@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 0,
+    "numeric_precision": 0,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 38.25,
+    "notes": "Text accuracy suffers from numerous misspellings and wrong characters (e.g., 'crulse' instead of 'cruise', 't0' instead of 'to'). No tables or numeric data were present to evaluate. Layout preservation is mediocre with some reading order issues. Completeness is decent, but some minor text may be missing."
+  },
+  "timestamp": "2026-04-13 03:17:38"
+}

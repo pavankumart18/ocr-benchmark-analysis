@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 88,
+    "completeness": 80,
+    "total_score": 87.2,
+    "notes": "Good overall extraction with proper alignment and structure. Minor issues include potential misspelling in 'Elody Pines' (likely 'Melody Pines') and possible incompleteness as delivery notes typically contain item details/quantities that appear to be missing from this extract."
+  },
+  "timestamp": "2026-04-13 02:00:24"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 20,
+    "numeric_precision": 0,
+    "layout_preservation": 60,
+    "completeness": 25,
+    "total_score": 44.5,
+    "notes": "Company name and address are accurately extracted, but critical data is missing: date (12-01-19) and total amount (33.90) are completely absent. OCR captured extra irrelevant text like customer name and product details not in ground truth. No table structure preserved as expected JSON format."
+  },
+  "timestamp": "2026-04-13 01:58:14"
+}

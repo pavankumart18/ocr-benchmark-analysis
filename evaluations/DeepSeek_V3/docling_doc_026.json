@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 94.5,
+    "notes": "Minor OCR errors include 'sUI' instead of 'SUI' for Switzerland and 'L' instead of '1' for United States' Total. Table structure and layout are perfectly preserved."
+  },
+  "timestamp": "2026-04-13 03:08:38"
+}

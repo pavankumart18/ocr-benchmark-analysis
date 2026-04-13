@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 82,
+    "notes": "Company name has minor errors ('SON, BHO.' instead of 'SDN. BHD.'), but all key information is captured. Date, address, and total amount are accurate. Table structure is well preserved with clear columns and rows. Extra information like invoice details and customer name are present but not required by ground truth."
+  },
+  "timestamp": "2026-04-13 01:51:29"
+}

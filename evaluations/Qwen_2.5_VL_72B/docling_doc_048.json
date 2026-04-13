@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "docling",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 63.75,
+    "notes": "The OCR output contains several misspellings and formatting issues. The company name and address have minor errors. There is no table structure in the ground truth, so this criterion is not applicable. Numeric values like the total amount and date are mostly accurate. The layout is somewhat preserved but not perfectly. Some parts of the ground truth are missing or garbled."
+  },
+  "timestamp": "2026-04-13 02:28:28"
+}

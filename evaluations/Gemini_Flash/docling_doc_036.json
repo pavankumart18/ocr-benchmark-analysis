@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 90,
+    "numeric_precision": 70,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 79,
+    "notes": "Text accuracy has several minor OCR errors, particularly with names, addresses, and some words like 'Lalif\u3002ruia' instead of 'California'. Numeric precision is affected by the date 'ozs-os -11' and the repeated phrase in section 3. Table structure and layout are generally well-preserved, and completeness seems good with only minor character issues."
+  },
+  "timestamp": "2026-04-13 01:39:11"
+}

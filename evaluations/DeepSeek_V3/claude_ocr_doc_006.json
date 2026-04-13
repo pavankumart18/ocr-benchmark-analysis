@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 84.25,
+    "notes": "Text accuracy is high but includes extra unrelated text ('tan chay yee', phone number, etc.). Table structure is partially preserved but includes additional unrelated rows. Numeric precision is perfect. Layout is mostly preserved but cluttered with extra info. All ground truth fields are captured but with additional noise."
+  },
+  "timestamp": "2026-04-13 03:34:10"
+}

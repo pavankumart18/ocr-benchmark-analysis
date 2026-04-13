@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 50,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 80,
+    "notes": "Text accuracy is high with no obvious misspellings. Numeric precision is also good. However, the table structure is not preserved; the percentages are listed on the same line as the category, rather than in distinct columns as would be expected for survey responses. The layout is mostly preserved, but the lack of table structure impacts this as well. Completeness is good, with no major missing text."
+  },
+  "timestamp": "2026-04-13 01:37:04"
+}

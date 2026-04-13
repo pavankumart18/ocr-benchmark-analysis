@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 100,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 100,
+    "total_score": 95.75,
+    "notes": "The text content is perfectly accurate. The only minor issue is the additional whitespace/indentation in the OCR output for the second and third paragraphs, and the signature block, which slightly affects layout preservation."
+  },
+  "timestamp": "2026-04-13 01:44:10"
+}

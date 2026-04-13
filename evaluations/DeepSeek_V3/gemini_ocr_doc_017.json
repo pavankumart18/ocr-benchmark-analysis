@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 60,
+    "total_score": 86,
+    "notes": "The OCR output is highly accurate in terms of text fidelity and layout preservation, but it is incomplete, missing sections vii onwards from the ground truth. No issues with table structure or numeric precision as there are no tables or numeric data in the provided text."
+  },
+  "timestamp": "2026-04-13 03:21:50"
+}

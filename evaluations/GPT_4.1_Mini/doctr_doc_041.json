@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 20,
+    "numeric_precision": 85,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 57.75,
+    "notes": "Company name mostly correct but missing punctuation and spacing errors; address partially correct with misspellings (e.g., 'BANRU' vs 'BAHRU', 'NOSI' vs 'NO.'); date correctly extracted; total amount correct; table structure poorly preserved with garbled and unrelated text in place of expected columns; layout reading order disrupted by extraneous text; some ground truth text missing or distorted."
+  },
+  "timestamp": "2026-04-13 02:11:34"
+}

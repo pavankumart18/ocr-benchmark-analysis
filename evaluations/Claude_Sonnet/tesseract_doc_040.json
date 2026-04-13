@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 85,
+    "layout_preservation": 35,
+    "completeness": 40,
+    "total_score": 45,
+    "notes": "Significant OCR errors throughout including 'Pp.acific' instead of 'Pacific', 'Scien:' instead of 'Science', fragmented words like 'snboarc' and 'pre-Gan nae'. Layout is heavily disrupted with broken sentences and misplaced text fragments. Table structure for seminar information is poorly preserved. However, the conference fee of $1,575 was captured correctly, and some destination names like Lima and Puerto Vallarta are readable."
+  },
+  "timestamp": "2026-04-13 01:55:08"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 86,
+    "notes": "Text accuracy is high with no obvious misspellings. Table structure is mostly preserved for the main data table, but the bar chart data is presented as a flat list of numbers and labels, losing its visual structure. Numeric precision is good, with all values and currencies correctly extracted. Layout preservation suffers due to the bar chart data being linearized, making the reading order of those numbers difficult to interpret in context. Completeness is good, with all visible text captured, though the interpretation of the bar chart data is a challenge."
+  },
+  "timestamp": "2026-04-13 01:46:54"
+}

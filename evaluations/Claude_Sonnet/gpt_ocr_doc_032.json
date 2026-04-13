@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 95,
+    "total_score": 81.25,
+    "notes": "Good overall extraction with accurate employee names, IDs, and time formats. Main issues include inconsistent column alignment, some merged cells causing layout problems (e.g., 'Leave Sick Leave' appearing concatenated), and irregular spacing in the table structure. All critical data like dates, times, and employee information is captured correctly."
+  },
+  "timestamp": "2026-04-13 02:04:28"
+}

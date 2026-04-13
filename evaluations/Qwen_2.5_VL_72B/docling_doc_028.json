@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "docling",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.75,
+    "notes": "Minor issues with text accuracy such as 'TrantowandKlein' instead of 'Trantow and Klein'. Table structure is mostly preserved but some descriptions are overly long and could be better formatted. Numeric precision is high with no apparent errors. Layout preservation has some issues with reading order and section headers. Completeness is good with no major missing text."
+  },
+  "timestamp": "2026-04-13 02:26:54"
+}

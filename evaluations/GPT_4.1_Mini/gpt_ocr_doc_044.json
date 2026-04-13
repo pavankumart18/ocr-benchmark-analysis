@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 70.75,
+    "notes": "Company name correctly extracted. Address mostly correct except 'NO 122.124.' vs 'NO 123 124'. Date off by one day (25/12/2018 vs 26/12/2018). Total amount matches after rounding. Some minor text differences and extra unrelated text present. Table columns and rows partially preserved but not fully aligned with ground truth. Layout mostly preserved but reading order includes extra lines and some formatting inconsistencies."
+  },
+  "timestamp": "2026-04-13 02:20:04"
+}

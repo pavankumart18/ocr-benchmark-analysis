@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 40,
+    "total_score": 78.5,
+    "notes": "OCR output is highly accurate for the text it captured, with perfect character-level fidelity and proper bullet point structure. However, it's severely incomplete - cuts off abruptly in section F, missing approximately 60% of the material including most bullet points under 'Information that may be material includes' and the entire definition of 'non-public' information. Layout and formatting are well preserved for the captured portion."
+  },
+  "timestamp": "2026-04-13 01:59:27"
+}

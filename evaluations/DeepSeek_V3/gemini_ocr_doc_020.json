@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 98.15,
+    "notes": "Minor formatting differences (e.g., asterisks around 'The Wall Street Journal' in OCR output) and slight spacing variations, but otherwise nearly perfect match to ground truth."
+  },
+  "timestamp": "2026-04-13 03:22:15"
+}

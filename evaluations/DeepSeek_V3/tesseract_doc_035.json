@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 65,
+    "completeness": 80,
+    "total_score": 70,
+    "notes": "The OCR captured most text but has minor typos (e.g., 'Duck Fat \u2018101' instead of 'Duck Fat 101'). Table structure is partially preserved but misaligned in places. Numeric precision is mostly correct but has some errors (e.g., 'af)' instead of a number). Layout is somewhat preserved but reading order is unclear in sections. Most text is captured, but some headers and separators are missing or garbled."
+  },
+  "timestamp": "2026-04-13 03:14:04"
+}

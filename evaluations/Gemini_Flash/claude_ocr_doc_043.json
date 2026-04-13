@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 95,
+    "total_score": 95.5,
+    "notes": "The OCR output accurately extracted the requested fields. The 'total' field matched the 'TOTAL ROUNDED' value from the OCR output, which is correct based on the ground truth. The date '12-01-19' was correctly extracted. The address and company name were also perfectly extracted. The only minor discrepancy is that the ground truth 'total' is '33.90' while the OCR output shows '33.92' for 'TOTAL' and '33.90' for 'TOTAL ROUNDED'. Since the ground truth is '33.90', the OCR correctly identified the final total."
+  },
+  "timestamp": "2026-04-13 01:47:23"
+}

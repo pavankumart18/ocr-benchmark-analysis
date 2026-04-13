@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 20,
+    "numeric_precision": 60,
+    "layout_preservation": 35,
+    "completeness": 70,
+    "total_score": 40.75,
+    "notes": "The OCR output contains many misspellings, incorrect characters, and garbled words, severely impacting text accuracy. There is no clear preservation of table or column structure, with misaligned and fragmented text. Numeric data such as the conference fee is mostly correct but some context is unclear. The reading order is jumbled, with headers and paragraphs mixed and incomplete. While most visible text appears captured, significant portions are distorted or nonsensical."
+  },
+  "timestamp": "2026-04-13 02:14:08"
+}

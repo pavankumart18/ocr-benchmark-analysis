@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 96.5,
+    "notes": "Minor text accuracy issues like 'ChristianBergnaumI' instead of 'Christian Bergnaum I' and 'Dr.ViolaMcLaughlin' instead of 'Dr. Viola McLaughlin'. Numeric precision is good, but some currency symbols are missing for empty cells where they might be expected in a financial document, though the OCR correctly extracted what was present."
+  },
+  "timestamp": "2026-04-13 01:39:18"
+}

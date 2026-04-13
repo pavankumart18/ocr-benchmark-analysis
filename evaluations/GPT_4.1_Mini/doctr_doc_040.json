@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 55,
+    "table_structure": 40,
+    "numeric_precision": 70,
+    "layout_preservation": 50,
+    "completeness": 85,
+    "total_score": 56.75,
+    "notes": "Numerous spelling errors (e.g., 'Advertsement', 'off' instead of 'of', 'Scientiet'), word segmentation issues, and garbled phrases reduce text accuracy significantly. The structure is poorly preserved with mixed columns and misaligned speaker info, affecting table structure. Numeric data like dates and prices are mostly correct but some minor errors in punctuation and spacing exist. Layout is somewhat maintained but reading order is confused and sections blend together. Most visible text appears captured, though some lines are jumbled or incomplete."
+  },
+  "timestamp": "2026-04-13 02:11:31"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 45,
+    "numeric_precision": 70,
+    "layout_preservation": 40,
+    "completeness": 65,
+    "total_score": 60.5,
+    "notes": "Major issues include severely disrupted table structure with misaligned columns and rows, incomplete quarterly data section, and poor layout preservation. Text accuracy is decent with minor OCR errors like 'S4.OM' instead of '$4.0M'. Numeric values are mostly correct but formatting is inconsistent. The bottom section appears fragmented and incomplete."
+  },
+  "timestamp": "2026-04-13 01:57:06"
+}

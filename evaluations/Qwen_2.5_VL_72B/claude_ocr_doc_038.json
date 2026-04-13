@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "claude_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 65,
+    "completeness": 80,
+    "total_score": 78.75,
+    "notes": "The OCR captured most text accurately but had issues with table structure and layout preservation. The table rows and columns are not perfectly aligned, and the layout of the 'Transactions by Quarter' section is disorganized. Numeric values are mostly correct, but the layout of the quarters and their corresponding values is unclear."
+  },
+  "timestamp": "2026-04-13 03:00:45"
+}

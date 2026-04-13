@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 77,
+    "notes": "Text accuracy is generally good, but there are some minor OCR errors like 'seston dsiz-205' instead of 'SEASONAL DISCOUNT' or similar, 'rf' instead of 'OF', 'i' instead of '1', 'Unions' instead of 'Avenues', '9XPLOVZIDJ' and '9FBBU7JJH9' which seem like OCR artifacts or misinterpretations of codes. Table structure is poor; the data is presented in a columnar fashion in the original, but the OCR output merges lines and doesn't clearly delineate columns for dates, companies, addresses, and fees. Numeric precision is fair, with most numbers and dates captured correctly, though the '198.03' and '20.2' values are present without clear context of what they represent in the OCR output. Layout preservation suffers due to the lack of clear column separation. Completeness is good, as most visible text appears to be captured."
+  },
+  "timestamp": "2026-04-13 01:40:06"
+}

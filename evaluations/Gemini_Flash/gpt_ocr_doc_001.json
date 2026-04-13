@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 95,
+    "completeness": 90,
+    "total_score": 93.25,
+    "notes": "The OCR output is very good. Minor discrepancies include a slight difference in the company name ('.K' vs '_K') and a missing 'NO.53' from the address. The date and total are extracted correctly, though the date includes a timestamp not present in the ground truth. The overall structure and numeric values are well-preserved."
+  },
+  "timestamp": "2026-04-13 01:43:45"
+}

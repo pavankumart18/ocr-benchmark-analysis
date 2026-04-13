@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 96.0,
+    "notes": "The OCR output correctly extracted all the requested fields. There are no significant text accuracy issues for the requested fields. The layout is preserved well enough to easily identify the key information. Numeric precision is perfect for the requested fields. The table structure is not relevant as the ground truth only contains key-value pairs, not a table."
+  },
+  "timestamp": "2026-04-13 01:43:24"
+}

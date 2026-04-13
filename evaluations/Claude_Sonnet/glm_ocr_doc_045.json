@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 72,
+    "notes": "Company name has errors (D.T.Y. SM1 SUN 000 vs D.I.Y. (M) SDN BHD), address has typos (BALAFONG vs BALAKONG, 1251 vs 1851), but key numeric values like total (30.90) and date (18-11-18) are correct. OCR captured much more detail than ground truth including full invoice items and transaction details."
+  },
+  "timestamp": "2026-04-13 01:49:15"
+}

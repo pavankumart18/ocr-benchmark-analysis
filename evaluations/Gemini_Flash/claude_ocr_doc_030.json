@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 92,
+    "notes": "The OCR output is generally very good. Minor issues include some missing pipe delimiters in the table, which slightly impacts table structure. There's also a missing 'Page: 38 of 83' at the very end of the document, which was present at the beginning. Otherwise, text, numbers, and layout are well-preserved."
+  },
+  "timestamp": "2026-04-13 01:46:51"
+}

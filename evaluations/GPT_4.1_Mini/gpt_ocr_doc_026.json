@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 95.25,
+    "notes": "OCR output is highly accurate with correct nation names, ranks, and medal counts. Table columns and rows are well preserved with proper alignment. Numeric data is exact with no errors. Reading order and layout are maintained. No visible text is missing. Minor issue: two nations share rank 7, which is correctly captured but might be unusual."
+  },
+  "timestamp": "2026-04-13 02:19:14"
+}

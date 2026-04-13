@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 55,
+    "completeness": 80,
+    "total_score": 60.75,
+    "notes": "Significant OCR errors including misspellings (e.g., 'indluding', 'Sysgerostic'), misplaced or garbled text fragments, and inconsistent formatting. Tables and columns are poorly aligned, making it difficult to interpret data correctly. Numeric values mostly correct but some units and decimals are unclear or misplaced. Reading order is disrupted with mixed sections and headers. Most text is present but some parts appear jumbled or incomplete."
+  },
+  "timestamp": "2026-04-13 02:14:41"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 88.25,
+    "notes": "Overall good extraction with minor spacing issues in names (e.g., 'MathewBailey' missing space, 'ChristianBergnaumI' has an extra 'I'), some missing BB Returns and Puer Returns values appear as blanks but likely accurate. Table columns and rows are well preserved and aligned. Numeric values including currency and IDs appear correct. Layout and reading order are maintained. No major missing text detected."
+  },
+  "timestamp": "2026-04-13 02:12:46"
+}

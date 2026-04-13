@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 40,
+    "layout_preservation": 25,
+    "completeness": 15,
+    "total_score": 22.75,
+    "notes": "OCR output does not match ground truth company name, date, or address. The extracted text is from a completely different document with unrelated content. Numeric values differ in date and total amount. No table structure from ground truth is present. Layout and reading order are unrelated. Major missing information and incorrect text lead to very low scores."
+  },
+  "timestamp": "2026-04-13 02:20:06"
+}

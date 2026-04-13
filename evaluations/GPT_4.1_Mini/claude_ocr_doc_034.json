@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 70.75,
+    "notes": "Text is mostly accurate but contains some odd concatenations and spacing issues (e.g., '0ONSJCOOKPClient', 'CONCEPCIONBOROUGH'). Table columns are present but alignment is inconsistent, making it hard to distinguish rows and columns clearly. Numeric values and dates appear mostly correct but some VAT/code and gross value columns seem misaligned or questionable. Layout order is generally preserved but some rows are merged or broken incorrectly. Overall, most visible text is captured but some formatting and spacing errors reduce clarity."
+  },
+  "timestamp": "2026-04-13 02:22:00"
+}

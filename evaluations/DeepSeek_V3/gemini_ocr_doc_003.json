@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 0,
+    "numeric_precision": 0,
+    "layout_preservation": 70,
+    "completeness": 60,
+    "total_score": 42.5,
+    "notes": "Key issues: Missing 'date' and 'total' fields, incorrect numeric values, no table structure preserved. Text accuracy is decent but has extra unrelated content ('tan woon yann', invoice details). Layout is somewhat preserved but includes irrelevant sections."
+  },
+  "timestamp": "2026-04-13 03:19:49"
+}

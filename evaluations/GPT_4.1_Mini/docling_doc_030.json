@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 45,
+    "numeric_precision": 40,
+    "layout_preservation": 55,
+    "completeness": 70,
+    "total_score": 49.75,
+    "notes": "Significant OCR errors including misspellings (e.g., 'Relerenze Nurnber', 'Dale', 'Receing', 'Serrtoel Cbarge'), garbled words, and inconsistent spacing. Table columns and rows are poorly aligned with many misplaced or missing values. Numeric data often has incorrect decimal points, colons instead of dots, and some numbers appear truncated or nonsensical. Layout is partially preserved but reading order is disrupted and headers are inconsistent. Most text is captured but some parts are truncated or incomplete."
+  },
+  "timestamp": "2026-04-13 02:12:15"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 95,
+    "completeness": 95,
+    "total_score": 94,
+    "notes": "The OCR output is generally very good. There's a minor repetition in the 'Term of Lease' section ('day of May 2025 day of May 2025' and 'day of March 2028 day of March 2028') and a repetition in the 'Base Rent' section ('is required. payable monthly with the first payment due upon the is required. payable monthly with the first payment due upon the'). The checkboxes in section 4 are also not perfectly represented as checkboxes, but rather as '\u2611'."
+  },
+  "timestamp": "2026-04-13 01:45:09"
+}

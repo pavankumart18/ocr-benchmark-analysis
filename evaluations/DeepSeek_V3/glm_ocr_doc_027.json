@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 100,
+    "total_score": 93.75,
+    "notes": "Minor layout issues (e.g., parentheses alignment in 'United States' section), but text, numbers, and structure are accurately captured with no major errors."
+  },
+  "timestamp": "2026-04-13 03:01:52"
+}

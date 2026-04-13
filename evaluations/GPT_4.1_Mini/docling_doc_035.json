@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 60,
+    "layout_preservation": 55,
+    "completeness": 75,
+    "total_score": 61.75,
+    "notes": "The OCR captured most text but with many spacing issues (e.g., words run together like 'FrenchFries', 'SweetPotato', 'Sweet&amp;Sour133'), inconsistent line breaks, and some repeated or misplaced headers. The table is partially preserved but columns and rows are misaligned, with some numeric values shifted or merged incorrectly (e.g., 'Chicken Wrap Curry 143' row has misplaced fat and saturated fat values). Decimal points are mostly correct but some numeric values appear truncated or misplaced. Layout is disrupted by scattered headers and mixed sections, making reading order confusing. Overall, the extraction is incomplete with some missing or duplicated text fragments and poor table formatting."
+  },
+  "timestamp": "2026-04-13 02:12:32"
+}

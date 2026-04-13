@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 72.25,
+    "notes": "Text is mostly accurate but contains some formatting issues and minor misspellings (e.g., inconsistent line breaks in addresses and names). Table columns are not well aligned, causing confusion in reading rows and associating charges with shipments. Numeric data appears mostly correct with decimals intact, but some values are misaligned or ambiguously placed. Layout order is generally preserved but some sections (addresses, multiline entries) are fragmented. Overall, most visible text is captured, though some spacing and alignment issues reduce clarity."
+  },
+  "timestamp": "2026-04-13 02:19:26"
+}

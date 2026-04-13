@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 88,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 81.25,
+    "notes": "Good overall extraction with accurate text and numbers. Main issues: table structure lacks proper column separation making it hard to distinguish individual fields, some formatting inconsistencies in the detailed product descriptions, and missing clear delineation between table columns. The content is complete and readable but would benefit from better structural organization."
+  },
+  "timestamp": "2026-04-13 02:08:04"
+}

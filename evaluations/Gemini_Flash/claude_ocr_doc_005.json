@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 95,
+    "total_score": 96.0,
+    "notes": "The OCR output accurately extracted all the requested fields. There was a minor difference in the 'company' field where 'D.T.Y.' was extracted instead of 'D.I.Y.', and the 'total' field had '30.91' initially before the 'TOTAL ROUNDED' value of '30.90' was correctly identified. The date and address were perfect matches."
+  },
+  "timestamp": "2026-04-13 01:45:52"
+}

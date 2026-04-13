@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 55,
+    "table_structure": 40,
+    "numeric_precision": 50,
+    "layout_preservation": 60,
+    "completeness": 75,
+    "total_score": 54.25,
+    "notes": "Numerous misspellings (e.g., 'Z0zs', 'Lalifornia', 'Spece'), incorrect characters, and garbled words reduce text accuracy. Numeric values like dates and amounts are often misread or inconsistent (e.g., '34 00' for $3400, 'Zo89' for $2089, 'zo2 s' for 2025). No clear tables present, but numeric alignment and formatting are poor. Layout roughly preserved with sections and headers, but some lines are jumbled or repeated. Most visible text is captured, but some lines are incomplete or corrupted."
+  },
+  "timestamp": "2026-04-13 02:15:07"
+}

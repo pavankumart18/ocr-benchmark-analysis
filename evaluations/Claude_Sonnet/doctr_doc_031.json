@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 74,
+    "notes": "Main issues: misspelling 'Contruction' instead of 'Construction', garbled chart data with random alphanumeric sequences, poor table alignment making it hard to match values to correct columns, and fragmented layout with chart elements mixed into text. Financial values and statistics appear accurate."
+  },
+  "timestamp": "2026-04-13 01:50:14"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 5,
+    "numeric_precision": 40,
+    "layout_preservation": 10,
+    "completeness": 5,
+    "total_score": 13.25,
+    "notes": "OCR output is largely unrelated to ground truth text. Company name, date, and address are missing entirely. Extracted text is mostly garbled product/item lines and unrelated receipt info. Numeric values differ slightly but are not the same as ground truth total. No table or structured data from ground truth is preserved. Layout and reading order do not match. Overall, the OCR output fails to capture any meaningful portion of the ground truth."
+  },
+  "timestamp": "2026-04-13 02:14:33"
+}

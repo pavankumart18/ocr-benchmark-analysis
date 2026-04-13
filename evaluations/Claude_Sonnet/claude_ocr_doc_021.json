@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 25,
+    "total_score": 67,
+    "notes": "OCR captured the raw document text very accurately with minimal character errors and preserved the distribution list structure well. However, it completely missed the analytical content that comprises most of the ground truth - the document type analysis, key details summary, and insights sections. The OCR only extracted the literal text from the document image, not the interpretive analysis that makes up the majority of the ground truth content."
+  },
+  "timestamp": "2026-04-13 02:07:24"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 88,
+    "total_score": 83,
+    "notes": "Good overall extraction with accurate text and numbers. Table structure mostly preserved but some alignment issues with merged cells and empty fields. Company names and addresses appear correct. Minor formatting inconsistencies in table layout but all major content captured."
+  },
+  "timestamp": "2026-04-13 02:08:30"
+}

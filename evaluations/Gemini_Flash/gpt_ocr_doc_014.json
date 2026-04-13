@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 100,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 97.5,
+    "notes": "The text accuracy, table structure, numeric precision, and completeness are perfect. The only minor difference is in layout preservation, where the OCR output introduces some extra leading spaces before the second and third paragraphs, and significantly more leading spaces before the signature block, shifting it further to the right than in the ground truth."
+  },
+  "timestamp": "2026-04-13 01:44:14"
+}

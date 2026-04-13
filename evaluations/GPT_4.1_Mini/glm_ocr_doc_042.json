@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 40,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 60,
+    "total_score": 69.25,
+    "notes": "Company name mostly correct but address has multiple errors (e.g., 'DEBAP' vs 'DEDAP', 'TANAH' vs 'TAMAN', '01100' vs '81100'). Date matches exactly. Total amount in ground truth is 60.30 but OCR shows 60.31 as total and 70.30 cash, causing numeric inconsistency. Table structure is poorly preserved; original data is a simple JSON, OCR output is a receipt with multiple extra lines and no clear table format. Layout is roughly preserved but includes extraneous info and order is not clean. Completeness is low due to extra unrelated text and address errors."
+  },
+  "timestamp": "2026-04-13 02:10:24"
+}

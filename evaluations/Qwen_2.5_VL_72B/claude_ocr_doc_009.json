@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "claude_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 94.25,
+    "notes": "The OCR output accurately captures the company name, date, address, and total amount. There are minor differences in the address postal code (81760 vs 81750) and additional information not present in the ground truth, but these do not significantly impact the overall accuracy. The table structure is preserved, though the OCR output contains more detailed item information. Numeric values are perfectly matched. Layout and completeness are well-preserved with only minor discrepancies."
+  },
+  "timestamp": "2026-04-13 02:58:35"
+}

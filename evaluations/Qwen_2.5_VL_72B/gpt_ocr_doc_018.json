@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "gpt_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 96.25,
+    "notes": "The OCR output is nearly identical to the ground truth with no significant errors. There are no misspellings, wrong characters, or missing words. The layout and reading order are preserved correctly, and all text from the ground truth is captured. The only minor issue is a slight spacing difference in the numbering of sections, but it does not affect the overall accuracy."
+  },
+  "timestamp": "2026-04-13 02:55:27"
+}

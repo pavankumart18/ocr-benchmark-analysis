@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 0,
+    "table_structure": 0,
+    "numeric_precision": 10,
+    "layout_preservation": 0,
+    "completeness": 0,
+    "total_score": 2.5,
+    "notes": "The OCR output is almost entirely garbled and bears no resemblance to the ground truth, except for the 'total' value which is partially present. All other fields are completely missing or unrecognizably corrupted. The layout is completely lost."
+  },
+  "timestamp": "2026-04-13 01:41:36"
+}

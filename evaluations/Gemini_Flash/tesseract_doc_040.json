@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 64,
+    "notes": "Text accuracy is significantly impacted by numerous misspellings, character substitutions, and garbled words (e.g., 'Pp. acific Rim \u00a2', 'Scien:', 'snboarc Nl Ours', 'v arcnaeol fitne'). Table structure is poorly preserved, especially for the list of locations and the seminar details, which are presented as run-on text rather than distinct items or columns. Numeric precision is good for the single price point. Layout preservation suffers due to the jumbled text and lack of clear separation between logical sections. Completeness is fair, as most visible text is present, but some words are completely unreadable."
+  },
+  "timestamp": "2026-04-13 01:40:21"
+}

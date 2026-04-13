@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 95,
+    "completeness": 95,
+    "total_score": 90,
+    "notes": "Text accuracy is good overall, but there's a repetition of 'day of May 2025' and 'day of March 2028' in section 2, and 'is required. payable monthly with the first payment due upon the' in section 3. Numeric precision is slightly affected by the date repetition. Completeness is good, with only minor omissions like the unchecked checkbox for the renewal option."
+  },
+  "timestamp": "2026-04-13 01:47:06"
+}

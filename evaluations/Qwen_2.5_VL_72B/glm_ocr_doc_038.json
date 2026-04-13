@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "glm_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 77.5,
+    "notes": "The text accuracy is high with no apparent misspellings or wrong characters. However, the table structure is poorly preserved, with numbers not aligned properly and missing column headers in the quarterly data. Numeric precision is strong, but the layout preservation is lacking due to disorganized quarterly data. Completeness is good, but some data appears to be missing or incorrectly formatted."
+  },
+  "timestamp": "2026-04-13 02:23:44"
+}

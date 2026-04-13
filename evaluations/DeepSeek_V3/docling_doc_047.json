@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 80,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 64.25,
+    "notes": "Key issues: Company name has minor errors ('SOON HUATMACHINERY' missing space), address has garbled text ('NOSJJALANPUTRA1'), table structure is poorly preserved with garbled rows and incorrect formatting, numeric values mostly correct but some formatting errors (e.g., '1101/2019' for date). Layout has reading order issues and extra irrelevant text."
+  },
+  "timestamp": "2026-04-13 03:12:30"
+}

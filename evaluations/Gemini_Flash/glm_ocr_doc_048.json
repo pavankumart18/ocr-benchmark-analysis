@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 95.0,
+    "notes": "The OCR output accurately extracted all the requested fields. Minor discrepancies include 'B1620' instead of '81620' in the address and the date includes time information not present in the ground truth. The table structure is not applicable as the ground truth is not a table."
+  },
+  "timestamp": "2026-04-13 01:37:31"
+}

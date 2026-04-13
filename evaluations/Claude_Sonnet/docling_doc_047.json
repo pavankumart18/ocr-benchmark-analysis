@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 40,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 66,
+    "notes": "Company name missing space ('HUATMACHINERY' vs 'HUAT MACHINERY'), address missing spaces and periods. Table structure heavily corrupted with repeated column content and misaligned data. Key numeric values (date 11/01/2019, total 327.00) are correct. Layout generally preserved but table formatting severely damaged. Most content captured despite structural issues."
+  },
+  "timestamp": "2026-04-13 01:53:41"
+}

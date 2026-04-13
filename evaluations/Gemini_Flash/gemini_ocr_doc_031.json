@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 100,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 95,
+    "total_score": 97.5,
+    "notes": "The OCR output is excellent. The only minor issue is a missing value in the 'State & Federal Contruction' column for San Diego, which might indicate a blank cell in the original or a very faint value that was missed."
+  },
+  "timestamp": "2026-04-13 01:42:59"
+}

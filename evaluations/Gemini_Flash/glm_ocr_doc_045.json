@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 100,
+    "completeness": 95,
+    "total_score": 90.5,
+    "notes": "The OCR output has minor character errors in the company name and address, such as 'D. T. Y. SM1 SUN 000' instead of 'D.I.Y. (M) SDN BHD' and '101 1251 A & 1051-B' instead of 'LOT 1851-A & 1851-B'. The date and total are correctly extracted. The overall structure and layout are well preserved."
+  },
+  "timestamp": "2026-04-13 01:37:23"
+}

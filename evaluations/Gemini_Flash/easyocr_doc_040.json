@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 72,
+    "notes": "Text accuracy suffers from numerous minor OCR errors (e.g., 'Crueee' for 'Cruise', 'eclucational inntiafives' for 'educational initiatives', 'Ronert Siof' for 'Robert M. Hazen'). The table structure for speakers and seminars is partially preserved but has alignment issues and some text is merged or misaligned. Numeric precision is generally good for dates and prices. Layout preservation is fair, but the speaker/seminar section is messy. Most text is captured, but some formatting and minor elements are lost."
+  },
+  "timestamp": "2026-04-13 01:41:26"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 98,
+    "notes": "The OCR output is nearly perfect with no significant errors. Text accuracy is slightly less than perfect due to minor formatting differences (e.g., 'Great Britain' vs. 'France' alignment), but all data is correctly captured."
+  },
+  "timestamp": "2026-04-13 03:23:14"
+}

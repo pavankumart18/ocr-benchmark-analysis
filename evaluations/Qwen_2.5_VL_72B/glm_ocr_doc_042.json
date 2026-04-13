@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "glm_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 88.5,
+    "notes": "Minor text accuracy issues with 'DEDAP' vs 'DEBAP' and 'TAMAN' vs 'TANAH'. Table structure is mostly preserved but not explicitly present in ground truth. Numeric values and dates match perfectly. Layout is slightly altered but maintains readability. All key information from ground truth is captured."
+  },
+  "timestamp": "2026-04-13 02:24:07"
+}

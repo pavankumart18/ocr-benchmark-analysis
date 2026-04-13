@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 69,
+    "notes": "Several significant text accuracy issues, such as '1qck' instead of '1000', 'Asecerecirsareplete' instead of 'Accessories complete', 'connectiopesecure' instead of 'connections secure', and 'OVEPARSEatIS' which is completely garbled. The table structure is also significantly impacted by these text errors, making it difficult to discern column headers in some places and misaligning 'X' marks. Numeric precision is good for dates and equipment ID. Layout is mostly preserved, and completeness is high despite the errors."
+  },
+  "timestamp": "2026-04-13 01:37:48"
+}

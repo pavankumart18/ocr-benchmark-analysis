@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 65,
+    "completeness": 80,
+    "total_score": 74.75,
+    "notes": "The OCR output contains several misspellings and incorrect characters, such as 'Advertsement' instead of 'Advertisement' and 'off' instead of 'of'. The table structure is not well-preserved, with some information appearing out of order. Numeric values like dates and prices are mostly accurate. The layout is somewhat disrupted, with sections and paragraphs not always maintained correctly. Most of the text is captured, but there are some omissions and errors."
+  },
+  "timestamp": "2026-04-13 02:25:53"
+}

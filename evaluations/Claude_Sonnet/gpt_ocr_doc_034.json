@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 88,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 81.25,
+    "notes": "Good overall extraction with minor issues. Document number appears garbled (OONS|COOKP likely incorrect). Table structure mostly preserved but column alignment could be better. Some company names and addresses may have OCR artifacts. Numeric values and dates appear accurate. Most content captured completely."
+  },
+  "timestamp": "2026-04-13 02:04:38"
+}

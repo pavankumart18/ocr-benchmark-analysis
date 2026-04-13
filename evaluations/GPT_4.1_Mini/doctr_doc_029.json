@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 85,
+    "layout_preservation": 65,
+    "completeness": 90,
+    "total_score": 66.75,
+    "notes": "Several misspellings and garbled words (e.g., 'Asecerecirsareplete', 'OVEPARSEatIS', 'connectiopesecure') reduce text accuracy. Table structure is partially preserved but columns and rows are not clearly aligned, and some checkpoint labels are repeated or misplaced. Numeric data such as dates and equipment ID are mostly correct. Layout is somewhat maintained but reading order is disrupted by misplaced text and repeated headers. Most visible text appears captured with no major omissions."
+  },
+  "timestamp": "2026-04-13 02:10:58"
+}

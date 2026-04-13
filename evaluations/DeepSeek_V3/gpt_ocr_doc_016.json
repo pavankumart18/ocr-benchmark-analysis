@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 99,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 98.7,
+    "notes": "The OCR output is nearly identical to the ground truth with only minor formatting differences in spacing and indentation. No missing text, incorrect characters, or structural errors were found."
+  },
+  "timestamp": "2026-04-13 03:29:01"
+}

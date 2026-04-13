@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 81.25,
+    "notes": "Text is mostly accurate with correct nation names and medal counts, but 'France (FRA)' is missing a rank number causing a table structure misalignment. Columns are mostly preserved but the last row breaks the alignment. Numeric data is precise. Reading order is mostly correct but the missing rank affects layout. Some completeness issues due to missing rank and slight formatting inconsistencies."
+  },
+  "timestamp": "2026-04-13 02:09:37"
+}

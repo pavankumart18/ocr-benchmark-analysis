@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 65,
+    "total_score": 71.25,
+    "notes": "The OCR output has some minor text accuracy issues with random characters at the bottom. The table structure is partially preserved but some numbers are misaligned. Numeric precision is mostly accurate. Layout preservation is decent but not perfect. Completeness is affected by the presence of random characters."
+  },
+  "timestamp": "2026-04-13 02:25:43"
+}

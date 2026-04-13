@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 84,
+    "notes": "Minor typos in address ('NO 63' instead of 'NO.53'), extra irrelevant text ('tan chay yee'), but key fields like company name, date, and total are correct. Table structure has some inconsistencies but numeric values are accurate."
+  },
+  "timestamp": "2026-04-13 03:32:40"
+}

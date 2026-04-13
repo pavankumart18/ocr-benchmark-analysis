@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 92,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 88,
+    "completeness": 70,
+    "total_score": 86.4,
+    "notes": "Text is highly accurate with proper spelling and terminology. Table structure is well-preserved with clear alignment of percentages to categories. All visible numbers are correctly captured. Layout maintains proper hierarchy with headers and data rows. However, the document appears incomplete - cuts off mid-sentence at 'Improving energy performance for facilities equipment 29%' and likely missing additional survey categories and data."
+  },
+  "timestamp": "2026-04-13 02:01:08"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "glm_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 91.75,
+    "notes": "The OCR output is highly accurate with no misspellings or missing words. The table structure is mostly preserved, but the alignment of numbers could be slightly improved. Numeric values are precise, and the layout maintains correct reading order. All visible text appears to be captured."
+  },
+  "timestamp": "2026-04-13 02:23:40"
+}

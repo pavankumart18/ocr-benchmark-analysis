@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 90,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 81.75,
+    "notes": "The OCR output correctly identified the company name and total. The date has a minor transcription error (20018 instead of 2018). The address has a misspelling ('IDEDAR' instead of 'DEDAP') and is missing a period after 'NO'. The overall structure and presence of the key fields are good, but minor character-level errors affect accuracy and numeric precision slightly."
+  },
+  "timestamp": "2026-04-13 01:38:28"
+}

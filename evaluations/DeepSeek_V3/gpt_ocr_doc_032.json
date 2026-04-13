@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 88,
+    "notes": "Minor alignment issues in table structure and layout preservation. Text accuracy is high with no major misspellings. Numeric precision is excellent with correct dates and times. All visible text appears to be captured."
+  },
+  "timestamp": "2026-04-13 03:31:06"
+}

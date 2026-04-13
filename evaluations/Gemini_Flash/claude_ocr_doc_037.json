@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 70,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 98,
+    "total_score": 90,
+    "notes": "Text accuracy is very high with no noticeable errors. Numeric precision is perfect. Completeness is good, with only the 'uptime INTELLIGENCE' logo text being slightly duplicated. However, the table structure is not preserved; the data is extracted as plain text, losing the column-row relationship for the percentages. Layout preservation is decent, but the table data is not presented in a tabular format."
+  },
+  "timestamp": "2026-04-13 01:47:09"
+}

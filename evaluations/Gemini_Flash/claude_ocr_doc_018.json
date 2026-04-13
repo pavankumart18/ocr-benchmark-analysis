@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 99,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 99,
+    "total_score": 98.6,
+    "notes": "The OCR output is highly accurate. The only discrepancies are the presence of a '?' at the beginning and the use of an apostrophe instead of a right single quotation mark in 'Company's' and 'participant's', which are minor character differences. Layout is almost perfect, with only a slight difference in line spacing/paragraph breaks compared to the ground truth."
+  },
+  "timestamp": "2026-04-13 01:46:21"
+}

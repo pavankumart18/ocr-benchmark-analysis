@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 92,
+    "table_structure": 75,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 88,
+    "total_score": 85,
+    "notes": "High text accuracy with minor issues like missing closing parenthesis in 'Greater Asia (including Japan and Asia Pacific)'. Table structure partially preserved but formatting could be clearer for revenue segments. Numbers are accurate. Layout generally maintained though some hierarchical relationships in segment breakdown could be better structured. Minor completeness issues with potential formatting elements."
+  },
+  "timestamp": "2026-04-13 02:04:04"
+}

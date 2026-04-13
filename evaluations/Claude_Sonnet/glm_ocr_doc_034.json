@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_034",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "notes": "Good overall extraction with proper company names and addresses. Table structure has some alignment issues with merged cells and inconsistent formatting. Some numeric values appear to be missing proper column alignment, particularly in the additional charges section. Layout generally preserved but table formatting could be cleaner."
+  },
+  "timestamp": "2026-04-13 01:48:24"
+}

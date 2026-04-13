@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 97.85,
+    "notes": "Excellent OCR accuracy with nearly perfect text extraction. Minor formatting differences in spacing and indentation, but all content is correctly captured including section numbering, subsection headers, and body text. No misspellings or character errors detected."
+  },
+  "timestamp": "2026-04-13 02:07:02"
+}

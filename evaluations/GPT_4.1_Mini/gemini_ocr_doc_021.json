@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 40,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 50,
+    "total_score": 74.25,
+    "notes": "Text is mostly accurate with correct spelling and terminology, but some minor formatting issues exist. The distribution list is truncated and incomplete, affecting completeness and table structure scores. Numeric data like dates and copy number are correct. Layout is generally preserved but the reading order and section breaks are somewhat disrupted. Overall, significant portions of the document, especially the full distribution list and notes on signatures and confidentiality, are missing."
+  },
+  "timestamp": "2026-04-13 02:16:45"
+}

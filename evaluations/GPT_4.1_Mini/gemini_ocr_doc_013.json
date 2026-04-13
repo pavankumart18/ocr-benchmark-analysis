@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 40,
+    "total_score": 81.75,
+    "notes": "Text accuracy is high with no visible misspellings in the extracted portion, but the OCR output is incomplete, missing most of the document beyond the start of item (1). No tables present in ground truth, so table structure is fully preserved. Numeric precision is perfect as no numbers are altered. Layout and reading order are well maintained in the extracted text. Major issue is completeness, as only a small fragment of the full text is captured."
+  },
+  "timestamp": "2026-04-13 02:16:20"
+}

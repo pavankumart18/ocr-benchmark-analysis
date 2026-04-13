@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 74.25,
+    "notes": "Text contains several minor OCR errors and garbled words (e.g., 'Accommoda', '4o%' instead of '40%', stray characters like ''%'). Table columns and rows are mostly preserved but alignment and some labels are unclear or truncated. Numeric values are mostly correct with minor OCR misreads. Layout is generally maintained but some paragraphs and headings are fragmented or merged incorrectly. Overall, most content is captured but some text is incomplete or distorted."
+  },
+  "timestamp": "2026-04-13 02:15:10"
+}

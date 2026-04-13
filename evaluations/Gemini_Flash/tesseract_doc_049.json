@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 0,
+    "table_structure": 0,
+    "numeric_precision": 0,
+    "layout_preservation": 0,
+    "completeness": 0,
+    "total_score": 0,
+    "notes": "The OCR output failed to extract any of the specified fields (company, date, address, total) from the ground truth. The extracted text appears to be line items and a summary from a receipt, but none of the requested header information is present. The 'total' field in the OCR output (112.46) is numerically close but not an exact match to the ground truth (112.45), and it's not clearly identified as the 'total' from the ground truth context."
+  },
+  "timestamp": "2026-04-13 01:40:44"
+}

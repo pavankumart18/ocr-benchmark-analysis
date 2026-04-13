@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 95,
+    "total_score": 88.25,
+    "notes": "Text is mostly accurate with correct company name and address, minor differences in punctuation and spacing. Table structure is mostly preserved but the OCR output includes additional item details not in ground truth, which is acceptable but differs from the minimal ground truth. Numeric values are precise with only a minor rounding adjustment noted, matching the ground truth total. Layout and reading order are well maintained, with clear sections and formatting. Completeness is high as all ground truth elements are present, though OCR includes extra receipt details not in ground truth."
+  },
+  "timestamp": "2026-04-13 02:17:43"
+}

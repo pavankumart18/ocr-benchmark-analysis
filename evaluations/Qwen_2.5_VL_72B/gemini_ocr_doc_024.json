@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "gemini_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 50,
+    "completeness": 30,
+    "total_score": 58.75,
+    "notes": "The OCR output captures some numeric data accurately but misses significant portions of the document, including the title, time span, and key details about New Product B. The table structure is partially preserved but lacks completeness. The layout and reading order are disrupted, and major sections are missing."
+  },
+  "timestamp": "2026-04-13 02:46:13"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 98,
+    "total_score": 97,
+    "notes": "The text accuracy is very high with only a minor potential typo ('is the creator' instead of 'He is the creator' or similar, though 'is' could be grammatically correct in context). The list of cities for the cruise itinerary is presented as a simple list rather than a structured table, but the information is clear. All numeric data and dates are perfectly captured. The overall layout and reading order are well-preserved, and no significant content appears to be missing."
+  },
+  "timestamp": "2026-04-13 01:47:16"
+}

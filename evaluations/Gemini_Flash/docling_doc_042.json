@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 0,
+    "numeric_precision": 20,
+    "layout_preservation": 5,
+    "completeness": 5,
+    "total_score": 9.25,
+    "notes": "The OCR output is largely garbled and bears very little resemblance to the ground truth. The company name, address, and most of the date are completely incorrect or missing. Only a portion of the total amount is somewhat recognizable, but even that is not exact. The layout is completely lost, and most of the ground truth information is absent."
+  },
+  "timestamp": "2026-04-13 01:39:25"
+}

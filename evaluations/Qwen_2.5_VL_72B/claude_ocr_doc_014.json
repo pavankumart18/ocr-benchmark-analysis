@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "claude_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 94.5,
+    "notes": "The OCR output is highly accurate with no misspellings or wrong characters. The layout is slightly different with additional spaces and indentation, but the reading order and sections are preserved. There are no tables in the document, so table structure is not applicable. Numeric values and dates are perfectly matched. All text from the ground truth is captured."
+  },
+  "timestamp": "2026-04-13 02:58:57"
+}

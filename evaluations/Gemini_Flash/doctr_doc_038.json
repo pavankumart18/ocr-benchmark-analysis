@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 77,
+    "notes": "The main table structure is mostly preserved, but the 'Avg' and 'Median' rows are detached and misaligned. The 'Transactions by Quarter' section is heavily garbled with many incorrect characters and numbers, and its visual layout is poorly represented. The header 'Real Estate Transaction Highlights' is correct, and the main data entries are largely accurate, but the bottom graph/chart data is very poor."
+  },
+  "timestamp": "2026-04-13 01:38:11"
+}

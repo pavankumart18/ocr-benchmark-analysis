@@ -1,0 +1,23 @@
+Staff Shift Schedule
+
+- Baumbachfort Medical Center -
+Week of June 12, 2025
+
+| Employee | ID | Department | Thu 12 | Fri 13 | Sat 14 | Sun 15 | Mon 16 | Tue 17 | Wed 18 |
+|---|---|---|---|---|---|---|---|---|---|
+| Helen Thiel | IWSXAL | ICU | | 15:00-23:00 Afternoon | 23:00-07:00 Night | Leave Sick Leave | | 23:00-07:00 Night | 15:00-23:00 Afternoon |
+| Terrance Kunze | DVDGEB | Cardiology | | | | Leave Sick Leave | | Leave Sick Leave | 23:00-07:00 Night |
+| Ollie Nikolaus | 4FGCRQ | Surgery | | 07:00-15:00 Morning | 07:00-15:00 Morning | | | | 23:00-07:00 Night |
+| Wayne Fahey | YXVRIB | Neurology | 15:00-23:00 Afternoon | Leave Sick Leave | | | Leave Training | | Leave Vacation |
+| Tami Price | NDVZXD | Oncology | 15:00-23:00 Afternoon | 23:00-07:00 Night | | Leave Personal | 07:00-15:00 Morning | | 07:00-15:00 Morning |
+| Dr. Cary Simonis | RW9UAA | Surgery | 15:00-23:00 Afternoon | | Leave Vacation | | | 15:00-23:00 Afternoon | Leave Personal |
+| Edmund Crona-Cummings | GOKUWU | Pediatrics | | | | 23:00-07:00 Night | | | 07:00-15:00 Morning |
+| Naomi O'Conner | U9TRM | Radiology | | | | | | | |
+| David Reichert | G5JQHZ | General Ward | | 07:00-15:00 Morning | | | | | Leave Sick Leave |
+| Vernon Blanda | ROEJFL | Oncology | Leave Training | | 07:00-15:00 Morning | Leave Training | | | 15:00-23:00 Afternoon |
+| Rudolph Zieme | RZDM6S | General Ward | | | Leave Personal | 07:00-15:00 Night | Leave Personal | 15:00-23:00 Afternoon | 15:00-23:00 Afternoon |
+| Sally Marks | FRI99B | ICU | | | 23:00-07:00 Night | | | 15:00-23:00 Afternoon | |
+| Christopher Beer | QLF5YP | Radiology | | | Leave Training | | 15:00-23:00 Afternoon | | 07:00-15:00 Morning |
+| Marcella Deckow | 419RUF | Oncology | 07:00-15:00 Morning | | 23:00-07:00 Night | | 15:00-23:00 Afternoon | | 15:00-23:00 Afternoon |
+| Chris Barton | 4TRC4X | Pediatrics | | | | | 23:00-07:00 Night | | |
+| Wendy Mraz | HK3VUF | Cardiology | 15:00-23:00 Afternoon | 23:00-07:00 Night | | Leave Personal | | | 07:00-15:00 Morning |

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 0,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 100,
+    "total_score": 73.5,
+    "notes": "Text accuracy is high for the extracted fields. Table structure is not applicable as the ground truth is not a table. Numeric precision is perfect for date and total. Layout preservation is good as the key information is easily locatable. Completeness is perfect as all ground truth fields are present in the OCR output."
+  },
+  "timestamp": "2026-04-13 01:45:41"
+}

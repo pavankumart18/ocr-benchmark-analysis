@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 50,
+    "layout_preservation": 15,
+    "completeness": 30,
+    "total_score": 25.5,
+    "notes": "OCR output is heavily garbled with many incorrect characters, missing words, and poor structure. Only the total amount (31.00) is correctly extracted. Most fields are either missing or severely distorted."
+  },
+  "timestamp": "2026-04-13 03:19:04"
+}

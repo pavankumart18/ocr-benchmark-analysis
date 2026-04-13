@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 82.25,
+    "notes": "Text is mostly accurate with minor issues such as '21.5' instead of '11.5' for 1987 Contribution and '11.45' CPM in 1988 vs '36.2' in ground truth. Table columns and rows are mostly preserved but some alignment and index values are included in OCR but not in ground truth, causing slight confusion. Numeric values mostly match except for the noted Contribution and CPM discrepancies. Layout is generally maintained but the OCR adds 'Chg. Index' columns not in ground truth, and footer lines appear. Completeness is good with all major sections present."
+  },
+  "timestamp": "2026-04-13 02:19:12"
+}

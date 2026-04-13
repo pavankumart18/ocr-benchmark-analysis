@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "gpt_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 88.75,
+    "notes": "The OCR output is mostly accurate with minor issues in table structure and layout preservation. Some rows are missing data, and the alignment of numbers could be improved."
+  },
+  "timestamp": "2026-04-13 02:57:03"
+}

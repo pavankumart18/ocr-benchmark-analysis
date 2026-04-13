@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 98,
+    "notes": "Excellent OCR quality with near-perfect text accuracy. Only minor issue is a stray '?' character at the beginning. All content captured correctly with proper formatting and structure preserved."
+  },
+  "timestamp": "2026-04-13 02:03:14"
+}

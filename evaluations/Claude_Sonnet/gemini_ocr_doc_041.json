@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 90,
+    "notes": "Minor spacing differences in company name ('BOOK TA .K' vs 'BOOK TALK') and address formatting, but all key information accurately extracted. OCR captured significantly more detail than ground truth including full receipt content with proper structure and perfect numeric values."
+  },
+  "timestamp": "2026-04-13 02:01:23"
+}

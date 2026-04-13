@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 25,
+    "total_score": 72.25,
+    "notes": "OCR captured text accurately with perfect numeric precision (date January 1, 2025) but is severely incomplete, cutting off mid-sentence in Section 2. Layout structure is mostly preserved with proper numbering and indentation, though some formatting spacing differs. Major issue is the document ends abruptly at 'All TSMs working for or on behalf of' missing approximately 75% of the content including all of Section 3 Policy details."
+  },
+  "timestamp": "2026-04-13 01:59:09"
+}

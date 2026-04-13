@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 85,
+    "total_score": 84.25,
+    "notes": "OCR output captures most text accurately with minor formatting differences and some missing explicit labels (e.g., 'Document Type', 'Key Details'). Table structure is mostly preserved but some row labels like 'Sales Promotion and Other Costs' are split into multiple lines or abbreviated (e.g., 'Sales Promotion', 'M&P'). Numeric values are highly accurate with correct decimals and amounts. Layout order is generally correct but lacks some section headings and bold formatting, reducing clarity. Completeness is good but some narrative insights and notes from ground truth are missing or condensed."
+  },
+  "timestamp": "2026-04-13 02:21:31"
+}

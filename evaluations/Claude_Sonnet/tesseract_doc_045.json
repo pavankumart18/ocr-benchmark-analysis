@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 15,
+    "table_structure": 10,
+    "numeric_precision": 25,
+    "layout_preservation": 20,
+    "completeness": 30,
+    "total_score": 18,
+    "notes": "OCR output is severely garbled with extensive character recognition errors. Company name 'MR D.I.Y. (M) SDN BHD' is completely missing/unrecognizable. Date '18-11-18' not clearly extracted. Address is fragmented and mostly illegible. Total amount '30.90' appears as '30.80' with some additional garbled text. The receipt structure is somewhat preserved but text quality is extremely poor throughout."
+  },
+  "timestamp": "2026-04-13 01:55:41"
+}

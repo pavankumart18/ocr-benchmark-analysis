@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 98.05,
+    "notes": "The OCR output is very accurate. The only minor issue is '1 pp fees' which should likely be 'per person fees' or similar, but without the original document, it's hard to be certain if this is an OCR error or an original typo. The structure and layout are well-preserved."
+  },
+  "timestamp": "2026-04-13 01:37:12"
+}

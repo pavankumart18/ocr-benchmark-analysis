@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 15,
+    "table_structure": 0,
+    "numeric_precision": 25,
+    "layout_preservation": 10,
+    "completeness": 20,
+    "total_score": 15,
+    "notes": "OCR output is severely garbled with mostly unrecognizable characters and fragmented text. Only the total amount '30.90' is clearly identifiable. Company name, address, and date are completely corrupted or missing. The structured JSON format from ground truth is not preserved at all."
+  },
+  "timestamp": "2026-04-13 01:57:43"
+}

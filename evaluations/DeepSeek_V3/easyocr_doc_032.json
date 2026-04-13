@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 35,
+    "table_structure": 20,
+    "numeric_precision": 10,
+    "layout_preservation": 25,
+    "completeness": 70,
+    "total_score": 30.25,
+    "notes": "OCR output is heavily garbled with numerous misspellings, incorrect characters, and inconsistent formatting. Table structure is poorly preserved, numeric precision is severely compromised, and layout is confusing. However, most visible text seems to be captured, albeit inaccurately."
+  },
+  "timestamp": "2026-04-13 03:17:15"
+}

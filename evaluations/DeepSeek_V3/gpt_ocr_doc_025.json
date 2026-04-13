@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 83.25,
+    "notes": "Minor typos and formatting issues present. Numeric precision is high with only one minor error in CPM for 1988 (11.45 vs 36.2). Table structure is mostly preserved but includes extra 'Chg.' columns not in ground truth. Layout is generally correct but has minor deviations like 'NES/tat' and '94600Tbis' artifacts. Completeness is good but missing some insights and observations from ground truth."
+  },
+  "timestamp": "2026-04-13 03:29:58"
+}

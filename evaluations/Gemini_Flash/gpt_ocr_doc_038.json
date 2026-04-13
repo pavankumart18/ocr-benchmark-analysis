@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 90,
+    "notes": "The main table is well-preserved. The 'Transaction Amount ($M)' section has a list of numbers that appear to be data points for a chart, but their alignment and context are lost, making them less useful. The 'Transactions by Quarter' section is also somewhat disjointed from its corresponding data points. The 'Avg' and 'Median' values for 'Retail' are incorrect, showing '$2.8M' and '$2.0M' instead of the correct values which should be much higher based on the table data (e.g., $24.5M, $54.4M, etc.). This significantly impacts numeric precision for that specific section."
+  },
+  "timestamp": "2026-04-13 01:45:13"
+}

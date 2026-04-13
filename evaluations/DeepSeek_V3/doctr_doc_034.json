@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 65,
+    "numeric_precision": 75,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 70,
+    "notes": "The OCR output has several issues including misspellings (e.g., 'ups', 'DELIVERY FEE 9.03' instead of 'DELIVERY FEE: 9.03'), inconsistent formatting, and garbled text in some sections. The table structure is partially preserved but suffers from misalignment and missing separators. Numeric values are mostly correct but some are misaligned or incorrectly formatted. The layout is somewhat preserved but reading order is disrupted in places. Most of the text is captured but with noticeable errors."
+  },
+  "timestamp": "2026-04-13 03:05:58"
+}

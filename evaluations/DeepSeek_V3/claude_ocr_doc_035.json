@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 88,
+    "notes": "The OCR output is mostly accurate with minor issues in table structure and layout preservation. Some headers and sections are slightly misaligned, but the numeric data and text are correctly captured."
+  },
+  "timestamp": "2026-04-13 03:37:46"
+}

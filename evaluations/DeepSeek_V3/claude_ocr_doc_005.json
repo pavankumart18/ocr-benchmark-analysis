@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83.25,
+    "notes": "Minor typos in company name ('D.T.Y.' instead of 'D.I.Y.'), extra text (e.g., 'tan woon yann', invoice details), but key fields (date, address, total) are correct. Numeric precision is excellent, but table structure is disrupted by additional invoice items."
+  },
+  "timestamp": "2026-04-13 03:34:03"
+}

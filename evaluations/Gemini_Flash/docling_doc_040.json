@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 80,
+    "numeric_precision": 85,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 80.25,
+    "notes": "There are several minor text accuracy issues, including misspellings ('eanly modem Europeis history', 'creatorof theGreat Courses'Food:A Cuftural Culinay History', 'anidThreeWorld Cuisines', 'Carn egeInstitution's', 'Cruse puces', 'Aadpp fees', 'subecl lo chane', 'MacquarieUniversity of-ModermHistory', 'hasbeerat', 'Tne Big History Project', 'ther Big History Gates.directing Macquarie Unlversity's Big His'). The bullet points for the seminars are mostly preserved, but some are missing the bullet character. Numeric precision is good, with only minor issues like '1.575' instead of '$1,575' and '2439' instead of '$2,439'. The overall layout and reading order are well preserved."
+  },
+  "timestamp": "2026-04-13 01:39:21"
+}

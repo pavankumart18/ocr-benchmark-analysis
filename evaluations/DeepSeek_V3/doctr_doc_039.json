@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 80.25,
+    "notes": "Minor typos and misalignments in table structure. Numeric values are mostly accurate, but some rows lack proper alignment. Layout preservation is decent but could be improved with better reading order. Completeness is good, but some headers or labels might be missing."
+  },
+  "timestamp": "2026-04-13 03:06:37"
+}

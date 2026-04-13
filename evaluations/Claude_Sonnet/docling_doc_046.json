@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 75,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 50,
+    "notes": "Company name severely corrupted ('ACHOTRADING' vs 'ABC HO TRADING'), address has major OCR errors and missing spaces, table structure poorly preserved with merged columns, but key numbers (date, total) mostly correct. Layout is disorganized with poor text segmentation."
+  },
+  "timestamp": "2026-04-13 01:53:35"
+}

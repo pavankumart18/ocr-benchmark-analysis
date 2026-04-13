@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 95,
+    "numeric_precision": 98,
+    "layout_preservation": 98,
+    "completeness": 98,
+    "total_score": 97.65,
+    "notes": "The OCR output is very accurate. There are no significant errors in text, numbers, or layout. The table structure is well-preserved, and all visible text appears to be captured."
+  },
+  "timestamp": "2026-04-13 01:46:46"
+}

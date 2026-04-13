@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 78.25,
+    "notes": "Text accuracy suffers from minor typos and missing spaces (e.g., 'eanly modem Europeis', 'Culinay History'). Table structure is mostly preserved but has some formatting issues. Numeric precision is good with correct currency and amounts. Layout preservation has issues with reading order and spacing. Completeness is high with no major missing sections."
+  },
+  "timestamp": "2026-04-13 03:10:52"
+}

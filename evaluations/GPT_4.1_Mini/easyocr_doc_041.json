@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 40,
+    "layout_preservation": 15,
+    "completeness": 25,
+    "total_score": 21.5,
+    "notes": "OCR output is largely garbled with very poor character-level fidelity; company name, address, and date are mostly unreadable or incorrect. No clear table structure or columns preserved. Numeric data like total amount '9.00' is partially recognizable but with errors (e.g., '9 Uo'). Layout and reading order are chaotic, making it hard to identify sections. Significant portions of ground truth text are missing or unintelligible."
+  },
+  "timestamp": "2026-04-13 02:15:21"
+}

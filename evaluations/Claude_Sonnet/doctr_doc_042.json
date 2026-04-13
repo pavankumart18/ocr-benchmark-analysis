@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 40,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 66.5,
+    "notes": "Company name has errors ('INRAH' vs 'INDAH', 'ECO' vs 'DECO'), address has typos ('TAMANE' vs 'TAMAN', 'TAYA' vs 'JAYA', 'JONOR' vs 'JOHOR'). Date and total amount are correct. OCR captured much more detail than ground truth but with significant character-level errors throughout."
+  },
+  "timestamp": "2026-04-13 01:51:04"
+}

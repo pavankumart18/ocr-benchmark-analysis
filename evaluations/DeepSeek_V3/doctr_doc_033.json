@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 0,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 55.25,
+    "notes": "Text accuracy suffers from numerous misspellings, wrong characters, and missing words. No table structure is preserved. Numeric precision is decent with minor issues. Layout preservation is somewhat maintained but with errors. Completeness is high with most text captured."
+  },
+  "timestamp": "2026-04-13 03:05:52"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 10,
+    "numeric_precision": 20,
+    "layout_preservation": 30,
+    "completeness": 15,
+    "total_score": 27.5,
+    "notes": "Major discrepancies in text: company name correct but address differs (NO 50 vs NO.59, postal code 81750 vs 81760), missing date and total amount. No table or structured data preserved. Numeric data like date and total missing or incorrect. Layout is poorly preserved with unrelated text inserted and reading order disrupted. Overall, most ground truth content is missing or incorrect."
+  },
+  "timestamp": "2026-04-13 02:17:59"
+}

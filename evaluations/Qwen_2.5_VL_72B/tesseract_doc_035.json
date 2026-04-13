@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 50,
+    "numeric_precision": 60,
+    "layout_preservation": 65,
+    "completeness": 70,
+    "total_score": 66.25,
+    "notes": "The OCR output has several issues: text accuracy is compromised by missing words and incorrect characters (e.g., 'Wraps Dressings' instead of 'Wraps, Dressings'). Table structure is poorly preserved, with misaligned numbers and missing headers. Numeric precision is affected by incorrect decimal points and values. Layout preservation is moderately maintained but with some sections and headers missing or misplaced. Completeness is decent but with noticeable omissions."
+  },
+  "timestamp": "2026-04-13 02:40:14"
+}

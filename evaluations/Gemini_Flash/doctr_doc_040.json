@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 80,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 78,
+    "notes": "Numerous minor OCR errors, particularly with 'f' and 't' being swapped or misread (e.g., 'off' instead of 'of', 'oft' instead of 'of', 'teach\u00e9st' instead of 'teaches', 'Macquariel' instead of 'Macquarie', 'Scientiet' instead of 'Scientist', 'Carn' instead of 'Carnegie', 'Geophysi' instead of 'Geophysical', 'wheret' instead of 'where', 'ther' instead of 'the', 'mineralsi' instead of 'minerals', 'lite' instead of 'life', 'betweent' instead of 'between', 'andr' instead of 'and', 'mineral' instead of 'mineral', 'surfaces.' instead of 'surfaces'). Some words are also merged or split incorrectly (e.g., 'co-f founding', 'co- creating', 'ppt tees'). The speaker's seminar titles are mostly correct but have some minor character issues. The table-like structure for speakers and seminars is mostly preserved, but the alignment within the seminar titles is not perfect. Numeric values and dates are generally accurate."
+  },
+  "timestamp": "2026-04-13 01:38:18"
+}

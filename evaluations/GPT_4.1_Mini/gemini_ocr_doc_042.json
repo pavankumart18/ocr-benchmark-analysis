@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 85,
+    "completeness": 95,
+    "total_score": 86.25,
+    "notes": "Company name and address mostly accurate with minor spacing issues; date matches exactly. Table structure preserved well with clear columns and rows, though some item descriptions are split or slightly misaligned. Numeric values including total amount and date are precise except a minor rounding adjustment noted. Layout and reading order are maintained correctly. All ground truth text is present, no major omissions."
+  },
+  "timestamp": "2026-04-13 02:17:40"
+}

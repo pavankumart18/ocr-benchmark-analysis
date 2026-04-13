@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "claude_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 50,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 68.75,
+    "notes": "There are several inconsistencies in the numeric values, such as negative calories and unrealistic fat content. The table structure is somewhat preserved but with misalignment in columns. Layout preservation is decent but could be improved. Completeness is good, but the presence of errors affects the overall score."
+  },
+  "timestamp": "2026-04-13 03:00:32"
+}

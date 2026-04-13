@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 88,
+    "completeness": 95,
+    "total_score": 89,
+    "notes": "OCR extracted all key information accurately. Minor formatting differences in address (periods vs commas) and extra content beyond ground truth requirements. All critical data fields match perfectly including company name, date, address components, and total amount."
+  },
+  "timestamp": "2026-04-13 02:09:09"
+}

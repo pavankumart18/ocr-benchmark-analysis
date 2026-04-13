@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 82.75,
+    "notes": "Minor text errors like 'SanFrancisco' (missing space) and 'State&amp;Federal Contruction' (HTML entity and typo). Table structure has misalignment (e.g., 'City' column missing data, 'Phoenix' misplaced). Numeric values are mostly correct. Layout and completeness are good, with minor section header inconsistencies."
+  },
+  "timestamp": "2026-04-13 03:09:39"
+}

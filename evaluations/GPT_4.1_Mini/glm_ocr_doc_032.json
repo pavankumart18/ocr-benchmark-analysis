@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 40,
+    "numeric_precision": 70,
+    "layout_preservation": 45,
+    "completeness": 30,
+    "total_score": 50.25,
+    "notes": "The OCR captured employee names and departments with some accuracy but missed shift details entirely, instead repeating shift legend lines multiple times. The table structure is poorly preserved, with no alignment of shifts per day and rows merged incorrectly. Numeric data like dates and employee IDs are mostly correct, but shift times and leave types are jumbled and misplaced. Layout is disrupted by repeated legend text and missing shift assignments, breaking reading order. Large portions of shift schedule data are missing or replaced by repeated lines, indicating major incompleteness."
+  },
+  "timestamp": "2026-04-13 02:09:55"
+}

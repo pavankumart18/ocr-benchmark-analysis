@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 90,
+    "numeric_precision": 70,
+    "layout_preservation": 75,
+    "completeness": 70,
+    "total_score": 73.75,
+    "notes": "The OCR output contains several misspellings and wrong characters, such as 'Ur\\Gornin' instead of 'California' and 'Lali L' instead of 'California'. There are also issues with numeric precision, like '93\u00b0F' instead of '930'. The layout is mostly preserved, but there are some alignment issues. The completeness is affected by missing or garbled text."
+  },
+  "timestamp": "2026-04-13 02:40:20"
+}

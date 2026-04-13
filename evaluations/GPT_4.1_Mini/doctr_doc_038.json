@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 65,
+    "completeness": 80,
+    "total_score": 72.75,
+    "notes": "Text is mostly accurate with minor formatting issues and some garbled lines near the bottom. Table columns and rows are somewhat preserved but alignment is inconsistent, especially in the numeric columns. Numeric values appear mostly correct with proper decimals and currency symbols. Reading order is generally maintained but the bottom section is jumbled and unclear. Most visible text is captured, though some extraneous or corrupted text reduces clarity."
+  },
+  "timestamp": "2026-04-13 02:11:25"
+}

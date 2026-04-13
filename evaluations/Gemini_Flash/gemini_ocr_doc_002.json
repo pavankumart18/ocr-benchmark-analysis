@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 96.5,
+    "notes": "The OCR output accurately extracted all the required fields from the ground truth. There were no misspellings or missing words for the specified fields. The numeric precision for the total and date is perfect. The layout is generally preserved, with the address and company name appearing as expected. The table structure is not applicable as the ground truth does not contain a table."
+  },
+  "timestamp": "2026-04-13 01:41:53"
+}

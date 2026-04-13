@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 76,
+    "notes": "Minor typos in company name ('AHC' instead of 'ABC') and address ('No 264' instead of 'NO.2&4'). Table structure is partially preserved but lacks proper alignment. Numeric values and dates are correct. Layout is mostly preserved but with some formatting issues."
+  },
+  "timestamp": "2026-04-13 03:32:35"
+}

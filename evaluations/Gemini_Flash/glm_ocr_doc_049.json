@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 95.5,
+    "notes": "The OCR output is very good. The only minor discrepancies are a typo in the address (81700 instead of 81760) and a slight difference in the total amount (112.46 instead of 112.45). The ground truth only provides specific fields, while the OCR output provides the full document text, which is not directly comparable for layout and table structure in the context of the provided ground truth. However, assuming the ground truth represents the *expected* extracted fields, the OCR successfully identified and extracted them."
+  },
+  "timestamp": "2026-04-13 01:37:34"
+}

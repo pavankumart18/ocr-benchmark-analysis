@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 80,
+    "total_score": 90.25,
+    "notes": "Minor text inaccuracy ('BOOK TA .K' vs 'BOOK TALK'), extra irrelevant text (e.g., 'tan woon yann'), and missing 'total' field. Otherwise, key fields (date, address) and layout are well-preserved."
+  },
+  "timestamp": "2026-04-13 03:19:39"
+}

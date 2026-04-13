@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 85,
+    "total_score": 77,
+    "notes": "Key issues include misspellings (e.g., 'Kuvalis Iqck', 'Eceeicr SQreRlete', 'feblaFonGgtiogesecure', 'OenSP4RSSEERGK'), garbled text in notes, and minor layout inconsistencies. Numeric data (dates, IDs) is accurate, and the overall structure is preserved."
+  },
+  "timestamp": "2026-04-13 03:16:49"
+}

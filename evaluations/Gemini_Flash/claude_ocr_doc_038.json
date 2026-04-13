@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 88,
+    "notes": "The OCR accurately captured most text and numerical data within the tables. The main issues are with the bar chart data, where the numbers are extracted but their visual representation as a chart is lost, and the associated 'Transactions by Quarter' label is correctly identified but its context as a legend for the chart is not fully preserved in the linear text output. The 'Avg' and 'Median' sections are correctly extracted but their visual separation from the main table is not perfectly reflected in the linear output."
+  },
+  "timestamp": "2026-04-13 01:47:11"
+}

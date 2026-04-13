@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 15,
+    "table_structure": 10,
+    "numeric_precision": 10,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 15.75,
+    "notes": "The OCR output is heavily garbled with numerous misspellings and nonsensical words, indicating very poor text accuracy. Numeric data is mostly unreadable or incorrect, with many characters replaced or missing, resulting in very low numeric precision. There is no clear preservation of table structure or alignment of numbers, and the layout is disorganized with disrupted reading order. Some text appears captured but large portions are unintelligible, suggesting incomplete extraction."
+  },
+  "timestamp": "2026-04-13 02:11:07"
+}

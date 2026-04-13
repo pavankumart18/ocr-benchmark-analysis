@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "claude_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 90.5,
+    "notes": "The OCR output is highly accurate with minor issues in table structure and layout preservation. The text accuracy is excellent, with only a minor discrepancy in the company name. The numeric values and dates are perfectly matched. The table structure is mostly preserved but with some additional information. The layout is mostly correct but includes extra content not present in the ground truth."
+  },
+  "timestamp": "2026-04-13 02:57:59"
+}

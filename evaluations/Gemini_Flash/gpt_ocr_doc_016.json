@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 99,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 98,
+    "completeness": 100,
+    "total_score": 99.15,
+    "notes": "The OCR output is highly accurate. The only minor difference is the extra spacing after 'E.' and 'i.' in the OCR output, which slightly affects layout but not content. No tables were present, so table structure is perfect. All text and numbers are correctly captured."
+  },
+  "timestamp": "2026-04-13 01:44:19"
+}

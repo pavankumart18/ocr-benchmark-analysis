@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 60,
+    "completeness": 75,
+    "total_score": 70.25,
+    "notes": "The 'company' and 'date' fields are mostly accurate, but the 'address' field has significant errors and missing parts. The 'total' is correct. The OCR output contains a lot of extraneous text not present in the ground truth, which impacts completeness and layout. The ground truth is structured as a JSON object, implying specific fields, but the OCR output is a raw text block, making table structure comparison difficult."
+  },
+  "timestamp": "2026-04-13 01:40:24"
+}

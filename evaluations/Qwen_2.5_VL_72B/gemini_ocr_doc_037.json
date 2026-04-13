@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "gemini_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 75,
+    "total_score": 80.5,
+    "notes": "The OCR output has minor text accuracy issues with missing percentages in the table. The table structure is partially preserved but lacks some alignment. Numeric values are mostly accurate, but the layout and completeness could be improved with better alignment and inclusion of all data."
+  },
+  "timestamp": "2026-04-13 02:47:08"
+}

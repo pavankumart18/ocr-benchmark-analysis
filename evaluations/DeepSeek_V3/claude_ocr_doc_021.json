@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 95,
+    "notes": "Minor discrepancies in text formatting and a few missing annotations, but overall high fidelity to ground truth."
+  },
+  "timestamp": "2026-04-13 03:36:08"
+}

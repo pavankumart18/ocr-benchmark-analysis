@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 100,
+    "numeric_precision": 0,
+    "layout_preservation": 80,
+    "completeness": 60,
+    "total_score": 63.5,
+    "notes": "Key issues: 'NO.59' misread as 'NO 50', '81760' as '81750', missing 'date' and 'total' fields, and extra irrelevant text (e.g., GST NO, TEL/FAX). Numeric precision fails entirely due to missing 'total' and wrong address numbers."
+  },
+  "timestamp": "2026-04-13 03:26:30"
+}

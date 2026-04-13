@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 95,
+    "total_score": 86.25,
+    "notes": "Overall good extraction with minor OCR errors such as 'throttie' instead of 'throttle', 'whee!' instead of 'wheel', 'Acamera' missing space, and 'Acomponent' missing space. No tables or numeric data present, so numeric precision is perfect. Layout and reading order mostly preserved, with clear section headers and paragraphs. Completeness is high with no major missing text."
+  },
+  "timestamp": "2026-04-13 02:13:47"
+}

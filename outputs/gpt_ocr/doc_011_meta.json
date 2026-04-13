@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_011",
+  "model": "gpt_ocr",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/000.png",
+  "category": "sec_filing",
+  "source_dataset": "multifinben",
+  "processing_time_seconds": 9.73,
+  "output_length_chars": 3400,
+  "timestamp": "2026-04-13 01:05:32"
+}

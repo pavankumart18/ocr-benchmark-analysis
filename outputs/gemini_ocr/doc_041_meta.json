@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_041",
+  "model": "gemini_ocr",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/benchmark_docs/degraded_000.jpg",
+  "category": "degraded_scan",
+  "source_dataset": "sroie_degraded",
+  "processing_time_seconds": 29.3,
+  "output_length_chars": 823,
+  "timestamp": "2026-04-13 00:59:08"
+}

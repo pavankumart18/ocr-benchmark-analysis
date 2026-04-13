@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 30,
+    "completeness": 50,
+    "total_score": 50.5,
+    "notes": "The OCR output contains significant text inaccuracies, missing table structure, and layout issues. However, numeric values and dates are mostly accurate. Major sections and formatting from the ground truth are not preserved."
+  },
+  "timestamp": "2026-04-13 02:41:12"
+}

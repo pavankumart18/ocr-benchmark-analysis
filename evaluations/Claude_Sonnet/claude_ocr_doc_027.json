@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 92,
+    "table_structure": 75,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 88,
+    "total_score": 86.1,
+    "notes": "Text is highly accurate with proper terminology and geographic names. Table structure is somewhat fragmented - revenue segments appear as disconnected values rather than clear tabular format. All monetary values and numbers are correctly captured. Layout maintains logical flow but table formatting could be clearer. Minor completeness issues with potential visual elements not fully represented in text format."
+  },
+  "timestamp": "2026-04-13 02:07:56"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 94.25,
+    "notes": "Minor discrepancies in address formatting (e.g., 'NO.' vs 'No.', comma after Johor). The ground truth is a subset of the OCR output, so completeness is high for the requested fields. Numeric precision is good, with only a slight difference in the total field's decimal representation (20.00 vs 20.00)."
+  },
+  "timestamp": "2026-04-13 01:45:37"
+}

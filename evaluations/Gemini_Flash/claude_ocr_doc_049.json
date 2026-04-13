@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 95,
+    "completeness": 95,
+    "total_score": 92.5,
+    "notes": "The OCR output is very good. The only text accuracy issue is '81750' instead of '81760' in the address. Numeric precision is high, with only the address postcode being incorrect. All required fields are present and correctly extracted."
+  },
+  "timestamp": "2026-04-13 01:47:37"
+}

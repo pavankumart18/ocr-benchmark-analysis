@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 85,
+    "total_score": 81,
+    "notes": "Good numeric accuracy and text capture, but table structure has column misalignment with city names appearing in wrong column. Minor spacing issues in 'NewYork' (should be 'New York'). Statistics sections well preserved but some formatting inconsistencies in spacing."
+  },
+  "timestamp": "2026-04-13 01:53:02"
+}

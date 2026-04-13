@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 86.25,
+    "notes": "Minor issues include inconsistent use of dashes and checkmarks in tables (e.g., '-' vs. 'N/A' column), slight misalignment in some rows, and a minor model name typo ('1qck' likely '1qck' is correct but uncertain). Overall text is accurate with no major misspellings. Tables are mostly preserved but some columns (Pass/Fail/N/A) have missing marks or inconsistent placement. Dates and IDs are correctly captured. Layout and section headers are well maintained. No major text missing."
+  },
+  "timestamp": "2026-04-13 02:19:23"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 75.25,
+    "notes": "Company name correctly extracted but address has a street number error ('NO 63' vs 'NO.53'). Date and total amount are accurate. The table of items is present but not explicitly structured as in ground truth, with some formatting inconsistencies. Layout order is mostly preserved but extra unrelated text (e.g., contact info, cashier details) is included. Overall, most key data is captured but with some address and formatting deviations."
+  },
+  "timestamp": "2026-04-13 02:20:13"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 75,
+    "layout_preservation": 80,
+    "completeness": 60,
+    "total_score": 75,
+    "notes": "Good text capture with proper headers and most data intact. However, there are structural issues: misaligned numbers in columns (e.g., 'Calories from Fat' shows 117 and 133 but 'Calories' shows 60 and 101), missing protein value for Duck Fat Fries, and some nutritional values appear inconsistent or potentially misplaced between columns."
+  },
+  "timestamp": "2026-04-13 02:01:01"
+}

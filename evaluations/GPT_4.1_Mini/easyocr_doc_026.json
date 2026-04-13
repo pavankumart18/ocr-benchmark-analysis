@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 60,
+    "layout_preservation": 70,
+    "completeness": 60,
+    "total_score": 61.75,
+    "notes": "Several numeric misalignments and extra numbers in the 'Total' column; semicolons instead of numbers for USA and GBR; inconsistent row lengths; missing rank numbers; some nations missing medal counts; overall table structure is disrupted and text extraction is incomplete and partially inaccurate."
+  },
+  "timestamp": "2026-04-13 02:14:38"
+}

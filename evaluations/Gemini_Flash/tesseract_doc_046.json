@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 100,
+    "completeness": 80,
+    "total_score": 84.5,
+    "notes": "Text accuracy is impacted by several character substitutions in the address field (e.g., 'fio.284' instead of 'NO.2&4', 'HARMONT' instead of 'HARMONI', 'DEGA HARMCHINL' instead of 'DESA HARMONI', 'OROR' instead of 'JOHOR'). The 'total' value has an extra '0' at the end in the OCR output. Completeness is affected by the OCR output containing additional text not present in the ground truth, although all ground truth fields are present."
+  },
+  "timestamp": "2026-04-13 01:40:36"
+}

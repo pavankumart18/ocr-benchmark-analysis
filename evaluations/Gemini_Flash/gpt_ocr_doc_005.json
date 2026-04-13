@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 94.25,
+    "notes": "The OCR output correctly extracted all the requested fields. The 'company', 'date', and 'total' fields are perfect matches. The 'address' field has a minor difference in the company registration number (1851-A vs 1051-A), but the rest of the address is accurate. The OCR output also includes a lot of extra information not present in the ground truth, which is expected for a full document OCR."
+  },
+  "timestamp": "2026-04-13 01:43:54"
+}

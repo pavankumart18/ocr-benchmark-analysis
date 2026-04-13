@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 72.75,
+    "notes": "Text accuracy is fair, with some minor errors like 'Equipment housingintact' and 'Control buttonsfunctional' where spaces are missing. 'Electrical'Safety' and 'Cableconnectionssecure erformance'Tests' also show issues. Table structure is significantly compromised; the initial table header is a single cell containing multiple distinct fields, and subsequent rows have misaligned data and extra empty columns. Numeric precision is decent for the extracted numbers and dates. Layout preservation is impacted by the poor table structure and the truncation of the output. Completeness is hard to fully assess without the original image, but the truncation indicates it's not 100% complete."
+  },
+  "timestamp": "2026-04-13 01:38:53"
+}

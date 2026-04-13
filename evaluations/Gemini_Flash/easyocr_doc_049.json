@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 0,
+    "numeric_precision": 50,
+    "layout_preservation": 0,
+    "completeness": 10,
+    "total_score": 18,
+    "notes": "The OCR output is highly inaccurate and garbled. Only a few characters from the company name and parts of the total amount are recognizable. The date is incorrect, and the address is completely lost. The overall structure and layout are not preserved at all."
+  },
+  "timestamp": "2026-04-13 01:41:45"
+}

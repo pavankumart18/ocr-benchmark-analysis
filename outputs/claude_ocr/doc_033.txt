@@ -1,0 +1,115 @@
+Automotive Glossary
+
+A
+
+Adaptive cruise control
+An advanced cruise control system that maintains a preset distance or time interval from the vehicle ahead by automatically controlling the brakes and throttle.
+
+B
+
+Balancing (tires)
+Adding small amounts of weight to a wheel to offset any imbalance present in the tire and wheel assembly. Proper balance eliminates wheel and tire vibrations that are annoying, can reduce traction in certain circumstances and cause increased tire and suspension wear.
+Brake caliper
+The hydraulic assembly that contains the brake pads and applies them against the brake rotor to slow or stop the car.
+Brake shoes
+Curved metal platforms faced with a friction material that is pressed against the inside of a brake drum to slow or stop the car. Brake shoes are applied by the wheel cylinder.
+
+C
+
+Cold cranking amps (CCA)
+A rating that indicates the amount of power a battery can provide for engine cranking in cold-start conditions.
+Continuously Variable Transmission (CVT)
+an automatic transmission that uses two variable-diameter pulleys and a steel belt to continuously alter its gear ratio. This provides smooth power delivery and allows the engine to operate at the optimum speed for any given driving condition.
+Crankcase (engine block)
+Largest assembly of an internal combustion engine. Consists of the lower part of the engine which contains the crankshaft, connecting rods and pistons in an oil-tight housing.
+Curb weight
+The weight of a vehicle carrying a full tank of fuel but no passengers or cargo.
+
+D
+
+Drive shaft
+On rear-wheel or all-wheel drive vehicles, the shaft that couples the transmission to the rear axle differential assembly.
+Dual overhead camshafts (DOHC)
+An engine with two camshafts located in the upper portion of the cylinder head.
+
+E
+
+Engine block (crankcase)
+Largest assembly of an internal combustion engine. Consists of the lower part of the engine which contains the crankshaft, connecting rods and pistons in an oil-tight housing.
+
+F
+
+Fast idle
+An increased idle speed that typically occurs for a short time after a cold engine start to improve drivability and speed engine warm up.
+
+G
+
+Grab
+Brakes engage suddenly and strongly, even when applying light pressure on the brake pedal.
+Green House Gas (GHG)
+Any gas in the atmosphere that absorbs and emits radiation within the thermal infrared range, thereby contributing to climate change/global warming. The primary greenhouse gases in the Earth's atmosphere are water vapor, carbon dioxide, methane, nitrous oxide, and ozone.
+
+H
+
+Hesitation
+Momentary loss of power on acceleration.
+Horsepower
+The measurement of the engine's ability to produce work.
+
+H
+
+Hybrid Electric Vehicle (HEV)
+A vehicle that achieves improved fuel efficiency by using an electric motor to help the engine propel the car. The motor receives power from a modestly sized battery that is automatically recharged during vehicle operation using a generator driven by the car's engine. The battery is also recharged by "regenerative braking" that turns the electric motor into a generator during coasting and braking. HEVs have no provision to connect an external charger, and the energy contained in the battery can propel the vehicle under electrical power alone for only a very short distance, if at all. The Toyota Prius is an example of an HEV.
+
+M
+
+Multi-point injection
+A fuel delivery system that utilizes a fuel injector for each cylinder.
+
+P
+
+Positive crankcase ventilation (PCV) valve
+Emission control system that redirects crankcase vapors back into the engine to be burned. Often controlled by a PCV valve that requires periodic replacement. PCV valve problems can cause a car to run rough, stall, use excess engine oil, smoke, and have high exhaust emissions.
+Power loss
+Engine runs at reduced speed or requires more throttle to maintain constant speed.
+Pull
+Vehicle self-steers to one side or the other when driving or braking.
+
+R
+
+Rain-sensing wipers
+Windshield wipers whose rate of operation is electronically controlled based on the amount of moisture on the windshield.
+Rear view camera
+A camera mounted at the back of the vehicle that displays a picture on a screen in the dash or rear view mirror of what is behind the car when the transmission is in reverse.
+Rear-wheel drive (4X2)
+Drive system that provides power to only the rear wheels of the vehicle. In trucks, this type of powertrain is sometimes referred to as "4X2" in comparison to a four-wheel drive "4X4" system.
+
+R
+
+Rough idle
+When the engine vibrates or shakes while running with the drivers foot off the gas.
+
+S
+
+Specific gravity
+Term used in connection with testing a battery's electrolyte. A specific gravity test is used to determine the battery's state of charge. Sealed "maintenance free" batteries sometimes have an indicator on top that indicates the state of charge.
+
+Sport Utility Vehicle (SUV)
+An enclosed body on a truck chassis that provides ruggedness and ground clearance with room for up to 9 passengers and their cargo. These vehicles usually have fuel economy and ride/handling traits similar to the trucks on which they are based. The Chevrolet Tahoe/Suburban, GMC Yukon/Yukon XL and Ford Expedition/Expedition are common SUVs.
+
+T
+
+Thermostat
+A component that helps regulate engine temperature by controlling the speed at which coolant circulates through the engine.
+Transaxle
+Used in front-wheel drive and rear-engine, rear-wheel drive vehicles. Transaxles incorporate both a transmission and a differential into a single unit.
+
+V
+
+Vacuum hose
+A hose (usually rubber or hard plastic) that transfers vacuum to various vehicle components.
+
+Definitions are simplified for general understanding.
+Specific use cases may require further clarification.
+
+Page 2 of 5

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 45,
+    "numeric_precision": 55,
+    "layout_preservation": 40,
+    "completeness": 75,
+    "total_score": 56,
+    "notes": "Multiple OCR errors including garbled column headers (ae Fat, ia Fat, qrans Fat), misaligned data across columns, inconsistent spacing, and numerous character recognition errors in numbers and text. Table structure is severely compromised with data not properly aligned to correct columns."
+  },
+  "timestamp": "2026-04-13 01:54:37"
+}

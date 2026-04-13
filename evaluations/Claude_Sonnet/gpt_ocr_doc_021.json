@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 75,
+    "layout_preservation": 80,
+    "completeness": 40,
+    "total_score": 72,
+    "notes": "OCR captured the raw document text accurately with minor date error (MAY vs JAN), but completely missed the analytical content, insights, and document type classification that comprise most of the ground truth. Distribution list and formatting well preserved."
+  },
+  "timestamp": "2026-04-13 02:03:29"
+}

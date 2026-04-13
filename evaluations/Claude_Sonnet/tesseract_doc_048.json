@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 75,
+    "layout_preservation": 40,
+    "completeness": 60,
+    "total_score": 48,
+    "notes": "Company name severely garbled ('S.H.H. MOTOR' becomes 'Nut mie { Sl neIT )'). Address has errors ('Sungai Rengit' becomes 'Sungat Rangit'). Date incorrect ('23-01-2019' vs '73-01-2019'). Total amount 20.00 correctly extracted. OCR captured receipt format but with significant text corruption and structural issues."
+  },
+  "timestamp": "2026-04-13 01:55:53"
+}

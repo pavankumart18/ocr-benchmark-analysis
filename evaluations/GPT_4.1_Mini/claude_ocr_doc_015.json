@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 98,
+    "total_score": 96.25,
+    "notes": "OCR output closely matches ground truth with very minor issues: a single '[?]' artifact appears after 'Exhibit 19.1' which slightly affects layout and completeness. No misspellings or character errors detected. Numeric data including dates are exact. No tables present in source, so table structure is fully preserved by default. Overall, excellent fidelity and formatting."
+  },
+  "timestamp": "2026-04-13 02:21:03"
+}

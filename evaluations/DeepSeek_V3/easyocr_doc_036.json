@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 75,
+    "layout_preservation": 65,
+    "completeness": 80,
+    "total_score": 69,
+    "notes": "OCR output contains several misspellings (e.g., 'Z0zs' instead of '2023', 'Lalifornia' instead of 'California'), garbled text (e.g., 'Weod sid & Zoad'), and incorrect numeric values (e.g., '52089' instead of '2089'). The layout is somewhat preserved but suffers from misaligned sections and headers. Some critical information is missing or incorrectly captured, but the majority of the text is present."
+  },
+  "timestamp": "2026-04-13 03:17:54"
+}

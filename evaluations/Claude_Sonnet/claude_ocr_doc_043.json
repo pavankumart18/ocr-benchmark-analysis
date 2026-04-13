@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 92,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 88,
+    "completeness": 95,
+    "total_score": 91,
+    "notes": "Excellent extraction with all key fields correctly identified. Minor issues include one character error in 'WINDSHILED' (should be 'WINDSHIELD') and some extra content not in ground truth. All critical numeric values (date, total) are perfect matches."
+  },
+  "timestamp": "2026-04-13 02:09:06"
+}

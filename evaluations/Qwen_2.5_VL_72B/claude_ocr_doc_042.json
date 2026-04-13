@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "claude_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.5,
+    "notes": "The OCR output has minor text accuracy issues such as 'INDAN' instead of 'INDAH'. The table structure is well-preserved, and numeric values match the ground truth. The layout is mostly correct but includes additional information not in the ground truth. All key text from the ground truth is captured."
+  },
+  "timestamp": "2026-04-13 03:01:03"
+}

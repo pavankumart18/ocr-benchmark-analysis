@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 10,
+    "numeric_precision": 20,
+    "layout_preservation": 25,
+    "completeness": 30,
+    "total_score": 25.75,
+    "notes": "The OCR output contains numerous misspellings, wrong characters, and missing words, indicating poor text accuracy. There is no clear preservation of table structure, columns, or rows. Numeric values are not clearly identifiable, and the layout is disorganized with no clear reading order. Some text appears to be captured, but the overall output is largely garbled."
+  },
+  "timestamp": "2026-04-13 02:25:14"
+}

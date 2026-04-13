@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 67,
+    "notes": "Text accuracy suffers from misspellings (e.g., 'Contruction' instead of 'Construction') and garbled characters. Table structure is partially preserved but disrupted by random characters and misalignment. Numeric precision is mostly correct, but layout preservation is poor due to incorrect reading order and mixed sections. Completeness is acceptable but includes irrelevant garbled text."
+  },
+  "timestamp": "2026-04-13 03:13:40"
+}

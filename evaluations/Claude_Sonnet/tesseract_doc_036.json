@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 70,
+    "numeric_precision": 35,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 52,
+    "notes": "Major OCR errors include garbled text like '7\u00b025-05-11' for dates, 'Jucvie Gerkold' and 'Lewke nc' for names, 'Ur\\Gornin' and 'Lali L' for states, '93\u00b0F' for square footage, and '34\u00b0' for rent amount. Many critical numeric values are corrupted with degree symbols and incorrect characters. Layout and structure are reasonably preserved but text accuracy is severely compromised."
+  },
+  "timestamp": "2026-04-13 01:54:41"
+}

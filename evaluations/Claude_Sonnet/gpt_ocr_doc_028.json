@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 88,
+    "table_structure": 85,
+    "numeric_precision": 92,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 89,
+    "notes": "Very good OCR extraction with minor issues. Text accuracy is high with only occasional character substitutions (e.g., '32\u00b0C to 8\u00b0C' likely should be '-32\u00b0C to 8\u00b0C'). Table structure is well-preserved with proper column alignment. All numeric values, dates, phone numbers, and reference codes appear accurate. Layout maintains proper document structure with clear sections. Nearly complete capture of all visible content with detailed product specifications intact."
+  },
+  "timestamp": "2026-04-13 02:04:07"
+}

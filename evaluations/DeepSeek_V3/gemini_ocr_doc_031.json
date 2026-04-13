@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 90,
+    "total_score": 96.75,
+    "notes": "Minor typo in 'Contruction' (should be 'Construction'). Missing value in 'State & Federal Construction' for San Diego. Otherwise, excellent OCR output."
+  },
+  "timestamp": "2026-04-13 03:23:44"
+}

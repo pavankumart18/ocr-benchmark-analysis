@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Financial OCR Benchmark — Data Story</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #0B1D3A;
+  --navy-mid: #132B50;
+  --navy-light: #1A3A6A;
+  --slate: #64748B;
+  --slate-light: #94A3B8;
+  --cream: #F8F6F1;
+  --white: #FFFFFF;
+  --gold: #D4A843;
+  --gold-light: #F0D68A;
+  --teal: #0D9488;
+  --teal-light: #14B8A6;
+  --red: #DC2626;
+  --red-light: #F87171;
+  --green: #16A34A;
+  --amber: #D97706;
+  --purple: #7C3AED;
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body: 'DM Sans', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--navy);
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============ COVER ============ */
+.cover {
+  min-height: 100vh;
+  background: linear-gradient(145deg, var(--navy) 0%, var(--navy-mid) 50%, var(--navy-light) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px;
+  position: relative;
+  overflow: hidden;
+}
+.cover::before {
+  content: '';
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(212,168,67,0.08) 0%, transparent 70%);
+}
+.cover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--gold), var(--teal), var(--purple), var(--gold));
+}
+.cover-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 32px;
+}
+.cover h1 {
+  font-family: var(--font-display);
+  font-size: 54px;
+  color: var(--white);
+  line-height: 1.15;
+  max-width: 780px;
+  margin-bottom: 24px;
+}
+.cover h1 span { color: var(--gold); }
+.cover-subtitle {
+  font-size: 19px;
+  color: var(--slate-light);
+  font-weight: 300;
+  max-width: 640px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+.cover-meta {
+  display: flex;
+  gap: 40px;
+  font-size: 13px;
+  color: var(--slate-light);
+  font-weight: 400;
+}
+.cover-meta strong { color: var(--gold-light); font-weight: 600; }
+
+/* ============ SECTIONS ============ */
+.section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+.section-dark {
+  background: var(--navy);
+  max-width: 100%;
+  padding: 80px 0;
+}
+.section-dark .inner { max-width: 1100px; margin: 0 auto; padding: 0 40px; }
+.section-accent {
+  background: var(--white);
+  max-width: 100%;
+  padding: 80px 0;
+  border-top: 1px solid #E2E8F0;
+  border-bottom: 1px solid #E2E8F0;
+}
+.section-accent .inner { max-width: 1100px; margin: 0 auto; padding: 0 40px; }
+
+.section-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+.section-dark .section-label { color: var(--gold); }
+
+h2 {
+  font-family: var(--font-display);
+  font-size: 36px;
+  color: var(--navy);
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+.section-dark h2 { color: var(--white); }
+
+h3 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  color: var(--navy);
+  margin-bottom: 12px;
+}
+.section-dark h3 { color: var(--cream); }
+
+.lead {
+  font-size: 18px;
+  color: var(--slate);
+  line-height: 1.7;
+  max-width: 740px;
+  margin-bottom: 48px;
+}
+.section-dark .lead { color: var(--slate-light); }
+
+p { font-size: 15px; line-height: 1.7; color: #475569; margin-bottom: 16px; }
+.section-dark p { color: var(--slate-light); }
+
+/* ============ HERO STAT ============ */
+.hero-stat-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  margin: 48px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+}
+.hero-stat {
+  background: var(--white);
+  padding: 36px 28px;
+  text-align: center;
+  border-right: 1px solid #E2E8F0;
+}
+.hero-stat:last-child { border-right: none; }
+.hero-stat .number {
+  font-family: var(--font-display);
+  font-size: 48px;
+  color: var(--navy);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.hero-stat .number.gold { color: var(--gold); }
+.hero-stat .number.teal { color: var(--teal); }
+.hero-stat .number.purple { color: var(--purple); }
+.hero-stat .label {
+  font-size: 13px;
+  color: var(--slate);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+
+/* ============ EXECUTIVE SUMMARY CARDS ============ */
+.exec-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+}
+.exec-card {
+  background: var(--white);
+  border-radius: 8px;
+  padding: 32px;
+  border-left: 4px solid var(--teal);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+.exec-card.warn { border-left-color: var(--amber); }
+.exec-card.danger { border-left-color: var(--red); }
+.exec-card.gold-border { border-left-color: var(--gold); }
+.exec-card.purple-border { border-left-color: var(--purple); }
+.exec-card h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.exec-card p { margin-bottom: 0; font-size: 14px; }
+
+/* ============ RANKING TABLE ============ */
+.ranking-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 32px 0;
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+}
+.ranking-table th {
+  background: var(--navy);
+  color: var(--white);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 16px 16px;
+  text-align: left;
+}
+.ranking-table th.center { text-align: center; }
+.ranking-table td {
+  padding: 14px 16px;
+  font-size: 14px;
+  border-bottom: 1px solid #F1F5F9;
+  color: var(--navy);
+}
+.ranking-table td.center { text-align: center; }
+.ranking-table tr:last-child td { border-bottom: none; }
+.ranking-table tr:hover td { background: #F8FAFC; }
+.rank-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 700;
+}
+.rank-1 { background: linear-gradient(135deg, #D4A843, #F0D68A); color: var(--navy); }
+.rank-2 { background: linear-gradient(135deg, #94A3B8, #CBD5E1); color: var(--navy); }
+.rank-3 { background: linear-gradient(135deg, #B45309, #D97706); color: var(--white); }
+.rank-4, .rank-5, .rank-6, .rank-7, .rank-8 { background: #F1F5F9; color: var(--slate); font-size: 11px; }
+.model-name {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+}
+.llm-badge {
+  display: inline-block;
+  background: #EDE9FE;
+  color: #5B21B6;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.score-pill {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--font-mono);
+}
+.score-green  { background: #DCFCE7; color: #166534; }
+.score-yellow { background: #FEF9C3; color: #854D0E; }
+.score-red    { background: #FEE2E2; color: #991B1B; }
+.total-score {
+  font-family: var(--font-mono);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+/* ============ CATEGORY HEATMAP ============ */
+.heatmap-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 32px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+}
+.heatmap-table th {
+  background: var(--navy);
+  color: var(--white);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 14px 14px;
+  text-align: center;
+}
+.heatmap-table th:first-child { text-align: left; }
+.heatmap-table td {
+  padding: 13px 14px;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 600;
+  border-bottom: 1px solid #F1F5F9;
+}
+.heatmap-table td:first-child {
+  text-align: left;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  background: #FAFAFA;
+}
+.heatmap-table tr:last-child td { border-bottom: none; }
+.heat-high     { background: #DCFCE7; color: #166534; }
+.heat-mid      { background: #FEF9C3; color: #854D0E; }
+.heat-low      { background: #FEE2E2; color: #991B1B; }
+.heat-very-low { background: #991B1B; color: #FFF; }
+
+/* ============ BAR CHART ============ */
+.bar-chart { margin: 40px 0; }
+.bar-row {
+  display: grid;
+  grid-template-columns: 160px 1fr 60px;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+.bar-label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  text-align: right;
+  color: var(--cream);
+}
+.bar-track {
+  height: 34px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--white);
+  transition: width 1.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.bar-value {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--cream);
+}
+
+/* ============ PROCESS TIMELINE ============ */
+.timeline {
+  position: relative;
+  margin: 48px 0;
+  padding-left: 40px;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--teal), var(--gold));
+}
+.timeline-step {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 32px;
+}
+.timeline-step::before {
+  content: '';
+  position: absolute;
+  left: -33px;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--teal);
+  border: 3px solid var(--cream);
+}
+.timeline-step:nth-child(2)::before { background: var(--navy-light); }
+.timeline-step:nth-child(3)::before { background: var(--gold); }
+.timeline-step:nth-child(4)::before { background: var(--purple); }
+.timeline-step h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+.timeline-step p { font-size: 14px; margin-bottom: 0; }
+.timeline-step .step-num {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--teal);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+
+/* ============ INSIGHT CALLOUT ============ */
+.callout {
+  background: var(--white);
+  border-radius: 8px;
+  padding: 32px 40px;
+  margin: 40px 0;
+  border-left: 4px solid var(--gold);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+.callout-dark {
+  background: rgba(255,255,255,0.04);
+  border-left-color: var(--teal);
+}
+.callout p { margin-bottom: 0; }
+.callout strong { color: var(--navy); }
+.callout-dark strong { color: var(--gold-light); }
+.callout-dark p { color: var(--slate-light); }
+
+/* ============ RECOMMENDATION GRID ============ */
+.rec-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 40px 0;
+}
+.rec-card {
+  background: rgba(255,255,255,0.04);
+  border-radius: 8px;
+  padding: 28px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.rec-card h4 {
+  color: var(--gold-light);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+.rec-card p { font-size: 14px; color: var(--slate-light); margin-bottom: 0; line-height: 1.6; }
+
+/* ============ DIVIDER ============ */
+.divider {
+  height: 1px;
+  background: #E2E8F0;
+  margin: 48px 0;
+}
+.section-dark .divider { background: rgba(255,255,255,0.08); }
+
+/* ============ FOOTER ============ */
+.footer {
+  background: var(--navy);
+  padding: 40px 80px;
+  text-align: center;
+  color: var(--slate-light);
+  font-size: 13px;
+  border-top: 4px solid;
+  border-image: linear-gradient(90deg, var(--gold), var(--teal), var(--purple), var(--gold)) 1;
+}
+.footer strong { color: var(--gold-light); }
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 768px) {
+  .cover { padding: 40px 24px; }
+  .cover h1 { font-size: 34px; }
+  .section { padding: 48px 24px; }
+  .hero-stat-row { grid-template-columns: repeat(2, 1fr); }
+  .exec-grid { grid-template-columns: 1fr; }
+  .rec-grid { grid-template-columns: 1fr; }
+  .ranking-table { font-size: 12px; }
+  .heatmap-table { font-size: 11px; }
+  .cover-meta { flex-direction: column; gap: 8px; }
+  .bar-row { grid-template-columns: 100px 1fr 48px; }
+}
+
+@media print {
+  .cover { min-height: auto; page-break-after: always; }
+  .section-dark { background: #1a1a2e !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+</style>
+</head>
+<body>
+
+<!-- ============ SLIDE 1: COVER ============ -->
+<section class="cover">
+  <div class="cover-label">AI Research · April 2026</div>
+  <h1>LLM-Based Models Dominate Financial Document <span>OCR</span></h1>
+  <p class="cover-subtitle">
+    An expanded 50-document, 8-model benchmark evaluated by 5 independent AI judges confirms that Claude Sonnet 4.6, GPT-5.4, and GLM-OCR outperform all traditional OCR engines — and that local models still have a role in specific scenarios.
+  </p>
+  <div class="cover-meta">
+    <span><strong>8</strong> OCR Models Tested</span>
+    <span><strong>50</strong> Financial Documents</span>
+    <span><strong>5</strong> Independent Judges</span>
+    <span><strong>2,000</strong> Total Evaluations</span>
+  </div>
+</section>
+
+<!-- ============ SLIDE 2: EXECUTIVE SUMMARY ============ -->
+<section class="section">
+  <div class="section-label">Executive Summary</div>
+  <h2>Four findings that matter</h2>
+  <p class="lead">
+    We benchmarked 8 OCR models — 5 local engines and 3 LLM-based vision models via OpenRouter — across 50 financial documents spanning invoices, SEC filings, financial reports, general documents, and degraded scans. The results reveal a clear capability tier shift.
+  </p>
+
+  <div class="exec-grid">
+    <div class="exec-card purple-border">
+      <h4>1. LLM models sweep the top 3</h4>
+      <p>Claude Sonnet 4.6 (<strong>88.9</strong>), GPT-5.4 (<strong>86.6</strong>), and GLM-OCR (<strong>84.5</strong>) occupy the top three positions. The gap between the best LLM model and the best purely local model (GLM-OCR) is 4.4 points — but the gap to traditional OCR like EasyOCR is a massive 36.9 points.</p>
+    </div>
+    <div class="exec-card gold-border">
+      <h4>2. No single model wins every category</h4>
+      <p>GLM-OCR leads on invoices (<strong>91.0</strong>) and financial mixed docs (<strong>82.9</strong>). Claude leads on degraded scans (<strong>86.1</strong>). GPT-5.4 tops SEC filings (<strong>97.1</strong>) and general documents (<strong>88.9</strong>). Category context drives model selection more than overall rank.</p>
+    </div>
+    <div class="exec-card warn">
+      <h4>3. Degraded scans remain the sharpest stress test</h4>
+      <p>EasyOCR collapsed to <strong>28.6</strong> on degraded documents. Docling dropped to <strong>44.9</strong>. LLM models maintained strong quality — Claude at 86.1, GLM-OCR at 83.7. Robustness to scan quality now requires a vision-language model or LLM.</p>
+    </div>
+    <div class="exec-card danger">
+      <h4>4. Gemini 3.1 Pro underdelivers on completeness</h4>
+      <p>Despite competitive text accuracy (<strong>85.9</strong>), Gemini 3.1 Pro scores only <strong>71.8</strong> on completeness — 18.8 points below Claude. On longer documents it consistently misses content. Strong accuracy does not imply full extraction.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 3: HERO NUMBERS ============ -->
+<section class="section-accent">
+  <div class="inner">
+    <div class="hero-stat-row">
+      <div class="hero-stat">
+        <div class="number gold">88.9</div>
+        <div class="label">Claude Sonnet 4.6 — #1 Overall</div>
+      </div>
+      <div class="hero-stat">
+        <div class="number">95.4</div>
+        <div class="label">Numeric Precision (Claude, best-in-class)</div>
+      </div>
+      <div class="hero-stat">
+        <div class="number teal">97.1</div>
+        <div class="label">GPT-5.4 on SEC Filings (top category score)</div>
+      </div>
+      <div class="hero-stat">
+        <div class="number purple">36.9</div>
+        <div class="label">Point gap: #1 vs #8 (Claude vs EasyOCR)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 4: MODEL RANKINGS ============ -->
+<section class="section">
+  <div class="section-label">Model Rankings</div>
+  <h2>Overall performance across 50 documents</h2>
+  <p class="lead">Scores averaged across 5 independent AI judges (Gemini 2.5 Flash, Claude Sonnet, GPT-4.1 Mini, Qwen 2.5 VL 72B, DeepSeek V3) to reduce individual model bias. LLM models used the OpenRouter vision API.</p>
+
+  <table class="ranking-table">
+    <thead>
+      <tr>
+        <th style="width:56px" class="center">Rank</th>
+        <th>Model</th>
+        <th class="center">Text Acc.<br><small style="font-weight:400;opacity:0.7">(30%)</small></th>
+        <th class="center">Table Struct.<br><small style="font-weight:400;opacity:0.7">(25%)</small></th>
+        <th class="center">Numeric Prec.<br><small style="font-weight:400;opacity:0.7">(20%)</small></th>
+        <th class="center">Layout<br><small style="font-weight:400;opacity:0.7">(15%)</small></th>
+        <th class="center">Complete.<br><small style="font-weight:400;opacity:0.7">(10%)</small></th>
+        <th class="center">Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="center"><span class="rank-badge rank-1">1</span></td>
+        <td><span class="model-name">Claude Sonnet 4.6</span><span class="llm-badge">LLM</span><br><small style="color:#64748B">Anthropic · via OpenRouter</small></td>
+        <td class="center"><span class="score-pill score-green">89.3</span></td>
+        <td class="center"><span class="score-pill score-green">86.6</span></td>
+        <td class="center"><span class="score-pill score-green">95.4</span></td>
+        <td class="center"><span class="score-pill score-green">85.9</span></td>
+        <td class="center"><span class="score-pill score-green">90.6</span></td>
+        <td class="center"><span class="total-score">88.9</span></td>
+      </tr>
+      <tr>
+        <td class="center"><span class="rank-badge rank-2">2</span></td>
+        <td><span class="model-name">GPT-5.4</span><span class="llm-badge">LLM</span><br><small style="color:#64748B">OpenAI · via OpenRouter</small></td>
+        <td class="center"><span class="score-pill score-green">87.0</span></td>
+        <td class="center"><span class="score-pill score-green">84.0</span></td>
+        <td class="center"><span class="score-pill score-green">93.2</span></td>
+        <td class="center"><span class="score-pill score-green">83.5</span></td>
+        <td class="center"><span class="score-pill score-green">88.6</span></td>
+        <td class="center"><span class="total-score">86.6</span></td>
+      </tr>
+      <tr>
+        <td class="center"><span class="rank-badge rank-3">3</span></td>
+        <td><span class="model-name">GLM-OCR</span><br><small style="color:#64748B">Zhipu AI · 0.9B params, local</small></td>
+        <td class="center"><span class="score-pill score-green">86.2</span></td>
+        <td class="center"><span class="score-pill score-yellow">78.9</span></td>
+        <td class="center"><span class="score-pill score-green">92.6</span></td>
+        <td class="center"><span class="score-pill score-yellow">80.8</span></td>
+        <td class="center"><span class="score-pill score-green">85.9</span></td>
+        <td class="center"><span class="total-score">84.5</span></td>
+      </tr>
+      <tr>
+        <td class="center"><span class="rank-badge rank-4">4</span></td>
+        <td><span class="model-name">Gemini 3.1 Pro</span><span class="llm-badge">LLM</span><br><small style="color:#64748B">Google · via OpenRouter</small></td>
+        <td class="center"><span class="score-pill score-green">85.9</span></td>
+        <td class="center"><span class="score-pill score-yellow">78.1</span></td>
+        <td class="center"><span class="score-pill score-green">86.1</span></td>
+        <td class="center"><span class="score-pill score-yellow">80.8</span></td>
+        <td class="center"><span class="score-pill score-yellow">71.8</span></td>
+        <td class="center"><span class="total-score">79.8</span></td>
+      </tr>
+      <tr>
+        <td class="center"><span class="rank-badge rank-5">5</span></td>
+        <td><span class="model-name">docTR</span><br><small style="color:#64748B">Mindee · CRNN+DBNet, local</small></td>
+        <td class="center"><span class="score-pill score-yellow">72.8</span></td>
+        <td class="center"><span class="score-pill score-red">60.9</span></td>
+        <td class="center"><span class="score-pill score-yellow">83.6</span></td>
+        <td class="center"><span class="score-pill score-yellow">66.6</span></td>
+        <td class="center"><span class="score-pill score-yellow">78.9</span></td>
+        <td class="center"><span class="total-score">71.9</span></td>
+      </tr>
+      <tr>
+        <td class="center"><span class="rank-badge rank-6">6</span></td>
+        <td><span class="model-name">Docling</span><br><small style="color:#64748B">IBM · Granite 258M, local</small></td>
+        <td class="center"><span class="score-pill score-red">63.7</span></td>
+        <td class="center"><span class="score-pill score-red">53.7</span></td>
+        <td class="center"><span class="score-pill score-yellow">75.4</span></td>
+        <td class="center"><span class="score-pill score-red">59.0</span></td>
+        <td class="center"><span class="score-pill score-yellow">68.5</span></td>
+        <td class="center"><span class="total-score">63.4</span></td>
+      </tr>
+      <tr>
+        <td class="center"><span class="rank-badge rank-7">7</span></td>
+        <td><span class="model-name">Tesseract</span><br><small style="color:#64748B">Google · LSTM, local</small></td>
+        <td class="center"><span class="score-pill score-red">62.4</span></td>
+        <td class="center"><span class="score-pill score-red">47.0</span></td>
+        <td class="center"><span class="score-pill score-yellow">71.5</span></td>
+        <td class="center"><span class="score-pill score-red">56.0</span></td>
+        <td class="center"><span class="score-pill score-yellow">67.8</span></td>
+        <td class="center"><span class="total-score">60.9</span></td>
+      </tr>
+      <tr>
+        <td class="center"><span class="rank-badge rank-8">8</span></td>
+        <td><span class="model-name">EasyOCR</span><br><small style="color:#64748B">JaidedAI · CRAFT+CRNN, local</small></td>
+        <td class="center"><span class="score-pill score-red">51.9</span></td>
+        <td class="center"><span class="score-pill score-red">41.2</span></td>
+        <td class="center"><span class="score-pill score-red">63.8</span></td>
+        <td class="center"><span class="score-pill score-red">46.4</span></td>
+        <td class="center"><span class="score-pill score-red">58.5</span></td>
+        <td class="center"><span class="total-score">52.0</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <p><strong>Key insight:</strong> Table structure is the weakest criterion across all models — a 45-point spread between Claude (86.6) and EasyOCR (41.2). Numeric precision is consistently the strongest, suggesting digit recognition is solved while structured layout understanding remains the frontier challenge. Completeness is where Gemini falls behind its LLM peers — a hidden weakness that doesn't surface in accuracy-only metrics.</p>
+  </div>
+</section>
+
+<!-- ============ SLIDE 5: CATEGORY HEATMAP ============ -->
+<section class="section-accent">
+  <div class="inner">
+    <div class="section-label">Performance by Document Type</div>
+    <h2>Where each model wins — and where it breaks</h2>
+    <p class="lead">Category-level analysis shows no model performs uniformly. The gap between a model's best and worst category reveals specialisation: LLM models are broadly strong; local models are brittle outside their comfort zone.</p>
+
+    <table class="heatmap-table">
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>Invoices &<br>Receipts</th>
+          <th>SEC<br>Filings</th>
+          <th>Financial<br>Mixed</th>
+          <th>General<br>Documents</th>
+          <th>Degraded<br>Scans</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Claude Sonnet 4.6 <span class="llm-badge" style="background:#EDE9FE;color:#5B21B6">LLM</span></td>
+          <td class="heat-high">89.0</td>
+          <td class="heat-high">97.0</td>
+          <td class="heat-mid">81.0</td>
+          <td class="heat-high">88.1</td>
+          <td class="heat-high">86.1</td>
+        </tr>
+        <tr>
+          <td>GPT-5.4 <span class="llm-badge" style="background:#EDE9FE;color:#5B21B6">LLM</span></td>
+          <td class="heat-high">87.0</td>
+          <td class="heat-high">97.1</td>
+          <td class="heat-mid">79.2</td>
+          <td class="heat-high">88.9</td>
+          <td class="heat-mid">76.2</td>
+        </tr>
+        <tr>
+          <td>GLM-OCR</td>
+          <td class="heat-high">91.0</td>
+          <td class="heat-mid">80.3</td>
+          <td class="heat-mid">82.9</td>
+          <td class="heat-mid">84.1</td>
+          <td class="heat-mid">83.7</td>
+        </tr>
+        <tr>
+          <td>Gemini 3.1 Pro <span class="llm-badge" style="background:#EDE9FE;color:#5B21B6">LLM</span></td>
+          <td class="heat-mid">79.9</td>
+          <td class="heat-mid">83.5</td>
+          <td class="heat-mid">67.1</td>
+          <td class="heat-high">86.7</td>
+          <td class="heat-mid">72.2</td>
+        </tr>
+        <tr>
+          <td>docTR</td>
+          <td class="heat-high">88.2</td>
+          <td class="heat-mid">70.5</td>
+          <td class="heat-mid">67.4</td>
+          <td class="heat-mid">67.3</td>
+          <td class="heat-mid">66.4</td>
+        </tr>
+        <tr>
+          <td>Docling</td>
+          <td class="heat-mid">74.7</td>
+          <td class="heat-mid">63.8</td>
+          <td class="heat-low">42.7</td>
+          <td class="heat-mid">74.8</td>
+          <td class="heat-low">44.9</td>
+        </tr>
+        <tr>
+          <td>Tesseract</td>
+          <td class="heat-mid">80.6</td>
+          <td class="heat-low">53.2</td>
+          <td class="heat-low">51.7</td>
+          <td class="heat-mid">64.9</td>
+          <td class="heat-low">47.6</td>
+        </tr>
+        <tr>
+          <td>EasyOCR</td>
+          <td class="heat-mid">70.3</td>
+          <td class="heat-low">58.6</td>
+          <td class="heat-very-low">19.5</td>
+          <td class="heat-mid">61.7</td>
+          <td class="heat-very-low">28.6</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout">
+      <p><strong>The GLM-OCR surprise:</strong> GLM-OCR scores <strong>91.0</strong> on invoices and <strong>82.9</strong> on financial mixed — beating both Claude and GPT-5.4 in those categories despite ranking 3rd overall. Its vision-language architecture is specifically tuned for financial documents. For organisations running offline or air-gapped, GLM-OCR is the only local model competitive with the LLM tier.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 6: BAR CHART ============ -->
+<section class="section-dark">
+  <div class="inner">
+    <div class="section-label">Visual Comparison</div>
+    <h2>Model performance at a glance</h2>
+    <p class="lead">Average total score across all 50 documents and 5 judges. LLM-based models are highlighted in purple.</p>
+
+    <div class="bar-chart">
+      <div class="bar-row">
+        <div class="bar-label">Claude Sonnet 4.6</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:88.9%;background:linear-gradient(90deg,#5B21B6,#7C3AED)">LLM</div>
+        </div>
+        <div class="bar-value">88.9</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">GPT-5.4</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:86.6%;background:linear-gradient(90deg,#065F46,#10B981)">LLM</div>
+        </div>
+        <div class="bar-value">86.6</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">GLM-OCR</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:84.5%;background:linear-gradient(90deg,#D4A843,#F0D68A)"></div>
+        </div>
+        <div class="bar-value">84.5</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">Gemini 3.1 Pro</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:79.8%;background:linear-gradient(90deg,#1D4ED8,#3B82F6)">LLM</div>
+        </div>
+        <div class="bar-value">79.8</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">docTR</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:71.9%;background:linear-gradient(90deg,#0D9488,#14B8A6)"></div>
+        </div>
+        <div class="bar-value">71.9</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">Docling</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:63.4%;background:linear-gradient(90deg,#475569,#64748B)"></div>
+        </div>
+        <div class="bar-value">63.4</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">Tesseract</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:60.9%;background:linear-gradient(90deg,#374151,#6B7280)"></div>
+        </div>
+        <div class="bar-value">60.9</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">EasyOCR</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:52.0%;background:linear-gradient(90deg,#7F1D1D,#DC2626)"></div>
+        </div>
+        <div class="bar-value">52.0</div>
+      </div>
+    </div>
+
+    <div class="callout callout-dark">
+      <p><strong>The LLM tier gap:</strong> Claude, GPT-5.4, and GLM-OCR form a distinct performance tier (84–89) separated from docTR (71.9) by a 12.6-point gap. This is not a marginal improvement — it reflects a fundamental architectural shift from pixel-pattern recognition to semantic document understanding. For any production financial workflow, this tier represents the new baseline.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 7: METHODOLOGY ============ -->
+<section class="section">
+  <div class="section-label">Methodology</div>
+  <h2>How we built this benchmark</h2>
+  <p class="lead">A four-stage reproducible pipeline covering document collection, multi-model extraction, multi-judge evaluation, and score aggregation — designed to eliminate single-judge and single-document bias.</p>
+
+  <div class="timeline">
+    <div class="timeline-step">
+      <div class="step-num">Phase 1 — Document Collection</div>
+      <h4>Curated 50 documents across 5 categories</h4>
+      <p>Sourced from SROIE (10 scanned receipts, ICDAR 2019), MultiFin (10 SEC EDGAR filings with ground truth), Sujet Finance Vision 10K (5 financial docs), and OmniDocBench (15 general documents). Added 10 synthetically degraded scans (halved resolution + Gaussian noise) to stress-test robustness. All 50 document images are included in the repository.</p>
+    </div>
+    <div class="timeline-step">
+      <div class="step-num">Phase 2 — OCR Extraction</div>
+      <h4>Ran 8 models on all 50 documents (400 extractions)</h4>
+      <p>5 local engines: GLM-OCR (0.9B, Zhipu AI), docTR (Mindee CRNN+DBNet), Docling (IBM Granite-258M), Tesseract 5.3 (Google), EasyOCR (JaidedAI). 3 LLM-based vision models via OpenRouter: Claude Sonnet 4.6, GPT-5.4, Gemini 3.1 Pro. All images resized to ≤ 2048px before LLM API calls to stay within model limits. Zero total failures across 400 extractions.</p>
+    </div>
+    <div class="timeline-step">
+      <div class="step-num">Phase 3 — Multi-Judge Evaluation</div>
+      <h4>5 independent AI judges scored each extraction (2,000 evaluations)</h4>
+      <p>Gemini 2.5 Flash, Claude Sonnet, GPT-4.1 Mini, Qwen 2.5 VL 72B, and DeepSeek V3 each scored every (model, document) pair on 5 weighted criteria via OpenRouter. Where ground truth existed (SROIE, MultiFin), judges compared against it directly — raising score reliability above blind LLM assessment.</p>
+    </div>
+    <div class="timeline-step">
+      <div class="step-num">Phase 4 — Aggregation & Analysis</div>
+      <h4>Averaged scores across judges, segmented by category and criterion</h4>
+      <p>For each (model, document) pair, all 5 judge scores were averaged into a single robust score. Category and criterion breakdowns were computed to reveal where each model excels. Rankings were derived from unweighted document averages to avoid dataset composition bias.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 8: SCORING RUBRIC ============ -->
+<section class="section-accent">
+  <div class="inner">
+    <div class="section-label">Evaluation Framework</div>
+    <h2>Five criteria, weighted for financial use cases</h2>
+
+    <table class="ranking-table" style="margin-top:32px;">
+      <thead>
+        <tr>
+          <th>Criterion</th>
+          <th class="center">Weight</th>
+          <th>What it measures</th>
+          <th>Why it matters for finance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Text Accuracy</strong></td>
+          <td class="center"><span class="score-pill score-green">30%</span></td>
+          <td>Character-level fidelity — misspellings, wrong characters, missing words</td>
+          <td>A single wrong character in a company name or account number can invalidate a document</td>
+        </tr>
+        <tr>
+          <td><strong>Table Structure</strong></td>
+          <td class="center"><span class="score-pill score-green">25%</span></td>
+          <td>Columns, rows, headers, merged cells preserved correctly</td>
+          <td>Financial statements are predominantly tabular — broken tables = broken data</td>
+        </tr>
+        <tr>
+          <td><strong>Numeric Precision</strong></td>
+          <td class="center"><span class="score-pill score-yellow">20%</span></td>
+          <td>Decimals, currencies, amounts, dates exactly correct</td>
+          <td>$1,000,000 vs $10,000,000 — a single transposed digit is catastrophic</td>
+        </tr>
+        <tr>
+          <td><strong>Layout Preservation</strong></td>
+          <td class="center"><span class="score-pill score-yellow">15%</span></td>
+          <td>Reading order, sections, headers, formatting maintained</td>
+          <td>Regulatory filings have legally significant section ordering</td>
+        </tr>
+        <tr>
+          <td><strong>Completeness</strong></td>
+          <td class="center"><span class="score-pill score-red">10%</span></td>
+          <td>All visible text captured — nothing major omitted</td>
+          <td>Missing footnotes or disclaimers in financial docs creates compliance risk</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ SLIDE 9: RECOMMENDATIONS ============ -->
+<section class="section-dark">
+  <div class="inner">
+    <div class="section-label">Recommendations</div>
+    <h2>What to use, and when</h2>
+    <p class="lead">Model selection depends on your document mix, deployment constraints, and accuracy requirements. The LLM tier is now the default for cloud-connected workloads.</p>
+
+    <div class="rec-grid">
+      <div class="rec-card">
+        <h4>For cloud / API pipelines</h4>
+        <p>Use <strong style="color:#C4B5FD">Claude Sonnet 4.6</strong> as the primary engine. Best overall score (88.9), highest completeness (90.6), strongest on degraded scans (86.1). Deploy via Anthropic API or OpenRouter. For SEC filings specifically, <strong style="color:#6EE7B7">GPT-5.4</strong> edges ahead at 97.1.</p>
+      </div>
+      <div class="rec-card">
+        <h4>For offline / air-gapped deployment</h4>
+        <p>Use <strong style="color:#F0D68A">GLM-OCR</strong> as the only local model in the LLM performance tier. At 84.5 overall it beats every other local engine by 12+ points, with the best local performance on invoices (91.0) and financial mixed documents (82.9).</p>
+      </div>
+      <div class="rec-card">
+        <h4>For high-volume batch processing</h4>
+        <p>Use <strong style="color:#5EEAD4">docTR</strong> as a cost-efficient baseline when LLM API costs are prohibitive. At 71.9 overall it is the best purely local model after GLM-OCR and has strong numeric precision (83.6). Avoid for degraded documents.</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <h3>What to avoid</h3>
+    <p style="color:var(--slate-light);">EasyOCR's collapse on financial mixed (19.5) and degraded scans (28.6) makes it unsuitable for any financial workflow. Tesseract's SEC filing score (53.2) — previously a strength — has been overtaken by all 7 other models; its advantage over Docling is now marginal (60.9 vs 63.4). Gemini 3.1 Pro is worth monitoring but its completeness gap (71.8) needs resolution before production use on long-form documents.</p>
+  </div>
+</section>
+
+<!-- ============ SLIDE 10: LLM vs LOCAL ANALYSIS ============ -->
+<section class="section">
+  <div class="section-label">Model Architecture Analysis</div>
+  <h2>Why the LLM tier outperforms traditional OCR</h2>
+  <p class="lead">The performance gap between LLM-based and traditional OCR is not marginal — it reflects three fundamental architectural advantages that matter specifically for financial documents.</p>
+
+  <div class="exec-grid">
+    <div class="exec-card purple-border">
+      <h4>Semantic context understanding</h4>
+      <p>LLMs understand that "1,234,567" in a balance sheet column is a currency amount — not a phone number or date. Traditional OCR treats every token identically. This semantic awareness is why LLMs score 15–20 points higher on table structure and numeric precision.</p>
+    </div>
+    <div class="exec-card purple-border">
+      <h4>Noise and degradation robustness</h4>
+      <p>Claude and GLM-OCR maintain 83–86% accuracy on degraded scans while EasyOCR collapses to 28.6%. Vision-language models infer missing characters from context; CRAFT+CRNN models fail when pixel patterns are corrupted below detection thresholds.</p>
+    </div>
+    <div class="exec-card gold-border">
+      <h4>GLM-OCR: the local exception</h4>
+      <p>GLM-OCR's 0.9B GRPO-trained model competes with frontier LLMs through two optimisations: joint multi-task reinforcement learning across text, table, formula, and KIE tasks, and a PP-DocLayout-V3 stage that separates layout analysis from text recognition. This is why it leads on invoices and financial mixed — categories with dense tabular content.</p>
+    </div>
+    <div class="exec-card warn">
+      <h4>The completeness gap</h4>
+      <p>Gemini 3.1 Pro's 71.8 completeness score vs Claude's 90.6 reveals a structural weakness in how the model handles long documents: it generates confident, accurate text for the regions it attends to, but omits sections outside its attention window. This is a known LLM limitation unrelated to OCR capability per se.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <p><strong>Financial Document OCR Benchmark</strong> · AI Research · April 2026</p>
+  <p style="margin-top:8px;">8 models · 50 documents · 5 judges · 2,000 evaluations · Built by T. Pavan Kumar</p>
+  <p style="margin-top:8px; font-size:12px;">Benchmark data, extraction outputs, evaluation scripts, and interactive dashboard available on GitHub</p>
+</footer>
+
+</body>
+</html>

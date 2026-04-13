@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 10,
+    "numeric_precision": 100,
+    "layout_preservation": 20,
+    "completeness": 90,
+    "total_score": 58,
+    "notes": "The text accuracy is generally good, with only one minor error ('BD Life 1 ) 3' instead of 'BD Life Sciences'). However, the OCR completely failed to preserve the visual structure of the 'Company structure' diagram, which appears to be a hierarchical or organizational chart. This significantly impacts table structure and layout preservation. Numeric precision is perfect as there are no numbers to misinterpret. Completeness is good, as most text is present, but the structural information is lost."
+  },
+  "timestamp": "2026-04-13 01:39:49"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 15,
+    "table_structure": 0,
+    "numeric_precision": 20,
+    "layout_preservation": 10,
+    "completeness": 10,
+    "total_score": 11.5,
+    "notes": "Severe OCR errors: company name, address, and total are garbled or missing. No table structure preserved. Numeric values (date, total) are incorrect or missing. Layout is chaotic with no clear reading order. Most ground truth content is missing or incorrect."
+  },
+  "timestamp": "2026-04-13 03:18:42"
+}

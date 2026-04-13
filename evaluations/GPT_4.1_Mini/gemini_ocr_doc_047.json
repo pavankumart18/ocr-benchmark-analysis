@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 20,
+    "numeric_precision": 30,
+    "layout_preservation": 50,
+    "completeness": 40,
+    "total_score": 44.5,
+    "notes": "Company name mostly correct but missing some text; address partially captured but incomplete; date incomplete ('11/' only); total amount missing; no table structure preserved; layout partially maintained but incomplete; overall major missing information and partial text extraction."
+  },
+  "timestamp": "2026-04-13 02:17:53"
+}

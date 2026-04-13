@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 50,
+    "numeric_precision": 80,
+    "layout_preservation": 60,
+    "completeness": 60,
+    "total_score": 68,
+    "notes": "The OCR output captures the main title and assumptions well. However, it completely misses the 'Document Type' and 'Insights and Observations' sections, significantly impacting completeness. The table structure is poorly preserved, with extra 'Chg. Index' columns that are not in the ground truth, and the 'SOM %' and 'Volume (billion)' rows are merged with their labels. There are also some numerical discrepancies, particularly in the CPM and Contribution rows, and the 'Spending' row has a missing '$' symbol. The layout is also affected by the incorrect table rendering and missing sections."
+  },
+  "timestamp": "2026-04-13 01:44:41"
+}

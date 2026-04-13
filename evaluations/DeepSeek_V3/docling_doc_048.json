@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 100,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 64,
+    "notes": "Key issues: Company name misspelled ('SDN.BHO' instead of 'SDN. BHD.'), address has minor errors ('Sunga1 Ranglt' instead of 'SUNGAI RENGIT'), and layout is garbled with mixed sections. Numeric values and date are correct."
+  },
+  "timestamp": "2026-04-13 03:12:35"
+}

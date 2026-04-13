@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 80,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 92.25,
+    "notes": "Text is very accurate with only minor punctuation inconsistencies (e.g., missing comma after 'Ken Albala teaches food history and the history of early modern Europe. is the creator...'). Table structure is mostly preserved but seminar bullet points and speaker details are presented as plain text rather than a clear table or aligned columns. Numeric data including dates, prices, and fees are perfectly captured. Layout and reading order are well maintained with clear sections and headers. No major text is missing."
+  },
+  "timestamp": "2026-04-13 02:22:18"
+}

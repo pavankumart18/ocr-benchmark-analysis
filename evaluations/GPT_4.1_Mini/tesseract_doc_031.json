@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 55,
+    "completeness": 80,
+    "total_score": 60.75,
+    "notes": "Significant misspellings (e.g., 'Contruction' instead of 'Construction'), garbled and nonsensical text in lower half, and unclear column alignment reduce text accuracy and table structure scores. Numeric values mostly appear correct but some alignment issues affect precision. Layout is partially preserved but reading order is disrupted by random characters and symbols. Most visible text is captured but some parts are corrupted or unclear."
+  },
+  "timestamp": "2026-04-13 02:13:40"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 91,
+    "notes": "The OCR output is highly accurate with minor typos (e.g., 'throttie' instead of 'throttle', 'whee!' instead of 'wheel'). The structure, layout, and completeness are well-preserved, and there are no issues with numeric precision as the content is mostly textual definitions."
+  },
+  "timestamp": "2026-04-13 03:13:48"
+}

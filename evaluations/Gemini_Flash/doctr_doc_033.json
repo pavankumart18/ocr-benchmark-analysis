@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 55,
+    "completeness": 80,
+    "total_score": 64,
+    "notes": "The OCR output has numerous text accuracy issues, including misspellings, missing spaces, and incorrect characters (e.g., 't' instead of 'l', 'i' instead of 'l'). The table-like structure of the glossary is poorly preserved, with definitions often running into each other or being misaligned. While there are few numbers, those present seem correct. The overall layout and reading order are significantly disrupted, making it hard to follow the glossary entries. Some text appears to be missing or garbled, impacting completeness."
+  },
+  "timestamp": "2026-04-13 01:37:58"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 90,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 60,
+    "total_score": 76,
+    "notes": "Key issues: 'INMATES' misread as 'INHALERS' in title, wrong date (September 23 vs 28), missing key content about study purpose and participant details. However, technical details like nicotine measurements and basic structure are well preserved. The OCR captures the main research content but loses important contextual information about inmates as subjects."
+  },
+  "timestamp": "2026-04-13 02:03:36"
+}

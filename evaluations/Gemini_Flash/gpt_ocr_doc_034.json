@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 91,
+    "notes": "The OCR output is generally very good. There's a minor text error in the document number ('OONS|COOKP' instead of likely 'OONSICOOKP' or similar). The table structure is mostly preserved, but the alignment of the 'Sender / Reference Number' column is slightly off, as the reference numbers are sometimes on a new line. Numeric precision is high, with only minor potential issues in date formatting (e.g., 03-18-1981 vs. 03-02-2003). Layout and completeness are excellent."
+  },
+  "timestamp": "2026-04-13 01:45:03"
+}

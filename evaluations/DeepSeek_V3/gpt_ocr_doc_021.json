@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 60,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 82.5,
+    "notes": "Major error in date (MAY 19 1984 vs January 19, 1984). Minor text issues: 'LWH - BAT Southampton' header not in ground truth, 'November 1983' date present. Otherwise excellent text, structure, and layout preservation."
+  },
+  "timestamp": "2026-04-13 03:29:28"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 99,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 99.4,
+    "notes": "The OCR output is nearly perfect. The only minor difference is the apostrophe in 'General Counsel's office' which is a straight apostrophe in the OCR output versus a curly one in the ground truth. This is a very minor character difference and does not affect readability or meaning."
+  },
+  "timestamp": "2026-04-13 01:46:19"
+}

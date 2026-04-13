@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 98,
+    "completeness": 100,
+    "total_score": 98.3,
+    "notes": "OCR output matches ground truth almost perfectly with no misspellings or missing words. Numeric data including dates are exact. Layout and section formatting are well preserved. No tables present in source, so table structure is trivially perfect. Minor differences only in spacing and indentation, which do not affect readability or accuracy."
+  },
+  "timestamp": "2026-04-13 02:18:41"
+}

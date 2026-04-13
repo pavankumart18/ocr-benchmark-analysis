@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 35,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 26.5,
+    "notes": "Severely garbled OCR output with major character recognition errors. Company name partially recognizable as 'PZRNIAGAANZHENG Hui' vs 'PERNIAGAAN ZHENG HUI'. Date appears as '17025018' vs '12/02/2018'. Total amount '11246' vs '112.45' missing decimal. Address completely mangled and unreadable. Most text is unintelligible with random characters and fragments."
+  },
+  "timestamp": "2026-04-13 01:57:59"
+}

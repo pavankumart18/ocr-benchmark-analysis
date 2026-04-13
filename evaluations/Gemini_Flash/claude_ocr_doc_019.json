@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 99,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 98.7,
+    "notes": "The OCR output is highly accurate. The only minor discrepancies are extra line breaks in the ground truth that are not present in the OCR output, which slightly affects layout preservation but not the content itself. All text, numbers, and bullet points are correctly extracted."
+  },
+  "timestamp": "2026-04-13 01:46:23"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 60,
+    "completeness": 55,
+    "total_score": 64.25,
+    "notes": "Text mostly accurate but missing some headers and some names merged or misplaced (e.g., 'Dr: Viola McLaughlin' inserted mid-table). Table structure is poor with misaligned rows and missing totals for many entries. Numeric values mostly correct but some totals missing or misplaced. Layout disrupted by missing section breaks and inconsistent reading order. Several consultant entries incomplete or missing data, indicating incomplete extraction."
+  },
+  "timestamp": "2026-04-13 02:15:15"
+}

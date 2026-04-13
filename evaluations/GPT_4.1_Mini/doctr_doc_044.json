@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 20,
+    "numeric_precision": 60,
+    "layout_preservation": 30,
+    "completeness": 70,
+    "total_score": 44.5,
+    "notes": "Company name correctly extracted but address has multiple errors (e.g., 'IDEDAR' vs 'DEDAP', 'BABRU' vs 'BAHRU'). Date is garbled ('25/120018' vs '25/12/2018'). Numeric total '80.90' appears but with inconsistent formatting and extra digits elsewhere. Table structure is mostly lost with scattered and unclear columns/rows. Layout and reading order are poor with many unrelated or garbled lines. Most ground truth fields are present but with significant errors."
+  },
+  "timestamp": "2026-04-13 02:11:42"
+}

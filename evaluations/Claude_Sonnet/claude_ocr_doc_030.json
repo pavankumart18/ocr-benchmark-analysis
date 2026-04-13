@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 88,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 80.1,
+    "notes": "Good text accuracy with proper company names and addresses. Table structure is partially preserved but columns are misaligned and some data appears merged incorrectly. Numeric values like dates, amounts, and reference numbers are mostly accurate. Some missing reference numbers and inconsistent row formatting affect structure. Overall content appears complete with header and all shipment records captured."
+  },
+  "timestamp": "2026-04-13 02:08:11"
+}

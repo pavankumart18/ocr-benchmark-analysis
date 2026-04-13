@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 90,
+    "completeness": 85,
+    "total_score": 82,
+    "notes": "Text accuracy is generally good, but there are some minor issues like 'Nacho Cheese 262' where a number is merged with text. Table structure suffers from misalignments, especially in the 'Calories' and 'Calories from Fat' columns, and some recipe names span multiple lines without clear indication. Numeric precision is mostly good, but the 'Nacho Cheese' entry has a number merged with the name. Layout preservation is decent, with clear section breaks. Completeness is good, though the document is truncated."
+  },
+  "timestamp": "2026-04-13 01:45:05"
+}

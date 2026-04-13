@@ -1,8 +1,8 @@
 {
   "metadata": {
     "benchmark_name": "Financial Document OCR Benchmark",
-    "total_models": 5,
-    "total_documents": 25,
+    "total_models": 8,
+    "total_documents": 50,
     "total_judges": 5,
     "judges": [
       "Gemini Flash",
@@ -16,9 +16,12 @@
       "doctr",
       "docling",
       "tesseract",
-      "easyocr"
+      "easyocr",
+      "gemini_ocr",
+      "gpt_ocr",
+      "claude_ocr"
     ],
-    "evaluation_date": "2026-04-08",
+    "evaluation_date": "2026-04-13",
     "aggregation_method": "mean across all judges",
     "scoring_criteria": {
       "text_accuracy": {
@@ -45,106 +48,166 @@
   },
   "model_rankings": [
     {
-      "model": "glm_ocr",
-      "avg_total_score": 85.1,
-      "num_docs": 25,
+      "model": "claude_ocr",
+      "avg_total_score": 88.9,
+      "num_docs": 50,
       "criterion_averages": {
-        "text_accuracy": 86.5,
-        "table_structure": 81.2,
-        "numeric_precision": 94.0,
-        "layout_preservation": 81.8,
-        "completeness": 84.0,
-        "total_score": 85.1
+        "text_accuracy": 89.3,
+        "table_structure": 86.6,
+        "numeric_precision": 95.4,
+        "layout_preservation": 85.9,
+        "completeness": 90.6,
+        "total_score": 88.9
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "avg_total_score": 86.6,
+      "num_docs": 50,
+      "criterion_averages": {
+        "text_accuracy": 87.0,
+        "table_structure": 84.0,
+        "numeric_precision": 93.2,
+        "layout_preservation": 83.5,
+        "completeness": 88.6,
+        "total_score": 86.6
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "avg_total_score": 84.5,
+      "num_docs": 50,
+      "criterion_averages": {
+        "text_accuracy": 86.2,
+        "table_structure": 78.9,
+        "numeric_precision": 92.6,
+        "layout_preservation": 80.8,
+        "completeness": 85.9,
+        "total_score": 84.5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "avg_total_score": 79.8,
+      "num_docs": 50,
+      "criterion_averages": {
+        "text_accuracy": 85.9,
+        "table_structure": 78.1,
+        "numeric_precision": 86.1,
+        "layout_preservation": 80.8,
+        "completeness": 71.8,
+        "total_score": 79.8
       }
     },
     {
       "model": "doctr",
-      "avg_total_score": 77.4,
-      "num_docs": 25,
+      "avg_total_score": 71.9,
+      "num_docs": 50,
       "criterion_averages": {
-        "text_accuracy": 77.3,
-        "table_structure": 70.8,
-        "numeric_precision": 87.7,
-        "layout_preservation": 73.9,
-        "completeness": 81.7,
-        "total_score": 77.4
+        "text_accuracy": 72.8,
+        "table_structure": 60.9,
+        "numeric_precision": 83.6,
+        "layout_preservation": 66.6,
+        "completeness": 78.9,
+        "total_score": 71.9
       }
     },
     {
       "model": "docling",
-      "avg_total_score": 63.9,
-      "num_docs": 25,
+      "avg_total_score": 63.4,
+      "num_docs": 50,
       "criterion_averages": {
-        "text_accuracy": 63.6,
-        "table_structure": 57.7,
-        "numeric_precision": 77.1,
-        "layout_preservation": 58.4,
-        "completeness": 66.8,
-        "total_score": 63.9
+        "text_accuracy": 63.7,
+        "table_structure": 53.7,
+        "numeric_precision": 75.4,
+        "layout_preservation": 59.0,
+        "completeness": 68.5,
+        "total_score": 63.4
       }
     },
     {
       "model": "tesseract",
-      "avg_total_score": 63.9,
-      "num_docs": 25,
+      "avg_total_score": 60.9,
+      "num_docs": 50,
       "criterion_averages": {
-        "text_accuracy": 65.7,
-        "table_structure": 50.0,
-        "numeric_precision": 73.0,
-        "layout_preservation": 59.6,
-        "completeness": 68.4,
-        "total_score": 63.9
+        "text_accuracy": 62.4,
+        "table_structure": 47.0,
+        "numeric_precision": 71.5,
+        "layout_preservation": 56.0,
+        "completeness": 67.8,
+        "total_score": 60.9
       }
     },
     {
       "model": "easyocr",
-      "avg_total_score": 55.5,
-      "num_docs": 25,
+      "avg_total_score": 52.0,
+      "num_docs": 50,
       "criterion_averages": {
-        "text_accuracy": 54.6,
-        "table_structure": 46.2,
-        "numeric_precision": 68.1,
-        "layout_preservation": 49.9,
-        "completeness": 60.1,
-        "total_score": 55.5
+        "text_accuracy": 51.9,
+        "table_structure": 41.2,
+        "numeric_precision": 63.8,
+        "layout_preservation": 46.4,
+        "completeness": 58.5,
+        "total_score": 52.0
       }
     }
   ],
   "category_breakdown": {
     "easyocr": {
-      "general_doc": 61.5,
-      "financial_mixed": 45.7,
-      "sec_filing": 86.7,
-      "invoice_receipt": 58.9,
-      "degraded_scan": 16.1
+      "sec_filing": 58.6,
+      "degraded_scan": 28.6,
+      "general_doc": 61.7,
+      "invoice_receipt": 70.3,
+      "financial_mixed": 19.5
+    },
+    "gemini_ocr": {
+      "sec_filing": 83.5,
+      "degraded_scan": 72.2,
+      "general_doc": 86.7,
+      "invoice_receipt": 79.9,
+      "financial_mixed": 67.1
     },
     "docling": {
-      "degraded_scan": 38.0,
-      "general_doc": 72.8,
-      "sec_filing": 74.5,
-      "invoice_receipt": 74.2,
-      "financial_mixed": 52.9
+      "financial_mixed": 42.7,
+      "degraded_scan": 44.9,
+      "sec_filing": 63.8,
+      "invoice_receipt": 74.7,
+      "general_doc": 74.8
     },
     "tesseract": {
-      "sec_filing": 98.1,
-      "general_doc": 67.6,
-      "degraded_scan": 49.7,
-      "invoice_receipt": 69.0,
-      "financial_mixed": 31.0
+      "invoice_receipt": 80.6,
+      "financial_mixed": 51.7,
+      "general_doc": 64.9,
+      "sec_filing": 53.2,
+      "degraded_scan": 47.6
+    },
+    "claude_ocr": {
+      "degraded_scan": 86.1,
+      "general_doc": 88.1,
+      "sec_filing": 97.0,
+      "invoice_receipt": 89.0,
+      "financial_mixed": 81.0
     },
     "doctr": {
-      "invoice_receipt": 82.7,
-      "general_doc": 65.9,
-      "degraded_scan": 71.9,
-      "financial_mixed": 68.8,
-      "sec_filing": 95.8
+      "general_doc": 67.3,
+      "invoice_receipt": 88.2,
+      "sec_filing": 70.5,
+      "financial_mixed": 67.4,
+      "degraded_scan": 66.4
+    },
+    "gpt_ocr": {
+      "degraded_scan": 76.2,
+      "sec_filing": 97.1,
+      "general_doc": 88.9,
+      "financial_mixed": 79.2,
+      "invoice_receipt": 87.0
     },
     "glm_ocr": {
-      "general_doc": 87.0,
-      "invoice_receipt": 87.1,
-      "sec_filing": 96.7,
-      "degraded_scan": 84.8,
-      "financial_mixed": 69.4
+      "sec_filing": 80.3,
+      "degraded_scan": 83.7,
+      "invoice_receipt": 91.0,
+      "general_doc": 84.1,
+      "financial_mixed": 82.9
     }
   },
   "detailed_aggregated_scores": [
@@ -158,6 +221,19 @@
         "layout_preservation": 60.0,
         "completeness": 76.0,
         "total_score": 64.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_011",
+      "scores": {
+        "text_accuracy": 97.4,
+        "table_structure": 99.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 93.0,
+        "completeness": 94.0,
+        "total_score": 96.2,
         "num_judges": 5
       }
     },
@@ -184,6 +260,58 @@
         "layout_preservation": 97.6,
         "completeness": 94.0,
         "total_score": 97.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_041",
+      "scores": {
+        "text_accuracy": 78.0,
+        "table_structure": 75.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 78.0,
+        "completeness": 86.0,
+        "total_score": 81.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_020",
+      "scores": {
+        "text_accuracy": 95.6,
+        "table_structure": 97.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 91.0,
+        "completeness": 100.0,
+        "total_score": 95.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_029",
+      "scores": {
+        "text_accuracy": 65.0,
+        "table_structure": 54.0,
+        "numeric_precision": 87.0,
+        "layout_preservation": 71.0,
+        "completeness": 84.0,
+        "total_score": 68.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_047",
+      "scores": {
+        "text_accuracy": 85.0,
+        "table_structure": 82.0,
+        "numeric_precision": 92.0,
+        "layout_preservation": 81.6,
+        "completeness": 90.0,
+        "total_score": 85.4,
         "num_judges": 5
       }
     },
@@ -253,6 +381,110 @@
       }
     },
     {
+      "model": "easyocr",
+      "doc_id": "doc_048",
+      "scores": {
+        "text_accuracy": 23.0,
+        "table_structure": 9.0,
+        "numeric_precision": 64.0,
+        "layout_preservation": 17.0,
+        "completeness": 34.0,
+        "total_score": 28.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_030",
+      "scores": {
+        "text_accuracy": 35.0,
+        "table_structure": 19.0,
+        "numeric_precision": 25.0,
+        "layout_preservation": 26.0,
+        "completeness": 54.0,
+        "total_score": 30.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_042",
+      "scores": {
+        "text_accuracy": 9.0,
+        "table_structure": 8.0,
+        "numeric_precision": 13.0,
+        "layout_preservation": 7.0,
+        "completeness": 9.0,
+        "total_score": 9.7,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_050",
+      "scores": {
+        "text_accuracy": 73.0,
+        "table_structure": 50.0,
+        "numeric_precision": 88.0,
+        "layout_preservation": 63.0,
+        "completeness": 80.0,
+        "total_score": 72.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_047",
+      "scores": {
+        "text_accuracy": 77.0,
+        "table_structure": 70.0,
+        "numeric_precision": 48.0,
+        "layout_preservation": 74.0,
+        "completeness": 56.0,
+        "total_score": 66.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_038",
+      "scores": {
+        "text_accuracy": 97.0,
+        "table_structure": 94.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 93.6,
+        "completeness": 96.4,
+        "total_score": 95.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_044",
+      "scores": {
+        "text_accuracy": 48.0,
+        "table_structure": 18.0,
+        "numeric_precision": 71.0,
+        "layout_preservation": 25.0,
+        "completeness": 56.0,
+        "total_score": 44.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_036",
+      "scores": {
+        "text_accuracy": 62.0,
+        "table_structure": 70.0,
+        "numeric_precision": 64.0,
+        "layout_preservation": 73.0,
+        "completeness": 82.0,
+        "total_score": 67.0,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "doctr",
       "doc_id": "doc_018",
       "scores": {
@@ -262,6 +494,19 @@
         "layout_preservation": 30.0,
         "completeness": 49.0,
         "total_score": 33.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_043",
+      "scores": {
+        "text_accuracy": 91.4,
+        "table_structure": 79.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 83.6,
+        "completeness": 95.0,
+        "total_score": 88.2,
         "num_judges": 5
       }
     },
@@ -279,6 +524,71 @@
       }
     },
     {
+      "model": "gemini_ocr",
+      "doc_id": "doc_012",
+      "scores": {
+        "text_accuracy": 88.0,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 89.0,
+        "completeness": 33.0,
+        "total_score": 75.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_019",
+      "scores": {
+        "text_accuracy": 98.2,
+        "table_structure": 97.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 96.0,
+        "completeness": 99.0,
+        "total_score": 97.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_028",
+      "scores": {
+        "text_accuracy": 83.0,
+        "table_structure": 75.0,
+        "numeric_precision": 90.0,
+        "layout_preservation": 77.0,
+        "completeness": 89.0,
+        "total_score": 82.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_041",
+      "scores": {
+        "text_accuracy": 75.0,
+        "table_structure": 83.0,
+        "numeric_precision": 76.0,
+        "layout_preservation": 78.0,
+        "completeness": 83.0,
+        "total_score": 77.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_034",
+      "scores": {
+        "text_accuracy": 85.0,
+        "table_structure": 76.0,
+        "numeric_precision": 85.6,
+        "layout_preservation": 78.0,
+        "completeness": 91.0,
+        "total_score": 82.7,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "glm_ocr",
       "doc_id": "doc_006",
       "scores": {
@@ -292,6 +602,32 @@
       }
     },
     {
+      "model": "easyocr",
+      "doc_id": "doc_044",
+      "scores": {
+        "text_accuracy": 23.0,
+        "table_structure": 6.0,
+        "numeric_precision": 28.0,
+        "layout_preservation": 11.0,
+        "completeness": 23.0,
+        "total_score": 19.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_045",
+      "scores": {
+        "text_accuracy": 66.0,
+        "table_structure": 63.0,
+        "numeric_precision": 89.0,
+        "layout_preservation": 75.0,
+        "completeness": 82.0,
+        "total_score": 72.8,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "docling",
       "doc_id": "doc_018",
       "scores": {
@@ -301,6 +637,32 @@
         "layout_preservation": 76.0,
         "completeness": 53.0,
         "total_score": 63.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_026",
+      "scores": {
+        "text_accuracy": 84.0,
+        "table_structure": 91.0,
+        "numeric_precision": 98.0,
+        "layout_preservation": 87.6,
+        "completeness": 94.0,
+        "total_score": 89.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_018",
+      "scores": {
+        "text_accuracy": 98.0,
+        "table_structure": 99.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 96.6,
+        "completeness": 100.0,
+        "total_score": 98.1,
         "num_judges": 5
       }
     },
@@ -357,6 +719,19 @@
       }
     },
     {
+      "model": "gemini_ocr",
+      "doc_id": "doc_050",
+      "scores": {
+        "text_accuracy": 64.0,
+        "table_structure": 75.0,
+        "numeric_precision": 23.0,
+        "layout_preservation": 64.0,
+        "completeness": 49.0,
+        "total_score": 55.3,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "doctr",
       "doc_id": "doc_023",
       "scores": {
@@ -383,6 +758,19 @@
       }
     },
     {
+      "model": "gemini_ocr",
+      "doc_id": "doc_016",
+      "scores": {
+        "text_accuracy": 92.0,
+        "table_structure": 97.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 86.0,
+        "completeness": 39.0,
+        "total_score": 76.4,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "easyocr",
       "doc_id": "doc_014",
       "scores": {
@@ -392,6 +780,19 @@
         "layout_preservation": 23.0,
         "completeness": 35.0,
         "total_score": 21.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_047",
+      "scores": {
+        "text_accuracy": 56.0,
+        "table_structure": 44.0,
+        "numeric_precision": 83.0,
+        "layout_preservation": 45.0,
+        "completeness": 66.0,
+        "total_score": 58.1,
         "num_judges": 5
       }
     },
@@ -422,6 +823,32 @@
       }
     },
     {
+      "model": "gpt_ocr",
+      "doc_id": "doc_022",
+      "scores": {
+        "text_accuracy": 92.0,
+        "table_structure": 92.0,
+        "numeric_precision": 96.6,
+        "layout_preservation": 85.0,
+        "completeness": 79.0,
+        "total_score": 89.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_006",
+      "scores": {
+        "text_accuracy": 77.0,
+        "table_structure": 61.0,
+        "numeric_precision": 93.0,
+        "layout_preservation": 74.0,
+        "completeness": 83.0,
+        "total_score": 77.6,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "docling",
       "doc_id": "doc_014",
       "scores": {
@@ -448,6 +875,162 @@
       }
     },
     {
+      "model": "tesseract",
+      "doc_id": "doc_045",
+      "scores": {
+        "text_accuracy": 9.0,
+        "table_structure": 3.0,
+        "numeric_precision": 16.0,
+        "layout_preservation": 8.0,
+        "completeness": 10.0,
+        "total_score": 9.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_027",
+      "scores": {
+        "text_accuracy": 89.4,
+        "table_structure": 70.0,
+        "numeric_precision": 94.0,
+        "layout_preservation": 76.0,
+        "completeness": 88.6,
+        "total_score": 83.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_031",
+      "scores": {
+        "text_accuracy": 78.0,
+        "table_structure": 68.0,
+        "numeric_precision": 87.0,
+        "layout_preservation": 77.0,
+        "completeness": 87.0,
+        "total_score": 78.7,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_031",
+      "scores": {
+        "text_accuracy": 93.0,
+        "table_structure": 86.0,
+        "numeric_precision": 95.6,
+        "layout_preservation": 83.0,
+        "completeness": 90.4,
+        "total_score": 89.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_028",
+      "scores": {
+        "text_accuracy": 82.0,
+        "table_structure": 79.0,
+        "numeric_precision": 90.0,
+        "layout_preservation": 82.0,
+        "completeness": 91.6,
+        "total_score": 84.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_040",
+      "scores": {
+        "text_accuracy": 51.0,
+        "table_structure": 24.0,
+        "numeric_precision": 79.0,
+        "layout_preservation": 42.0,
+        "completeness": 66.0,
+        "total_score": 50.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_040",
+      "scores": {
+        "text_accuracy": 95.0,
+        "table_structure": 87.0,
+        "numeric_precision": 98.0,
+        "layout_preservation": 90.6,
+        "completeness": 96.6,
+        "total_score": 93.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_049",
+      "scores": {
+        "text_accuracy": 7.0,
+        "table_structure": 3.0,
+        "numeric_precision": 30.0,
+        "layout_preservation": 10.0,
+        "completeness": 4.0,
+        "total_score": 12.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_041",
+      "scores": {
+        "text_accuracy": 29.0,
+        "table_structure": 11.0,
+        "numeric_precision": 31.0,
+        "layout_preservation": 16.0,
+        "completeness": 32.0,
+        "total_score": 24.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_038",
+      "scores": {
+        "text_accuracy": 78.0,
+        "table_structure": 66.0,
+        "numeric_precision": 78.0,
+        "layout_preservation": 78.0,
+        "completeness": 83.0,
+        "total_score": 76.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_036",
+      "scores": {
+        "text_accuracy": 58.0,
+        "table_structure": 76.0,
+        "numeric_precision": 51.0,
+        "layout_preservation": 77.0,
+        "completeness": 82.0,
+        "total_score": 64.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_035",
+      "scores": {
+        "text_accuracy": 81.0,
+        "table_structure": 72.0,
+        "numeric_precision": 85.0,
+        "layout_preservation": 74.0,
+        "completeness": 87.0,
+        "total_score": 79.0,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "easyocr",
       "doc_id": "doc_004",
       "scores": {
@@ -457,6 +1040,45 @@
         "layout_preservation": 37.0,
         "completeness": 73.0,
         "total_score": 55.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_047",
+      "scores": {
+        "text_accuracy": 91.0,
+        "table_structure": 89.0,
+        "numeric_precision": 99.0,
+        "layout_preservation": 88.0,
+        "completeness": 94.0,
+        "total_score": 91.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_037",
+      "scores": {
+        "text_accuracy": 86.0,
+        "table_structure": 87.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 83.0,
+        "completeness": 90.6,
+        "total_score": 88.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_031",
+      "scores": {
+        "text_accuracy": 89.0,
+        "table_structure": 84.0,
+        "numeric_precision": 92.0,
+        "layout_preservation": 78.0,
+        "completeness": 90.0,
+        "total_score": 86.8,
         "num_judges": 5
       }
     },
@@ -474,6 +1096,45 @@
       }
     },
     {
+      "model": "docling",
+      "doc_id": "doc_046",
+      "scores": {
+        "text_accuracy": 44.0,
+        "table_structure": 24.0,
+        "numeric_precision": 76.0,
+        "layout_preservation": 41.0,
+        "completeness": 56.0,
+        "total_score": 49.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_033",
+      "scores": {
+        "text_accuracy": 67.0,
+        "table_structure": 48.0,
+        "numeric_precision": 73.0,
+        "layout_preservation": 62.0,
+        "completeness": 84.0,
+        "total_score": 63.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_018",
+      "scores": {
+        "text_accuracy": 92.6,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 89.0,
+        "completeness": 39.0,
+        "total_score": 77.2,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "tesseract",
       "doc_id": "doc_006",
       "scores": {
@@ -483,6 +1144,32 @@
         "layout_preservation": 64.0,
         "completeness": 72.0,
         "total_score": 66.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_048",
+      "scores": {
+        "text_accuracy": 69.0,
+        "table_structure": 41.0,
+        "numeric_precision": 92.0,
+        "layout_preservation": 65.0,
+        "completeness": 80.0,
+        "total_score": 69.7,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_046",
+      "scores": {
+        "text_accuracy": 81.0,
+        "table_structure": 58.0,
+        "numeric_precision": 88.0,
+        "layout_preservation": 76.0,
+        "completeness": 84.0,
+        "total_score": 77.7,
         "num_judges": 5
       }
     },
@@ -500,6 +1187,19 @@
       }
     },
     {
+      "model": "gemini_ocr",
+      "doc_id": "doc_005",
+      "scores": {
+        "text_accuracy": 94.0,
+        "table_structure": 80.0,
+        "numeric_precision": 99.0,
+        "layout_preservation": 90.0,
+        "completeness": 97.0,
+        "total_score": 91.3,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "docling",
       "doc_id": "doc_015",
       "scores": {
@@ -509,6 +1209,136 @@
         "layout_preservation": 49.0,
         "completeness": 52.0,
         "total_score": 58.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_037",
+      "scores": {
+        "text_accuracy": 87.6,
+        "table_structure": 22.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 76.0,
+        "completeness": 80.0,
+        "total_score": 70.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_021",
+      "scores": {
+        "text_accuracy": 53.0,
+        "table_structure": 40.0,
+        "numeric_precision": 52.0,
+        "layout_preservation": 44.0,
+        "completeness": 61.0,
+        "total_score": 49.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_009",
+      "scores": {
+        "text_accuracy": 80.0,
+        "table_structure": 81.0,
+        "numeric_precision": 91.0,
+        "layout_preservation": 79.6,
+        "completeness": 82.0,
+        "total_score": 82.7,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_020",
+      "scores": {
+        "text_accuracy": 98.0,
+        "table_structure": 98.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 96.4,
+        "completeness": 100.0,
+        "total_score": 97.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_028",
+      "scores": {
+        "text_accuracy": 94.0,
+        "table_structure": 91.0,
+        "numeric_precision": 98.0,
+        "layout_preservation": 90.6,
+        "completeness": 94.0,
+        "total_score": 93.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_008",
+      "scores": {
+        "text_accuracy": 89.0,
+        "table_structure": 89.0,
+        "numeric_precision": 99.0,
+        "layout_preservation": 84.6,
+        "completeness": 93.0,
+        "total_score": 90.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_002",
+      "scores": {
+        "text_accuracy": 92.0,
+        "table_structure": 88.0,
+        "numeric_precision": 98.0,
+        "layout_preservation": 86.0,
+        "completeness": 97.0,
+        "total_score": 91.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_043",
+      "scores": {
+        "text_accuracy": 29.0,
+        "table_structure": 9.0,
+        "numeric_precision": 62.0,
+        "layout_preservation": 17.0,
+        "completeness": 36.0,
+        "total_score": 31.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_025",
+      "scores": {
+        "text_accuracy": 81.0,
+        "table_structure": 70.0,
+        "numeric_precision": 86.0,
+        "layout_preservation": 73.0,
+        "completeness": 71.0,
+        "total_score": 75.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_001",
+      "scores": {
+        "text_accuracy": 83.0,
+        "table_structure": 87.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 82.0,
+        "completeness": 90.0,
+        "total_score": 86.5,
         "num_judges": 5
       }
     },
@@ -526,6 +1356,123 @@
       }
     },
     {
+      "model": "easyocr",
+      "doc_id": "doc_038",
+      "scores": {
+        "text_accuracy": 73.0,
+        "table_structure": 56.0,
+        "numeric_precision": 67.0,
+        "layout_preservation": 61.0,
+        "completeness": 75.0,
+        "total_score": 66.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_049",
+      "scores": {
+        "text_accuracy": 56.0,
+        "table_structure": 46.0,
+        "numeric_precision": 9.0,
+        "layout_preservation": 62.0,
+        "completeness": 37.0,
+        "total_score": 44.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_034",
+      "scores": {
+        "text_accuracy": 87.0,
+        "table_structure": 76.0,
+        "numeric_precision": 86.0,
+        "layout_preservation": 80.0,
+        "completeness": 90.0,
+        "total_score": 83.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_031",
+      "scores": {
+        "text_accuracy": 92.4,
+        "table_structure": 74.0,
+        "numeric_precision": 94.0,
+        "layout_preservation": 73.0,
+        "completeness": 88.0,
+        "total_score": 84.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_042",
+      "scores": {
+        "text_accuracy": 25.0,
+        "table_structure": 4.0,
+        "numeric_precision": 21.0,
+        "layout_preservation": 12.0,
+        "completeness": 29.0,
+        "total_score": 19.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_043",
+      "scores": {
+        "text_accuracy": 53.0,
+        "table_structure": 20.0,
+        "numeric_precision": 79.0,
+        "layout_preservation": 47.0,
+        "completeness": 68.0,
+        "total_score": 54.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_011",
+      "scores": {
+        "text_accuracy": 96.6,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 93.0,
+        "completeness": 96.4,
+        "total_score": 96.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_038",
+      "scores": {
+        "text_accuracy": 90.0,
+        "table_structure": 86.0,
+        "numeric_precision": 91.6,
+        "layout_preservation": 79.4,
+        "completeness": 87.0,
+        "total_score": 87.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_014",
+      "scores": {
+        "text_accuracy": 95.8,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 89.0,
+        "completeness": 100.0,
+        "total_score": 95.4,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "docling",
       "doc_id": "doc_002",
       "scores": {
@@ -539,6 +1486,19 @@
       }
     },
     {
+      "model": "gemini_ocr",
+      "doc_id": "doc_008",
+      "scores": {
+        "text_accuracy": 90.0,
+        "table_structure": 87.0,
+        "numeric_precision": 99.0,
+        "layout_preservation": 85.6,
+        "completeness": 95.0,
+        "total_score": 90.3,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "tesseract",
       "doc_id": "doc_024",
       "scores": {
@@ -548,6 +1508,19 @@
         "layout_preservation": 59.0,
         "completeness": 78.0,
         "total_score": 63.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_045",
+      "scores": {
+        "text_accuracy": 85.0,
+        "table_structure": 86.0,
+        "numeric_precision": 95.0,
+        "layout_preservation": 85.6,
+        "completeness": 92.0,
+        "total_score": 87.7,
         "num_judges": 5
       }
     },
@@ -578,6 +1551,32 @@
       }
     },
     {
+      "model": "docling",
+      "doc_id": "doc_033",
+      "scores": {
+        "text_accuracy": 78.0,
+        "table_structure": 57.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 77.0,
+        "completeness": 89.0,
+        "total_score": 76.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_015",
+      "scores": {
+        "text_accuracy": 93.6,
+        "table_structure": 97.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 89.0,
+        "completeness": 41.0,
+        "total_score": 78.0,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "tesseract",
       "doc_id": "doc_019",
       "scores": {
@@ -591,6 +1590,45 @@
       }
     },
     {
+      "model": "gemini_ocr",
+      "doc_id": "doc_034",
+      "scores": {
+        "text_accuracy": 85.0,
+        "table_structure": 65.0,
+        "numeric_precision": 83.6,
+        "layout_preservation": 67.0,
+        "completeness": 89.0,
+        "total_score": 78.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_014",
+      "scores": {
+        "text_accuracy": 97.6,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 91.0,
+        "completeness": 100.0,
+        "total_score": 96.7,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_049",
+      "scores": {
+        "text_accuracy": 88.4,
+        "table_structure": 85.0,
+        "numeric_precision": 89.0,
+        "layout_preservation": 87.6,
+        "completeness": 90.0,
+        "total_score": 88.0,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "doctr",
       "doc_id": "doc_014",
       "scores": {
@@ -600,6 +1638,45 @@
         "layout_preservation": 60.0,
         "completeness": 57.0,
         "total_score": 60.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_016",
+      "scores": {
+        "text_accuracy": 97.8,
+        "table_structure": 99.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 95.6,
+        "completeness": 100.0,
+        "total_score": 97.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_042",
+      "scores": {
+        "text_accuracy": 80.0,
+        "table_structure": 83.0,
+        "numeric_precision": 83.4,
+        "layout_preservation": 83.0,
+        "completeness": 93.0,
+        "total_score": 82.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_048",
+      "scores": {
+        "text_accuracy": 88.0,
+        "table_structure": 82.0,
+        "numeric_precision": 98.0,
+        "layout_preservation": 86.6,
+        "completeness": 93.0,
+        "total_score": 88.7,
         "num_judges": 5
       }
     },
@@ -643,6 +1720,32 @@
       }
     },
     {
+      "model": "claude_ocr",
+      "doc_id": "doc_050",
+      "scores": {
+        "text_accuracy": 81.0,
+        "table_structure": 76.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 80.0,
+        "completeness": 79.0,
+        "total_score": 83.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_046",
+      "scores": {
+        "text_accuracy": 68.0,
+        "table_structure": 40.0,
+        "numeric_precision": 82.0,
+        "layout_preservation": 51.0,
+        "completeness": 74.0,
+        "total_score": 65.2,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "glm_ocr",
       "doc_id": "doc_023",
       "scores": {
@@ -652,6 +1755,19 @@
         "layout_preservation": 79.0,
         "completeness": 91.0,
         "total_score": 84.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_047",
+      "scores": {
+        "text_accuracy": 68.0,
+        "table_structure": 56.0,
+        "numeric_precision": 82.0,
+        "layout_preservation": 65.0,
+        "completeness": 79.0,
+        "total_score": 68.8,
         "num_judges": 5
       }
     },
@@ -682,6 +1798,19 @@
       }
     },
     {
+      "model": "gemini_ocr",
+      "doc_id": "doc_048",
+      "scores": {
+        "text_accuracy": 82.0,
+        "table_structure": 48.0,
+        "numeric_precision": 80.0,
+        "layout_preservation": 71.0,
+        "completeness": 68.0,
+        "total_score": 72.5,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "easyocr",
       "doc_id": "doc_013",
       "scores": {
@@ -708,6 +1837,58 @@
       }
     },
     {
+      "model": "claude_ocr",
+      "doc_id": "doc_002",
+      "scores": {
+        "text_accuracy": 91.0,
+        "table_structure": 85.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 89.0,
+        "completeness": 95.0,
+        "total_score": 90.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_024",
+      "scores": {
+        "text_accuracy": 77.0,
+        "table_structure": 89.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 80.0,
+        "completeness": 68.0,
+        "total_score": 79.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_042",
+      "scores": {
+        "text_accuracy": 64.0,
+        "table_structure": 22.0,
+        "numeric_precision": 79.0,
+        "layout_preservation": 52.0,
+        "completeness": 73.0,
+        "total_score": 59.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_040",
+      "scores": {
+        "text_accuracy": 66.0,
+        "table_structure": 58.0,
+        "numeric_precision": 80.0,
+        "layout_preservation": 63.0,
+        "completeness": 84.0,
+        "total_score": 68.3,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "tesseract",
       "doc_id": "doc_025",
       "scores": {
@@ -717,6 +1898,32 @@
         "layout_preservation": 44.0,
         "completeness": 68.0,
         "total_score": 55.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_029",
+      "scores": {
+        "text_accuracy": 70.0,
+        "table_structure": 58.0,
+        "numeric_precision": 86.0,
+        "layout_preservation": 60.0,
+        "completeness": 76.0,
+        "total_score": 69.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_048",
+      "scores": {
+        "text_accuracy": 89.0,
+        "table_structure": 80.0,
+        "numeric_precision": 98.0,
+        "layout_preservation": 84.6,
+        "completeness": 91.0,
+        "total_score": 88.2,
         "num_judges": 5
       }
     },
@@ -734,6 +1941,71 @@
       }
     },
     {
+      "model": "gpt_ocr",
+      "doc_id": "doc_023",
+      "scores": {
+        "text_accuracy": 74.0,
+        "table_structure": 98.0,
+        "numeric_precision": 85.0,
+        "layout_preservation": 80.0,
+        "completeness": 62.0,
+        "total_score": 75.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_030",
+      "scores": {
+        "text_accuracy": 85.0,
+        "table_structure": 76.0,
+        "numeric_precision": 88.6,
+        "layout_preservation": 81.0,
+        "completeness": 89.6,
+        "total_score": 83.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_046",
+      "scores": {
+        "text_accuracy": 71.0,
+        "table_structure": 77.0,
+        "numeric_precision": 76.4,
+        "layout_preservation": 75.0,
+        "completeness": 77.0,
+        "total_score": 73.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_047",
+      "scores": {
+        "text_accuracy": 79.0,
+        "table_structure": 67.0,
+        "numeric_precision": 93.0,
+        "layout_preservation": 69.0,
+        "completeness": 84.0,
+        "total_score": 78.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_019",
+      "scores": {
+        "text_accuracy": 98.0,
+        "table_structure": 99.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 96.0,
+        "completeness": 100.0,
+        "total_score": 97.9,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "tesseract",
       "doc_id": "doc_011",
       "scores": {
@@ -743,6 +2015,110 @@
         "layout_preservation": 97.0,
         "completeness": 100.0,
         "total_score": 98.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_032",
+      "scores": {
+        "text_accuracy": 26.0,
+        "table_structure": 10.0,
+        "numeric_precision": 20.0,
+        "layout_preservation": 17.0,
+        "completeness": 46.0,
+        "total_score": 21.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_018",
+      "scores": {
+        "text_accuracy": 96.4,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 95.0,
+        "completeness": 96.8,
+        "total_score": 97.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_044",
+      "scores": {
+        "text_accuracy": 67.0,
+        "table_structure": 42.0,
+        "numeric_precision": 81.0,
+        "layout_preservation": 51.0,
+        "completeness": 80.0,
+        "total_score": 64.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_027",
+      "scores": {
+        "text_accuracy": 37.0,
+        "table_structure": 25.0,
+        "numeric_precision": 45.0,
+        "layout_preservation": 27.0,
+        "completeness": 52.0,
+        "total_score": 36.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_026",
+      "scores": {
+        "text_accuracy": 67.0,
+        "table_structure": 67.0,
+        "numeric_precision": 82.0,
+        "layout_preservation": 72.0,
+        "completeness": 88.0,
+        "total_score": 72.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_037",
+      "scores": {
+        "text_accuracy": 95.6,
+        "table_structure": 90.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 89.0,
+        "completeness": 95.6,
+        "total_score": 93.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_030",
+      "scores": {
+        "text_accuracy": 59.0,
+        "table_structure": 62.0,
+        "numeric_precision": 54.0,
+        "layout_preservation": 70.0,
+        "completeness": 76.0,
+        "total_score": 61.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_036",
+      "scores": {
+        "text_accuracy": 92.0,
+        "table_structure": 78.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 90.6,
+        "completeness": 83.0,
+        "total_score": 90.2,
         "num_judges": 5
       }
     },
@@ -799,6 +2175,45 @@
       }
     },
     {
+      "model": "gemini_ocr",
+      "doc_id": "doc_021",
+      "scores": {
+        "text_accuracy": 78.0,
+        "table_structure": 50.0,
+        "numeric_precision": 91.0,
+        "layout_preservation": 67.0,
+        "completeness": 43.0,
+        "total_score": 67.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_037",
+      "scores": {
+        "text_accuracy": 93.0,
+        "table_structure": 78.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 86.0,
+        "completeness": 94.0,
+        "total_score": 88.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_007",
+      "scores": {
+        "text_accuracy": 85.0,
+        "table_structure": 86.0,
+        "numeric_precision": 92.0,
+        "layout_preservation": 82.0,
+        "completeness": 71.0,
+        "total_score": 82.7,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "docling",
       "doc_id": "doc_005",
       "scores": {
@@ -825,6 +2240,32 @@
       }
     },
     {
+      "model": "tesseract",
+      "doc_id": "doc_031",
+      "scores": {
+        "text_accuracy": 69.0,
+        "table_structure": 54.0,
+        "numeric_precision": 79.0,
+        "layout_preservation": 53.0,
+        "completeness": 75.0,
+        "total_score": 65.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_022",
+      "scores": {
+        "text_accuracy": 92.0,
+        "table_structure": 90.0,
+        "numeric_precision": 97.6,
+        "layout_preservation": 84.0,
+        "completeness": 83.8,
+        "total_score": 89.8,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "doctr",
       "doc_id": "doc_016",
       "scores": {
@@ -838,6 +2279,32 @@
       }
     },
     {
+      "model": "gemini_ocr",
+      "doc_id": "doc_025",
+      "scores": {
+        "text_accuracy": 51.0,
+        "table_structure": 43.0,
+        "numeric_precision": 57.0,
+        "layout_preservation": 43.0,
+        "completeness": 22.0,
+        "total_score": 43.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_039",
+      "scores": {
+        "text_accuracy": 91.0,
+        "table_structure": 86.0,
+        "numeric_precision": 94.0,
+        "layout_preservation": 85.6,
+        "completeness": 86.0,
+        "total_score": 89.6,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "tesseract",
       "doc_id": "doc_008",
       "scores": {
@@ -847,6 +2314,19 @@
         "layout_preservation": 98.6,
         "completeness": 100.0,
         "total_score": 99.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_035",
+      "scores": {
+        "text_accuracy": 81.0,
+        "table_structure": 70.0,
+        "numeric_precision": 81.0,
+        "layout_preservation": 76.0,
+        "completeness": 81.0,
+        "total_score": 77.7,
         "num_judges": 5
       }
     },
@@ -877,6 +2357,19 @@
       }
     },
     {
+      "model": "gemini_ocr",
+      "doc_id": "doc_044",
+      "scores": {
+        "text_accuracy": 89.0,
+        "table_structure": 84.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 84.6,
+        "completeness": 94.0,
+        "total_score": 88.6,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "doctr",
       "doc_id": "doc_004",
       "scores": {
@@ -886,6 +2379,19 @@
         "layout_preservation": 81.0,
         "completeness": 92.0,
         "total_score": 84.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_050",
+      "scores": {
+        "text_accuracy": 84.0,
+        "table_structure": 73.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 78.0,
+        "completeness": 85.0,
+        "total_score": 83.7,
         "num_judges": 5
       }
     },
@@ -903,6 +2409,58 @@
       }
     },
     {
+      "model": "gemini_ocr",
+      "doc_id": "doc_004",
+      "scores": {
+        "text_accuracy": 85.0,
+        "table_structure": 76.0,
+        "numeric_precision": 95.0,
+        "layout_preservation": 80.0,
+        "completeness": 68.0,
+        "total_score": 81.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_021",
+      "scores": {
+        "text_accuracy": 83.0,
+        "table_structure": 88.0,
+        "numeric_precision": 80.0,
+        "layout_preservation": 81.0,
+        "completeness": 71.0,
+        "total_score": 79.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_049",
+      "scores": {
+        "text_accuracy": 87.0,
+        "table_structure": 86.0,
+        "numeric_precision": 92.0,
+        "layout_preservation": 85.6,
+        "completeness": 89.0,
+        "total_score": 87.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_038",
+      "scores": {
+        "text_accuracy": 81.0,
+        "table_structure": 66.0,
+        "numeric_precision": 87.0,
+        "layout_preservation": 66.0,
+        "completeness": 76.0,
+        "total_score": 75.5,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "glm_ocr",
       "doc_id": "doc_007",
       "scores": {
@@ -916,6 +2474,19 @@
       }
     },
     {
+      "model": "glm_ocr",
+      "doc_id": "doc_046",
+      "scores": {
+        "text_accuracy": 73.0,
+        "table_structure": 61.0,
+        "numeric_precision": 91.0,
+        "layout_preservation": 71.0,
+        "completeness": 85.0,
+        "total_score": 76.4,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "docling",
       "doc_id": "doc_016",
       "scores": {
@@ -925,6 +2496,32 @@
         "layout_preservation": 69.0,
         "completeness": 58.0,
         "total_score": 68.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_012",
+      "scores": {
+        "text_accuracy": 97.4,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 89.0,
+        "completeness": 100.0,
+        "total_score": 96.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_040",
+      "scores": {
+        "text_accuracy": 95.0,
+        "table_structure": 91.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 90.6,
+        "completeness": 96.0,
+        "total_score": 93.5,
         "num_judges": 5
       }
     },
@@ -951,6 +2548,58 @@
         "layout_preservation": 66.0,
         "completeness": 77.0,
         "total_score": 68.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_008",
+      "scores": {
+        "text_accuracy": 89.0,
+        "table_structure": 84.0,
+        "numeric_precision": 99.0,
+        "layout_preservation": 85.6,
+        "completeness": 93.0,
+        "total_score": 89.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_040",
+      "scores": {
+        "text_accuracy": 69.0,
+        "table_structure": 66.0,
+        "numeric_precision": 83.0,
+        "layout_preservation": 69.0,
+        "completeness": 81.0,
+        "total_score": 71.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_040",
+      "scores": {
+        "text_accuracy": 95.0,
+        "table_structure": 88.0,
+        "numeric_precision": 98.0,
+        "layout_preservation": 90.6,
+        "completeness": 96.8,
+        "total_score": 93.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_040",
+      "scores": {
+        "text_accuracy": 90.4,
+        "table_structure": 57.0,
+        "numeric_precision": 95.0,
+        "layout_preservation": 78.6,
+        "completeness": 85.0,
+        "total_score": 82.1,
         "num_judges": 5
       }
     },
@@ -994,6 +2643,71 @@
       }
     },
     {
+      "model": "glm_ocr",
+      "doc_id": "doc_048",
+      "scores": {
+        "text_accuracy": 86.0,
+        "table_structure": 84.0,
+        "numeric_precision": 91.0,
+        "layout_preservation": 80.6,
+        "completeness": 91.0,
+        "total_score": 86.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_039",
+      "scores": {
+        "text_accuracy": 85.0,
+        "table_structure": 71.0,
+        "numeric_precision": 91.0,
+        "layout_preservation": 77.0,
+        "completeness": 88.0,
+        "total_score": 82.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_041",
+      "scores": {
+        "text_accuracy": 83.0,
+        "table_structure": 82.0,
+        "numeric_precision": 95.0,
+        "layout_preservation": 81.6,
+        "completeness": 89.0,
+        "total_score": 85.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_005",
+      "scores": {
+        "text_accuracy": 85.0,
+        "table_structure": 83.0,
+        "numeric_precision": 93.0,
+        "layout_preservation": 85.6,
+        "completeness": 91.0,
+        "total_score": 86.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_030",
+      "scores": {
+        "text_accuracy": 62.0,
+        "table_structure": 46.0,
+        "numeric_precision": 60.0,
+        "layout_preservation": 59.0,
+        "completeness": 76.0,
+        "total_score": 59.6,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "doctr",
       "doc_id": "doc_001",
       "scores": {
@@ -1003,6 +2717,97 @@
         "layout_preservation": 79.0,
         "completeness": 88.0,
         "total_score": 84.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_039",
+      "scores": {
+        "text_accuracy": 85.0,
+        "table_structure": 93.0,
+        "numeric_precision": 93.0,
+        "layout_preservation": 89.0,
+        "completeness": 94.0,
+        "total_score": 89.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_021",
+      "scores": {
+        "text_accuracy": 88.0,
+        "table_structure": 88.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 82.0,
+        "completeness": 68.0,
+        "total_score": 83.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_045",
+      "scores": {
+        "text_accuracy": 4.0,
+        "table_structure": 0.0,
+        "numeric_precision": 3.0,
+        "layout_preservation": 5.0,
+        "completeness": 5.0,
+        "total_score": 3.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_031",
+      "scores": {
+        "text_accuracy": 93.0,
+        "table_structure": 87.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 92.0,
+        "completeness": 83.0,
+        "total_score": 90.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_045",
+      "scores": {
+        "text_accuracy": 74.0,
+        "table_structure": 28.0,
+        "numeric_precision": 7.0,
+        "layout_preservation": 62.0,
+        "completeness": 44.0,
+        "total_score": 47.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_013",
+      "scores": {
+        "text_accuracy": 96.8,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 92.0,
+        "completeness": 94.0,
+        "total_score": 95.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_038",
+      "scores": {
+        "text_accuracy": 53.0,
+        "table_structure": 41.0,
+        "numeric_precision": 66.0,
+        "layout_preservation": 41.0,
+        "completeness": 60.0,
+        "total_score": 52.1,
         "num_judges": 5
       }
     },
@@ -1021,6 +2826,32 @@
     },
     {
       "model": "easyocr",
+      "doc_id": "doc_042",
+      "scores": {
+        "text_accuracy": 9.0,
+        "table_structure": 2.0,
+        "numeric_precision": 11.0,
+        "layout_preservation": 7.0,
+        "completeness": 10.0,
+        "total_score": 7.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_009",
+      "scores": {
+        "text_accuracy": 75.0,
+        "table_structure": 36.0,
+        "numeric_precision": 75.0,
+        "layout_preservation": 62.0,
+        "completeness": 58.0,
+        "total_score": 60.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
       "doc_id": "doc_009",
       "scores": {
         "text_accuracy": 83.4,
@@ -1029,6 +2860,97 @@
         "layout_preservation": 85.6,
         "completeness": 86.6,
         "total_score": 89.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_004",
+      "scores": {
+        "text_accuracy": 91.0,
+        "table_structure": 81.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 86.0,
+        "completeness": 92.0,
+        "total_score": 88.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_026",
+      "scores": {
+        "text_accuracy": 90.0,
+        "table_structure": 95.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 95.0,
+        "completeness": 99.0,
+        "total_score": 94.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_032",
+      "scores": {
+        "text_accuracy": 84.0,
+        "table_structure": 82.0,
+        "numeric_precision": 91.0,
+        "layout_preservation": 77.0,
+        "completeness": 88.0,
+        "total_score": 83.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_034",
+      "scores": {
+        "text_accuracy": 75.0,
+        "table_structure": 76.0,
+        "numeric_precision": 78.0,
+        "layout_preservation": 73.0,
+        "completeness": 74.0,
+        "total_score": 75.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_010",
+      "scores": {
+        "text_accuracy": 87.0,
+        "table_structure": 85.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 85.6,
+        "completeness": 91.4,
+        "total_score": 88.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_017",
+      "scores": {
+        "text_accuracy": 96.2,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 94.0,
+        "completeness": 97.8,
+        "total_score": 97.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_026",
+      "scores": {
+        "text_accuracy": 88.0,
+        "table_structure": 91.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 91.0,
+        "completeness": 89.0,
+        "total_score": 91.0,
         "num_judges": 5
       }
     },
@@ -1042,6 +2964,19 @@
         "layout_preservation": 70.0,
         "completeness": 77.0,
         "total_score": 77.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_013",
+      "scores": {
+        "text_accuracy": 93.0,
+        "table_structure": 97.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 89.0,
+        "completeness": 33.0,
+        "total_score": 77.0,
         "num_judges": 5
       }
     },
@@ -1072,6 +3007,19 @@
       }
     },
     {
+      "model": "doctr",
+      "doc_id": "doc_041",
+      "scores": {
+        "text_accuracy": 73.0,
+        "table_structure": 44.0,
+        "numeric_precision": 90.0,
+        "layout_preservation": 60.0,
+        "completeness": 79.0,
+        "total_score": 70.0,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "tesseract",
       "doc_id": "doc_003",
       "scores": {
@@ -1081,6 +3029,19 @@
         "layout_preservation": 79.0,
         "completeness": 90.0,
         "total_score": 80.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_044",
+      "scores": {
+        "text_accuracy": 55.0,
+        "table_structure": 14.0,
+        "numeric_precision": 61.0,
+        "layout_preservation": 37.0,
+        "completeness": 59.0,
+        "total_score": 47.9,
         "num_judges": 5
       }
     },
@@ -1098,6 +3059,97 @@
       }
     },
     {
+      "model": "docling",
+      "doc_id": "doc_026",
+      "scores": {
+        "text_accuracy": 82.0,
+        "table_structure": 92.0,
+        "numeric_precision": 83.0,
+        "layout_preservation": 92.0,
+        "completeness": 92.0,
+        "total_score": 87.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_036",
+      "scores": {
+        "text_accuracy": 68.0,
+        "table_structure": 79.0,
+        "numeric_precision": 62.0,
+        "layout_preservation": 78.0,
+        "completeness": 84.0,
+        "total_score": 70.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_003",
+      "scores": {
+        "text_accuracy": 95.0,
+        "table_structure": 76.0,
+        "numeric_precision": 98.0,
+        "layout_preservation": 90.0,
+        "completeness": 98.0,
+        "total_score": 91.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_026",
+      "scores": {
+        "text_accuracy": 84.0,
+        "table_structure": 73.0,
+        "numeric_precision": 92.0,
+        "layout_preservation": 78.0,
+        "completeness": 79.0,
+        "total_score": 81.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_029",
+      "scores": {
+        "text_accuracy": 89.6,
+        "table_structure": 88.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 88.6,
+        "completeness": 94.0,
+        "total_score": 91.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_024",
+      "scores": {
+        "text_accuracy": 78.0,
+        "table_structure": 71.0,
+        "numeric_precision": 94.0,
+        "layout_preservation": 64.0,
+        "completeness": 67.0,
+        "total_score": 76.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_042",
+      "scores": {
+        "text_accuracy": 91.0,
+        "table_structure": 89.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 86.0,
+        "completeness": 97.0,
+        "total_score": 91.0,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "doctr",
       "doc_id": "doc_009",
       "scores": {
@@ -1107,6 +3159,32 @@
         "layout_preservation": 96.4,
         "completeness": 94.0,
         "total_score": 97.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_047",
+      "scores": {
+        "text_accuracy": 87.0,
+        "table_structure": 54.0,
+        "numeric_precision": 93.0,
+        "layout_preservation": 59.0,
+        "completeness": 90.0,
+        "total_score": 77.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_032",
+      "scores": {
+        "text_accuracy": 91.6,
+        "table_structure": 83.0,
+        "numeric_precision": 95.6,
+        "layout_preservation": 86.0,
+        "completeness": 84.6,
+        "total_score": 88.3,
         "num_judges": 5
       }
     },
@@ -1151,6 +3229,97 @@
     },
     {
       "model": "glm_ocr",
+      "doc_id": "doc_028",
+      "scores": {
+        "text_accuracy": 92.0,
+        "table_structure": 80.0,
+        "numeric_precision": 93.6,
+        "layout_preservation": 86.0,
+        "completeness": 95.0,
+        "total_score": 89.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_050",
+      "scores": {
+        "text_accuracy": 81.0,
+        "table_structure": 55.0,
+        "numeric_precision": 94.0,
+        "layout_preservation": 68.0,
+        "completeness": 86.0,
+        "total_score": 77.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_041",
+      "scores": {
+        "text_accuracy": 57.0,
+        "table_structure": 16.0,
+        "numeric_precision": 88.0,
+        "layout_preservation": 36.0,
+        "completeness": 63.0,
+        "total_score": 54.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_045",
+      "scores": {
+        "text_accuracy": 6.0,
+        "table_structure": 1.0,
+        "numeric_precision": 29.0,
+        "layout_preservation": 6.0,
+        "completeness": 11.0,
+        "total_score": 11.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_038",
+      "scores": {
+        "text_accuracy": 88.0,
+        "table_structure": 83.0,
+        "numeric_precision": 91.6,
+        "layout_preservation": 74.4,
+        "completeness": 88.0,
+        "total_score": 84.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_036",
+      "scores": {
+        "text_accuracy": 73.0,
+        "table_structure": 85.0,
+        "numeric_precision": 68.0,
+        "layout_preservation": 84.0,
+        "completeness": 85.0,
+        "total_score": 76.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_012",
+      "scores": {
+        "text_accuracy": 97.6,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 89.0,
+        "completeness": 100.0,
+        "total_score": 96.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
       "doc_id": "doc_022",
       "scores": {
         "text_accuracy": 78.0,
@@ -1159,6 +3328,19 @@
         "layout_preservation": 76.0,
         "completeness": 85.0,
         "total_score": 81.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_002",
+      "scores": {
+        "text_accuracy": 91.0,
+        "table_structure": 79.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 88.0,
+        "completeness": 95.0,
+        "total_score": 88.9,
         "num_judges": 5
       }
     },
@@ -1176,6 +3358,19 @@
       }
     },
     {
+      "model": "docling",
+      "doc_id": "doc_048",
+      "scores": {
+        "text_accuracy": 69.0,
+        "table_structure": 48.0,
+        "numeric_precision": 92.0,
+        "layout_preservation": 55.0,
+        "completeness": 77.0,
+        "total_score": 68.9,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "tesseract",
       "doc_id": "doc_013",
       "scores": {
@@ -1189,6 +3384,84 @@
       }
     },
     {
+      "model": "claude_ocr",
+      "doc_id": "doc_016",
+      "scores": {
+        "text_accuracy": 98.0,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 97.2,
+        "completeness": 100.0,
+        "total_score": 98.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_042",
+      "scores": {
+        "text_accuracy": 82.0,
+        "table_structure": 82.0,
+        "numeric_precision": 88.0,
+        "layout_preservation": 86.0,
+        "completeness": 86.0,
+        "total_score": 84.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_039",
+      "scores": {
+        "text_accuracy": 80.0,
+        "table_structure": 61.0,
+        "numeric_precision": 84.0,
+        "layout_preservation": 67.0,
+        "completeness": 74.0,
+        "total_score": 74.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_011",
+      "scores": {
+        "text_accuracy": 96.8,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 93.0,
+        "completeness": 94.0,
+        "total_score": 96.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_009",
+      "scores": {
+        "text_accuracy": 89.0,
+        "table_structure": 72.0,
+        "numeric_precision": 93.0,
+        "layout_preservation": 79.6,
+        "completeness": 85.0,
+        "total_score": 85.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_044",
+      "scores": {
+        "text_accuracy": 81.0,
+        "table_structure": 84.0,
+        "numeric_precision": 82.0,
+        "layout_preservation": 80.6,
+        "completeness": 88.0,
+        "total_score": 82.3,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "doctr",
       "doc_id": "doc_008",
       "scores": {
@@ -1198,6 +3471,162 @@
         "layout_preservation": 96.0,
         "completeness": 98.0,
         "total_score": 94.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_043",
+      "scores": {
+        "text_accuracy": 90.4,
+        "table_structure": 81.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 87.6,
+        "completeness": 93.0,
+        "total_score": 89.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_043",
+      "scores": {
+        "text_accuracy": 91.2,
+        "table_structure": 88.8,
+        "numeric_precision": 96.2,
+        "layout_preservation": 88.8,
+        "completeness": 95.0,
+        "total_score": 91.2,
+        "num_judges": 4
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_010",
+      "scores": {
+        "text_accuracy": 87.0,
+        "table_structure": 86.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 81.0,
+        "completeness": 91.0,
+        "total_score": 87.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_039",
+      "scores": {
+        "text_accuracy": 91.6,
+        "table_structure": 85.0,
+        "numeric_precision": 94.6,
+        "layout_preservation": 85.6,
+        "completeness": 88.6,
+        "total_score": 90.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_029",
+      "scores": {
+        "text_accuracy": 87.6,
+        "table_structure": 90.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 90.0,
+        "completeness": 94.0,
+        "total_score": 90.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_034",
+      "scores": {
+        "text_accuracy": 85.0,
+        "table_structure": 77.0,
+        "numeric_precision": 88.0,
+        "layout_preservation": 81.0,
+        "completeness": 89.6,
+        "total_score": 83.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_037",
+      "scores": {
+        "text_accuracy": 89.0,
+        "table_structure": 74.0,
+        "numeric_precision": 93.0,
+        "layout_preservation": 81.6,
+        "completeness": 77.0,
+        "total_score": 83.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_023",
+      "scores": {
+        "text_accuracy": 76.0,
+        "table_structure": 98.0,
+        "numeric_precision": 90.0,
+        "layout_preservation": 85.0,
+        "completeness": 60.0,
+        "total_score": 77.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_039",
+      "scores": {
+        "text_accuracy": 84.0,
+        "table_structure": 66.0,
+        "numeric_precision": 88.0,
+        "layout_preservation": 74.0,
+        "completeness": 77.0,
+        "total_score": 78.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_030",
+      "scores": {
+        "text_accuracy": 84.0,
+        "table_structure": 74.0,
+        "numeric_precision": 84.6,
+        "layout_preservation": 77.0,
+        "completeness": 89.0,
+        "total_score": 80.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_027",
+      "scores": {
+        "text_accuracy": 91.4,
+        "table_structure": 73.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 79.0,
+        "completeness": 91.6,
+        "total_score": 85.7,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_045",
+      "scores": {
+        "text_accuracy": 34.0,
+        "table_structure": 9.0,
+        "numeric_precision": 75.0,
+        "layout_preservation": 16.0,
+        "completeness": 36.0,
+        "total_score": 35.8,
         "num_judges": 5
       }
     },
@@ -1216,6 +3645,19 @@
     },
     {
       "model": "glm_ocr",
+      "doc_id": "doc_030",
+      "scores": {
+        "text_accuracy": 83.0,
+        "table_structure": 60.0,
+        "numeric_precision": 80.0,
+        "layout_preservation": 63.0,
+        "completeness": 84.0,
+        "total_score": 74.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
       "doc_id": "doc_012",
       "scores": {
         "text_accuracy": 79.0,
@@ -1224,6 +3666,19 @@
         "layout_preservation": 70.0,
         "completeness": 53.0,
         "total_score": 72.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_030",
+      "scores": {
+        "text_accuracy": 88.0,
+        "table_structure": 70.0,
+        "numeric_precision": 83.0,
+        "layout_preservation": 80.0,
+        "completeness": 63.0,
+        "total_score": 78.2,
         "num_judges": 5
       }
     },
@@ -1237,6 +3692,32 @@
         "layout_preservation": 50.0,
         "completeness": 73.0,
         "total_score": 61.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_028",
+      "scores": {
+        "text_accuracy": 94.2,
+        "table_structure": 90.0,
+        "numeric_precision": 96.6,
+        "layout_preservation": 90.4,
+        "completeness": 97.6,
+        "total_score": 93.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_036",
+      "scores": {
+        "text_accuracy": 86.0,
+        "table_structure": 89.0,
+        "numeric_precision": 90.0,
+        "layout_preservation": 86.0,
+        "completeness": 90.0,
+        "total_score": 87.1,
         "num_judges": 5
       }
     },
@@ -1267,6 +3748,19 @@
       }
     },
     {
+      "model": "gpt_ocr",
+      "doc_id": "doc_007",
+      "scores": {
+        "text_accuracy": 91.0,
+        "table_structure": 83.0,
+        "numeric_precision": 99.0,
+        "layout_preservation": 86.0,
+        "completeness": 95.0,
+        "total_score": 90.2,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "doctr",
       "doc_id": "doc_020",
       "scores": {
@@ -1276,6 +3770,32 @@
         "layout_preservation": 73.0,
         "completeness": 85.0,
         "total_score": 70.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_036",
+      "scores": {
+        "text_accuracy": 82.0,
+        "table_structure": 89.0,
+        "numeric_precision": 80.0,
+        "layout_preservation": 88.0,
+        "completeness": 91.0,
+        "total_score": 84.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_032",
+      "scores": {
+        "text_accuracy": 90.0,
+        "table_structure": 80.0,
+        "numeric_precision": 94.0,
+        "layout_preservation": 79.0,
+        "completeness": 92.0,
+        "total_score": 86.6,
         "num_judges": 5
       }
     },
@@ -1306,6 +3826,58 @@
       }
     },
     {
+      "model": "gpt_ocr",
+      "doc_id": "doc_043",
+      "scores": {
+        "text_accuracy": 89.0,
+        "table_structure": 81.0,
+        "numeric_precision": 90.0,
+        "layout_preservation": 86.6,
+        "completeness": 94.0,
+        "total_score": 87.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_038",
+      "scores": {
+        "text_accuracy": 87.0,
+        "table_structure": 60.0,
+        "numeric_precision": 85.0,
+        "layout_preservation": 68.0,
+        "completeness": 81.0,
+        "total_score": 76.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_035",
+      "scores": {
+        "text_accuracy": 87.0,
+        "table_structure": 81.0,
+        "numeric_precision": 82.6,
+        "layout_preservation": 84.4,
+        "completeness": 92.0,
+        "total_score": 85.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_024",
+      "scores": {
+        "text_accuracy": 61.0,
+        "table_structure": 59.0,
+        "numeric_precision": 80.0,
+        "layout_preservation": 51.0,
+        "completeness": 29.0,
+        "total_score": 56.5,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "doctr",
       "doc_id": "doc_022",
       "scores": {
@@ -1319,6 +3891,19 @@
       }
     },
     {
+      "model": "claude_ocr",
+      "doc_id": "doc_046",
+      "scores": {
+        "text_accuracy": 79.0,
+        "table_structure": 72.0,
+        "numeric_precision": 92.0,
+        "layout_preservation": 75.6,
+        "completeness": 82.4,
+        "total_score": 80.2,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "glm_ocr",
       "doc_id": "doc_008",
       "scores": {
@@ -1328,6 +3913,32 @@
         "layout_preservation": 97.0,
         "completeness": 98.0,
         "total_score": 98.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_014",
+      "scores": {
+        "text_accuracy": 97.6,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 90.0,
+        "completeness": 100.0,
+        "total_score": 96.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_032",
+      "scores": {
+        "text_accuracy": 25.0,
+        "table_structure": 13.0,
+        "numeric_precision": 18.0,
+        "layout_preservation": 17.0,
+        "completeness": 36.0,
+        "total_score": 21.2,
         "num_judges": 5
       }
     },
@@ -1358,6 +3969,45 @@
       }
     },
     {
+      "model": "gemini_ocr",
+      "doc_id": "doc_033",
+      "scores": {
+        "text_accuracy": 85.0,
+        "table_structure": 71.0,
+        "numeric_precision": 99.0,
+        "layout_preservation": 75.0,
+        "completeness": 83.0,
+        "total_score": 81.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_031",
+      "scores": {
+        "text_accuracy": 75.0,
+        "table_structure": 62.0,
+        "numeric_precision": 84.0,
+        "layout_preservation": 61.0,
+        "completeness": 73.0,
+        "total_score": 71.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_041",
+      "scores": {
+        "text_accuracy": 87.0,
+        "table_structure": 85.0,
+        "numeric_precision": 98.0,
+        "layout_preservation": 85.0,
+        "completeness": 93.0,
+        "total_score": 88.3,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "docling",
       "doc_id": "doc_012",
       "scores": {
@@ -1367,6 +4017,32 @@
         "layout_preservation": 52.0,
         "completeness": 52.0,
         "total_score": 61.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_049",
+      "scores": {
+        "text_accuracy": 69.0,
+        "table_structure": 48.0,
+        "numeric_precision": 76.0,
+        "layout_preservation": 58.0,
+        "completeness": 78.0,
+        "total_score": 66.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_040",
+      "scores": {
+        "text_accuracy": 57.0,
+        "table_structure": 22.0,
+        "numeric_precision": 73.0,
+        "layout_preservation": 48.0,
+        "completeness": 71.0,
+        "total_score": 53.0,
         "num_judges": 5
       }
     },
@@ -1397,6 +4073,97 @@
       }
     },
     {
+      "model": "claude_ocr",
+      "doc_id": "doc_004",
+      "scores": {
+        "text_accuracy": 91.0,
+        "table_structure": 87.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 87.0,
+        "completeness": 94.0,
+        "total_score": 90.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_017",
+      "scores": {
+        "text_accuracy": 98.6,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 95.6,
+        "completeness": 100.0,
+        "total_score": 98.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_034",
+      "scores": {
+        "text_accuracy": 70.0,
+        "table_structure": 48.0,
+        "numeric_precision": 71.0,
+        "layout_preservation": 56.0,
+        "completeness": 79.0,
+        "total_score": 64.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_022",
+      "scores": {
+        "text_accuracy": 90.0,
+        "table_structure": 90.0,
+        "numeric_precision": 96.6,
+        "layout_preservation": 82.0,
+        "completeness": 80.0,
+        "total_score": 87.7,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_049",
+      "scores": {
+        "text_accuracy": 22.0,
+        "table_structure": 9.0,
+        "numeric_precision": 45.0,
+        "layout_preservation": 14.0,
+        "completeness": 25.0,
+        "total_score": 23.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_033",
+      "scores": {
+        "text_accuracy": 94.4,
+        "table_structure": 95.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 91.6,
+        "completeness": 96.0,
+        "total_score": 94.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_025",
+      "scores": {
+        "text_accuracy": 82.0,
+        "table_structure": 75.0,
+        "numeric_precision": 87.0,
+        "layout_preservation": 80.6,
+        "completeness": 67.0,
+        "total_score": 78.0,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "tesseract",
       "doc_id": "doc_004",
       "scores": {
@@ -1410,6 +4177,123 @@
       }
     },
     {
+      "model": "tesseract",
+      "doc_id": "doc_029",
+      "scores": {
+        "text_accuracy": 60.0,
+        "table_structure": 46.0,
+        "numeric_precision": 88.0,
+        "layout_preservation": 59.0,
+        "completeness": 73.0,
+        "total_score": 63.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_028",
+      "scores": {
+        "text_accuracy": 76.0,
+        "table_structure": 79.0,
+        "numeric_precision": 87.0,
+        "layout_preservation": 76.0,
+        "completeness": 89.0,
+        "total_score": 79.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_045",
+      "scores": {
+        "text_accuracy": 21.0,
+        "table_structure": 9.0,
+        "numeric_precision": 61.0,
+        "layout_preservation": 17.0,
+        "completeness": 21.0,
+        "total_score": 26.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_010",
+      "scores": {
+        "text_accuracy": 87.0,
+        "table_structure": 77.0,
+        "numeric_precision": 98.0,
+        "layout_preservation": 80.0,
+        "completeness": 90.0,
+        "total_score": 86.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "docling",
+      "doc_id": "doc_049",
+      "scores": {
+        "text_accuracy": 52.0,
+        "table_structure": 34.0,
+        "numeric_precision": 80.0,
+        "layout_preservation": 38.0,
+        "completeness": 63.0,
+        "total_score": 52.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_027",
+      "scores": {
+        "text_accuracy": 67.0,
+        "table_structure": 52.0,
+        "numeric_precision": 76.0,
+        "layout_preservation": 58.0,
+        "completeness": 76.0,
+        "total_score": 65.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_050",
+      "scores": {
+        "text_accuracy": 77.0,
+        "table_structure": 70.0,
+        "numeric_precision": 92.0,
+        "layout_preservation": 70.0,
+        "completeness": 86.0,
+        "total_score": 78.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_033",
+      "scores": {
+        "text_accuracy": 86.6,
+        "table_structure": 93.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 87.4,
+        "completeness": 94.0,
+        "total_score": 90.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_044",
+      "scores": {
+        "text_accuracy": 89.0,
+        "table_structure": 88.0,
+        "numeric_precision": 95.0,
+        "layout_preservation": 85.6,
+        "completeness": 94.0,
+        "total_score": 89.5,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "easyocr",
       "doc_id": "doc_006",
       "scores": {
@@ -1419,6 +4303,32 @@
         "layout_preservation": 53.0,
         "completeness": 70.0,
         "total_score": 63.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_043",
+      "scores": {
+        "text_accuracy": 64.0,
+        "table_structure": 58.0,
+        "numeric_precision": 88.0,
+        "layout_preservation": 67.0,
+        "completeness": 77.0,
+        "total_score": 68.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_041",
+      "scores": {
+        "text_accuracy": 15.0,
+        "table_structure": 4.0,
+        "numeric_precision": 36.0,
+        "layout_preservation": 9.0,
+        "completeness": 19.0,
+        "total_score": 15.7,
         "num_judges": 5
       }
     },
@@ -1462,6 +4372,19 @@
       }
     },
     {
+      "model": "claude_ocr",
+      "doc_id": "doc_015",
+      "scores": {
+        "text_accuracy": 97.2,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 94.0,
+        "completeness": 98.4,
+        "total_score": 97.2,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "glm_ocr",
       "doc_id": "doc_004",
       "scores": {
@@ -1501,6 +4424,32 @@
       }
     },
     {
+      "model": "docling",
+      "doc_id": "doc_035",
+      "scores": {
+        "text_accuracy": 71.0,
+        "table_structure": 55.0,
+        "numeric_precision": 70.0,
+        "layout_preservation": 57.0,
+        "completeness": 77.0,
+        "total_score": 65.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_015",
+      "scores": {
+        "text_accuracy": 99.0,
+        "table_structure": 99.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 97.6,
+        "completeness": 100.0,
+        "total_score": 98.7,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "glm_ocr",
       "doc_id": "doc_005",
       "scores": {
@@ -1510,6 +4459,71 @@
         "layout_preservation": 83.6,
         "completeness": 91.0,
         "total_score": 85.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_029",
+      "scores": {
+        "text_accuracy": 87.6,
+        "table_structure": 88.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 90.6,
+        "completeness": 94.4,
+        "total_score": 90.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_046",
+      "scores": {
+        "text_accuracy": 14.0,
+        "table_structure": 5.0,
+        "numeric_precision": 35.0,
+        "layout_preservation": 10.0,
+        "completeness": 16.0,
+        "total_score": 16.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_050",
+      "scores": {
+        "text_accuracy": 87.0,
+        "table_structure": 60.0,
+        "numeric_precision": 98.0,
+        "layout_preservation": 80.0,
+        "completeness": 91.0,
+        "total_score": 82.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_034",
+      "scores": {
+        "text_accuracy": 70.0,
+        "table_structure": 56.0,
+        "numeric_precision": 71.0,
+        "layout_preservation": 58.0,
+        "completeness": 76.0,
+        "total_score": 65.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_035",
+      "scores": {
+        "text_accuracy": 71.0,
+        "table_structure": 53.0,
+        "numeric_precision": 63.0,
+        "layout_preservation": 58.0,
+        "completeness": 77.0,
+        "total_score": 64.6,
         "num_judges": 5
       }
     },
@@ -1527,6 +4541,19 @@
       }
     },
     {
+      "model": "claude_ocr",
+      "doc_id": "doc_035",
+      "scores": {
+        "text_accuracy": 88.0,
+        "table_structure": 81.0,
+        "numeric_precision": 83.0,
+        "layout_preservation": 83.6,
+        "completeness": 89.4,
+        "total_score": 85.3,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "tesseract",
       "doc_id": "doc_016",
       "scores": {
@@ -1540,6 +4567,19 @@
       }
     },
     {
+      "model": "docling",
+      "doc_id": "doc_027",
+      "scores": {
+        "text_accuracy": 88.0,
+        "table_structure": 18.0,
+        "numeric_precision": 81.0,
+        "layout_preservation": 77.0,
+        "completeness": 59.0,
+        "total_score": 66.5,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "glm_ocr",
       "doc_id": "doc_010",
       "scores": {
@@ -1549,6 +4589,45 @@
         "layout_preservation": 97.0,
         "completeness": 98.0,
         "total_score": 97.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_007",
+      "scores": {
+        "text_accuracy": 92.0,
+        "table_structure": 86.0,
+        "numeric_precision": 99.0,
+        "layout_preservation": 86.0,
+        "completeness": 96.0,
+        "total_score": 91.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_029",
+      "scores": {
+        "text_accuracy": 59.0,
+        "table_structure": 56.0,
+        "numeric_precision": 88.0,
+        "layout_preservation": 64.0,
+        "completeness": 78.0,
+        "total_score": 65.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_048",
+      "scores": {
+        "text_accuracy": 37.0,
+        "table_structure": 10.0,
+        "numeric_precision": 73.0,
+        "layout_preservation": 34.0,
+        "completeness": 48.0,
+        "total_score": 40.5,
         "num_judges": 5
       }
     },
@@ -1588,6 +4667,19 @@
         "layout_preservation": 64.0,
         "completeness": 76.0,
         "total_score": 70.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_028",
+      "scores": {
+        "text_accuracy": 93.6,
+        "table_structure": 86.0,
+        "numeric_precision": 95.2,
+        "layout_preservation": 89.6,
+        "completeness": 94.6,
+        "total_score": 91.5,
         "num_judges": 5
       }
     },
@@ -1657,6 +4749,123 @@
       }
     },
     {
+      "model": "gpt_ocr",
+      "doc_id": "doc_049",
+      "scores": {
+        "text_accuracy": 78.0,
+        "table_structure": 83.0,
+        "numeric_precision": 91.0,
+        "layout_preservation": 84.0,
+        "completeness": 86.0,
+        "total_score": 83.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_001",
+      "scores": {
+        "text_accuracy": 82.0,
+        "table_structure": 80.0,
+        "numeric_precision": 82.0,
+        "layout_preservation": 80.0,
+        "completeness": 62.0,
+        "total_score": 78.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_033",
+      "scores": {
+        "text_accuracy": 95.0,
+        "table_structure": 93.0,
+        "numeric_precision": 99.0,
+        "layout_preservation": 90.6,
+        "completeness": 95.6,
+        "total_score": 93.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_033",
+      "scores": {
+        "text_accuracy": 60.0,
+        "table_structure": 18.0,
+        "numeric_precision": 86.0,
+        "layout_preservation": 50.0,
+        "completeness": 78.0,
+        "total_score": 54.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_013",
+      "scores": {
+        "text_accuracy": 96.8,
+        "table_structure": 100.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 94.0,
+        "completeness": 97.4,
+        "total_score": 97.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_044",
+      "scores": {
+        "text_accuracy": 84.0,
+        "table_structure": 77.0,
+        "numeric_precision": 92.0,
+        "layout_preservation": 81.0,
+        "completeness": 90.0,
+        "total_score": 84.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_043",
+      "scores": {
+        "text_accuracy": 73.0,
+        "table_structure": 72.0,
+        "numeric_precision": 92.0,
+        "layout_preservation": 73.0,
+        "completeness": 89.0,
+        "total_score": 78.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_035",
+      "scores": {
+        "text_accuracy": 87.0,
+        "table_structure": 75.0,
+        "numeric_precision": 85.0,
+        "layout_preservation": 82.0,
+        "completeness": 78.0,
+        "total_score": 82.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_034",
+      "scores": {
+        "text_accuracy": 60.0,
+        "table_structure": 48.0,
+        "numeric_precision": 59.0,
+        "layout_preservation": 59.0,
+        "completeness": 75.0,
+        "total_score": 58.9,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "glm_ocr",
       "doc_id": "doc_013",
       "scores": {
@@ -1666,6 +4875,19 @@
         "layout_preservation": 78.0,
         "completeness": 68.0,
         "total_score": 82.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_027",
+      "scores": {
+        "text_accuracy": 92.0,
+        "table_structure": 79.0,
+        "numeric_precision": 96.0,
+        "layout_preservation": 82.0,
+        "completeness": 91.6,
+        "total_score": 88.0,
         "num_judges": 5
       }
     },
@@ -1696,6 +4918,45 @@
       }
     },
     {
+      "model": "tesseract",
+      "doc_id": "doc_037",
+      "scores": {
+        "text_accuracy": 85.6,
+        "table_structure": 53.0,
+        "numeric_precision": 93.0,
+        "layout_preservation": 74.0,
+        "completeness": 88.0,
+        "total_score": 78.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_032",
+      "scores": {
+        "text_accuracy": 92.6,
+        "table_structure": 93.4,
+        "numeric_precision": 94.0,
+        "layout_preservation": 94.0,
+        "completeness": 97.0,
+        "total_score": 93.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_039",
+      "scores": {
+        "text_accuracy": 84.0,
+        "table_structure": 68.0,
+        "numeric_precision": 87.0,
+        "layout_preservation": 75.0,
+        "completeness": 76.0,
+        "total_score": 78.2,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "docling",
       "doc_id": "doc_013",
       "scores": {
@@ -1705,6 +4966,45 @@
         "layout_preservation": 76.0,
         "completeness": 66.0,
         "total_score": 76.7,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_019",
+      "scores": {
+        "text_accuracy": 94.6,
+        "table_structure": 96.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 91.0,
+        "completeness": 61.0,
+        "total_score": 85.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_027",
+      "scores": {
+        "text_accuracy": 79.0,
+        "table_structure": 40.0,
+        "numeric_precision": 74.0,
+        "layout_preservation": 50.0,
+        "completeness": 79.0,
+        "total_score": 64.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_032",
+      "scores": {
+        "text_accuracy": 68.0,
+        "table_structure": 36.0,
+        "numeric_precision": 77.0,
+        "layout_preservation": 41.0,
+        "completeness": 44.0,
+        "total_score": 55.9,
         "num_judges": 5
       }
     },
@@ -1723,6 +5023,32 @@
     },
     {
       "model": "easyocr",
+      "doc_id": "doc_032",
+      "scores": {
+        "text_accuracy": 26.0,
+        "table_structure": 16.0,
+        "numeric_precision": 23.0,
+        "layout_preservation": 19.0,
+        "completeness": 44.0,
+        "total_score": 23.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_031",
+      "scores": {
+        "text_accuracy": 70.0,
+        "table_structure": 55.0,
+        "numeric_precision": 67.0,
+        "layout_preservation": 55.0,
+        "completeness": 72.0,
+        "total_score": 64.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
       "doc_id": "doc_011",
       "scores": {
         "text_accuracy": 81.0,
@@ -1731,6 +5057,136 @@
         "layout_preservation": 80.0,
         "completeness": 86.4,
         "total_score": 83.7,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_036",
+      "scores": {
+        "text_accuracy": 82.0,
+        "table_structure": 87.0,
+        "numeric_precision": 90.0,
+        "layout_preservation": 82.0,
+        "completeness": 90.0,
+        "total_score": 84.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_047",
+      "scores": {
+        "text_accuracy": 90.0,
+        "table_structure": 84.0,
+        "numeric_precision": 99.0,
+        "layout_preservation": 82.0,
+        "completeness": 94.0,
+        "total_score": 88.9,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_023",
+      "scores": {
+        "text_accuracy": 76.0,
+        "table_structure": 78.0,
+        "numeric_precision": 87.0,
+        "layout_preservation": 77.0,
+        "completeness": 64.0,
+        "total_score": 76.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_042",
+      "scores": {
+        "text_accuracy": 68.0,
+        "table_structure": 79.0,
+        "numeric_precision": 83.0,
+        "layout_preservation": 77.0,
+        "completeness": 84.0,
+        "total_score": 76.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_037",
+      "scores": {
+        "text_accuracy": 80.0,
+        "table_structure": 74.0,
+        "numeric_precision": 91.0,
+        "layout_preservation": 73.0,
+        "completeness": 83.0,
+        "total_score": 79.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_033",
+      "scores": {
+        "text_accuracy": 95.0,
+        "table_structure": 95.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 90.6,
+        "completeness": 96.8,
+        "total_score": 94.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "doctr",
+      "doc_id": "doc_030",
+      "scores": {
+        "text_accuracy": 68.0,
+        "table_structure": 53.0,
+        "numeric_precision": 68.0,
+        "layout_preservation": 61.0,
+        "completeness": 79.0,
+        "total_score": 64.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_027",
+      "scores": {
+        "text_accuracy": 96.0,
+        "table_structure": 81.0,
+        "numeric_precision": 97.6,
+        "layout_preservation": 87.0,
+        "completeness": 96.4,
+        "total_score": 91.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "tesseract",
+      "doc_id": "doc_046",
+      "scores": {
+        "text_accuracy": 62.0,
+        "table_structure": 52.0,
+        "numeric_precision": 85.0,
+        "layout_preservation": 66.0,
+        "completeness": 71.0,
+        "total_score": 66.5,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_020",
+      "scores": {
+        "text_accuracy": 95.8,
+        "table_structure": 99.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 92.6,
+        "completeness": 97.4,
+        "total_score": 96.0,
         "num_judges": 5
       }
     },
@@ -1748,6 +5204,71 @@
       }
     },
     {
+      "model": "easyocr",
+      "doc_id": "doc_035",
+      "scores": {
+        "text_accuracy": 69.0,
+        "table_structure": 54.0,
+        "numeric_precision": 66.0,
+        "layout_preservation": 56.0,
+        "completeness": 78.0,
+        "total_score": 64.2,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_026",
+      "scores": {
+        "text_accuracy": 90.0,
+        "table_structure": 84.0,
+        "numeric_precision": 99.0,
+        "layout_preservation": 84.0,
+        "completeness": 91.0,
+        "total_score": 89.3,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_050",
+      "scores": {
+        "text_accuracy": 74.0,
+        "table_structure": 50.0,
+        "numeric_precision": 86.0,
+        "layout_preservation": 70.0,
+        "completeness": 84.0,
+        "total_score": 73.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_026",
+      "scores": {
+        "text_accuracy": 72.0,
+        "table_structure": 55.0,
+        "numeric_precision": 69.0,
+        "layout_preservation": 64.0,
+        "completeness": 64.0,
+        "total_score": 67.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_039",
+      "scores": {
+        "text_accuracy": 91.0,
+        "table_structure": 86.0,
+        "numeric_precision": 94.0,
+        "layout_preservation": 85.6,
+        "completeness": 88.0,
+        "total_score": 89.8,
+        "num_judges": 5
+      }
+    },
+    {
       "model": "glm_ocr",
       "doc_id": "doc_002",
       "scores": {
@@ -1761,16 +5282,133 @@
       }
     },
     {
-      "model": "doctr",
-      "doc_id": "doc_021",
+      "model": "gemini_ocr",
+      "doc_id": "doc_003",
       "scores": {
-        "text_accuracy": 66.2,
-        "table_structure": 50.0,
-        "numeric_precision": 65.0,
-        "layout_preservation": 55.0,
-        "completeness": 76.2,
-        "total_score": 61.6,
-        "num_judges": 4
+        "text_accuracy": 78.0,
+        "table_structure": 30.0,
+        "numeric_precision": 4.0,
+        "layout_preservation": 66.0,
+        "completeness": 45.0,
+        "total_score": 49.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "easyocr",
+      "doc_id": "doc_028",
+      "scores": {
+        "text_accuracy": 77.4,
+        "table_structure": 73.0,
+        "numeric_precision": 81.6,
+        "layout_preservation": 75.0,
+        "completeness": 85.0,
+        "total_score": 77.7,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_006",
+      "scores": {
+        "text_accuracy": 89.0,
+        "table_structure": 82.0,
+        "numeric_precision": 99.0,
+        "layout_preservation": 86.6,
+        "completeness": 93.0,
+        "total_score": 89.0,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "glm_ocr",
+      "doc_id": "doc_029",
+      "scores": {
+        "text_accuracy": 89.6,
+        "table_structure": 91.0,
+        "numeric_precision": 97.0,
+        "layout_preservation": 91.6,
+        "completeness": 94.4,
+        "total_score": 92.8,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_001",
+      "scores": {
+        "text_accuracy": 89.0,
+        "table_structure": 85.0,
+        "numeric_precision": 99.0,
+        "layout_preservation": 83.0,
+        "completeness": 94.0,
+        "total_score": 89.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_006",
+      "scores": {
+        "text_accuracy": 88.0,
+        "table_structure": 81.0,
+        "numeric_precision": 98.0,
+        "layout_preservation": 82.6,
+        "completeness": 90.0,
+        "total_score": 87.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gpt_ocr",
+      "doc_id": "doc_005",
+      "scores": {
+        "text_accuracy": 88.0,
+        "table_structure": 81.0,
+        "numeric_precision": 94.0,
+        "layout_preservation": 84.6,
+        "completeness": 92.0,
+        "total_score": 87.6,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_037",
+      "scores": {
+        "text_accuracy": 94.0,
+        "table_structure": 84.6,
+        "numeric_precision": 98.0,
+        "layout_preservation": 88.0,
+        "completeness": 94.6,
+        "total_score": 91.4,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "claude_ocr",
+      "doc_id": "doc_003",
+      "scores": {
+        "text_accuracy": 90.4,
+        "table_structure": 81.0,
+        "numeric_precision": 95.0,
+        "layout_preservation": 87.6,
+        "completeness": 93.0,
+        "total_score": 89.1,
+        "num_judges": 5
+      }
+    },
+    {
+      "model": "gemini_ocr",
+      "doc_id": "doc_017",
+      "scores": {
+        "text_accuracy": 93.6,
+        "table_structure": 98.0,
+        "numeric_precision": 100.0,
+        "layout_preservation": 90.0,
+        "completeness": 41.0,
+        "total_score": 76.8,
+        "num_judges": 5
       }
     }
   ]

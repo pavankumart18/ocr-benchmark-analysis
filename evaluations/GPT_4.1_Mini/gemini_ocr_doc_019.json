@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 60,
+    "total_score": 87.25,
+    "notes": "OCR output is highly accurate in text and numeric details, preserving bullet points and indentation well. No tables present in source, so structure is well maintained. Layout and reading order are correct. However, the OCR output is incomplete, missing a large portion of the text after the last visible bullet point, resulting in a significant deduction for completeness."
+  },
+  "timestamp": "2026-04-13 02:16:36"
+}

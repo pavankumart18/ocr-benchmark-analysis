@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 83.75,
+    "notes": "Minor typos and formatting issues present, such as '4o%' instead of '40%', missing apostrophe in 'Lack of qualified staff' section, and incomplete word 'Accommoda'. Table structure is mostly preserved but with slight alignment issues. Numeric precision is high with only minor errors. Layout is generally maintained but with some reading order inconsistencies."
+  },
+  "timestamp": "2026-04-13 03:18:05"
+}

@@ -1,0 +1,57 @@
+Staff Shift Schedule
+Baumbachfort Medical Center -
+Week of June 12, 2025
+
+Employee              ID       Department      Thu 12                 Fri 13                  Sat 14                 Sun 15                 Mon 16                 Tue 17                 Wed 18
+Helen Thiel           TWSXAL   ICU             Afternoon
+                                           15:00-23:00              Night
+                                                                     23:00-07:00            Leave Sick Leave                               Night
+                                                                                                                                             23:00-07:00          Afternoon
+                                                                                                                                                                   15:00-23:00
+Terrance Kunze        DVDCEB   Cardiology                             Leave Sick Leave                               Leave Sick Leave                               Night
+                                                                                                                                             23:00-07:00          Night
+                                                                                                                                                                   23:00-07:00
+Ollie Nikolaus        4FGCRQ   Surgery                                  Morning
+                                                                     07:00-15:00            Morning
+                                                                                               07:00-15:00
+Wayne Fahey           YXVRIB   Neurology       Afternoon
+                                           15:00-23:00              Leave Sick Leave                                                     Leave Training
+                                                                                                                                             Leave Vacation
+Tami Price            NVDXZD   Oncology        Afternoon
+                                           15:00-23:00              Night
+                                                                     23:00-07:00            Leave Personal         Morning
+                                                                                               07:00-15:00            Morning
+                                                                                                                                             07:00-15:00
+Dr. Cary Simonis      RPWJUA   Surgery         Afternoon
+                                           15:00-23:00                                      Leave Vacation                               Afternoon
+                                                                                                                                             15:00-23:00          Leave Personal
+Edmund Grona-Cummings COKUVW   Pediatrics                             Night
+                                                                     23:00-07:00                                                     Morning
+                                                                                                                                                                   07:00-15:00
+Naomi O'Conner        U9TRRM   Radiology
+David Reichert        G5JQHZ   General Ward                           Morning
+                                                                     07:00-15:00                                                                                                         Leave Sick Leave
+Vernon Blanda         ROJFHL   Oncology        Leave Training                               Morning
+                                                                                               07:00-15:00            Leave Training                                                     Afternoon
+                                                                                                                                                                   15:00-23:00
+Rudolph Zieme         RZDMB5   General Ward                           Leave Personal         Leave Personal         Night
+                                                                                               23:00-07:00                                      Afternoon
+                                                                                                                                             15:00-23:00          Afternoon
+                                                                                                                                                                   15:00-23:00
+Sally Marks           FRI99B   ICU                                    Leave Training         Night
+                                                                                               23:00-07:00                                                     Afternoon
+                                                                                                                                             15:00-23:00
+Christopher Beer      QLE5FP   Radiology                                                       Leave Training                                                                                 Afternoon
+                                                                                                                                                                   15:00-23:00          Morning
+                                                                                                                                                                                         07:00-15:00
+Marcella Deckow       4T9RUF   Oncology         Morning
+                                            07:00-15:00                                      Night
+                                                                                               23:00-07:00                                                     Afternoon
+                                                                                                                                             15:00-23:00          Afternoon
+                                                                                                                                                                                         15:00-23:00
+Chris Barton          4TRC4X   Pediatrics                                                                             Leave Sick Leave                               Night
+                                                                                                                                             23:00-07:00
+Wendy Mraz            HKEYUF   Cardiology       Afternoon
+                                            15:00-23:00              Night
+                                                                     23:00-07:00                                      Leave Personal                               Morning
+                                                                                                                                                                   07:00-15:00

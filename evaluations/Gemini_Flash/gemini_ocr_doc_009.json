@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 60,
+    "total_score": 83.5,
+    "notes": "The OCR output accurately extracted the company name, date, and address with minor discrepancies in the address (81750 vs 81760). However, the 'total' field is completely missing from the OCR output, significantly impacting completeness and numeric precision. The overall layout and reading order are well preserved for the extracted fields."
+  },
+  "timestamp": "2026-04-13 01:42:08"
+}

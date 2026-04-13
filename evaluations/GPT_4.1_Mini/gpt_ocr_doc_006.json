@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 75,
+    "total_score": 69.25,
+    "notes": "Company name OCR has a critical typo ('HIO' vs 'HO'); address has errors in street number and punctuation; date matches exactly; total amount matches. Table structure partially preserved but extra unrelated data present and columns not perfectly aligned. Layout order mostly correct but extra cashier and item details not in ground truth. Some ground truth fields missing (e.g., company header formatting)."
+  },
+  "timestamp": "2026-04-13 02:18:18"
+}

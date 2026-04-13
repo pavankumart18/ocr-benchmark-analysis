@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 97.75,
+    "notes": "Minor potential typo in 'Parisian - Kuvalis 1qck' (model name may be incorrect). Otherwise, text, tables, numbers, layout, and completeness are nearly flawless."
+  },
+  "timestamp": "2026-04-13 03:02:06"
+}

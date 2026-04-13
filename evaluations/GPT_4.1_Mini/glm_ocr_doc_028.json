@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 95,
+    "total_score": 88.25,
+    "notes": "Text is mostly accurate with no obvious misspellings or wrong characters. Table structure is preserved but the long description in the first column merges multiple lines, making it harder to parse as a clean table. Numeric data including dates, quantities, and codes appear precise. Layout and reading order are well maintained with clear sections and headers. All visible text appears captured with no major omissions."
+  },
+  "timestamp": "2026-04-13 02:09:42"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83.25,
+    "notes": "Minor typos in address ('BAHRI' instead of 'BAHRU'), extra irrelevant text present. Table structure has extra rows/columns not in ground truth. Numeric values and dates are correct. Layout is mostly preserved but cluttered with additional info."
+  },
+  "timestamp": "2026-04-13 03:04:06"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 10,
+    "numeric_precision": 20,
+    "layout_preservation": 30,
+    "completeness": 35,
+    "total_score": 29.5,
+    "notes": "OCR output contains many garbled and incorrect characters, especially in address and numeric fields. The company name is correct but surrounded by noise. The date is misread ('2571018' vs '25/12/2018'). Numeric totals are mostly wrong or garbled (e.g., 'CASH 100.90' vs '80.90'). Table structure is almost completely lost with no clear columns or rows preserved. Layout is disorganized with poor reading order. Significant portions of the ground truth text are missing or corrupted."
+  },
+  "timestamp": "2026-04-13 02:14:19"
+}

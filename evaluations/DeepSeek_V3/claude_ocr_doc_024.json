@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 80,
+    "total_score": 89.25,
+    "notes": "The OCR output is highly accurate with minor text discrepancies (e.g., 'NES/tat' instead of 'NES/tat'). Table structure and numeric precision are excellent. Some minor layout deviations and missing sections (e.g., 'Insights and Observations') affect completeness."
+  },
+  "timestamp": "2026-04-13 03:36:30"
+}

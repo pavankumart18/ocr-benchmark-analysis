@@ -1,0 +1,8 @@
+                                                               Automotive Glossary
+
+A                                               D                                               H                                               R
+______________________________________________  ______________________________________________  ______________________________________________  ______________________________________________
+Adaptive cruise control                         Drive shaft                                     Hybrid Electric Vehicle (HEV)                   Rough idle
+An advanced cruise control system that maintains a preset distance or time On rear-wheel or all-wheel drive vehicles, the shaft that couples the transmission A vehicle that achieves improved fuel efficiency by using an electric motor to help When the engine vibrates or shakes while running with the drivers foot off the
+interval from the vehicle ahead by automatically controlling the brakes and to the rear axle differential assembly.                                 the engine propel the car. The motor receives power from a modestly sized       gas.
+throttle.                                       Dual overhead camshafts (DOHC)                  battery

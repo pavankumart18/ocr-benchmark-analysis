@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 100,
+    "total_score": 88,
+    "notes": "Minor issues with text accuracy due to placeholder symbols (\u2610) for Germany and Soviet Union. Table structure is well-preserved but could improve with clearer alignment. Layout preservation is good but could be better with consistent formatting. Numeric precision and completeness are perfect."
+  },
+  "timestamp": "2026-04-13 03:36:43"
+}

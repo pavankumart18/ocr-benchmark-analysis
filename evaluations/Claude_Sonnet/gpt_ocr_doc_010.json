@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83.25,
+    "notes": "Company name has minor capitalization differences (should be all caps). Address is accurate but formatted differently. Date and total amount are perfectly extracted. OCR captured much more detail than required ground truth, including full receipt content. Table structure is somewhat preserved but not in structured format. Overall good extraction with minor formatting variations."
+  },
+  "timestamp": "2026-04-13 02:02:42"
+}

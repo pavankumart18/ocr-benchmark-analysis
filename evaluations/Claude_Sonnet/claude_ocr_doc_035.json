@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 85,
+    "layout_preservation": 88,
+    "completeness": 92,
+    "total_score": 90,
+    "notes": "Overall excellent OCR extraction with proper table structure and headers preserved. Minor issues include some questionable numeric values (e.g., very low calories like '1' for Lemon Herb Dressing, high carbs of '93g' for breakfast wrap) that may indicate OCR misreading. Table alignment and column headers are correctly maintained across all four sections (Fries, Dips + Spreads, Wraps, Dressings). Page indicator '13 of 41' properly captured."
+  },
+  "timestamp": "2026-04-13 02:08:34"
+}

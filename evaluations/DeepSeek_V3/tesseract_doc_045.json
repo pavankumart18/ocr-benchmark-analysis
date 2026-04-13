@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 0,
+    "numeric_precision": 50,
+    "layout_preservation": 10,
+    "completeness": 10,
+    "total_score": 19.5,
+    "notes": "Severe text inaccuracies, missing or garbled company name, address, and date. Numeric precision partially correct (total amount is close but not exact). Layout and structure are completely lost. Major sections missing or unreadable."
+  },
+  "timestamp": "2026-04-13 03:15:34"
+}

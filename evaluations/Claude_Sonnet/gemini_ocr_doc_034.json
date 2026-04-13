@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 40,
+    "numeric_precision": 88,
+    "layout_preservation": 35,
+    "completeness": 90,
+    "total_score": 68,
+    "notes": "Good text accuracy with proper company names and addresses. Numeric values appear correct. However, table structure is severely compromised - columns are not properly aligned and data flows together making it difficult to distinguish between fields. Layout preservation is poor due to collapsed table formatting, though all content appears to be captured."
+  },
+  "timestamp": "2026-04-13 02:00:57"
+}

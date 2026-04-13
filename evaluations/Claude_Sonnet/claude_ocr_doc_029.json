@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 88,
+    "completeness": 92,
+    "total_score": 82.85,
+    "notes": "Main issues: '1qck' should likely be '1000' or similar model number, and 'HO7CYSCQ' appears to have OCR confusion with similar characters. Table structure and checkmarks are well preserved, dates and most text are accurate."
+  },
+  "timestamp": "2026-04-13 02:08:07"
+}

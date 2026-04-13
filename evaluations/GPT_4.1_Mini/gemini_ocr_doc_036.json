@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 70,
+    "total_score": 78.25,
+    "notes": "Text is mostly accurate with minor formatting issues; no tables present so table structure score is zero; numeric data like date and square footage appear correct; layout mostly preserved but text cuts off mid-sentence indicating incomplete extraction."
+  },
+  "timestamp": "2026-04-13 02:17:24"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 50,
+    "numeric_precision": 100,
+    "layout_preservation": 70,
+    "completeness": 95,
+    "total_score": 79,
+    "notes": "Text accuracy is high with no obvious misspellings. Numeric precision is perfect. However, the OCR output fails to preserve the tabular structure of the 'Revenue by segment' section, presenting it as a continuous list rather than distinct columns for segment and value. The 'Revenue by geography' section is also not presented in a clear table format, though the values are correctly associated with their categories. Layout preservation suffers due to the lack of table structure and the way the 'Revenue by segment' is presented. Completeness is good, with only minor formatting elements potentially missing."
+  },
+  "timestamp": "2026-04-13 01:42:49"
+}

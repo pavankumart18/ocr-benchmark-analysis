@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 85,
+    "completeness": 70,
+    "total_score": 82,
+    "notes": "Text accuracy is good but has 'INHALERS' instead of 'INMATES' and 'relatively high' instead of 'significantly high'. Numeric precision is good, but some specific numbers from the ground truth's detailed description of previous studies are not present in the OCR output. Completeness is impacted by the OCR output cutting off mid-sentence and missing the 'Insights and Observations' section entirely. Layout is mostly preserved for the captured text, but the structured key details and insights are not present."
+  },
+  "timestamp": "2026-04-13 01:46:35"
+}

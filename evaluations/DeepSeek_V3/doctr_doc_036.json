@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 85,
+    "numeric_precision": 80,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 79.25,
+    "notes": "Text accuracy suffers from misspellings (e.g., 'Poad' instead of 'Road', 'Lalifornia' instead of 'California') and minor errors in dates ('20z4' instead of '2024'). Numeric precision has minor issues like '34 00' instead of '3400'. Layout and completeness are well-preserved with minor formatting errors."
+  },
+  "timestamp": "2026-04-13 03:06:17"
+}

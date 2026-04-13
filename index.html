@@ -97,8 +97,6 @@
       border: 3px solid var(--bs-body-bg);
     }
 
-    .speed-track { background: var(--bs-border-color); border-radius: 6px; height: 10px; overflow: hidden; }
-    .speed-fill  { height: 100%; border-radius: 6px; transition: width 0.8s ease; }
 
     .matrix-cell {
       min-width: 72px; text-align: center; font-size: 0.8rem;
@@ -156,6 +154,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <div class="ms-auto d-flex align-items-center gap-2">
+        <a class="btn btn-outline-light btn-sm" href="story.html">
+          <i class="bi bi-bar-chart-steps me-2"></i><span class="d-none d-lg-inline">Data Story</span><span class="d-lg-none">Story</span>
+        </a>
         <button class="btn btn-outline-light btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#methodologyModal">
           <i class="bi bi-journal-text me-2"></i><span class="d-none d-lg-inline">Evaluation Methodology</span><span class="d-lg-none">Methodology</span>
         </button>
@@ -181,7 +182,7 @@
 
   <div class="mx-auto my-3 text-center">
     <p class="text-muted">
-      This benchmark evaluates <strong>5 OCR models</strong> across <strong>25 financial documents</strong>,
+      This benchmark evaluates <strong>8 OCR models</strong> (5 local + 3 LLM-based) across <strong>50 financial documents</strong>,
       scored by an ensemble of <strong>5 vision AI judges</strong> on 5 weighted criteria.
     </p>
     <div class="alert alert-info d-inline-block px-4 py-2 small">
@@ -342,9 +343,9 @@
     <div class="d-flex flex-column gap-3">
       <div class="card insight-card">
         <div class="card-body">
-          <h5 class="card-title h6 mb-2"><i class="bi bi-shield-check me-2 text-primary"></i>Judges score consistently across all 5 OCR models</h5>
-          <p class="card-text small text-muted mb-2">Across 625 evaluations (5 judges × 5 models × 25 documents), judge scoring patterns are explained by two primary effects: the model's overall capability and the judge's inherent strictness. There is minimal evidence of a specific judge systematically favoring or penalizing a particular OCR engine.</p>
-          <p class="card-text small text-muted mb-0">In practice, judges agree strongly on relative model ordering — GLM-OCR consistently ranks first, EasyOCR last — even though their absolute score scales differ (some judges are harsher overall). This means the rankings are robust to evaluator choice.</p>
+          <h5 class="card-title h6 mb-2"><i class="bi bi-shield-check me-2 text-primary"></i>Judges score consistently across all 8 OCR models</h5>
+          <p class="card-text small text-muted mb-2">Across 2,000 evaluations (5 judges × 8 models × 50 documents), judge scoring patterns are explained by two primary effects: the model's overall capability and the judge's inherent strictness. There is minimal evidence of a specific judge systematically favoring or penalizing a particular OCR engine.</p>
+          <p class="card-text small text-muted mb-0">In practice, judges agree strongly on relative model ordering — LLM-based models (Gemini, GPT, Claude) generally outrank local models on complex layouts — even though their absolute score scales differ. This means the rankings are robust to evaluator choice.</p>
           <p class="small text-primary mt-2 mb-0"><strong>Why this matters:</strong> The final rankings reflect true model quality, not evaluator favoritism.</p>
         </div>
       </div>
@@ -359,7 +360,7 @@
       <div class="card insight-card">
         <div class="card-body">
           <h5 class="card-title h6 mb-2"><i class="bi bi-award me-2 text-primary"></i>Degraded scans surface the largest judge disagreements</h5>
-          <p class="card-text small text-muted mb-2">Judge consensus is tightest on clean SEC filing documents (small variance across judges) and loosest on degraded scans, where partially extracted text leaves more room for interpretation. On <code>doc_022</code>–<code>doc_025</code>, score variance across judges can exceed 15 points for weaker models.</p>
+          <p class="card-text small text-muted mb-2">Judge consensus is tightest on clean SEC filing documents (small variance across judges) and loosest on degraded scans, where partially extracted text leaves more room for interpretation. On <code>doc_041</code>–<code>doc_050</code>, score variance across judges can exceed 15 points for weaker models.</p>
           <p class="card-text small text-muted mb-0">For the most reliable single-judge evaluation, the judge with the most compressed scoring range on average is most consistent. However, for ranking purposes, averaging all 5 judges produces the lowest uncertainty and is the recommended aggregation method.</p>
           <p class="small text-primary mt-2 mb-0"><strong>Why this matters:</strong> Answers "which judge should I trust and why?" — use the ensemble average.</p>
         </div>
@@ -383,38 +384,14 @@
     <p class="text-muted small mb-3">Average score per model per document category. Highlights where each OCR engine excels or struggles.</p>
     <div class="table-responsive">
       <table class="table table-hover" id="category-table">
-        <thead class="table-dark">
+        <thead class="table-dark" id="category-head">
           <tr>
             <th>Category</th>
-            <th class="text-center">GLM-OCR</th>
-            <th class="text-center">docTR</th>
-            <th class="text-center">Docling</th>
-            <th class="text-center">Tesseract</th>
-            <th class="text-center">EasyOCR</th>
+            <!-- model headers injected by renderCategoryTable() -->
           </tr>
         </thead>
         <tbody id="category-body"></tbody>
       </table>
-    </div>
-  </section>
-
-  <!-- Speed Comparison -->
-  <section id="speed-section" class="mb-5">
-    <h2 class="h4 mb-3"><i class="bi bi-speedometer2 me-2"></i>Processing Speed</h2>
-    <p class="text-muted small mb-3">Average processing time per document (seconds). GLM-OCR processes via API (includes network latency); other models run locally on CPU.</p>
-    <div class="row g-4">
-      <div class="col-lg-5">
-        <div id="speed-bars" class="d-flex flex-column gap-3"></div>
-      </div>
-      <div class="col-lg-7">
-        <div class="alert alert-secondary small">
-          <i class="bi bi-info-circle me-2"></i>
-          <strong>Interpretation:</strong> Wall-clock time includes model loading, inference, and (for API models) network round-trips.
-          Local models like Tesseract and EasyOCR are fastest on simple documents but their speed advantage shrinks on complex multi-column layouts.
-          GLM-OCR's high latency is the cost of its vision-language API; it compensates with significantly higher accuracy on degraded and complex documents.
-        </div>
-        <div id="speed-stats" class="row g-2 mt-1"></div>
-      </div>
     </div>
   </section>
 
@@ -432,16 +409,12 @@
     </div>
     <div class="table-responsive">
       <table class="table table-sm table-hover" id="docs-table">
-        <thead class="table-dark">
+        <thead class="table-dark" id="docs-head">
           <tr>
             <th style="width:64px">Preview</th>
             <th>Doc</th>
             <th>Category</th>
-            <th class="text-center">GLM-OCR</th>
-            <th class="text-center">docTR</th>
-            <th class="text-center">Docling</th>
-            <th class="text-center">Tesseract</th>
-            <th class="text-center">EasyOCR</th>
+            <!-- model headers injected by renderDocsTable() -->
             <th class="text-center">Winner</th>
           </tr>
         </thead>
@@ -460,14 +433,14 @@
             <div class="step-num">1</div>
             <div class="card">
               <div class="card-body">
-                <h6 class="fw-bold"><i class="bi bi-collection-fill me-2 text-primary"></i>Collected 25 Diverse Financial Documents</h6>
-                <p class="text-muted small mb-2">Sourced from 5 public datasets: SROIE (receipts), MultiFin (SEC filings), Sujet (financial reports), Omni OCR Benchmark (general docs), and a set of deliberately degraded scans to stress-test robustness.</p>
+                <h6 class="fw-bold"><i class="bi bi-collection-fill me-2 text-primary"></i>Collected 50 Diverse Financial Documents</h6>
+                <p class="text-muted small mb-2">Sourced from 4 public datasets: SROIE (receipts), MultiFin (SEC filings), Sujet (financial reports), Omni OCR Benchmark (general docs), plus deliberately degraded scans to stress-test robustness.</p>
                 <div class="d-flex flex-wrap gap-2">
-                  <span class="badge bg-secondary">SROIE receipts ×6</span>
-                  <span class="badge bg-secondary">MultiFin SEC filings ×5</span>
+                  <span class="badge bg-secondary">SROIE receipts ×10</span>
+                  <span class="badge bg-secondary">MultiFin SEC filings ×10</span>
                   <span class="badge bg-secondary">Sujet financial ×5</span>
-                  <span class="badge bg-secondary">Omni general ×5</span>
-                  <span class="badge bg-secondary">Degraded scans ×4</span>
+                  <span class="badge bg-secondary">Omni general ×15</span>
+                  <span class="badge bg-secondary">Degraded scans ×10</span>
                 </div>
               </div>
             </div>
@@ -476,14 +449,17 @@
             <div class="step-num">2</div>
             <div class="card">
               <div class="card-body">
-                <h6 class="fw-bold"><i class="bi bi-cpu-fill me-2 text-success"></i>Ran 5 OCR Models on Each Document</h6>
-                <p class="text-muted small mb-2">Applied all 5 models to every document, capturing raw text output and recording wall-clock processing time. Total: 125 extractions.</p>
+                <h6 class="fw-bold"><i class="bi bi-cpu-fill me-2 text-success"></i>Ran 8 OCR Models on Each Document</h6>
+                <p class="text-muted small mb-2">Applied all 8 models to every document: 5 local engines + 3 LLM-based vision models via OpenRouter. Total: 400 extractions.</p>
                 <div class="d-flex flex-wrap gap-2">
                   <span class="badge bg-secondary">GLM-OCR (GLM-4V API)</span>
                   <span class="badge bg-secondary">docTR (Mindee)</span>
                   <span class="badge bg-secondary">Docling (IBM)</span>
                   <span class="badge bg-secondary">Tesseract 5</span>
                   <span class="badge bg-secondary">EasyOCR</span>
+                  <span class="badge" style="background:#4285f4">Gemini 3.1 Pro</span>
+                  <span class="badge" style="background:#10a37f">GPT-5.4</span>
+                  <span class="badge" style="background:#d97706">Claude Sonnet 4.6</span>
                 </div>
               </div>
             </div>
@@ -493,7 +469,7 @@
             <div class="card">
               <div class="card-body">
                 <h6 class="fw-bold"><i class="bi bi-chat-square-text-fill me-2 text-warning"></i>Sent Outputs to 5 Independent AI Judges</h6>
-                <p class="text-muted small mb-2">Each judge received the source image and OCR text, then scored 5 criteria (0–100). Using 5 independent judges reduces single-model bias and anchors rankings in consensus. Total: 625 evaluations.</p>
+                <p class="text-muted small mb-2">Each judge received the source image and OCR text, then scored 5 criteria (0–100). Using 5 independent judges reduces single-model bias and anchors rankings in consensus. Total: 2,000 evaluations (5 judges × 8 models × 50 documents).</p>
                 <div class="d-flex flex-wrap gap-2">
                   <span class="badge bg-secondary">Gemini 2.5 Flash</span>
                   <span class="badge bg-secondary">Claude Sonnet</span>
@@ -511,7 +487,7 @@
                 <h6 class="fw-bold"><i class="bi bi-bar-chart-fill me-2 text-info"></i>Aggregated Scores Across Judges</h6>
                 <p class="text-muted small mb-2">Final score per model–document pair = arithmetic mean across all 5 judges. Weighted total = 30% text accuracy + 25% table structure + 20% numeric precision + 15% layout + 10% completeness.</p>
                 <div class="d-flex flex-wrap gap-2">
-                  <span class="badge bg-secondary">625 evaluations</span>
+                  <span class="badge bg-secondary">2,000 evaluations</span>
                   <span class="badge bg-secondary">Mean aggregation</span>
                   <span class="badge bg-secondary">Weighted scoring</span>
                   <span class="badge bg-secondary">Category breakdowns</span>
@@ -605,15 +581,15 @@ layout_preservation, completeness, total_score (weighted sum), notes (brief expl
 
           <h6 class="fw-bold">Test Documents (25 total)</h6>
           <ul class="small text-muted">
-            <li><strong>invoice_receipt (6)</strong> — SROIE: real-world retail receipt images</li>
-            <li><strong>sec_filing (5)</strong> — MultiFin: scanned SEC 10-K and 10-Q pages</li>
+            <li><strong>invoice_receipt (10)</strong> — SROIE: real-world retail receipt images</li>
+            <li><strong>sec_filing (10)</strong> — MultiFin: scanned SEC 10-K and 10-Q pages</li>
             <li><strong>financial_mixed (5)</strong> — Sujet: mixed financial statement images</li>
-            <li><strong>general_doc (5)</strong> — Omni OCR Benchmark: varied document types</li>
-            <li><strong>degraded_scan (4)</strong> — SROIE receipts with added blur, noise, and compression</li>
+            <li><strong>general_doc (15)</strong> — Omni OCR Benchmark: varied document types</li>
+            <li><strong>degraded_scan (10)</strong> — SROIE receipts with added blur, noise, and compression</li>
           </ul>
 
           <h6 class="fw-bold mt-3">Aggregation Method</h6>
-          <p class="small text-muted">Final score per model–document pair = arithmetic mean of <code>total_score</code> across all 5 judges. Category averages pool all documents of that type. Overall model score = unweighted mean across all 25 documents.</p>
+          <p class="small text-muted">Final score per model–document pair = arithmetic mean of <code>total_score</code> across all 5 judges. Category averages pool all documents of that type. Overall model score = unweighted mean across all 50 documents.</p>
 
           <h6 class="fw-bold mt-3">Scoring Rubric</h6>
           <table class="table table-sm small">
@@ -638,7 +614,7 @@ layout_preservation, completeness, total_score (weighted sum), notes (brief expl
 
 <footer class="bg-body-tertiary py-4 mt-5">
   <div class="container text-center text-muted">
-    <p class="mb-0">Financial Document OCR Benchmark &bull; April 2026 &bull; 5 models &times; 25 documents &times; 5 judges &bull; 625 evaluations</p>
+    <p class="mb-0">Financial Document OCR Benchmark &bull; April 2026 &bull; 8 models &times; 50 documents &times; 5 judges &bull; 2,000 evaluations</p>
   </div>
 </footer>
 
@@ -683,9 +659,25 @@ layout_preservation, completeness, total_score (weighted sum), notes (brief expl
 </script>
 <script>
 // ── Constants ─────────────────────────────────────────────
-const MODELS      = ['glm_ocr','doctr','docling','tesseract','easyocr'];
-const MODEL_NAMES = { glm_ocr:'GLM-OCR', doctr:'docTR', docling:'Docling', tesseract:'Tesseract', easyocr:'EasyOCR' };
-const MODEL_COLORS= { glm_ocr:'#0d6efd', doctr:'#198754', docling:'#ffc107', tesseract:'#fd7e14', easyocr:'#dc3545' };
+const MODELS      = ['glm_ocr','doctr','docling','tesseract','easyocr','gemini_ocr','gpt_ocr','claude_ocr'];
+const MODEL_NAMES = {
+  glm_ocr:    'GLM-OCR',
+  doctr:      'docTR',
+  docling:    'Docling',
+  tesseract:  'Tesseract',
+  easyocr:    'EasyOCR',
+  gemini_ocr: 'Gemini 3.1 Pro',
+  gpt_ocr:    'GPT-5.4',
+  claude_ocr: 'Claude Sonnet 4.6',
+};
+const MODEL_TYPE  = {
+  glm_ocr:'local', doctr:'local', docling:'local', tesseract:'local', easyocr:'local',
+  gemini_ocr:'llm', gpt_ocr:'llm', claude_ocr:'llm',
+};
+const MODEL_COLORS= {
+  glm_ocr:'#0d6efd', doctr:'#198754', docling:'#ffc107', tesseract:'#fd7e14', easyocr:'#dc3545',
+  gemini_ocr:'#4285f4', gpt_ocr:'#10a37f', claude_ocr:'#d97706',
+};
 const JUDGES      = ['Gemini_Flash','Claude_Sonnet','GPT_4.1_Mini','Qwen_2.5_VL_72B','DeepSeek_V3'];
 const JUDGE_NAMES = {
   'Gemini_Flash':    'Gemini 2.5 Flash',
@@ -700,7 +692,7 @@ const CRITERIA   = ['text_accuracy','table_structure','numeric_precision','layou
 const CRIT_SHORT = { text_accuracy:'Text Acc.', table_structure:'Table', numeric_precision:'Numeric', layout_preservation:'Layout', completeness:'Complete' };
 const CRIT_FULL  = { text_accuracy:'Text Accuracy', table_structure:'Table Structure', numeric_precision:'Numeric Precision', layout_preservation:'Layout Preservation', completeness:'Completeness' };
 const CAT_LABELS = { invoice_receipt:'Receipts', sec_filing:'SEC Filings', financial_mixed:'Financial Mixed', general_doc:'General Docs', degraded_scan:'Degraded Scans' };
-const RANK_MEDALS= ['🥇','🥈','🥉','4th','5th'];
+const RANK_MEDALS= ['🥇','🥈','🥉','4th','5th','6th','7th','8th'];
 
 // ── State ─────────────────────────────────────────────────
 let bench = null, extraction = null, manifest = null;
@@ -735,20 +727,56 @@ function docImagePath(manifestPath) {
   return manifestPath.replace('/home/pavan-kumar/ocr-benchmark/', '');
 }
 
-// ── Score helpers ─────────────────────────────────────────
-function scoreBg(v) {
-  if (v == null) return '';
-  if (v >= 80) return 'bg-success bg-opacity-25 text-success-emphasis';
-  if (v >= 60) return 'bg-warning bg-opacity-25 text-warning-emphasis';
-  return 'bg-danger bg-opacity-25 text-danger-emphasis';
+// ── True D3 RdYlGn colour scale (11-stop ColorBrewer palette) ────────────────
+// Stops from d3-scale-chromatic interpolateRdYlGn, t ∈ [0,1]
+const RDYLGN = [
+  [165,  0, 38],  // 0.0  #a50026
+  [215, 48, 39],  // 0.1  #d73027
+  [244,109, 67],  // 0.2  #f46d43
+  [253,174, 97],  // 0.3  #fdae61
+  [254,224,139],  // 0.4  #fee08b
+  [255,255,191],  // 0.5  #ffffbf
+  [217,239,139],  // 0.6  #d9ef8b
+  [166,217,106],  // 0.7  #a6d96a
+  [102,189, 99],  // 0.8  #66bd63
+  [ 26,152, 80],  // 0.9  #1a9850
+  [  0,104, 55],  // 1.0  #006837
+];
+// t is already 0–1 (column-normalised by caller)
+function scoreColor(t) {
+  const tc = Math.max(0, Math.min(1, t));
+  const pos = tc * (RDYLGN.length - 1);
+  const lo  = Math.floor(pos), hi = Math.min(lo + 1, RDYLGN.length - 1);
+  const frac = pos - lo;
+  const [r0,g0,b0] = RDYLGN[lo], [r1,g1,b1] = RDYLGN[hi];
+  const r = Math.round(r0 + frac*(r1-r0));
+  const g = Math.round(g0 + frac*(g1-g0));
+  const b = Math.round(b0 + frac*(b1-b0));
+  return `rgba(${r},${g},${b},0.38)`;
 }
-// scoreCell — v: number|null, extra: extra td classes, ctx: proof context object|null
-function scoreCell(v, extra='', ctx=null) {
+function scoreTextColor(t) {
+  if (t >= 0.65) return 'var(--bs-success-text-emphasis, #0f5132)';
+  if (t >= 0.40) return 'var(--bs-warning-text-emphasis, #664d03)';
+  return 'var(--bs-danger-text-emphasis, #842029)';
+}
+// colNorm(vals) → function(v) → 0-1 position within column's [min,max]
+// When all values are equal the column is neutral (t=0.5).
+function colNorm(vals) {
+  const valid = vals.filter(v => v != null && v >= 0);
+  const lo = valid.length ? Math.min(...valid) : 0;
+  const hi = valid.length ? Math.max(...valid) : 100;
+  return v => (v == null || v < 0) ? null : (hi === lo ? 0.5 : (v - lo) / (hi - lo));
+}
+// scoreCell — v: raw score, t: column-normalised 0-1 (from colNorm), extra, ctx
+function scoreCell(v, extra='', ctx=null, t=null) {
   if (v == null) return `<td class="score-cell text-muted ${extra}" data-val="-1">—</td>`;
+  const norm = t !== null ? t : v / 100;
   const inner = ctx
     ? `<span class="proof-num" onclick="event.stopPropagation();showProof(${reg(ctx)})" title="Click to see evidence">${v.toFixed(1)}</span>`
     : v.toFixed(1);
-  return `<td class="score-cell ${scoreBg(v)} ${extra}" data-val="${v}">${inner}</td>`;
+  const bg = scoreColor(norm);
+  const fg = scoreTextColor(norm);
+  return `<td class="score-cell ${extra}" data-val="${v}" style="background:${bg};color:${fg}">${inner}</td>`;
 }
 
 // ── Generic table sort ────────────────────────────────────
@@ -806,7 +834,6 @@ function tdVal(row, ci) {
   renderJudgeMatrix();
   renderFindings();
   renderCategoryTable();
-  renderSpeedSection();
   renderDocsTable();
 })();
 
@@ -876,22 +903,31 @@ function renderJudgesList() {
 
 // ── Rankings table ────────────────────────────────────────
 function renderRankings() {
-  const allScores = bench.model_rankings.map(r => r.avg_total_score);
+  const rnk = bench.model_rankings;
+  // Per-column normaliser for each displayed column
+  const normTotal = colNorm(rnk.map(r => r.avg_total_score));
+  const normCrit  = {};
+  CRITERIA.forEach(c => { normCrit[c] = colNorm(rnk.map(r => r.criterion_averages[c])); });
+
+  const allScores = rnk.map(r => r.avg_total_score);
   const maxS = Math.max(...allScores), minS = Math.min(...allScores);
-  document.getElementById('summary-body').innerHTML = bench.model_rankings.map((r,i) => {
+  document.getElementById('summary-body').innerHTML = rnk.map((r,i) => {
     const ca = r.criterion_averages;
     const m  = r.model;
     const rankClass = i < 3 ? `rank-${i+1}` : '';
     const isMax = r.avg_total_score === maxS, isMin = r.avg_total_score === minS;
     return `<tr class="${rankClass}" data-val="${r.avg_total_score}">
       <td class="fw-semibold" data-val="${i+1}">${RANK_MEDALS[i]}</td>
-      <td data-val="${MODEL_NAMES[m]}"><strong>${MODEL_NAMES[m]}</strong></td>
-      ${scoreCell(r.avg_total_score, isMax?'score-best':isMin?'score-worst':'', {type:'model-avg', model:m})}
-      ${scoreCell(ca.text_accuracy,       '', {type:'model-criterion', model:m, criterion:'text_accuracy'})}
-      ${scoreCell(ca.table_structure,     '', {type:'model-criterion', model:m, criterion:'table_structure'})}
-      ${scoreCell(ca.numeric_precision,   '', {type:'model-criterion', model:m, criterion:'numeric_precision'})}
-      ${scoreCell(ca.layout_preservation, '', {type:'model-criterion', model:m, criterion:'layout_preservation'})}
-      ${scoreCell(ca.completeness,        '', {type:'model-criterion', model:m, criterion:'completeness'})}
+      <td data-val="${MODEL_NAMES[m]}">
+        <strong>${MODEL_NAMES[m]}</strong>
+        ${MODEL_TYPE[m]==='llm' ? '<span class="badge ms-1" style="background:#6f42c1;font-size:.6rem">LLM</span>' : ''}
+      </td>
+      ${scoreCell(r.avg_total_score, isMax?'score-best':isMin?'score-worst':'', {type:'model-avg', model:m}, normTotal(r.avg_total_score))}
+      ${scoreCell(ca.text_accuracy,       '', {type:'model-criterion', model:m, criterion:'text_accuracy'},       normCrit.text_accuracy(ca.text_accuracy))}
+      ${scoreCell(ca.table_structure,     '', {type:'model-criterion', model:m, criterion:'table_structure'},     normCrit.table_structure(ca.table_structure))}
+      ${scoreCell(ca.numeric_precision,   '', {type:'model-criterion', model:m, criterion:'numeric_precision'},   normCrit.numeric_precision(ca.numeric_precision))}
+      ${scoreCell(ca.layout_preservation, '', {type:'model-criterion', model:m, criterion:'layout_preservation'}, normCrit.layout_preservation(ca.layout_preservation))}
+      ${scoreCell(ca.completeness,        '', {type:'model-criterion', model:m, criterion:'completeness'},        normCrit.completeness(ca.completeness))}
     </tr>`;
   }).join('');
   makeSortable(document.getElementById('summary-table'));
@@ -913,19 +949,31 @@ function renderJudgeMatrix() {
     return;
   }
 
-  body.innerHTML = judgeKeys.map(j => {
+  // Per-column normaliser: each model column normalised across all judges
+  const normByModel = {};
+  MODELS.forEach(m => {
+    normByModel[m] = colNorm(judgeKeys.map(j => judgeModelMatrix[j]?.[m] ?? null));
+  });
+  const judgeAvgs = judgeKeys.map(j => {
+    const vals = MODELS.map(m => judgeModelMatrix[j]?.[m]).filter(v => v != null);
+    return vals.length ? vals.reduce((a,b)=>a+b,0)/vals.length : null;
+  });
+  const normJudgeAvg = colNorm(judgeAvgs);
+
+  body.innerHTML = judgeKeys.map((j, ji) => {
     const modelScores = MODELS.map(m => judgeModelMatrix[j]?.[m] ?? null);
     const valid = modelScores.filter(s => s != null);
-    const judgeAvg = valid.length ? valid.reduce((a,b)=>a+b,0)/valid.length : null;
+    const judgeAvg = judgeAvgs[ji];
     const maxV = valid.length ? Math.max(...valid) : null;
     const minV = valid.length ? Math.min(...valid) : null;
     return `<tr>
       <td class="fw-semibold small" data-val="${JUDGE_NAMES[j]||j}">${JUDGE_NAMES[j]||j.replace(/_/g,' ')}</td>
       ${modelScores.map((s,mi) => scoreCell(
           s, `matrix-cell ${s===maxV?'score-best':s===minV&&minV!==maxV?'score-worst':''}`,
-          {type:'judge-model', judge:j, model:MODELS[mi]}
+          {type:'judge-model', judge:j, model:MODELS[mi]},
+          normByModel[MODELS[mi]](s)
         )).join('')}
-      ${scoreCell(judgeAvg, 'matrix-cell')}
+      ${scoreCell(judgeAvg, 'matrix-cell', null, normJudgeAvg(judgeAvg))}
     </tr>`;
   }).join('') + `
   <tr data-nosort style="border-top:2px solid var(--bs-border-color)">
@@ -933,7 +981,7 @@ function renderJudgeMatrix() {
     ${MODELS.map(m => {
       const r = bench.model_rankings.find(r=>r.model===m);
       return scoreCell(r?.avg_total_score ?? null, 'matrix-cell fw-bold',
-        {type:'model-avg', model:m});
+        {type:'model-avg', model:m}, normByModel[m](r?.avg_total_score));
     }).join('')}
     <td class="matrix-cell score-cell">—</td>
   </tr>`;
@@ -943,19 +991,32 @@ function renderJudgeMatrix() {
 // ── Key Findings ──────────────────────────────────────────
 function renderFindings() {
   document.getElementById('key-findings-list').innerHTML = [
-    `<strong>GLM-OCR dominates with 85.1 overall average</strong> — leads docTR by 7.7 points. Its vision-language architecture understands document context rather than just recognising pixel patterns, giving it an edge on degraded and complex layouts.`,
-    `<strong>Tesseract achieves 98.1 on SEC filings</strong> — the highest single-category score of any model. Clean typeset text plays to Tesseract's LSTM strengths, but its advantage evaporates on financial_mixed documents (31.0).`,
-    `<strong>Degraded scans expose a 68-point performance gap</strong> — EasyOCR scores only 16.1 on degraded documents while GLM-OCR holds at 84.8. This is the single largest performance differentiator across all model–category combinations.`,
-    `<strong>Financial mixed documents are the hardest category for every model</strong> — all five models score below their overall average on financial_mixed, with Tesseract dropping 32.9 points below its SEC filing peak.`,
-    `<strong>Numeric precision is the highest-scoring criterion across all models</strong> — EasyOCR scores 68.1 on numeric precision even though its overall average is only 55.5. Digit recognition is more reliable than full character recognition.`,
-    `<strong>Docling and Tesseract tie at 63.9 overall but have opposite strengths</strong> — Tesseract excels on clean SEC filings (98.1 vs 74.5) while Docling edges ahead on general documents (72.8 vs 67.6).`,
+    `<strong>LLM-based models sweep the top 3</strong> — Claude Sonnet 4.6 (88.9), GPT-5.4 (86.6), and GLM-OCR (84.5) lead all local engines by a large margin, confirming that vision-language models understand document context rather than just recognising pixel patterns.`,
+    `<strong>Claude Sonnet 4.6 leads on degraded scans (86.1)</strong> — the hardest category — while GLM-OCR leads on receipt and financial mixed documents (91.0 and 82.9). No single model dominates every category.`,
+    `<strong>GPT-5.4 tops SEC filings at 97.1</strong> — the highest single-category score across all 8 models. Clean typeset financial text plays to GPT's strengths, but local engines struggle significantly on the same category (Tesseract: 53.2).`,
+    `<strong>Numeric precision is the highest-scoring criterion for every model</strong> — Claude reaches 95.4 and even EasyOCR scores 63.8 on numeric precision, well above its 52.0 overall average. Digit recognition is consistently more reliable than full-text extraction.`,
+    `<strong>EasyOCR scores only 19.5 on financial mixed documents</strong> — the largest single-category gap in the benchmark. Financial mixed documents remain the hardest category for all models, with every model scoring below its overall average on this type.`,
+    `<strong>Gemini 3.1 Pro underperforms vs Claude and GPT on completeness (71.8)</strong> — despite strong text accuracy (85.9), it consistently misses content on longer documents, creating a 17-point gap to Claude Sonnet 4.6's completeness score.`,
   ].map(f => `<li class="mb-2 small">${f}</li>`).join('');
 }
 
 // ── Category table ────────────────────────────────────────
 function renderCategoryTable() {
+  // Inject header dynamically so it always matches MODELS
+  document.getElementById('category-head').innerHTML = `<tr>
+    <th>Category</th>
+    ${MODELS.map(m => `<th class="text-center">${MODEL_NAMES[m]}${MODEL_TYPE[m]==='llm'?'<br><span style="font-size:.6rem;font-weight:400;opacity:.7">LLM</span>':''}</th>`).join('')}
+  </tr>`;
+
   const cb = bench.category_breakdown;
   const cats = ['invoice_receipt','sec_filing','financial_mixed','general_doc','degraded_scan'];
+  // Per-column normaliser: each model column normalised across all categories
+  const normByModelCat = {};
+  MODELS.forEach(m => {
+    normByModelCat[m] = colNorm(cats.map(cat => cb[m]?.[cat] ?? null));
+  });
+  const normByModelAvg = colNorm(MODELS.map(m => bench.model_rankings.find(r=>r.model===m)?.avg_total_score ?? null));
+
   document.getElementById('category-body').innerHTML = cats.map(cat => {
     const scores = MODELS.map(m => cb[m]?.[cat] ?? null);
     const valid  = scores.filter(s => s != null);
@@ -965,7 +1026,8 @@ function renderCategoryTable() {
       <td data-val="${CAT_LABELS[cat]}"><span class="category-pill cat-${cat}">${CAT_LABELS[cat]}</span></td>
       ${scores.map((s,mi) => scoreCell(
           s, `text-center ${s===maxV?'score-best':s===minV&&minV!==maxV?'score-worst':''}`,
-          {type:'model-category', model:MODELS[mi], category:cat}
+          {type:'model-category', model:MODELS[mi], category:cat},
+          normByModelCat[MODELS[mi]](s)
         )).join('')}
     </tr>`;
   }).join('') + `<tr data-nosort style="border-top:2px solid var(--bs-border-color)">
@@ -973,46 +1035,33 @@ function renderCategoryTable() {
     ${MODELS.map(m => {
       const r = bench.model_rankings.find(r=>r.model===m);
       return scoreCell(r?.avg_total_score ?? null, 'text-center fw-bold',
-        {type:'model-avg', model:m});
+        {type:'model-avg', model:m}, normByModelAvg(r?.avg_total_score ?? null));
     }).join('')}
   </tr>`;
   makeSortable(document.getElementById('category-table'));
 }
 
-// ── Speed section ─────────────────────────────────────────
-function renderSpeedSection() {
-  const sums={}, counts={};
-  MODELS.forEach(m => { sums[m]=0; counts[m]=0; });
-  for (const e of extraction)
-    if (sums.hasOwnProperty(e.model)) { sums[e.model]+=e.processing_time_seconds; counts[e.model]++; }
-  const avgs = MODELS.map(m => counts[m] ? +(sums[m]/counts[m]).toFixed(2) : 0);
-  const maxT = Math.max(...avgs);
-
-  document.getElementById('speed-bars').innerHTML = MODELS.map((m,i) => `
-    <div>
-      <div class="d-flex justify-content-between mb-1">
-        <span class="small fw-semibold">${MODEL_NAMES[m]}</span>
-        <span class="small text-muted">${avgs[i]}s avg / doc</span>
-      </div>
-      <div class="speed-track">
-        <div class="speed-fill" style="width:${maxT>0?(avgs[i]/maxT*100).toFixed(0):0}%;background:${MODEL_COLORS[m]}"></div>
-      </div>
-    </div>`).join('');
-
-  document.getElementById('speed-stats').innerHTML = MODELS.map((m,i) => `
-    <div class="col-6 col-md-4">
-      <div class="card text-center">
-        <div class="card-body py-2 px-3">
-          <div class="fw-bold" style="color:${MODEL_COLORS[m]}">${MODEL_NAMES[m]}</div>
-          <div class="h5 mb-0 fw-bold">${avgs[i]}s</div>
-          <div class="small text-muted">avg / doc</div>
-        </div>
-      </div>
-    </div>`).join('');
-}
-
 // ── Per-document table ────────────────────────────────────
 function renderDocsTable() {
+  // Inject model column headers dynamically
+  const docsHeadRow = document.querySelector('#docs-head tr');
+  // Remove existing model headers (between Category and Winner)
+  const allThs = [...docsHeadRow.querySelectorAll('th')];
+  allThs.slice(3, allThs.length - 1).forEach(th => th.remove());
+  const winnerTh = docsHeadRow.querySelector('th:last-child');
+  MODELS.slice().reverse().forEach(m => {
+    const th = document.createElement('th');
+    th.className = 'text-center';
+    th.innerHTML = MODEL_NAMES[m] + (MODEL_TYPE[m]==='llm' ? '<br><span style="font-size:.6rem;font-weight:400;opacity:.7">LLM</span>' : '');
+    docsHeadRow.insertBefore(th, winnerTh);
+  });
+
+  // Per-column normaliser: each model column normalised across all 50 documents
+  const normByModelDoc = {};
+  MODELS.forEach(m => {
+    normByModelDoc[m] = colNorm(manifest.map(doc => docScoreMap[doc.doc_id]?.[m]?.total_score ?? null));
+  });
+
   document.getElementById('docs-body').innerHTML = manifest.map(doc => {
     const scores  = MODELS.map(m => docScoreMap[doc.doc_id]?.[m]?.total_score ?? null);
     const valid   = scores.filter(s=>s!=null);
@@ -1033,7 +1082,8 @@ function renderDocsTable() {
       <td data-val="${doc.category}"><span class="category-pill cat-${doc.category}">${CAT_LABELS[doc.category]}</span></td>
       ${scores.map((s,mi) => scoreCell(
           s, `text-center ${s===maxV?'score-best':s===minV&&minV!==maxV?'score-worst':''}`,
-          {type:'doc-model', docId:doc.doc_id, model:MODELS[mi]}
+          {type:'doc-model', docId:doc.doc_id, model:MODELS[mi]},
+          normByModelDoc[MODELS[mi]](s)
         )).join('')}
       <td class="text-center small" data-val="${winnerM||''}">${winnerM?`<span class="winner-badge">⭐</span> ${MODEL_NAMES[winnerM]}`:'—'}</td>
     </tr>`;

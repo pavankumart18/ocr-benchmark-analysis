@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 80,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 81.25,
+    "notes": "Overall good text capture with minor inconsistencies such as 'Fries Dips + Spreads Wraps Dressings' header lacking clear separation. Some numeric values appear swapped or inconsistent (e.g., 'Seasoned Fries' calories and calories from fat). Table columns mostly aligned but some rows have misaligned or suspicious values (e.g., 'Spicy Fries' calories 400 but calories from fat 144, which seems inconsistent). Layout preserves sections but headers are merged without clear breaks. No major missing text."
+  },
+  "timestamp": "2026-04-13 02:10:04"
+}

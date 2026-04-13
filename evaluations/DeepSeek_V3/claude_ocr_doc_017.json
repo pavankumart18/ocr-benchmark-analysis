@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 98.45,
+    "notes": "The OCR output is nearly identical to the ground truth with only minor formatting differences (e.g., spacing after section headers). No substantive errors or omissions were found."
+  },
+  "timestamp": "2026-04-13 03:35:37"
+}

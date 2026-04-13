@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 85,
+    "layout_preservation": 55,
+    "completeness": 70,
+    "total_score": 63.75,
+    "notes": "Company name mostly correct but OCR includes extra unrelated text and some misspellings (e.g., 'bnd' vs 'bhd'). Address mostly accurate but split into multiple lines and some minor casing inconsistencies. Date matches exactly. Total amount matches exactly. Table structure poorly preserved; item rows and columns are present but not clearly aligned or labeled as in ground truth. Layout is cluttered with unrelated text and reading order is disrupted. Some key fields like company name and address are present but mixed with extraneous content, reducing completeness."
+  },
+  "timestamp": "2026-04-13 02:12:00"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 60,
+    "completeness": 90,
+    "total_score": 67,
+    "notes": "The text accuracy is generally good with only minor issues like 'up\u2019 ptime' instead of 'Uptime'. However, the OCR completely failed to recognize the bar chart as a table or structured data, instead extracting it as a continuous block of text. This significantly impacts table structure and layout preservation. Numeric precision is good for the numbers extracted, but many numbers within the bar chart were not extracted in a structured way. Completeness is fair, as most text is present, but the visual representation of data is lost."
+  },
+  "timestamp": "2026-04-13 01:40:14"
+}

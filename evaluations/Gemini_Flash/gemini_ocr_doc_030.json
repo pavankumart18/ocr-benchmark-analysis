@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 85,
+    "completeness": 60,
+    "total_score": 79,
+    "notes": "Text accuracy is high for the captured text. However, the table structure is partially preserved; while the header row is good, only one data row is present, and it's incomplete. Numeric precision is good for the numbers that are present. Layout preservation is decent for the captured content. Completeness is low because only one row of the table data was extracted, and even that row is missing several columns."
+  },
+  "timestamp": "2026-04-13 01:42:57"
+}

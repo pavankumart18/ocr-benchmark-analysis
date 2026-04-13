@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 60,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 64.75,
+    "notes": "Significant OCR errors in names, addresses, and some words (e.g., 'ozs-os -11', 'Lalif\u3002ruia', 'Le wke Yxc'). Numeric values mostly correct but some date formats and terms are garbled or inconsistent. No clear tables present, but numeric alignment and structure are poor. Layout and section headers mostly preserved, though some lines are repeated or truncated. Most visible text captured, minor missing or repeated fragments."
+  },
+  "timestamp": "2026-04-13 02:12:35"
+}

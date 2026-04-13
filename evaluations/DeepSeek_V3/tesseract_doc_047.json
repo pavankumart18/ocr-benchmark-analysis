@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 100,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 71.5,
+    "notes": "Text accuracy suffers from minor typos (e.g., 'JSLAN' instead of 'JALAN'). Table structure is disrupted by extra lines and misalignment. Numeric precision is perfect. Layout is messy with unordered sections. Most ground truth text is captured, but some irrelevant content is included."
+  },
+  "timestamp": "2026-04-13 03:15:45"
+}

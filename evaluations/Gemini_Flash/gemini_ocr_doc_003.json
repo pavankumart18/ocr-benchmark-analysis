@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 100,
+    "numeric_precision": 0,
+    "layout_preservation": 80,
+    "completeness": 40,
+    "total_score": 58.5,
+    "notes": "The OCR output correctly extracted the company name and address with high text accuracy. However, it completely missed the date and total amount, leading to very low scores in numeric precision and completeness. The layout of the extracted address is preserved well, but the additional text at the beginning and end of the OCR output indicates some layout issues."
+  },
+  "timestamp": "2026-04-13 01:41:55"
+}

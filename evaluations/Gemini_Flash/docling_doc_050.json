@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87,
+    "notes": "The OCR output correctly identified most of the key fields. There was a minor misspelling in 'Peta1ing' instead of 'Petaling' in the address. The date and total were extracted perfectly. The overall structure and completeness were good, with all required fields present."
+  },
+  "timestamp": "2026-04-13 01:39:44"
+}

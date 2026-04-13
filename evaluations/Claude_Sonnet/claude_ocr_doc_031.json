@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.5,
+    "notes": "Minor spelling error 'Contruction' instead of 'Construction' appears twice. Table structure and numeric values are well preserved. Chart data and statistics are accurately captured. Layout flows logically with proper section organization."
+  },
+  "timestamp": "2026-04-13 02:08:16"
+}

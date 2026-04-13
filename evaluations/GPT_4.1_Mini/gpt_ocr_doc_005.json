@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 40,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 77.25,
+    "notes": "Company name mostly correct; address has errors in lot numbers (1051 vs 1851). Date and total amount match exactly. Table structure is poor as the OCR output includes many extra product lines not in ground truth and no clear tabular format for the ground truth fields. Layout is mostly preserved but extra unrelated text and product details reduce clarity. Overall, most ground truth text is present but with notable address errors and extraneous content."
+  },
+  "timestamp": "2026-04-13 02:18:15"
+}

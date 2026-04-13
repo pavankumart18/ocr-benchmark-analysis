@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 60,
+    "total_score": 76.5,
+    "notes": "Good text accuracy with minor name variations (e.g., 'Bergnaum I' likely incorrect). Table structure partially preserved but columns not properly aligned. Currency amounts and ID numbers appear accurate. Several consultant rows are incomplete with missing financial data, significantly impacting completeness score."
+  },
+  "timestamp": "2026-04-13 01:48:49"
+}

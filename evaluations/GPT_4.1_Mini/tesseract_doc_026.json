@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 67.75,
+    "notes": "Several OCR errors in nation names and abbreviations (e.g., '@im Australia', 'EB Italy', 'Ed Switzerland', 'Ef France'), misplaced or incorrect punctuation in medal counts (e.g., '0)' instead of '0'), inconsistent use of parentheses, and some extraneous characters. Table columns are mostly preserved but alignment and formatting of numbers and symbols are inconsistent. Numeric values mostly correct but punctuation errors affect clarity. Reading order is mostly maintained, and all rows appear present."
+  },
+  "timestamp": "2026-04-13 02:13:23"
+}

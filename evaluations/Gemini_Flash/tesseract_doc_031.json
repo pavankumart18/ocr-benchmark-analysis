@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 65,
+    "completeness": 85,
+    "total_score": 72,
+    "notes": "Text accuracy is fair, with some misspellings like 'Contruction' instead of 'Construction' and 'Permits Filed' being split from the header. The table structure is significantly compromised by the inclusion of what appears to be a bar chart's labels and values directly within the text flow, making it difficult to discern the actual table data from the chart data. Numeric precision is generally good for the main table, but the chart numbers are mixed in. Layout preservation is poor due to the intermingling of table and chart data. Completeness is decent, as most visible text is captured, but the chart's visual representation is lost and its data is poorly integrated."
+  },
+  "timestamp": "2026-04-13 01:39:59"
+}

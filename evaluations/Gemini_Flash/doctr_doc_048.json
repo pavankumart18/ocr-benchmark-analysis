@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 65.5,
+    "notes": "The OCR output correctly identified most of the text for 'company', 'date', 'address', and 'total'. However, 'company' has 'SON, BHO.' instead of 'SDN. BHD.' and is split across two lines. The 'address' is mostly correct but misses the 'NO.' prefix. The 'total' and 'date' are accurate. Table structure is not applicable as the ground truth is a JSON object, not a table. Layout preservation is fair as the key information is present but not perfectly grouped as in the ground truth JSON structure. Completeness is good as most required fields are present."
+  },
+  "timestamp": "2026-04-13 01:38:38"
+}

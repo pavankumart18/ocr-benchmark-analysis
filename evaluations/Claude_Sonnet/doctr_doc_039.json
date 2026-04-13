@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 45,
+    "numeric_precision": 85,
+    "layout_preservation": 40,
+    "completeness": 60,
+    "total_score": 62.5,
+    "notes": "Major issues include: misspelled names (Bergnaum instead of likely Bergmann), poor table structure with misaligned columns and missing data, incomplete rows for several consultants with no financial data, and poor layout preservation making the table difficult to read. However, numeric values and currency amounts appear accurate where present."
+  },
+  "timestamp": "2026-04-13 01:50:50"
+}

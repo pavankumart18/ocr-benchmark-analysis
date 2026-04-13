@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 95,
+    "numeric_precision": 95,
+    "layout_preservation": 95,
+    "completeness": 98,
+    "total_score": 93.75,
+    "notes": "Minor OCR errors like '15261im' instead of '1526lm', '4000K' instead of '4000K', '180\u00b0' instead of '180\u00b0', '32\u00b0C to 8\u00b0C' instead of '-32\u00b0C to 8\u00b0C', '5y years' instead of '5 years', 'High-efficiencyl' instead of 'High-efficiency', 'compacts' instead of 'compact', '3y years' instead of '3 years', 'professional-gradel' instead of 'professional-grade', 'commercial andi industrial' instead of 'commercial and industrial'. The table structure is well-preserved, and numeric data is mostly accurate with a few minor character recognition issues."
+  },
+  "timestamp": "2026-04-13 01:37:45"
+}

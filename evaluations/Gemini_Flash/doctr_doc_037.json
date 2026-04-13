@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 98,
+    "total_score": 95.25,
+    "notes": "Minor issues include 'UPTIMEI INSTITUTE GLOBAL: SURVEY OFI IT AND DATA CENTERI MANAGERS: 2024' which has extra 'I' characters and a colon instead of a space. Also, 'energy.performance: for IT' has a period and colon instead of a space. The table structure is mostly good, but the alignment of the percentages could be slightly better for a perfect score. All numerical values are correct."
+  },
+  "timestamp": "2026-04-13 01:38:09"
+}

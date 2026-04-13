@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 88,
+    "notes": "Text accuracy is good, with minor discrepancies like 'BAHRI' instead of 'BAHRU' and missing punctuation in the address. Numeric precision is high, with only a slight difference in the total (80.91 vs 80.90 in the OCR output before rounding). Completeness is good, all required fields are present. Table structure and layout preservation are also well maintained."
+  },
+  "timestamp": "2026-04-13 01:37:21"
+}

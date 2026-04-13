@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 40,
+    "layout_preservation": 20,
+    "completeness": 30,
+    "total_score": 25.25,
+    "notes": "Severely garbled OCR output with extensive character corruption throughout. Geographic revenue section is mostly unreadable with random characters and symbols. Some numeric values are preserved ($9,730, $1,476) but segment revenue data is fragmented. Table structures are completely destroyed. Only basic document structure elements like headers and some company names remain intelligible."
+  },
+  "timestamp": "2026-04-13 01:49:54"
+}

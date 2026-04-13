@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 81.25,
+    "notes": "Main issues: Model name contains OCR errors ('1qck' likely should be different), some formatting inconsistencies in table alignment, and minor spacing issues. Overall structure and most content accurately captured including dates, checkmarks, and X marks."
+  },
+  "timestamp": "2026-04-13 02:00:27"
+}

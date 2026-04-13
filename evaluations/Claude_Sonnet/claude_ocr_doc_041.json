@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 82,
+    "notes": "Company name and total amount are perfectly extracted. Date is accurate. Address has minor errors: 'JATAN' instead of 'JALAN' and '3B' instead of '18'. OCR captured much more detail than ground truth including receipt structure, but core required fields are mostly correct with only minor spelling issues."
+  },
+  "timestamp": "2026-04-13 02:09:00"
+}

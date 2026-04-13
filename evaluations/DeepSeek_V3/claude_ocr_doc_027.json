@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 88,
+    "notes": "Minor issues with layout preservation and table structure, such as misaligned text and inconsistent formatting. Numeric precision and text accuracy are high, with no major errors detected. All visible text appears to be captured."
+  },
+  "timestamp": "2026-04-13 03:36:50"
+}

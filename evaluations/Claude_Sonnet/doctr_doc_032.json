@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 40,
+    "layout_preservation": 20,
+    "completeness": 60,
+    "total_score": 26,
+    "notes": "Severely garbled OCR output with extensive character corruption throughout. Most text appears scrambled with random character substitutions (e.g., 'bujuow', 'jeuosaed', 'Rooweyv'). Time stamps and some alphanumeric codes are partially preserved. Document structure is completely lost with no clear table formatting or logical layout. This appears to be a schedule or timetable but is largely unreadable due to poor OCR quality."
+  },
+  "timestamp": "2026-04-13 01:50:18"
+}

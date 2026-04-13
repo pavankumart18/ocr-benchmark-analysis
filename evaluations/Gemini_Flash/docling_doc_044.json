@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 10,
+    "numeric_precision": 70,
+    "layout_preservation": 10,
+    "completeness": 60,
+    "total_score": 45.5,
+    "notes": "The OCR output has significant issues with text accuracy, layout preservation, and completeness. The company name is mostly correct but missing a space. The date is present but has a '6' instead of a '2' for the year. The address is almost entirely missing, with only a partial and incorrect fragment present. The total amount is correctly identified. The overall structure is very poor, making it difficult to extract the required information cleanly. Many irrelevant words and characters are present."
+  },
+  "timestamp": "2026-04-13 01:39:30"
+}

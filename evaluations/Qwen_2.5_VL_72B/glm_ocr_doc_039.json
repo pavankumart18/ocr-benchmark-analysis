@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "glm_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 75,
+    "total_score": 80.5,
+    "notes": "Minor text accuracy issues with 'Christian Bergnaum I' possibly being 'Christian Bergnaum'. Table structure is mostly preserved but some rows lack data, which affects alignment. Numeric precision is high, but some rows are incomplete. Layout preservation is good but could be better with consistent data across rows. Completeness is affected by missing data in some rows."
+  },
+  "timestamp": "2026-04-13 02:23:50"
+}

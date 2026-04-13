@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 95,
+    "completeness": 90,
+    "total_score": 93.25,
+    "notes": "The OCR output is generally very good. There are a few minor issues: 'Christian Bergnaum I' might be 'Christian Bergnaum II' or similar, but without the original, it's hard to say definitively. Some rows are missing data in the 'BB Sales', 'BB Returns', 'BB Total', 'Puer Sales', 'Puer Returns', 'Puer Total', and 'Grand Total' columns, which is likely due to the original document having blank cells for those entries, but it does make the completeness slightly lower if there was data there. The table structure is well-preserved, and numeric data is accurate where present."
+  },
+  "timestamp": "2026-04-13 01:47:14"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 78,
+    "notes": "Company name has minor case differences, address has '$' instead of 'S' in SS21/39, date and total are correct. OCR captured extensive additional content not in ground truth including full receipt details. Some character recognition errors like 'Chic\u00e9cMuffin' and formatting issues in tabular data."
+  },
+  "timestamp": "2026-04-13 01:56:03"
+}

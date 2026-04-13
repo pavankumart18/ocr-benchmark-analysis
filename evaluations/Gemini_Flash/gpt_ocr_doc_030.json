@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 95,
+    "completeness": 98,
+    "total_score": 92,
+    "notes": "The text accuracy is very good with only minor potential OCR artifacts like 'I9ZYYWVSFM' vs 'I9ZYYWVSFM' (hard to tell if it's a typo or actual data). The table structure is mostly preserved, but the alignment of the 'Description of Additional Charges' and subsequent columns is slightly off for multi-line entries, causing some visual breaks. Numeric precision is high. Layout preservation and completeness are excellent."
+  },
+  "timestamp": "2026-04-13 01:44:53"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 97.4,
+    "notes": "Minor issue with '1qck' in the model name, which might be a typo in the original document or a slight OCR error. The table structure is very well preserved, with only minor alignment shifts in the 'Notes' column for some entries. All numerical data and dates are perfectly captured."
+  },
+  "timestamp": "2026-04-13 01:42:54"
+}

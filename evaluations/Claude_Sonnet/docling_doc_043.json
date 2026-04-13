@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 75,
+    "layout_preservation": 35,
+    "completeness": 70,
+    "total_score": 48,
+    "notes": "Major OCR errors include company name (MD.I.V vs MR D.I.Y.), garbled address text, poor table structure with mixed formatting, but key numeric values like date (12-01-19) and total (33.90) are correctly extracted. Layout is severely disrupted with markdown artifacts and mixed content."
+  },
+  "timestamp": "2026-04-13 01:53:24"
+}

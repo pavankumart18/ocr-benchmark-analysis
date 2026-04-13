@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83,
+    "notes": "Good extraction of key data fields. Minor issues: extra text not in ground truth ('tan chay yee', cashier info), incomplete final total amount ('3' instead of '31.00'), and table structure could be cleaner. All required fields (company, date, address, total) correctly identified with high accuracy."
+  },
+  "timestamp": "2026-04-13 02:01:43"
+}

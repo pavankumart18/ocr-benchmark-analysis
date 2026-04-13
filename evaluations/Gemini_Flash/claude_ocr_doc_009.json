@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 95,
+    "total_score": 96.0,
+    "notes": "The OCR output accurately extracted all the requested fields. There was a minor discrepancy in the address where '81760' in the ground truth was extracted as '81750'. All other fields matched perfectly."
+  },
+  "timestamp": "2026-04-13 01:46:01"
+}

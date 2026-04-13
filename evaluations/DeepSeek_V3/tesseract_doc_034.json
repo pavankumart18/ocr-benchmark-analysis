@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 65,
+    "completeness": 85,
+    "total_score": 71.25,
+    "notes": "Text accuracy suffers from minor typos and garbled sections (e.g., 'seston dsiz-205', '9XPLOVZIDJ'). Table structure is disrupted with misaligned data. Numeric precision is mostly correct, but some dates and amounts are misplaced. Layout preservation is inconsistent, with mixed reading order. Completeness is good, with no major omissions."
+  },
+  "timestamp": "2026-04-13 03:13:56"
+}

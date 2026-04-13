@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 25,
+    "total_score": 68,
+    "notes": "OCR captured header information and basic document structure accurately with correct dates and copy number. However, it's severely incomplete - missing most content including full distribution list, document analysis, insights section, and key details. Distribution list is cut off mid-sentence. Layout formatting is reasonably preserved for extracted portions."
+  },
+  "timestamp": "2026-04-13 01:59:36"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 98,
+    "layout_preservation": 85,
+    "completeness": 75,
+    "total_score": 88.85,
+    "notes": "OCR extracted the core tabular data with high accuracy. All financial figures are correct. Missing the detailed document analysis, insights, and observations that comprise about 25% of the ground truth content. Table structure well preserved with proper alignment. Minor formatting differences in layout but reading order maintained."
+  },
+  "timestamp": "2026-04-13 02:03:32"
+}

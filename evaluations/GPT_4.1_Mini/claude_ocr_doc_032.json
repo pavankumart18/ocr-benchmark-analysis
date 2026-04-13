@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 90.25,
+    "notes": "Overall very accurate text with correct spelling and minimal errors. Table structure mostly preserved with proper alignment, though some cells are empty which is consistent with original. Numeric data such as dates and times are precise. Layout and reading order are well maintained. Completeness is high with no major missing text."
+  },
+  "timestamp": "2026-04-13 02:21:54"
+}

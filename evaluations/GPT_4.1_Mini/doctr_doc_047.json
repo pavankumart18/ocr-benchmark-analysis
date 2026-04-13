@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 40,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 69.25,
+    "notes": "Company name and date are correctly extracted, but extra unrelated text and some spacing issues reduce text accuracy. The table structure is poorly preserved with misaligned columns and garbled item details. Numeric values mostly match ground truth, including total and date, though some item prices are unclear. Layout is disrupted by mixed sections and inconsistent reading order. Most key fields are present, but the OCR includes many extraneous lines and some minor missing punctuation."
+  },
+  "timestamp": "2026-04-13 02:11:50"
+}

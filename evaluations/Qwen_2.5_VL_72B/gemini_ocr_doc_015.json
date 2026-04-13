@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "gemini_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 50,
+    "total_score": 79.75,
+    "notes": "The OCR output is highly accurate up to the point where it stops. There are no misspellings or wrong characters in the captured text. However, the output is incomplete, missing a significant portion of the document. The layout and reading order are preserved correctly for the captured text."
+  },
+  "timestamp": "2026-04-13 02:45:33"
+}

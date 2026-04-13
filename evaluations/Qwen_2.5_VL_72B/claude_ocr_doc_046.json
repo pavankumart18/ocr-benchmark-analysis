@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "claude_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 81.5,
+    "notes": "The OCR output has minor text accuracy issues like 'No.284' instead of 'NO.2&4'. The table structure is partially preserved but not fully accurate. Numeric values and dates are mostly correct. Layout preservation is decent but not perfect. Completeness is good but some details are missing."
+  },
+  "timestamp": "2026-04-13 03:01:20"
+}

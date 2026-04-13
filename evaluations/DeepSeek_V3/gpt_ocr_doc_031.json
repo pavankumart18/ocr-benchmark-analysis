@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 92.5,
+    "notes": "Minor issues: 'State & Federal Contruction' has a typo ('Contruction' instead of 'Construction'), and the graph labels are not perfectly aligned. Otherwise, text, numbers, and structure are well-preserved."
+  },
+  "timestamp": "2026-04-13 03:30:59"
+}

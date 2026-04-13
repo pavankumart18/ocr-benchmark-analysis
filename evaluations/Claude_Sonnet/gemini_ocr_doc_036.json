@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 88,
+    "completeness": 70,
+    "total_score": 84.6,
+    "notes": "Good overall accuracy with proper names, addresses, and numbers captured correctly. The document appears to be cut off mid-sentence at the end, affecting completeness. Layout and structure are well preserved with clear section headers and paragraph formatting. Minor deduction for the incomplete capture of the final address line."
+  },
+  "timestamp": "2026-04-13 02:01:04"
+}

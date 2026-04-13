@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 10,
+    "numeric_precision": 35,
+    "layout_preservation": 15,
+    "completeness": 40,
+    "total_score": 24,
+    "notes": "OCR output is severely garbled with extensive character recognition errors. Company name partially correct but address completely fragmented. Date missing entirely. Total amount appears as '80 91' instead of '80.90'. Text is largely unreadable with random characters and broken words throughout."
+  },
+  "timestamp": "2026-04-13 01:57:37"
+}

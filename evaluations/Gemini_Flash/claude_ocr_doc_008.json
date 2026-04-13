@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 96.5,
+    "notes": "The OCR output accurately extracted all the required fields from the ground truth. Minor discrepancies in text formatting (e.g., extra spaces around parentheses) were noted but did not affect the overall accuracy of the extracted data. The layout preservation is good, with the relevant information easily identifiable."
+  },
+  "timestamp": "2026-04-13 01:45:59"
+}

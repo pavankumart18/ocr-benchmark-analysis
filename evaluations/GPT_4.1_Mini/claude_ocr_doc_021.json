@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 75,
+    "total_score": 84.25,
+    "notes": "OCR output is largely accurate with correct spelling and terminology, minor punctuation issues (e.g., comma instead of period in distribution list '3, 4.'), and slight formatting inconsistencies. The distribution list is mostly preserved but line breaks and alignment are imperfect. Numeric data such as dates and document numbers are precise. Layout and reading order are generally maintained but some section headings and introductory text from ground truth are missing. The OCR misses the initial descriptive paragraphs and some document features, reducing completeness."
+  },
+  "timestamp": "2026-04-13 02:21:22"
+}

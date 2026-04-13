@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 100,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 76.75,
+    "notes": "Key issues: 'ABC HO TRADING' misread as 'ABC HIO TRADING', address formatting errors ('NO.2&4' as 'No.284'), extra irrelevant text (e.g., 'tan chay yee', cashier details), and table structure deviations. Numeric values and dates are correct."
+  },
+  "timestamp": "2026-04-13 03:27:55"
+}

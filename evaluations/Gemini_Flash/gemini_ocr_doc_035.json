@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 95,
+    "completeness": 85,
+    "total_score": 92,
+    "notes": "The OCR output is generally very good. The main issue is a missing value in the 'Sugar (g)' column for 'Duck Fat Fries', which impacts completeness and slightly affects table structure due to the empty cell. Otherwise, text and numeric data are accurate, and the layout is well preserved."
+  },
+  "timestamp": "2026-04-13 01:43:08"
+}

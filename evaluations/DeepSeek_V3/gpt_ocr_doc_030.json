@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.75,
+    "notes": "Minor typos in text accuracy (e.g., 'YOSTVILLE' instead of 'YOSTVILLE,' missing hyphen in '56002-1850'). Table structure is well-preserved with proper alignment. Numeric precision is excellent with correct dates, amounts, and account numbers. Layout preservation has minor issues with reading order in some sections. Completeness is high with no major missing text."
+  },
+  "timestamp": "2026-04-13 03:30:43"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 0,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 68.25,
+    "notes": "The OCR output has minor text inaccuracies (e.g., 'throttie' instead of 'throttle', 'intemal' instead of 'internal') and lacks table structure. However, numeric precision is perfect, layout is well-preserved, and the text is mostly complete with no major omissions."
+  },
+  "timestamp": "2026-04-13 03:09:59"
+}

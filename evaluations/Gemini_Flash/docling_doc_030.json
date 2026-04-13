@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 80,
+    "numeric_precision": 65,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 74,
+    "notes": "Text accuracy is fair, with several misspellings and character recognition errors (e.g., 'Relerenze Nurnber', 'Depatch Station', 'Receing Station Reciptent', 'Serrtoel Cbarge', 'Nomberof Shipmenta', 'Additlonal Charge', 'Adtiticnal Charge', 'Grss Valar', 'ECONOMYSELECT9.9', 'EXPRESSHANDLINGFEE', 'ENVIRONMENTAL.SURCHARGE', 'URHAN CONGESTION', 'FUELADIUSTMENTCHARGE', 'BCONOMY SELECT35.1', 'DFIIVERYFEE', 'LSOE', 'PRIORITY DOMESTIC', 'KUHNLIC', 'BoeheValleyi', 'DFLIVERY FEE'). Numeric precision suffers from incorrect decimal separators (e.g., '38:36', '30:83', '118:68', '28:72', '3'), and some numbers are clearly incorrect or missing (e.g., 'K.59'). Table structure is mostly preserved, but some column headers are merged or have extra spaces. Completeness is good, with most visible text captured."
+  },
+  "timestamp": "2026-04-13 01:38:56"
+}

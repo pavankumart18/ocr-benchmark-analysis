@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 65,
+    "completeness": 85,
+    "total_score": 69.25,
+    "notes": "The OCR captured most text correctly but with some misalignments and inconsistent spacing. Table columns and rows are partially preserved but many numeric values are misaligned or merged with text, causing confusion. Decimal points appear mostly correct but some values seem misplaced or swapped. The reading order is roughly maintained but section headers and groupings are not clearly separated, reducing clarity. Overall, most content is present but formatting issues and partial misreads reduce usability."
+  },
+  "timestamp": "2026-04-13 02:11:16"
+}

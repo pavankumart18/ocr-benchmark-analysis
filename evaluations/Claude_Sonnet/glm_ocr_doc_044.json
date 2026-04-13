@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 84.25,
+    "notes": "Minor spelling error in address ('BAHRI' vs 'BAHRU'), missing periods in address format, and some table alignment issues. However, all key information is accurately captured with excellent numeric precision."
+  },
+  "timestamp": "2026-04-13 01:49:09"
+}

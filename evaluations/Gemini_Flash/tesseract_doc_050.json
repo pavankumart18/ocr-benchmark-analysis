@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 96.5,
+    "notes": "The OCR output accurately extracted all the requested fields. Minor discrepancies in the address formatting (e.g., 'UPTOWN3' vs 'UPTOWN 3') were noted but did not affect the overall accuracy of the information. The layout preservation is good, with the relevant information easily identifiable within the larger OCR output."
+  },
+  "timestamp": "2026-04-13 01:40:46"
+}

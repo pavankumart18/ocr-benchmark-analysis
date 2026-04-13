@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 20,
+    "numeric_precision": 50,
+    "layout_preservation": 75,
+    "completeness": 40,
+    "total_score": 58.5,
+    "notes": "Company name and address are accurate with minor formatting differences. However, the date is completely missing from OCR output, and the ground truth appears to expect structured JSON fields rather than full invoice format. The OCR captured additional invoice details not present in ground truth, suggesting a mismatch in expected output format."
+  },
+  "timestamp": "2026-04-13 02:01:50"
+}

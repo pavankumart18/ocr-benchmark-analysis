@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_034",
+  "model": "gpt_ocr",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/107.png",
+  "category": "general_doc",
+  "source_dataset": "omni",
+  "processing_time_seconds": 17.26,
+  "output_length_chars": 3066,
+  "timestamp": "2026-04-13 01:09:04"
+}

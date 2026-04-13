@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 99,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 98,
+    "completeness": 100,
+    "total_score": 99.05,
+    "notes": "The OCR output is very accurate. The only minor difference is an extra line break after 'Exhibit 19.1' and before 'INSIDER TRADING POLICY' in the OCR output, which slightly affects layout but not content."
+  },
+  "timestamp": "2026-04-13 01:44:17"
+}

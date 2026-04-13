@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 80,
+    "numeric_precision": 65,
+    "layout_preservation": 75,
+    "completeness": 85,
+    "total_score": 73,
+    "notes": "OCR output has several issues: misspellings (e.g., 'Lalif\u3002ruia', 'Gorczauy'), incorrect dates ('MaY z02s', 'Mal ZoZs S'), garbled text ('ozs-os -11', 'zo89 dollars'), and inconsistent formatting. However, the overall structure and key sections are preserved."
+  },
+  "timestamp": "2026-04-13 03:10:18"
+}

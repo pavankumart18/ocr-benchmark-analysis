@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 82,
+    "notes": "Key issues: Company name has OCR errors (D.I.Y. \u2192 0.1.Y., JOHOR \u2192 JOKOR). Text accuracy affected by character misrecognition. Numeric values are highly accurate including date and total amount. Layout and structure well preserved with good completeness of receipt content."
+  },
+  "timestamp": "2026-04-13 01:51:10"
+}

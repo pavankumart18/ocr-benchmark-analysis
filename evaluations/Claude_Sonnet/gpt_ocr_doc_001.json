@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 82.5,
+    "notes": "Minor text errors include 'TA _K' instead of 'TA .K' and 'NO.55' instead of 'NO.53' in address. All key numeric values (date, total) are perfectly extracted. OCR captured extensive additional detail beyond ground truth requirements. Table structure well preserved with clear columns and alignment."
+  },
+  "timestamp": "2026-04-13 02:02:00"
+}

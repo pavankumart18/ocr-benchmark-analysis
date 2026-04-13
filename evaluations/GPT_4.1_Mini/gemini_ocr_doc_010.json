@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 74.25,
+    "notes": "Company name mostly correct but OCR includes extra unrelated text and former name; address mostly accurate but line breaks differ; total amount and date match exactly; table structure partially preserved but item details and columns are not clearly aligned; layout order is generally correct but includes many extraneous sections not in ground truth; overall, key fields captured but with added noise and formatting differences."
+  },
+  "timestamp": "2026-04-13 02:16:12"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 60,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 29,
+    "notes": "Severe OCR errors throughout with garbled text, incorrect character recognition, and poor structure preservation. Company name heavily corrupted ('Xr 0.[' instead of 'MR D.I.Y.'), address fragmented with spacing issues, and date incorrect (11-01-19 vs 12-01-19). Only the total amount 33.90 was captured correctly. Text is largely unreadable with random characters and broken formatting."
+  },
+  "timestamp": "2026-04-13 01:57:34"
+}

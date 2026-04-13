@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 77.25,
+    "notes": "Company name correct, but address has errors (NO60 vs NO.59, missing /5, wrong postal code 81700 vs 81760). Date missing leading zero (1200 vs 12/02). Total amount very close (112.46 vs 112.45). OCR captured extensive receipt details not in ground truth. Multiple character recognition errors throughout but main structure preserved."
+  },
+  "timestamp": "2026-04-13 01:51:33"
+}

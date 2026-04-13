@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 30,
+    "table_structure": 10,
+    "numeric_precision": 50,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 29.5,
+    "notes": "Severe OCR errors with heavy garbling and misspellings; company name partially correct but merged; address mostly missing or unreadable; date format incorrect; total amount mostly correct but with some confusion (80.90 vs 80:91); no clear table or structured layout preserved; reading order and sections are jumbled; significant missing text and noisy artifacts."
+  },
+  "timestamp": "2026-04-13 02:13:02"
+}

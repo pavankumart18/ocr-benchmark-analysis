@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 20,
+    "numeric_precision": 70,
+    "layout_preservation": 30,
+    "completeness": 60,
+    "total_score": 42,
+    "notes": "Major OCR errors in company name, address, and total amount. Table structure is garbled, but numeric values like total are close. Layout is poorly preserved with mixed sections and incorrect reading order. Some key details are missing or incorrect."
+  },
+  "timestamp": "2026-04-13 03:18:46"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 95.25,
+    "notes": "OCR output closely matches ground truth with only minor differences in apostrophe style (curly vs straight) and some added indentation/spacing. No misspellings or missing words. No tables present, so table structure is fully preserved. Numeric data including date and form numbers are exact. Layout is mostly preserved though some extra indentation and line breaks appear, but reading order is correct. All text is complete."
+  },
+  "timestamp": "2026-04-13 02:21:00"
+}

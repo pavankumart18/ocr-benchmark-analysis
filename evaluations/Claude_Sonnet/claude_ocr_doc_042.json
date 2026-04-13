@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 67,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 78,
+    "notes": "Company name has typo 'INDAN' vs 'INDAH'. Date is incorrect (2010 vs 2018). Total amount has minor discrepancy (60.31 vs 60.30 before rounding). Address and structure are well preserved. OCR captured comprehensive receipt details beyond ground truth requirements."
+  },
+  "timestamp": "2026-04-13 02:09:03"
+}

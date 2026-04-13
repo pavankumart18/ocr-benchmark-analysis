@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 20,
+    "numeric_precision": 80,
+    "layout_preservation": 40,
+    "completeness": 60,
+    "total_score": 52.5,
+    "notes": "Significant text errors including misspellings (e.g., 'Mcvonald's', 'Sdn bid', 'Jalan $821/39'), incorrect company name casing and extra unrelated text. Table structure is poorly preserved; the invoice items and totals are present but not clearly formatted or aligned. Numeric data like date and total amount are mostly correct, but some cash tendered and change values are incorrect or irrelevant. Layout is disrupted with mixed unrelated content and poor reading order. Some key ground truth fields are present but incomplete or corrupted."
+  },
+  "timestamp": "2026-04-13 02:14:36"
+}

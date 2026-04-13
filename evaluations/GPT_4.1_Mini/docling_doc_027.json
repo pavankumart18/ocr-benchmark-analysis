@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 20,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 60,
+    "total_score": 67.75,
+    "notes": "Text is mostly accurate with minor spacing issues; however, tables are missing and replaced by placeholders, losing structure and alignment. Numeric values appear correct but context is limited. Layout is partially preserved with headers and sections but incomplete. Significant content, especially images and detailed tables, is missing."
+  },
+  "timestamp": "2026-04-13 02:12:06"
+}

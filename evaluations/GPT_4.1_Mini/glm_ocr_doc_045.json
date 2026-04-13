@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 40,
+    "table_structure": 10,
+    "numeric_precision": 85,
+    "layout_preservation": 50,
+    "completeness": 60,
+    "total_score": 48.75,
+    "notes": "Company name is heavily distorted (MR D.I.Y. vs MR D. T. Y. SM1 SUN), address has multiple errors (KANASAN vs KAWASAN, BALAFONG vs BALAKONG), and many words are garbled or missing. No table structure is preserved; the OCR output is a block of text with no clear columns or rows matching ground truth. Numeric values mostly match, with total rounded correctly, date is exact. Layout is partially preserved but reading order and sectioning are poor. Some key fields like company and address are present but incorrect, so completeness is moderate."
+  },
+  "timestamp": "2026-04-13 02:10:33"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 95,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 95,
+    "total_score": 91.25,
+    "notes": "The OCR output is generally very good. Minor text accuracy issues include 'LeavePersonal' and 'LeaveSickLeave' being concatenated in some instances, and 'VernonBlanda' and 'MarcellaDeckow' also being concatenated. The table structure is well-preserved, and numeric precision for IDs and times is excellent. The main layout issue is the footer 'WeekofJune 12,2025 Baumbachfort Medical Center-' appearing at the very end, rather than potentially being a header or in a more logical position relative to the table. Completeness is high, with only minor formatting discrepancies."
+  },
+  "timestamp": "2026-04-13 01:39:00"
+}

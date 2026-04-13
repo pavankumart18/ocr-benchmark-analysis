@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 88,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 82.95,
+    "notes": "Good overall extraction with minor issues: some missing reference numbers in rows 5-6, occasional spacing problems in addresses, and slight column alignment issues. Most text, numbers, and structure are accurately captured with only minor formatting inconsistencies."
+  },
+  "timestamp": "2026-04-13 02:04:18"
+}

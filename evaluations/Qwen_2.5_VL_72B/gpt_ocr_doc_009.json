@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "gpt_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 95,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 86.5,
+    "notes": "The OCR output has minor text accuracy issues with address and company details. The table structure is well-preserved, but there are slight discrepancies in numeric values. Layout is mostly correct but with some formatting differences. All key information is captured."
+  },
+  "timestamp": "2026-04-13 02:54:44"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 100,
+    "total_score": 95.35,
+    "notes": "Excellent OCR accuracy with all text correctly captured. Minor layout differences include added indentation and extra spacing in signature section, but content and structure are perfectly preserved. No text errors, typos, or missing information detected."
+  },
+  "timestamp": "2026-04-13 02:03:01"
+}

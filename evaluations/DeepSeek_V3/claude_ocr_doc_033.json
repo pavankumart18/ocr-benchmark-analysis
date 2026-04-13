@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 96,
+    "notes": "The OCR output is highly accurate with minor layout preservation issues (e.g., 'H' section appears twice). Text accuracy is excellent with no noticeable misspellings or missing words. Table structure and numeric precision are perfect as the content is primarily text-based. Completeness is fully achieved with all visible text captured."
+  },
+  "timestamp": "2026-04-13 03:37:34"
+}

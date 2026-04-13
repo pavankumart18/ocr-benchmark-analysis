@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "gpt_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 89.5,
+    "notes": "The OCR output is highly accurate with minimal issues. There are slight misalignments in the table structure, particularly with the shift times not perfectly aligned under the correct days. The layout preservation could be improved as some sections are slightly off. Overall, the text is captured well with no major errors."
+  },
+  "timestamp": "2026-04-13 02:56:32"
+}

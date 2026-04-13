@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 73.75,
+    "notes": "Several significant text recognition errors, particularly in the 'Manufacturer' field ('Kuvalis Iqck' instead of 'Manufacturer'), and in some of the checkpoint items ('Eceeicr SQreRlete' instead of 'Electrical Safety', 'feblaFonGgtiogesecure' instead of 'Functional Testing', 'OenSP4RSSEERGK' instead of 'Comments'). Table structure is mostly preserved but some column headers are missing or misaligned. Numeric precision for dates and IDs is good. Layout is generally maintained, but the 'Surge -' at the end seems out of place. Some minor text is missing."
+  },
+  "timestamp": "2026-04-13 01:40:55"
+}

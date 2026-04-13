@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 94.25,
+    "notes": "The OCR output accurately extracted all the requested fields from the ground truth. Minor discrepancies include 'No.2&4' instead of 'NO.2&4' for the address, which is a case sensitivity issue. The numeric values for date and total are exact matches. The overall structure and completeness are very good, with all relevant information present and in a logical order relative to the ground truth fields."
+  },
+  "timestamp": "2026-04-13 01:47:30"
+}

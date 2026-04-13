@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83.5,
+    "notes": "Company name, date, and total amount are accurately extracted. Address has minor formatting differences (periods vs commas). OCR captured additional context like customer name, GST details, and document structure not present in ground truth. All key numeric values match perfectly. Layout is well-preserved with proper sectioning."
+  },
+  "timestamp": "2026-04-13 01:58:24"
+}

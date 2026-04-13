@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 70,
+    "completeness": 60,
+    "total_score": 65.75,
+    "notes": "The OCR output contains numerous misspellings (e.g., 'VATBILLINGRECEIPT', 'Deseription', 'MACEJKOVIC'), missing spaces between words, and some garbled text fragments. Table columns and rows are mostly preserved but alignment issues and inconsistent spacing reduce clarity. Numeric data such as dates and amounts are mostly correct but some values appear misaligned or incomplete. The reading order is generally maintained, but some sections are fragmented or truncated, and the completeness is affected by missing or cut-off text at the end."
+  },
+  "timestamp": "2026-04-13 02:12:27"
+}

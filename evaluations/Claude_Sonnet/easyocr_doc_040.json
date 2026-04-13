@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 65,
+    "layout_preservation": 35,
+    "completeness": 60,
+    "total_score": 45,
+    "notes": "Severe OCR errors throughout including garbled words ('Crueee', 'oageoorapboebiogye'), fragmented sentences, misplaced text blocks, and poor structure preservation. While some key information like dates, prices, and speaker names are partially captured, the overall readability is significantly compromised by numerous spelling errors and layout disruption."
+  },
+  "timestamp": "2026-04-13 01:57:19"
+}

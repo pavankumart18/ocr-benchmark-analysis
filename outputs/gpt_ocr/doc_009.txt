@@ -1,0 +1,51 @@
+ADx0245
+
+PERNIAGAAN ZHENG HUI
+JM0326955-V
+NO.69 JALAN PERMAS 9/5
+BANDAR BARU PERMAS JAYA
+81750 JOHOR BAHRU
+TEL: 07-386 7524      FAX : 07-386 3793
+GST NO : 000800589824
+
+SIMPLIFIED TAX INVOICE
+------------------------------------------------
+GOGIANT ENGINEERING (M) SDN BHD
+------------------------------------------------
+Receipt # : CS0002652
+Salesperson:                     Date: 12/02/2018
+Cashier: USER                    Time: 08:30:00
+------------------------------------------------
+
+Item                              Qty        (RM)        (RM)
+                                            RSP        Amount
+8239                              G/B    1   16.00       16.00
+SR: 11" BROWNESS H/D LTY SILICONE GUN G-02
+8355075109147                     GA     3    7.00       21.00
+SR: XTRASEAL RTV ACETIC SILICONE SA-107
+9744                              G/B    1   18.00       18.00
+SR: CENTRAL PUNCH SET 3PCS - 1/4",5/32",1/4"
+12525                             G/B    1   50.00       50.00
+SR: 24" MARKSMAN PIPE WRENCH
+2016                              GA     3    0.70        2.10
+SR: PVC WIRE TAPE 1PC X 7YD
+TOT QTY:                          9                 106.10
+
+(Excluded GST) Sub Total (RM) :                     106.10
+Discount (RM) :                                       0.00
+Total GST (RM) :                                      6.37
+Rounding (RM) :                                      -0.02
+Total (RM) :                                        112.45
+CASH :                                              112.45
+Change (RM) :                                        0.00
+
+------------------------------------------------
+GST SUMMARY
+
+Tax Code         %        Amount        GST
+SR               6        106.10        6.37
+------------------------------------------------
+Total :                   106.10        6.37
+
+GOODS SOLD ARE NOT RETURNABLE.
+THANK YOU.

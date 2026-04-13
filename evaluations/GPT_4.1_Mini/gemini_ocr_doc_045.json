@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 20,
+    "numeric_precision": 10,
+    "layout_preservation": 50,
+    "completeness": 30,
+    "total_score": 40.5,
+    "notes": "The OCR output includes extra unrelated text (e.g., 'tan woon yann', product info) not in ground truth and misses the date and total amount entirely. The company name and address are mostly correct but with minor formatting differences. No table or structured data from ground truth is present, and numeric fields like date and total are missing or incorrect. Layout is partially preserved but reading order is disrupted by extraneous content. Overall, major omissions and irrelevant content reduce scores significantly."
+  },
+  "timestamp": "2026-04-13 02:17:48"
+}

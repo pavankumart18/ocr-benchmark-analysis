@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 88,
+    "completeness": 92,
+    "total_score": 88.25,
+    "notes": "Minor address formatting difference (No.284 vs NO.2&4) but all key information accurately extracted. OCR captured additional receipt details not in ground truth. Table structure well preserved with proper alignment. All numeric values including date and total amount are correct."
+  },
+  "timestamp": "2026-04-13 02:09:19"
+}

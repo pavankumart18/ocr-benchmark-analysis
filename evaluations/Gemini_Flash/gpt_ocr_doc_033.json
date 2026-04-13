@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 99,
+    "total_score": 97.9,
+    "notes": "The OCR output is very accurate. There are no tables in the document, so table structure and numeric precision are perfect. Layout preservation is good, with correct reading order and paragraph structure. The only minor issue is a repeated 'H' header for 'Horsepower' and 'Hybrid Electric Vehicle (HEV)', which is a slight layout anomaly but doesn't hinder readability. Completeness is high, with all visible text captured."
+  },
+  "timestamp": "2026-04-13 01:45:01"
+}

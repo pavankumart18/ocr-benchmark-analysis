@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 35,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 26,
+    "notes": "Severe OCR errors throughout: company name 'INDAH GIFT & HOME DECO' becomes 'THDAN GIFT & RE BECO', address heavily corrupted with wrong street number and misspellings, date completely missing, total amount 60.30 not clearly extracted. Text is largely garbled with poor character recognition and scrambled layout structure."
+  },
+  "timestamp": "2026-04-13 01:55:15"
+}

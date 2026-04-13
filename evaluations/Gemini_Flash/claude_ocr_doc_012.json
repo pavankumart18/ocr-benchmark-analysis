@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 100,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 100,
+    "total_score": 96.25,
+    "notes": "The text content, numbers, and completeness are perfect. The only minor issue is with layout preservation, specifically the indentation of the second and third paragraphs, and the signature block, which is slightly different from the ground truth."
+  },
+  "timestamp": "2026-04-13 01:46:08"
+}

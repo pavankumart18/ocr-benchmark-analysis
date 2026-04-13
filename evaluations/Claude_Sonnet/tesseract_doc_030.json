@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 55,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 44.5,
+    "notes": "Significant OCR errors throughout including garbled company names (IIZYYWVEM, WZAAGIKKVX), corrupted addresses and city names (YOSTVILLE, HECHTELARTON), multiple misspellings in fee descriptions (FEF instead of FEE, ADIUSTMENT), and poor table structure preservation. Some numeric data like dates and document numbers appear partially correct but many are corrupted."
+  },
+  "timestamp": "2026-04-13 01:54:16"
+}

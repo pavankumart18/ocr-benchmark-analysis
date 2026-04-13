@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 70.75,
+    "notes": "Text is mostly accurate but contains some OCR errors in names and codes (e.g., 'OONS|COOKP', '9XPLOVZIDJ'). Table columns are present but alignment is inconsistent, making it harder to read numeric data clearly. Numeric values and dates are mostly correct but some codes and numbers appear garbled or misplaced. Layout and reading order are generally preserved, though some line breaks and spacing reduce clarity. The document appears complete with no major missing sections."
+  },
+  "timestamp": "2026-04-13 02:19:37"
+}

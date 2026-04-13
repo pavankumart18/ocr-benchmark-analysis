@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_009",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 75,
+    "layout_preservation": 80,
+    "completeness": 60,
+    "notes": "Company name and date are correct. Address has minor error (81750 vs 81760). Total amount 112.45 is completely missing from OCR output. OCR captured additional receipt details not in ground truth but missed the key total field."
+  },
+  "timestamp": "2026-04-13 01:58:45"
+}

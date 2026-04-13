@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 84,
+    "notes": "Minor typos in company name (extra spaces) and address formatting. Table structure is somewhat preserved but includes irrelevant lines. Numeric values and dates match perfectly. Layout is mostly preserved but includes extra footer text not in ground truth."
+  },
+  "timestamp": "2026-04-13 03:32:45"
+}

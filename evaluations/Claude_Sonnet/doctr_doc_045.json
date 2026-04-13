@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 65,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 30,
+    "notes": "Severe OCR errors throughout with garbled text making most content unreadable. Company name completely mangled ('MPIY HE SUN EHE' vs 'MR D.I.Y. (M) SDN BHD'), address partially corrupted, date missing entirely. Only the final total amount (30.90) was extracted correctly. The OCR captured additional invoice details not in ground truth but failed on basic company identification and formatting."
+  },
+  "timestamp": "2026-04-13 01:51:17"
+}

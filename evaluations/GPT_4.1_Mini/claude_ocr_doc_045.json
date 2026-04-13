@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 78.25,
+    "notes": "Company name mostly correct except missing space after 'MR' and extra dot in 'MR.D.I.Y.'; address has wrong lot number '1251-A' instead of '1851-A'; total amount matches ground truth after rounding; date matches exactly; table structure is present but not explicitly shown in ground truth so partial credit; layout mostly preserved but extra unrelated text present; all key fields captured but some minor text deviations and extra content included."
+  },
+  "timestamp": "2026-04-13 02:22:32"
+}

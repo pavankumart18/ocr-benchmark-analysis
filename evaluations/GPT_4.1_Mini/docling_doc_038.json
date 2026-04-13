@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 74.25,
+    "notes": "Text accuracy is impacted by misaligned city names appearing in the last column under 'Data Centers' instead of city names in the first column. The table structure is compromised due to column misplacement and city names shifted to the wrong column. Numeric values are mostly correct but some columns are mismatched, affecting numeric context. Layout and reading order are mostly preserved with clear headers and sections. Completeness is good with all visible text captured."
+  },
+  "timestamp": "2026-04-13 02:12:42"
+}

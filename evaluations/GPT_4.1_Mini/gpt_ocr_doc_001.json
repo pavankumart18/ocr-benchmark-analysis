@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 81.25,
+    "notes": "Company name mostly correct except underscore instead of dot in 'TA .K' vs 'TA _K'. Address mostly correct but extra '55,' before '55,57 & 59'. Date and total amounts exactly match. Table columns and rows present but not perfectly aligned or clearly separated. Layout order mostly preserved but extra unrelated text and cashier/member info present. All ground truth text captured with minor noise."
+  },
+  "timestamp": "2026-04-13 02:18:04"
+}

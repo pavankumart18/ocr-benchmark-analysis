@@ -1,0 +1,17 @@
+{
+  "doc_id": "doc_026",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 45,
+    "numeric_precision": 60,
+    "layout_preservation": 50,
+    "completeness": 40,
+    "notes": "Major issues include: missing rank numbers, incomplete table with cut-off rows, misaligned columns, missing total values for several countries, and 'EUA' instead of 'GER' for Germany. Table structure is severely compromised with incomplete data extraction."
+  },
+  "timestamp": "2026-04-13 01:56:06"
+}

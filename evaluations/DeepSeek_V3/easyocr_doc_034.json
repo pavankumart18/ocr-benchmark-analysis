@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 65,
+    "numeric_precision": 75,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 71.25,
+    "notes": "Text accuracy suffers from misspellings (e.g., 'DOcHII', 'Recipicnt', 'Kase') and wrong characters. Table structure is partially preserved but has alignment issues. Numeric precision is mostly correct but has minor errors (e.g., '0o.74'). Layout preservation is decent but reading order could be improved. Completeness is good with no major missing sections."
+  },
+  "timestamp": "2026-04-13 03:17:44"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 40,
+    "completeness": 80,
+    "total_score": 58.5,
+    "notes": "Text accuracy is compromised by garbled characters and random symbols. Table structure is partially preserved but disrupted by OCR errors. Numeric precision is mostly correct but some values may be misaligned. Layout preservation is poor due to incorrect reading order and mixed sections. Completeness is decent but some minor text may be missing."
+  },
+  "timestamp": "2026-04-13 03:14:20"
+}

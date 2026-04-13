@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "claude_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 90.25,
+    "notes": "Minor issues with text accuracy such as redundant phrases ('day of May 2025 day of May 2025') and missing renewal period details. Numeric values and layout are mostly accurate."
+  },
+  "timestamp": "2026-04-13 03:00:36"
+}

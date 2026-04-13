@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 20,
+    "layout_preservation": 35,
+    "completeness": 40,
+    "total_score": 35.75,
+    "notes": "The OCR output contains numerous misspellings, wrong characters, and missing words, indicating poor text accuracy. The table structure is not preserved correctly, with numbers and data not aligned properly. Numeric precision is low due to incorrect decimal points, currencies, and dates. The layout preservation is poor, with incorrect reading order and missing sections. Completeness is lacking as major parts of the text seem to be missing or garbled."
+  },
+  "timestamp": "2026-04-13 02:42:26"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83,
+    "notes": "Text accuracy is good overall, but 'Accommoda' should be 'Accommodating' and '4o%' should be '40%'. The table structure is somewhat preserved but lacks clear column headers for the percentages, and the 'Very likely' row seems misplaced or incomplete. Numeric precision is high with only one minor error. Layout preservation is decent, maintaining reading order and general sectioning. Completeness is good, with most visible text captured."
+  },
+  "timestamp": "2026-04-13 01:41:18"
+}

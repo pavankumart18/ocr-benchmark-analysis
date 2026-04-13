@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "docling",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 40,
+    "numeric_precision": 50,
+    "layout_preservation": 60,
+    "completeness": 50,
+    "total_score": 53,
+    "notes": "The OCR output has several issues: the city names are incorrectly placed in the 'Data Centers' column, the year is incorrectly placed in the 'City' column, and the values for 'Transactions (Total)' and 'Permits Filed' are swapped. Additionally, the numeric values are not aligned properly, and the layout is disrupted."
+  },
+  "timestamp": "2026-04-13 02:27:44"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 100,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 72.5,
+    "notes": "Text accuracy suffers from minor typos (e.g., 'Peta1ing' instead of 'Petaling'). Table structure is partially preserved but includes irrelevant data. Numeric precision is perfect. Layout preservation is poor due to mixed reading order and irrelevant sections. Completeness is good but includes extra unrelated text."
+  },
+  "timestamp": "2026-04-13 03:12:51"
+}

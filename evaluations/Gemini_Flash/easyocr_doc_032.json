@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 5,
+    "numeric_precision": 10,
+    "layout_preservation": 5,
+    "completeness": 10,
+    "total_score": 8.5,
+    "notes": "The OCR output is almost entirely upside down and reversed, making it unreadable without manual correction. This severely impacts text accuracy, layout, and table structure. Numeric precision is also affected due to the inversion. Completeness is hard to judge accurately due to the severe orientation issue, but it appears most text is present, just inverted."
+  },
+  "timestamp": "2026-04-13 01:41:03"
+}

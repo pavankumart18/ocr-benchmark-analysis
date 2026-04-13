@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 50,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 65.75,
+    "notes": "Text accuracy suffers from misspellings (e.g., 'Jucvie Gerkold', 'Ur\\Gornin'), wrong characters, and missing words. Numeric precision is poor with incorrect dates ('7\u00b025-05-11', 'Marck z02F'), amounts ('34\u00b0 dollars'), and garbled text ('AT\u00a503 Gor cz ant Theo ugh way'). Layout is mostly preserved but with some reading order issues. Completeness is decent but with minor omissions."
+  },
+  "timestamp": "2026-04-13 03:14:10"
+}

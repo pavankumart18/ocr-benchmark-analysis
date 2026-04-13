@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 90.35,
+    "notes": "Minor text inaccuracies like 'ins\u2019 tallation' instead of 'installation' and some slight misalignment in the final table. Overall good extraction."
+  },
+  "timestamp": "2026-04-13 01:39:51"
+}

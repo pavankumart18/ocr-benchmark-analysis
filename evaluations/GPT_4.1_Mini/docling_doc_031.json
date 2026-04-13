@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 74.25,
+    "notes": "Text accuracy suffers from misaligned headers and city names placed in wrong columns (e.g., 'Phoenix' under 'State&FederalContruction'). Table structure is compromised by shifted city names and inconsistent column alignment. Numeric precision is mostly good with correct decimals and currency symbols. Layout is generally preserved but reading order is affected by table misalignment. Completeness is high with all visible text captured."
+  },
+  "timestamp": "2026-04-13 02:12:18"
+}

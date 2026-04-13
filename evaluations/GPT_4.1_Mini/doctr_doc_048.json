@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 40,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 60.75,
+    "notes": "Company name partially incorrect with missing parts and errors (e.g., 'SON, BHO.' vs 'SDN. BHD.'); address mostly correct but minor OCR errors; date matches exactly; total amount matches exactly. Table structure poorly preserved with no clear columns or rows as in ground truth. Layout is somewhat preserved but reading order is cluttered and includes extraneous text. Some ground truth fields missing or merged with unrelated text."
+  },
+  "timestamp": "2026-04-13 02:11:54"
+}

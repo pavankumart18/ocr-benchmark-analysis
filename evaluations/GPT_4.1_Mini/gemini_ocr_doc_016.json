@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 40,
+    "total_score": 82.5,
+    "notes": "Text accuracy is high with no notable misspellings or character errors in the extracted portion. Numeric precision and table structure are perfect as no numeric data or tables are involved. Layout preservation is good with correct reading order and formatting for the extracted sections. However, completeness is low because only a small portion of the ground truth text is captured; most of the document is missing."
+  },
+  "timestamp": "2026-04-13 02:16:29"
+}

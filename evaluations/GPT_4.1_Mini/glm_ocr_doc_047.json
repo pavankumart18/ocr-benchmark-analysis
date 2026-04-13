@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 60,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 77.25,
+    "notes": "Company name and address mostly correct with minor punctuation differences. Date and total amount exactly match. Table structure is present but not clearly delineated as in ground truth; multiple line items included though not in a strict table format. Layout order mostly preserved but extra unrelated text (e.g., contact info, cashier details) present. All key ground truth fields captured, but additional text adds noise."
+  },
+  "timestamp": "2026-04-13 02:10:39"
+}

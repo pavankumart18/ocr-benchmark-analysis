@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "gemini_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 66.25,
+    "notes": "The text accuracy is good with minor issues like missing punctuation. There are no tables in the original content, so table structure is not applicable. Numeric precision is high as dates are correctly captured. Layout preservation is partially maintained but some formatting is lost. Completeness is decent but some minor details might be missing."
+  },
+  "timestamp": "2026-04-13 02:47:20"
+}

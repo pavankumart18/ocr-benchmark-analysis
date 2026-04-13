@@ -1,0 +1,19 @@
+{
+  "doc_id": "doc_035",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 45,
+    "numeric_precision": 70,
+    "layout_preservation": 40,
+    "reading_order": 50,
+    "completeness": 75,
+    "total_score": 57,
+    "notes": "Major issues include severely misaligned table structure with data scattered across incorrect columns, poor column header alignment, and fragmented layout. While most text content is captured, the tabular format is largely broken. Numeric values appear mostly accurate but are positioned incorrectly. Some OCR errors like '7,3' instead of '7.3' and missing decimal points. The document appears to be a nutritional information table for fries, dips, wraps and dressings but structural integrity is compromised."
+  },
+  "timestamp": "2026-04-13 01:56:49"
+}

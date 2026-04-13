@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 99,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 97.9,
+    "notes": "The text accuracy is very high with only minor differences in apostrophe usage ('s vs. \u2019s). Numeric precision and completeness are perfect. Table structure is not applicable here, so it's scored as 100. Layout preservation is good, but there are some extra spaces/indentations in the OCR output, particularly before 'This Power of Attorney' and the signature block, which slightly deviates from the ground truth's more left-aligned appearance."
+  },
+  "timestamp": "2026-04-13 01:46:12"
+}

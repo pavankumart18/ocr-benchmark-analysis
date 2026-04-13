@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 74.75,
+    "notes": "The OCR output captures most text correctly but contains multiple minor misspellings (e.g., 'ofcorrosion-resistant', 'CEJULITUV', 'professional-gradel', 'High-efficiencyl') and spacing issues. The table structure is partially preserved but lacks clear column alignment and consistent row separation, making it harder to read numeric data in context. Numeric values, dates, and codes appear mostly accurate with few errors. Layout is generally maintained but some paragraphs and sections run together, affecting readability. Overall completeness is good with no major missing text."
+  },
+  "timestamp": "2026-04-13 02:10:55"
+}

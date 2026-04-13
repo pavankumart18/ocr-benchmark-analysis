@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 20,
+    "numeric_precision": 25,
+    "layout_preservation": 60,
+    "completeness": 40,
+    "total_score": 54.5,
+    "notes": "Company name and address are accurately extracted, but critical information is missing: date (18-11-18) and total amount (30.90) are not present in OCR output. OCR captured additional irrelevant text like customer name and product details not in ground truth. The structure shows invoice format but lacks the specific structured data fields required."
+  },
+  "timestamp": "2026-04-13 02:01:40"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 80.75,
+    "notes": "Text accuracy is generally good, but there's a typo 'Contruction' instead of 'Construction'. The table structure is partially preserved for the main data, but the bar chart data is extracted as a flat list of numbers and some extraneous characters ('U', 'I', 'a') are present. Numeric precision is high for the monetary values and counts. Layout preservation is fair; the main table is somewhat readable, but the bar chart data is not presented in a way that reflects its visual layout. Completeness is good for the main table, but the bar chart's visual representation is lost, and some of the numbers associated with it are not clearly distinguishable from other noise."
+  },
+  "timestamp": "2026-04-13 01:37:54"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 0,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 50,
+    "total_score": 62.75,
+    "notes": "The OCR output contains multiple significant text errors such as 'INHALERS' instead of 'INMATES', missing parts of sentences, and truncation at the end. There is no table structure in the ground truth or OCR output, so table_structure scores zero. Numeric data and dates are mostly accurate but some nicotine values differ slightly. The layout is partially preserved with headings and sections but the reading order is disrupted and the text is incomplete. Large portions of the original text, including key details and insights, are missing."
+  },
+  "timestamp": "2026-04-13 02:21:28"
+}

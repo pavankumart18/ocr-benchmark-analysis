@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "gemini_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 70,
+    "layout_preservation": 80,
+    "completeness": 60,
+    "total_score": 78.5,
+    "notes": "The OCR output captures most of the text accurately but misses the total amount and part of the date. The table structure is not applicable as there are no tables. Numeric precision is affected by the missing total amount. Layout is mostly preserved but lacks some details. Completeness is impacted by missing key information."
+  },
+  "timestamp": "2026-04-13 02:53:42"
+}

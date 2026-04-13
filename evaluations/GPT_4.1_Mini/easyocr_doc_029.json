@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 55,
+    "table_structure": 50,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 63.75,
+    "notes": "Significant OCR errors with many misspellings and garbled words (e.g., 'Kuvalis Iqck', 'Eceeicr SQreRlete', 'feblaFonGgtiogesecure', 'OenSP4RSSEERGK'). Table structure is partially preserved but columns and rows are not clearly aligned, and some checkpoint labels are repeated or misplaced. Numeric data such as dates are mostly correct. Layout is somewhat maintained but reading order is disrupted by garbled text and misplaced sections. Most visible text is captured, but some parts appear corrupted or unclear."
+  },
+  "timestamp": "2026-04-13 02:14:47"
+}

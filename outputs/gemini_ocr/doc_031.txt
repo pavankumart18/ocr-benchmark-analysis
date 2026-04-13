@@ -1,0 +1,9 @@
+Transaction Overview by Quarter
+
+City	Year	Transactions (Total)	Permits Filed	Educational Buildings	Data Centers	Healthcare Facilities	State & Federal Contruction
+
+Phoenix	2021	$208M	132	$72.1M	$32.8M	$22.9M	$80.3M
+
+Charlotte	2021	$181M	469	$34.8M	$95.1M	$29.7M	$21.5M
+
+San Diego	2021	$188M	347	$72.3M	$17.7M	$57.8M	

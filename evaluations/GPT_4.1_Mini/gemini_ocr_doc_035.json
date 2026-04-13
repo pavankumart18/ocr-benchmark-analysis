@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 75,
+    "completeness": 70,
+    "total_score": 73.25,
+    "notes": "Text mostly accurate with minor issues (e.g., 'Recipe' header aligned but some values missing). Table structure is incomplete and misaligned, especially missing some numeric values in the second row. Numeric precision suffers from missing numbers and inconsistent columns. Layout is mostly preserved but some columns and rows are truncated or incomplete. Overall, some data is missing, notably in the 'Duck Fat Fries' row where several numeric values are absent."
+  },
+  "timestamp": "2026-04-13 02:17:22"
+}

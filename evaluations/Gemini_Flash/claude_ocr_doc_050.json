@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 90,
+    "total_score": 94.5,
+    "notes": "The OCR output correctly extracted all the requested fields. The 'company' field is a perfect match. The 'date' and 'total' fields are also perfect matches. The 'address' field is a perfect match. The OCR output contains additional information not present in the ground truth, which is acceptable for completeness as long as the required fields are present and accurate."
+  },
+  "timestamp": "2026-04-13 01:47:39"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_019",
+  "model": "gemini_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 70,
+    "total_score": 88.75,
+    "notes": "The OCR output is highly accurate with minimal issues. The text accuracy is very high, with only minor formatting differences. The table structure is well-preserved, and there are no numeric discrepancies. However, the completeness is lower due to the truncation of the 'Material, non-public information' section, missing several bullet points and the final paragraph."
+  },
+  "timestamp": "2026-04-13 02:45:51"
+}

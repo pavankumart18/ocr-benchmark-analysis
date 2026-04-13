@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 70,
+    "total_score": 86,
+    "notes": "The OCR output accurately captures most of the text and numerical data, and the table structure is well-preserved. However, the 'Insights and Observations' section from the ground truth is entirely missing, significantly impacting completeness. There's also a minor discrepancy in the 'TOTAL' row for 'PROJECTIONS '84' where the OCR shows '4,916' instead of the implied sum of the individual categories (which would be 4,916, so the OCR is correct in its sum, but the ground truth didn't explicitly state this sum, only the individual components). The ground truth also provides a more detailed breakdown of the 'Tentative Budget for 1984' and the notes (a) and (b) are slightly rephrased in the OCR output."
+  },
+  "timestamp": "2026-04-13 01:44:32"
+}

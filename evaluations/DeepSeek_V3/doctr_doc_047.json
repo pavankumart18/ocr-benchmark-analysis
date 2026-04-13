@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 100,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 83.25,
+    "notes": "Text accuracy is good with minor issues like 'NO.53JALAN PUTRA1' missing a space. Table structure is somewhat preserved but has extra irrelevant data. Numeric precision is perfect. Layout preservation is decent but reading order is mixed with irrelevant details. Completeness is high as all ground truth fields are captured."
+  },
+  "timestamp": "2026-04-13 03:08:02"
+}

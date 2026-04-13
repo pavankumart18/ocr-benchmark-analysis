@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 40,
+    "numeric_precision": 60,
+    "layout_preservation": 45,
+    "completeness": 30,
+    "total_score": 47.25,
+    "notes": "OCR output is incomplete and truncated, missing most of the text and many numeric values. The table is partially preserved but columns and rows are cut off and indices are shown with parentheses unlike ground truth. Numeric values mostly match but some are missing or incomplete (e.g., '8.' instead of '8.13'). Layout is partially maintained but large sections and formatting are lost. Overall, major portions of the document are missing, resulting in low completeness and structure scores."
+  },
+  "timestamp": "2026-04-13 02:16:56"
+}

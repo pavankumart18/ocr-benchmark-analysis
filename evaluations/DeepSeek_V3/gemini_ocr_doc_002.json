@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_002",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 100,
+    "total_score": 90,
+    "notes": "Minor issues in text accuracy (extra header 'tan woon yann' and footer text not in ground truth). Table structure slightly off due to extra lines and formatting. Layout preserved but with additional non-relevant text. Numeric precision and completeness are perfect."
+  },
+  "timestamp": "2026-04-13 03:19:44"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 90.25,
+    "notes": "Text is very accurate with no noticeable misspellings or wrong characters. Numeric data including dates, prices, and fees are correct. The layout and reading order are well preserved with clear sections and headers. The only minor issue is that the seminar topics are presented as bullet points rather than a formal table or aligned columns, which slightly affects table structure scoring."
+  },
+  "timestamp": "2026-04-13 02:10:17"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87,
+    "notes": "Minor OCR errors include repeated phrases ('day of May 2025', 'payable monthly with the first payment due upon the') and slight formatting inconsistencies. However, the overall structure, numeric data, and completeness are well-preserved."
+  },
+  "timestamp": "2026-04-13 03:37:51"
+}

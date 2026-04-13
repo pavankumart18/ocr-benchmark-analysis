@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_021",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 75,
+    "total_score": 81,
+    "notes": "The OCR output captures most of the text accurately, but misses some descriptive elements from the ground truth. The distribution list is presented in a two-column format which is not explicitly described as a table in the ground truth but is a structured list. The date received is 'MAY 19 1984' in OCR vs 'January 19, 1984' in ground truth, which is a significant error. The ground truth is a summary/analysis of the document, not the raw document itself, so the OCR is missing the interpretive sections. The OCR output is the raw document content, while the ground truth is an analysis of that document. This makes direct comparison challenging as the ground truth contains interpretive text not present in the OCR."
+  },
+  "timestamp": "2026-04-13 01:44:30"
+}

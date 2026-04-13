@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 82.25,
+    "notes": "Text is mostly accurate with minor spacing and alignment issues; some department names and shifts are correctly captured but shift times are often misaligned under wrong days. Table columns and rows are preserved but the multi-line shifts cause confusion in alignment. Numeric data like dates and IDs are precise. Reading order is mostly correct but shift entries are scattered, affecting clarity. Overall, most visible text is present with no major omissions."
+  },
+  "timestamp": "2026-04-13 02:19:32"
+}

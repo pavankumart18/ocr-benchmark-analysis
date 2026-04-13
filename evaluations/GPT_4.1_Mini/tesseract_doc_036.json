@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 55,
+    "table_structure": 60,
+    "numeric_precision": 50,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 60.75,
+    "notes": "Significant OCR errors with misspellings (e.g., 'Jucvie Gerkold', 'Ur\\Gornin', 'Lewke nc'), garbled words (e.g., 'thie?', 'AT\u00a503 Gor cz ant Theo ugh way'), and inconsistent numeric data (e.g., '7\u00b025-05-11', 'z year(s) 1\u00b0 month(s)', '34\u00b0 dollars'). Table structure is weak but some numeric alignment is preserved. Layout and section order mostly maintained. Most text appears captured but with many recognition errors."
+  },
+  "timestamp": "2026-04-13 02:13:56"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 55,
+    "layout_preservation": 55,
+    "completeness": 70,
+    "total_score": 57.75,
+    "notes": "Significant OCR errors with currency symbols misread as 'S' instead of '$', inconsistent spacing, and some garbled text (e.g., '524SM', 'Q04-2024'). Table columns and rows are poorly aligned, making it difficult to associate numbers with correct categories. Numeric values have misplaced commas and decimals, reducing precision. Layout is somewhat preserved but reading order and section separation are unclear. Most text is present but some parts appear jumbled or incomplete."
+  },
+  "timestamp": "2026-04-13 02:15:13"
+}

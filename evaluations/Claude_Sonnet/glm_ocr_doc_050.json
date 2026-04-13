@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83,
+    "notes": "Company name has minor capitalization differences, address is accurate but formatted differently, date and total are correct. OCR captured much more content than ground truth requires, with good preservation of receipt structure and numeric values."
+  },
+  "timestamp": "2026-04-13 01:49:46"
+}

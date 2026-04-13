@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83.75,
+    "notes": "Minor text accuracy issues such as 'surface ins'tallation type' instead of 'surface installation type'. Table structure is somewhat preserved but not perfectly aligned. Numeric values appear accurate. Layout mostly preserved but some sections could be clearer. Completeness is high with no major missing content."
+  },
+  "timestamp": "2026-04-13 02:37:00"
+}

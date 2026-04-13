@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 40,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 77.25,
+    "notes": "Text accuracy is high with correct company name and address, minor differences like missing 'MR DIY TESCO TERBAU' parentheses spacing. Table structure is poor as the OCR output includes a detailed itemized list not present in ground truth, and no clear table matching the ground truth structure. Numeric precision is good; total rounded matches exactly, date matches, minor rounding adjustment present but consistent. Layout is mostly preserved with correct reading order but extra sections (items list) affect clarity. Completeness is good; all ground truth fields are present, no major missing text."
+  },
+  "timestamp": "2026-04-13 02:20:30"
+}

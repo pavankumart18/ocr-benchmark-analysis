@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 80,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 87,
+    "notes": "Text accuracy is good for 'company' and 'address' with minor discrepancies in the address numbers (53, 55, 47 & 49 vs 53 55,57 & 59). The date is incorrect (29/12/2018 vs 25/12/2018). The 'total' matches perfectly. Table structure is not applicable as the ground truth is not a table. Layout preservation is good as the relevant information is easily identifiable. Completeness is high, with all requested fields present."
+  },
+  "timestamp": "2026-04-13 01:45:20"
+}

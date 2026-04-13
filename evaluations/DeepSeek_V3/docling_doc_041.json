@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 20,
+    "numeric_precision": 60,
+    "layout_preservation": 30,
+    "completeness": 70,
+    "total_score": 45.5,
+    "notes": "Major issues: Incorrect company name ('BOOKTA K(TAMANDAYA)SDNBHD' vs 'BOOK TA .K (TAMAN DAYA) SDN BHD'), garbled address ('NO5S9AASA08 TANAN DAYA BLUU JOHIORBANRU' vs correct address), incorrect date format ('25/12201881339P9' vs '25/12/2018'). Table structure is poorly preserved. Numeric precision is partially correct ('9.00' is present but garbled with other text). Layout is disrupted with random text and images."
+  },
+  "timestamp": "2026-04-13 03:11:18"
+}

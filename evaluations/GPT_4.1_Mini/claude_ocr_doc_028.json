@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 91.75,
+    "notes": "The OCR output is highly accurate with no noticeable misspellings or wrong characters. The table structure is mostly preserved, though the multiline descriptions slightly affect clarity and alignment. Numeric data including dates, quantities, and codes are correctly captured. Layout and reading order are well maintained, with clear sectioning and headers. The content appears complete with no major missing text."
+  },
+  "timestamp": "2026-04-13 02:21:43"
+}

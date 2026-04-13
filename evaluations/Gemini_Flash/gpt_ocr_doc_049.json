@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 100,
+    "completeness": 90,
+    "total_score": 90.5,
+    "notes": "The OCR output correctly identified the company name, date, and total. The address had a few numerical discrepancies (NO.69 instead of NO.59, 15/5 instead of 9/5, 81750 instead of 81760). All other fields were extracted perfectly."
+  },
+  "timestamp": "2026-04-13 01:45:39"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 10,
+    "numeric_precision": 10,
+    "layout_preservation": 10,
+    "completeness": 30,
+    "total_score": 16,
+    "notes": "The OCR output is almost entirely upside down and mirrored, making most of the text unreadable or incorrectly transcribed. This severely impacts text accuracy, numeric precision, and layout. The table structure is completely lost due to the orientation issue. While some text is present, its incorrect orientation makes it largely unusable."
+  },
+  "timestamp": "2026-04-13 01:40:01"
+}

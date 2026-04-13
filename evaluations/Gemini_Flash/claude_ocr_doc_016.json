@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_016",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 99,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 98,
+    "completeness": 100,
+    "total_score": 99.25,
+    "notes": "The OCR output is very accurate. The only minor discrepancies are the presence of extra line breaks in the ground truth that are not present in the OCR output, and the use of an apostrophe in 'Company's' and 'Counsel's' in the OCR output where the ground truth uses a single quote. These are very minor and do not affect readability or meaning."
+  },
+  "timestamp": "2026-04-13 01:46:17"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 0,
+    "numeric_precision": 85,
+    "layout_preservation": 10,
+    "completeness": 70,
+    "total_score": 57,
+    "notes": "Text accuracy is fair for 'company' and 'date', but 'address' has several character errors and missing numbers. Table structure is not applicable as the ground truth is a JSON object, not a table. Numeric precision is good for 'total' and 'date'. Layout preservation is poor as the OCR output includes a lot of extraneous text and the structure of the ground truth JSON is not reflected. Completeness is low because many fields from the ground truth are not directly extracted or are heavily garbled within the OCR output."
+  },
+  "timestamp": "2026-04-13 01:38:33"
+}

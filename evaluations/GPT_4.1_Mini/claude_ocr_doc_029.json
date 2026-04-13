@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 86.25,
+    "notes": "Minor OCR errors such as 'Kuvalis 1qck' instead of likely 'Kuvalis 1qck' (unclear if '1qck' is correct model name), and a dash '-' in some 'Fail' columns instead of blank or N/A. Table columns mostly preserved but some misalignment in 'Fail' and 'N/A' columns with dashes and checkmarks. Dates and IDs appear accurate. Layout and reading order are well maintained. Overall, the extraction is very good with minor text and table alignment issues."
+  },
+  "timestamp": "2026-04-13 02:21:46"
+}

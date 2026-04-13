@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 30,
+    "table_structure": 0,
+    "numeric_precision": 20,
+    "layout_preservation": 10,
+    "completeness": 40,
+    "total_score": 23,
+    "notes": "Significant errors in text accuracy, especially for company name and address. Date is completely missing. Total amount is present but not clearly identified. The OCR output contains a lot of extraneous text not related to the ground truth fields. Table structure is not applicable as the ground truth is not a table. Numeric precision is low due to the missing date and the total being hard to extract. Layout preservation is poor due to the extra text and incorrect reading order for the relevant fields. Completeness is low as the date is missing and other fields are heavily garbled."
+  },
+  "timestamp": "2026-04-13 01:40:26"
+}

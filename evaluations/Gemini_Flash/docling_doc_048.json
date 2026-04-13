@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 88,
+    "notes": "The company name has a slight character difference in 'SDN.BHD' vs 'SDN. BHD.' and 'SUNGAI' vs 'SUNGAI'. The address has 'Ranglt' instead of 'Rengit'. The date is correctly extracted. The total is correct. The overall structure for the extracted fields is good, but the OCR output contains a lot of extraneous text not relevant to the ground truth fields."
+  },
+  "timestamp": "2026-04-13 01:39:39"
+}

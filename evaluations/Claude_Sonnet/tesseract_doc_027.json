@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 40,
+    "numeric_precision": 60,
+    "layout_preservation": 45,
+    "completeness": 65,
+    "total_score": 58,
+    "notes": "Text accuracy is decent with minor issues like 'BD Life 1 ) 3' appearing garbled. Table structure is poorly preserved - appears to be an organizational chart or complex table that's been linearized without clear structure. Numeric data is mostly missing except for fragmented references. Layout shows departments/divisions but relationships and hierarchy are unclear. Some content appears incomplete, particularly financial figures that should accompany 'billions of dollars' reference."
+  },
+  "timestamp": "2026-04-13 01:54:03"
+}

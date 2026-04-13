@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_017",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 96.5,
+    "notes": "Minor issues include an extraneous '?' at the start of the OCR output and slight formatting differences in section headers. Otherwise, the text is highly accurate with no missing content or structural errors."
+  },
+  "timestamp": "2026-04-13 03:29:11"
+}

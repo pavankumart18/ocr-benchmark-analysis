@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 87.25,
+    "notes": "OCR output accurately captures most text and numeric data with very minor deviations (e.g., 'Sample Promotion' vs 'Sample Program'). Table structure is well preserved with clear columns and rows. Numeric values match ground truth precisely. Layout is mostly maintained but lacks explicit section headers and some formatting cues (e.g., bold titles, bullet points). Completeness is good but some narrative and explanatory text from ground truth is missing, such as the detailed 'Insights and Observations' and some key document type labels."
+  },
+  "timestamp": "2026-04-13 02:19:09"
+}

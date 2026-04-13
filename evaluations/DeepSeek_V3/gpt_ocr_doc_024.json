@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.75,
+    "notes": "Minor issues include OCR artifacts ('NES/tat', 'bZ600TVLSL'), slight formatting deviations, and missing 'Additional Notes' section. Numeric precision and table structure are well-preserved."
+  },
+  "timestamp": "2026-04-13 03:29:51"
+}

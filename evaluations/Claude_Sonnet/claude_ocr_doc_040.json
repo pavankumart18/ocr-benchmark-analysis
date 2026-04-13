@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 92,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 88,
+    "completeness": 90,
+    "total_score": 90,
+    "notes": "Very good OCR extraction with accurate text and preserved structure. Minor issues include some formatting inconsistencies in the speaker sections and potential missing visual elements like logos or graphics. All key information including dates, prices, and contact details are correctly captured."
+  },
+  "timestamp": "2026-04-13 02:08:56"
+}

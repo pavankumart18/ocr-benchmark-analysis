@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 75,
+    "layout_preservation": 65,
+    "completeness": 80,
+    "total_score": 69.25,
+    "notes": "Text accuracy suffers from misspellings and incorrect spacing (e.g., 'UNITEDSTATES', 'EXPRESS HANDLINGI FEE'). Table structure is disrupted with misaligned columns and inconsistent spacing. Numeric precision is mostly correct but has minor errors (e.g., '1o' instead of '10'). Layout preservation is compromised with inconsistent reading order. Completeness is good, with most text captured but some formatting lost."
+  },
+  "timestamp": "2026-04-13 03:05:26"
+}

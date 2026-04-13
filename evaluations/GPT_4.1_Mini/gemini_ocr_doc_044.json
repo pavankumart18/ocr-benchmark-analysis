@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 40,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 75.25,
+    "notes": "Company name and address mostly correct with minor punctuation differences; date matches exactly. Numeric values mostly precise except minor rounding adjustments noted in totals. Table structure poorly preserved as original ground truth has no detailed tables, but OCR output includes unrelated itemized sales table not in ground truth. Layout is generally logical but includes extraneous sections and additional data not in ground truth, affecting reading order. Overall completeness is good with all key fields present."
+  },
+  "timestamp": "2026-04-13 02:17:45"
+}

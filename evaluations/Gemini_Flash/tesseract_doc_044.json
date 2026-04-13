@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 0,
+    "numeric_precision": 70,
+    "layout_preservation": 50,
+    "completeness": 60,
+    "total_score": 55.5,
+    "notes": "Text accuracy is fair for 'company' and 'total', but 'address' has several character errors and 'date' is incorrect. Table structure is not applicable as the ground truth is not a table. Numeric precision is good for 'total' but 'date' is wrong. Layout preservation is poor due to extra text and incorrect reading order. Completeness is low as only a few fields from the ground truth are present and correctly identified."
+  },
+  "timestamp": "2026-04-13 01:40:32"
+}

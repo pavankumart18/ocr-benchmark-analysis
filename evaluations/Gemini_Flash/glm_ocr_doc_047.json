@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 95.5,
+    "notes": "The OCR output correctly extracted all the requested fields. The 'address' field had a minor punctuation difference (comma vs period) and was split across multiple lines in the OCR output, but the content is correct. The 'company', 'date', and 'total' fields are perfectly matched. The ground truth is a structured JSON, while the OCR output is raw text, which impacts layout preservation slightly due to the address formatting."
+  },
+  "timestamp": "2026-04-13 01:37:29"
+}

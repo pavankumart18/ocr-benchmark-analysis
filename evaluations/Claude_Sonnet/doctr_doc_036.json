@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 80,
+    "numeric_precision": 45,
+    "layout_preservation": 75,
+    "completeness": 70,
+    "total_score": 64.25,
+    "notes": "Multiple critical errors including wrong date (2075 instead of 2015), misspelled state name 'Lalifornia', garbled street names like 'Poad' and 'Gorczant Throughway', inconsistent date formatting in lease term section, and duplicated text in rent section. Layout and structure are reasonably preserved but text accuracy and numeric precision are significantly compromised."
+  },
+  "timestamp": "2026-04-13 01:50:35"
+}

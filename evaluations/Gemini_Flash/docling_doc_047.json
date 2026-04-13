@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 91,
+    "notes": "The OCR output is generally very good. Minor text accuracy issues include 'SOON HUATMACHINERY ENTERPRISE' instead of 'SOON HUAT MACHINERY ENTERPRISE' (missing space) and 'NOSJJALANPUTRA1' instead of 'NO.53 JALAN PUTRA 1' (missing space and period, 'SJ' instead of '53'). The date '1101/2019' is missing a slash, but the numbers are correct. All required fields are present and correctly identified."
+  },
+  "timestamp": "2026-04-13 01:39:37"
+}

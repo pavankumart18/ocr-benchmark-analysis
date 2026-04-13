@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 79.5,
+    "notes": "Text accuracy is impacted by several character recognition errors in the company name and address. The company name has 'JOKOR' instead of 'JOHOR' and 'SON' instead of 'SDN'. The address has 'PEQINDUSTRIAN GALAKONG' instead of 'PERINDUSTRIAN BALAKONG'. The date and total are correctly extracted. The overall structure is good, and the numeric precision for the target fields is high."
+  },
+  "timestamp": "2026-04-13 01:40:29"
+}

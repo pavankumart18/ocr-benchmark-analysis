@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 75,
+    "layout_preservation": 88,
+    "completeness": 95,
+    "total_score": 85.25,
+    "notes": "Company name and total amount are correct. Address has minor error (NO 123 vs 122). Date is off by one day (26/12/2018 vs 25/12/2018). OCR captured much more detail than ground truth, with good table structure and layout preservation. Main issues are the date discrepancy and address number."
+  },
+  "timestamp": "2026-04-13 02:05:23"
+}

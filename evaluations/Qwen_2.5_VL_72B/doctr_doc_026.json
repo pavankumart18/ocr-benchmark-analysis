@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 75,
+    "numeric_precision": 90,
+    "layout_preservation": 85,
+    "completeness": 70,
+    "total_score": 80.5,
+    "notes": "The OCR output has a few minor issues: 'Germany (EUA)' should be 'Germany (GER)', and 'A Great Britain (GBR)' should be 'Great Britain (GBR)'. The table structure is mostly preserved but has some alignment issues. Numeric values appear to be correct. The layout is generally preserved but has some minor inconsistencies. Some text is missing, such as the '-' in the Silver column for Great Britain."
+  },
+  "timestamp": "2026-04-13 02:24:46"
+}

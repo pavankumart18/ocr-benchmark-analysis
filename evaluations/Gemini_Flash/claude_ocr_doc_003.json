@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 100,
+    "completeness": 95,
+    "total_score": 95.25,
+    "notes": "The OCR output is very good. The only minor discrepancies are the 'total' value which is 33.92 in the OCR output before rounding, and the ground truth only provides the rounded total. The OCR output also includes additional text not present in the ground truth, but all ground truth fields are present and correctly extracted."
+  },
+  "timestamp": "2026-04-13 01:45:48"
+}

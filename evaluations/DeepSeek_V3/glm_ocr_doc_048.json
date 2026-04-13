@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 100,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 85.25,
+    "notes": "Minor text inaccuracies (e.g., extra 'tan chay yee', missing brackets in company name). Table structure mostly preserved but with extra unrelated rows. Numeric values and dates are correct. Layout has extra unrelated sections (e.g., invoice details, footer). All ground truth content is captured but with additional unrelated text."
+  },
+  "timestamp": "2026-04-13 03:04:48"
+}

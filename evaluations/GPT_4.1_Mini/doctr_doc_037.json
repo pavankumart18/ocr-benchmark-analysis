@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 75,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83.25,
+    "notes": "Overall good extraction with minor spelling errors (e.g., 'Al' instead of 'AI', 'energy.performance:' with misplaced colon, 'UPTIMEI INSTITUTE GLOBAL: SURVEY OFI IT AND DATA CENTERI MANAGERS' with extra 'I's). Table structure mostly preserved but some alignment issues and inconsistent spacing in the table. Numeric data is accurate. Layout and reading order mostly maintained. No major missing text."
+  },
+  "timestamp": "2026-04-13 02:11:22"
+}

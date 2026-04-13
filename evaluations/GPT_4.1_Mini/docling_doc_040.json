@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 55,
+    "table_structure": 40,
+    "numeric_precision": 70,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 56.75,
+    "notes": "The OCR output contains numerous misspellings, missing spaces, and garbled words (e.g., 'eanly modem Europeis history', 'Cruse puces', 'Aadpp fees'). Table and list structures are poorly preserved, with seminar topics and speaker info running together and inconsistent formatting. Numeric values like fees and prices are mostly correct but some words around them are corrupted. The reading order is roughly maintained but paragraphs and headers are merged or broken awkwardly. Most visible text appears captured but with significant errors affecting readability."
+  },
+  "timestamp": "2026-04-13 02:12:49"
+}

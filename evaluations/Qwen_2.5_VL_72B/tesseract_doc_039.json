@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 83.25,
+    "notes": "Minor issues with table structure alignment and some missing values in the 'Puer Returns' and 'Puer Total' sections. Text accuracy is good with no major misspellings. Numeric values are mostly precise, but some table rows are not fully captured."
+  },
+  "timestamp": "2026-04-13 02:41:01"
+}

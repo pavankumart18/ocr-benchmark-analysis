@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 60,
+    "completeness": 75,
+    "total_score": 76,
+    "notes": "Good numeric accuracy and most text correct. Table structure partially preserved but alignment issues present. Bottom section with chart data appears garbled with mixed characters and unclear formatting. Some statistical data (averages/medians) captured well but chart/quarter data is corrupted."
+  },
+  "timestamp": "2026-04-13 01:50:44"
+}

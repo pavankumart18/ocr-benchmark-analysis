@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 69.75,
+    "notes": "Text is mostly accurate but contains some odd spacing and punctuation issues (e.g., inconsistent use of dashes, missing sender/recipient names in some rows). Table columns are not well aligned, causing confusion in row associations and multiple charges per cell are merged without clear separation. Numeric values appear mostly correct but some VAT/code and gross value columns seem mismatched or unclear. Layout order is generally preserved but some rows have missing or misplaced data fields. Overall, most visible text is captured but table formatting and clarity suffer."
+  },
+  "timestamp": "2026-04-13 02:21:49"
+}

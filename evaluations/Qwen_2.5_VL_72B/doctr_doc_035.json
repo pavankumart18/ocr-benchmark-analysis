@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "doctr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 80.5,
+    "notes": "Minor text accuracy issues with some misspellings (e.g., 'Chilil Lime'). Table structure is somewhat preserved but alignment and column headers are inconsistent. Numeric values appear accurate. Layout mostly preserved but some sections are disorganized. Most text is captured, but some formatting is lost."
+  },
+  "timestamp": "2026-04-13 02:25:29"
+}

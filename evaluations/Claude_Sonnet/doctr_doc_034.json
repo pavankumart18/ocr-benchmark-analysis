@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 45,
+    "numeric_precision": 70,
+    "layout_preservation": 40,
+    "completeness": 75,
+    "total_score": 58,
+    "notes": "Multiple OCR errors including misspellings (OONSICOOKP, ISSUEL, FRAGILETTEMFEE), poor table structure with merged columns making data difficult to parse, inconsistent spacing and alignment issues. While most numeric values appear correct, the overall document structure is significantly compromised with headers and data fields not properly separated."
+  },
+  "timestamp": "2026-04-13 01:50:25"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 100,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 68,
+    "notes": "Key issues: 'ABC HO TRADING' misread as 'ARC HO TRADING', address has multiple typos ('HARMONT' for 'HARMONI', 'DEGA HARMCHINL' for 'DESA HARMONI'), extra irrelevant text present. Table structure is poorly preserved with missing/incorrect columns. Numeric values (date, total) are correct. Layout is somewhat preserved but cluttered with extra info."
+  },
+  "timestamp": "2026-04-13 03:15:40"
+}

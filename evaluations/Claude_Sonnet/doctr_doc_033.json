@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 70,
+    "layout_preservation": 35,
+    "completeness": 60,
+    "total_score": 44.5,
+    "notes": "Severe OCR errors throughout with numerous misspellings, missing spaces, garbled words, and fragmented sentences. Text appears jumbled with poor word boundaries. Layout structure is heavily disrupted with definitions scattered and incomplete. Some technical terms and numbers are preserved but overall readability is significantly compromised."
+  },
+  "timestamp": "2026-04-13 01:50:21"
+}

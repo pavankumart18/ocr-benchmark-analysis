@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_003",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 30,
+    "numeric_precision": 20,
+    "layout_preservation": 60,
+    "completeness": 40,
+    "total_score": 54.25,
+    "notes": "Company name and address mostly correct but extra unrelated text present; no table or structured data matching ground truth; missing date and total amount; numeric data incorrect or absent; layout partially preserved but key sections like date and total missing; overall incomplete extraction."
+  },
+  "timestamp": "2026-04-13 02:15:52"
+}

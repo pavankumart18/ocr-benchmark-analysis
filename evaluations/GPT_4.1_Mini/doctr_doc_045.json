@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 10,
+    "numeric_precision": 60,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 29.5,
+    "notes": "Severe OCR errors with mostly garbled text and incorrect characters. Company name and address are heavily distorted and mostly unreadable. Numeric values partially correct but with minor discrepancies (e.g., total RM 30.91 vs 30.90). No clear table structure preserved; invoice lines are jumbled. Layout and reading order are poor, making it difficult to identify sections. Some key fields like date and company name are missing or unreadable."
+  },
+  "timestamp": "2026-04-13 02:11:45"
+}

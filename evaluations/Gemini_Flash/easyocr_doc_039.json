@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 86,
+    "notes": "Text accuracy is generally good, with only one minor typo ('Bergnaum I' instead of 'Bergnaum'). Table structure has some issues with missing values and misaligned data, particularly for 'BB Sales', 'BB Returns', 'BB Total', 'Puer Sales', 'Puer Returns', and 'Puer Total' columns for several entries. Numeric precision is high for the numbers that are present. Layout preservation is decent, but the table's column integrity is compromised. Completeness is good, with most visible text captured, though the missing table data impacts this slightly."
+  },
+  "timestamp": "2026-04-13 01:41:23"
+}

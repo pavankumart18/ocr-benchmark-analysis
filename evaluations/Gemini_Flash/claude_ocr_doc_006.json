@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_006",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 97.5,
+    "notes": "The OCR output accurately extracted all the requested fields from the ground truth. There were no misspellings or incorrect characters in the extracted data for the specified fields. The structure of the extracted data aligns perfectly with the ground truth's JSON format. Numeric values and dates are exact matches. The layout and completeness are also excellent for the target fields."
+  },
+  "timestamp": "2026-04-13 01:45:55"
+}

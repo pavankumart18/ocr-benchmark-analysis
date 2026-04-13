@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 90,
+    "numeric_precision": 98,
+    "layout_preservation": 95,
+    "completeness": 98,
+    "total_score": 96,
+    "notes": "The OCR output is very good. There's a minor typo 'Puer' instead of 'Pure' in the column headers. The table structure is mostly preserved, but some empty cells in the 'Puer Sales' and 'Puer Returns' columns for some rows are not explicitly represented, which slightly impacts table structure and completeness. Numeric precision is excellent, and the layout is well-maintained."
+  },
+  "timestamp": "2026-04-13 01:43:17"
+}

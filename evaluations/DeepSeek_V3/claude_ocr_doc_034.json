@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 88,
+    "notes": "Minor typos in text (e.g., '0ONSJCOOKP' likely OCR error). Table structure well preserved. Numeric values and dates are accurate. Layout mostly correct but some misalignment in table rows. No major missing text."
+  },
+  "timestamp": "2026-04-13 03:37:40"
+}

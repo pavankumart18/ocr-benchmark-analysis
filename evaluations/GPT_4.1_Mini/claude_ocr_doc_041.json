@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 50,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 75.25,
+    "notes": "Company name mostly correct except minor spacing and punctuation errors ('JATAN' vs 'JALAN'). Address mostly captured but 'JALAN SAGU 18' misread as 'JATAN SAGU 3B'. Date and total amounts match well. Table structure is poorly preserved; original ground truth has no table but OCR output includes a detailed itemized bill which is not in ground truth, so structure comparison is limited and inconsistent. Layout is somewhat preserved but extra unrelated text and sections affect reading order. Overall, most ground truth text is present but with some errors and added unrelated content."
+  },
+  "timestamp": "2026-04-13 02:22:21"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 20,
+    "numeric_precision": 15,
+    "layout_preservation": 10,
+    "completeness": 5,
+    "total_score": 12.75,
+    "notes": "Severe OCR errors: company name, date, address, and total are incorrect or missing. Numeric values and table structure are garbled. Most ground truth content is not captured."
+  },
+  "timestamp": "2026-04-13 03:11:23"
+}

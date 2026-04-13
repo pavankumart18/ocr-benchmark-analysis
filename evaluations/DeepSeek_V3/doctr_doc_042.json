@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 80,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 65.25,
+    "notes": "Key issues: 'INRAH GIFT & HOME ECO' misspelled, 'TAMANE JOHOR TAYA' incorrect, 'JONOR' typo, extra irrelevant text (e.g., receipt details, footer), but 'total' amount and date are correct. Table structure is garbled with mixed content."
+  },
+  "timestamp": "2026-04-13 03:07:24"
+}

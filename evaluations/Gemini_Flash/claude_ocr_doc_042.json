@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 92.5,
+    "notes": "The OCR output accurately extracted all the requested fields. There was a minor misspelling in 'INDAH' as 'INDAN' in the company name, and the date year was '2010' instead of '2018'. The total amount was correctly identified despite the intermediate calculation showing '60.31'."
+  },
+  "timestamp": "2026-04-13 01:47:21"
+}

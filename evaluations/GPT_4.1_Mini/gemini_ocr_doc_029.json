@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 86.25,
+    "notes": "Minor OCR errors such as 'Kuvalis 1qck' instead of likely 'Kuvalis 1qck' (uncertain if '1qck' is correct model name), and some inconsistent spacing in tables. The table columns are mostly preserved but some checkmarks and dashes are misaligned or missing in the 'Fail' and 'N/A' columns. Dates and IDs are accurate. Layout and section headers are well maintained. Overall, the extraction is good with minor formatting and alignment issues."
+  },
+  "timestamp": "2026-04-13 02:17:06"
+}

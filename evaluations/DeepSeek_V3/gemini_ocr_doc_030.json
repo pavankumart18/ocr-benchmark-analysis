@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 80,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 70,
+    "total_score": 83,
+    "notes": "Text accuracy is high with minor issues like incomplete date ('11-10'). Table structure is mostly preserved but lacks some data alignment. Numeric precision is good, but some fields are incomplete. Layout preservation is decent, but reading order could be improved. Completeness is affected by missing data in some fields."
+  },
+  "timestamp": "2026-04-13 03:23:38"
+}

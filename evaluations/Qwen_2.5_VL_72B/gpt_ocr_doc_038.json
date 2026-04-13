@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "gpt_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 79.5,
+    "notes": "The OCR output has minor issues with table structure and layout preservation. The 'Retail' average and median values seem incorrect, and the 'Transactions by Quarter' section is not properly formatted. Text accuracy is generally good, but there are some inconsistencies in the table structure and numeric precision."
+  },
+  "timestamp": "2026-04-13 02:57:00"
+}

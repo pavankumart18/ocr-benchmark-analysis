@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 75,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 86.25,
+    "notes": "Text is mostly accurate with no obvious misspellings. Numeric values and currencies are correct. Table structure is somewhat disrupted, with some segment values and labels not clearly aligned or grouped, especially in the revenue by segment section. Layout and reading order are generally preserved but some line breaks and grouping could be improved. No major text appears missing."
+  },
+  "timestamp": "2026-04-13 02:17:01"
+}

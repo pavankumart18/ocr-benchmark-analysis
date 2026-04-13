@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.25,
+    "notes": "Minor issues include extra text ('tan woon yann', invoice details) not in ground truth, but key fields (company, date, address, total) are accurately captured. Numeric precision is excellent with minor rounding note. Layout has some extra lines but preserves order."
+  },
+  "timestamp": "2026-04-13 03:39:00"
+}

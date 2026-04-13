@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 80,
+    "layout_preservation": 55,
+    "completeness": 65,
+    "total_score": 65.75,
+    "notes": "Text contains some misspellings (e.g., 'Contruction' instead of 'Construction'), and some garbled lines with random characters. Table columns and rows are partially preserved but alignment is inconsistent, especially for numeric data. Numeric values appear mostly correct with proper decimals and currency symbols. Layout is disrupted by misplaced lines and unclear reading order. Some text appears missing or jumbled, reducing completeness."
+  },
+  "timestamp": "2026-04-13 02:11:04"
+}

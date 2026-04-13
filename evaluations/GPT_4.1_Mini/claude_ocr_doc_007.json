@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_007",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 86.25,
+    "notes": "The OCR output correctly captures the company name, address, date, and total amount with high fidelity. Minor issues include the presence of extra text (e.g., 'tan chay yee'), slight formatting differences in the address (line breaks), and some minor spacing inconsistencies. The table structure is mostly preserved but not perfectly aligned as in the original. Numeric values, including date and total, are accurate. Layout and reading order are well maintained, though some extra unrelated text is present. Overall, the extraction is very good with minor deviations."
+  },
+  "timestamp": "2026-04-13 02:20:41"
+}

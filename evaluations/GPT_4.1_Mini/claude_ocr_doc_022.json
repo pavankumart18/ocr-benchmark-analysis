@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 90.25,
+    "notes": "OCR output is highly accurate with correct spelling and mostly faithful text reproduction. Table columns and rows are well preserved, though the 'Total Spending' label is shortened to 'TOTAL' and the 1984 total spending figure (4,916) is present in OCR but missing in ground truth. Numeric values match exactly. Layout order is mostly correct but lacks explicit document type and introductory text. Completeness is good, minor differences in phrasing and missing explicit document type and date label. Overall, a strong OCR with minor formatting and labeling differences."
+  },
+  "timestamp": "2026-04-13 02:21:25"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 50,
+    "layout_preservation": 35,
+    "completeness": 40,
+    "total_score": 40.25,
+    "notes": "The OCR output contains numerous errors, including incorrect characters (e.g., '0o:sT-00:L0'), missing words, and garbled text. Tables and numeric values are not accurately preserved, and the layout is disrupted. Some sections and headers are missing or incorrectly captured."
+  },
+  "timestamp": "2026-04-13 02:42:50"
+}

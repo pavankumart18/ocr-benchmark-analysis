@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 91.25,
+    "notes": "Minor text inaccuracies in company name ('Gerbang' vs 'GERBANG') and address formatting. All key data (date, address, total) is correctly captured with perfect numeric precision and table structure. Layout is well-preserved with minor deviations."
+  },
+  "timestamp": "2026-04-13 03:40:23"
+}

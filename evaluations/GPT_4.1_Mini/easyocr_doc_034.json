@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 40,
+    "numeric_precision": 45,
+    "layout_preservation": 50,
+    "completeness": 70,
+    "total_score": 48.25,
+    "notes": "Significant OCR errors including misspellings (e.g., 'DOcHII', 'Numher', 'upS'), wrong characters (e.g., '0o.74', '33.,84'), and garbled words ('OXFLOWZIDJ'). Table structure is poorly preserved with misaligned columns and rows, making it difficult to interpret data correctly. Numeric values have many errors in decimal points and commas, and dates are inconsistent or incorrect. Layout is partially maintained but reading order is disrupted and headers are unclear. Most visible text is captured but some parts appear incomplete or truncated."
+  },
+  "timestamp": "2026-04-13 02:15:02"
+}

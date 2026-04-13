@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_015",
+  "model": "claude_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 94.5,
+    "notes": "The OCR output is highly accurate with only a minor issue: an unexpected '[?]' character appears after 'Exhibit 19.1'. This does not significantly impact the overall content. All other text, numeric values, and layout are preserved correctly."
+  },
+  "timestamp": "2026-04-13 02:59:01"
+}

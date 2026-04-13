@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 100,
+    "completeness": 90,
+    "total_score": 90.25,
+    "notes": "Minor text accuracy issues with 'DEBAP' instead of 'DEDAP' and 'TANAH' instead of 'TAMAN' in the address. Numeric precision is good, with only a slight discrepancy in the 'total' field where the OCR output has '60.31' for 'TOTAL AMT. RM' but '60.30' for 'Total Qty 2 RM', matching the ground truth. The ground truth only contains specific fields, and the OCR successfully extracted all of them, along with additional information."
+  },
+  "timestamp": "2026-04-13 01:37:17"
+}

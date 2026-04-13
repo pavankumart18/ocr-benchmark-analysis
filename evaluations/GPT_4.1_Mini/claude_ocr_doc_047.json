@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 86.25,
+    "notes": "Company name, date, address, and total amount are correctly extracted with minor formatting differences. The OCR includes extra text not in ground truth but no critical omissions. Table rows and columns are mostly preserved though some alignment and headers differ. Numeric values including date and totals match exactly. Layout and reading order are well maintained. Overall, minor deviations in formatting and extra content reduce scores slightly."
+  },
+  "timestamp": "2026-04-13 02:22:37"
+}

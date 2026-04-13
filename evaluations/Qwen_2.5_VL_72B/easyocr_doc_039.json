@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 75,
+    "total_score": 80.5,
+    "notes": "The OCR output has minor text accuracy issues, such as 'Christian Bergnaum I' instead of 'Christian Bergnaum'. The table structure is somewhat preserved but lacks clear alignment and headers. Numeric values appear accurate. Layout preservation is decent but could be improved. Some sections are missing, impacting completeness."
+  },
+  "timestamp": "2026-04-13 02:43:24"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 80,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 67,
+    "notes": "Key issues: Extra text (e.g., 'tan chay yee', '07-355 2616'), missing 'company' label, incorrect 'Total Amount' value, and table structure not preserved. Numeric values (date, total) are mostly correct but with extra time in date."
+  },
+  "timestamp": "2026-04-13 03:26:16"
+}

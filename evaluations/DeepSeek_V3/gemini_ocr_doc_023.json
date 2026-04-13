@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 90,
+    "layout_preservation": 95,
+    "completeness": 80,
+    "total_score": 89,
+    "notes": "Minor text inaccuracies include 'INHALERS' instead of 'INMATES' and slight variations in numeric values (e.g., '<0.6 mg nicotine/cig' vs. '<0.8 mg nicotine'). Layout and structure are well-preserved, but some introductory summary details are missing from the OCR output."
+  },
+  "timestamp": "2026-04-13 03:22:45"
+}

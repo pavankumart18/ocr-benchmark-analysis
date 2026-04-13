@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 5,
+    "numeric_precision": 10,
+    "layout_preservation": 5,
+    "completeness": 30,
+    "total_score": 14,
+    "notes": "The OCR output is largely garbled and appears to be inverted or mirrored. Most words are misspelled or nonsensical, making it extremely difficult to understand. Numeric sequences like '00:ST-00:20' are present but their context is lost. The table structure is completely absent, and the reading order is chaotic. Many words are clearly reversed (e.g., 'bujuow' instead of 'morning', 'Roowyv' instead of 'Voywer')."
+  },
+  "timestamp": "2026-04-13 01:37:56"
+}

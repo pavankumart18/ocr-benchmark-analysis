@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 60,
+    "total_score": 76,
+    "notes": "Major issues: 'INMATES' incorrectly read as 'INHALERS' in title, 'significantly' missing from key phrase, 'relatively' substituted for 'significantly', missing content about <0.8mg nicotine threshold, incomplete sentence at end, and missing document ID number. However, numeric data, dates, and overall structure are well preserved."
+  },
+  "timestamp": "2026-04-13 01:59:44"
+}

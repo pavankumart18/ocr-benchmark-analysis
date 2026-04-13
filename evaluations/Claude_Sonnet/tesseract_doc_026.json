@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 72,
+    "notes": "Multiple text errors including garbled country codes (EUA for GER, su! for SUI), misplaced symbols (@im, EB, Ed, =i&), and formatting issues in header. Table structure mostly preserved but with alignment problems. Numbers appear accurate despite formatting issues."
+  },
+  "timestamp": "2026-04-13 01:53:58"
+}

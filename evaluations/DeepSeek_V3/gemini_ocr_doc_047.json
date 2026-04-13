@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 100,
+    "numeric_precision": 50,
+    "layout_preservation": 80,
+    "completeness": 60,
+    "total_score": 71.5,
+    "notes": "Key issues: Missing 'total' field, incomplete date, extra irrelevant text (e.g., 'tan chay yee', contact details). Numeric precision suffers due to missing total and partial date. Text accuracy affected by extra content and missing fields."
+  },
+  "timestamp": "2026-04-13 03:26:20"
+}

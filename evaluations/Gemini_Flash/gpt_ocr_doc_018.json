@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 99,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 98,
+    "completeness": 100,
+    "total_score": 99.05,
+    "notes": "The OCR output is highly accurate. There are minor differences in spacing and line breaks, but no significant errors in text, numbers, or completeness. The layout is well-preserved."
+  },
+  "timestamp": "2026-04-13 01:44:23"
+}

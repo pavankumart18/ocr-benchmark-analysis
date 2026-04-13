@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_018",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 20,
+    "total_score": 67,
+    "notes": "The OCR output is highly accurate for the text it did extract, with only minor formatting differences (bold/italic). However, it is severely incomplete, cutting off abruptly in the middle of a sentence and missing the vast majority of the ground truth text."
+  },
+  "timestamp": "2026-04-13 01:42:27"
+}

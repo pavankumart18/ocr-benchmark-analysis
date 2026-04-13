@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 60,
+    "numeric_precision": 95,
+    "layout_preservation": 65,
+    "completeness": 90,
+    "total_score": 78,
+    "notes": "Text accuracy and numeric precision are generally good with no obvious misspellings or incorrect numbers. However, the table structure is significantly compromised, especially for the 'Transaction Amount ($M)' section where the quarterly data is presented as a flat list rather than a structured table with categories. The 'Transactions by Quarter' section also lacks clear table structure, making it hard to interpret which numbers belong to which category. Layout preservation suffers due to the loss of table formatting and the unclear relationship between the quarterly data and the categories it represents. Completeness is good, with most text captured."
+  },
+  "timestamp": "2026-04-13 01:36:49"
+}

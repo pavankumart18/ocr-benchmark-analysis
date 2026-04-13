@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 70,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 95,
+    "total_score": 90,
+    "notes": "Text accuracy is very high with no obvious misspellings. Numeric precision is perfect. However, the table structure for 'Revenue by segment' is not preserved well; it's presented as a flat list rather than hierarchical or grouped data. The 'Revenue by geography' is also not structured as a table. Layout preservation is decent, but the visual grouping of segments and their sub-segments is lost. Completeness is good, with only minor formatting elements potentially missing."
+  },
+  "timestamp": "2026-04-13 01:44:46"
+}

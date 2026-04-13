@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 83.25,
+    "notes": "Overall good text capture with minor issues such as 'Christian Bergnaum I' (extra 'I'?), and some missing data for several consultants (likely from original). Table columns mostly aligned but some numeric columns have missing values causing slight misalignment. Numeric values and currency symbols appear accurate. Layout and reading order preserved well, though some blank rows reduce clarity. No major text missing but some consultant rows are incomplete."
+  },
+  "timestamp": "2026-04-13 02:19:50"
+}

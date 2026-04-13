@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 15,
+    "total_score": 62.25,
+    "notes": "OCR captured title and partial table structure correctly, but extracted only a small fraction of the document. Missing all spending, CPM, contribution data, assumptions section, and insights. Table cuts off mid-number (8.) and lacks proper column alignment. Good accuracy for extracted portions but severely incomplete."
+  },
+  "timestamp": "2026-04-13 02:00:00"
+}

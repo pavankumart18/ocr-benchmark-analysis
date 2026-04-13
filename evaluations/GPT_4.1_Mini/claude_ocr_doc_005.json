@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 77.25,
+    "notes": "Company name OCR'd as 'MR D.T.Y.' instead of 'MR D.I.Y.' causing a key text error. Address mostly correct but split across lines, minor formatting differences. Numeric values mostly accurate; total matches after rounding adjustment. Table structure is present but not explicitly preserved as in ground truth (no clear JSON structure). Layout order is logical but includes extra unrelated text. Overall, most ground truth info is captured with minor text and structure deviations."
+  },
+  "timestamp": "2026-04-13 02:20:36"
+}

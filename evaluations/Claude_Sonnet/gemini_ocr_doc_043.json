@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 92.75,
+    "notes": "Excellent extraction with all key information accurately captured. Minor issues include extra customer name at top and slight formatting differences in product listings, but all critical data (company, date, address, total) matches perfectly."
+  },
+  "timestamp": "2026-04-13 02:01:31"
+}

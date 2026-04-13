@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 0,
+    "numeric_precision": 100,
+    "layout_preservation": 30,
+    "completeness": 70,
+    "total_score": 52.5,
+    "notes": "Major issues include garbled text ('tan woon yann', 'POW', 'HOS) S807 BO'), incorrect address format ('TAMAN DAA', '81100 JOHOR BANRU'), and missing/extra sections. Numeric precision is perfect. Layout and table structure are poorly preserved."
+  },
+  "timestamp": "2026-04-13 03:14:47"
+}

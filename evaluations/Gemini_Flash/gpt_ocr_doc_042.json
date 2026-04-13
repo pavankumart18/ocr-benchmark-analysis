@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 100,
+    "numeric_precision": 85,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 88,
+    "notes": "The company name has a minor misspelling ('TANMIX' instead of 'INDAH'). The date is incorrect (19/03/2018 instead of 19/10/2018). The total amount is correct, but the OCR output shows a rounding adjustment that makes the initial total slightly off. All other fields are accurately extracted."
+  },
+  "timestamp": "2026-04-13 01:45:22"
+}

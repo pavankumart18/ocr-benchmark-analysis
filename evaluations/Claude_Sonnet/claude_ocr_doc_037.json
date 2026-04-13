@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 92,
+    "table_structure": 88,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 85,
+    "total_score": 90.4,
+    "notes": "Very good OCR extraction with accurate text and numbers. Minor issues include slight table formatting inconsistencies and potential missing content between sections. All percentages and key data points are correctly captured."
+  },
+  "timestamp": "2026-04-13 02:08:42"
+}

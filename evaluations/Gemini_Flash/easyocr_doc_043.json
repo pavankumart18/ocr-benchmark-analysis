@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 0,
+    "numeric_precision": 60,
+    "layout_preservation": 0,
+    "completeness": 20,
+    "total_score": 23,
+    "notes": "The OCR output is highly inaccurate for text, with significant misspellings and incorrect characters for company name and address. The table structure is completely lost as the ground truth does not contain a table. Numeric precision is fair for the total, but the date is partially incorrect. Layout preservation is poor, and completeness is low due to the garbled text and missing parts of the address."
+  },
+  "timestamp": "2026-04-13 01:41:32"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 40,
+    "numeric_precision": 75,
+    "layout_preservation": 45,
+    "completeness": 80,
+    "total_score": 60,
+    "notes": "Company name correctly extracted. Address has errors: '122.124' missing, 'DEDAP $3' should be 'DEDAP 13', '81200' should be '81100', 'BANRU' should be 'BAHRU'. Date '2571018' should be '25/12/2018'. Total amount '80.90' correctly identified but appears as '6090' in final total. Many OCR artifacts and garbled text throughout document structure."
+  },
+  "timestamp": "2026-04-13 01:55:35"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 80,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 73,
+    "notes": "Major issues include missing spaces throughout text (e.g., 'LEDLuminaire', 'SchneiderElectric'), temperature formatting errors ('32Cto8\u00b0\u2103'), and concatenated words in product descriptions. Table structure is well-preserved with proper columns. Numbers and references appear accurate. Layout maintains proper sections and headers."
+  },
+  "timestamp": "2026-04-13 01:52:03"
+}

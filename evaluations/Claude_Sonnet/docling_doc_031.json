@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 73,
+    "notes": "Major issues: table headers/data misaligned (City/Year columns swapped with data), missing spaces in compound words (SanFrancisco, HealthcareFacilities, State&FederalContruction), and HTML entity (&amp;) not converted. Numeric values and overall structure are mostly preserved but table organization is significantly corrupted."
+  },
+  "timestamp": "2026-04-13 01:52:22"
+}

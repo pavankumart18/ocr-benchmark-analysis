@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 80,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 84,
+    "notes": "Text accuracy is good overall, but there are some concatenated words like 'VTBILLINGRECEIPT', 'OUT-OF-HOURSDELIVERYFEE', 'CHANGEOFADDRESSFEE', 'SAME-DAYDELIVERYCHARGE', 'ADDRESSCORRECTIONFEE', 'HOLIDAYDELIVERYFEE', 'DANGEROUSGOODSHANDLINGFEE', 'SPECIALHANDLINGFEE', 'INSURANCEPREMIUM', 'CARBONOFFSETFEE', 'ENVIRONMENTALSURCHARGE', 'REMOTEAREASURCHARGE', 'FRAGILEITEMFEE', 'ECONOMYSELECT20.2'. Table structure is mostly preserved, but some cells have multiple lines of text that are not clearly separated, and some numerical values are missing or misaligned. Numeric precision is fair, with some missing values in the 'Additional Charges' column and a few instances of numbers being part of the 'Description of Additional Charges' column. Layout preservation is good, with the header and table structure maintained. Completeness is also good, with most of the visible text captured, though the document is truncated."
+  },
+  "timestamp": "2026-04-13 01:39:07"
+}

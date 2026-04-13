@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 81.25,
+    "notes": "The OCR output has high text accuracy and numeric precision but suffers from minor table structure issues (e.g., 'Chg.' columns not in ground truth) and layout deviations (e.g., 'NES/tat' and date at the end). Some sections like 'Insights and Observations' are missing, affecting completeness."
+  },
+  "timestamp": "2026-04-13 03:36:38"
+}

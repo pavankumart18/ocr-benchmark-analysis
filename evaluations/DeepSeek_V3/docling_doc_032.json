@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.25,
+    "notes": "Minor text inaccuracies (e.g., 'LeavePersonal' vs. 'Leave Personal', 'LeaveSickLeave' vs. 'Leave Sick Leave'). Table structure is well-preserved with minor alignment issues. Numeric precision is excellent. Layout preservation has minor reading order inconsistencies. Completeness is high with no major omissions."
+  },
+  "timestamp": "2026-04-13 03:09:51"
+}

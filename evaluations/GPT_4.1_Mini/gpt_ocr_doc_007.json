@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_007",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 83.25,
+    "notes": "Company name, date, address, and total amount are correctly extracted with minor formatting differences. The OCR includes extra unrelated text (e.g., cashier info, item details) not in ground truth but no critical omissions. Table structure is partially preserved but columns and rows are not clearly delineated as in ground truth. Numeric values including date and total are accurate. Layout reading order is mostly correct but extra sections reduce clarity. Overall, good fidelity with minor structural and formatting deviations."
+  },
+  "timestamp": "2026-04-13 02:18:21"
+}

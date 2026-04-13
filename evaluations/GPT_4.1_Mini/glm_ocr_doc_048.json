@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 85,
+    "total_score": 78.25,
+    "notes": "Company name mostly correct with minor spacing differences; address has a typo ('B1620' vs '81620'). Date and amounts match well. Table structure partially preserved but not clearly formatted as in ground truth. Layout mostly correct but extra unrelated text present. Overall, good numeric precision and completeness with some minor text and structure issues."
+  },
+  "timestamp": "2026-04-13 02:10:41"
+}

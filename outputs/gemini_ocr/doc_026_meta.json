@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_026",
+  "model": "gemini_ocr",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/omni-ocr-benchmark/test/images/0.png",
+  "category": "general_doc",
+  "source_dataset": "omni",
+  "processing_time_seconds": 17.89,
+  "output_length_chars": 247,
+  "timestamp": "2026-04-13 00:50:53"
+}

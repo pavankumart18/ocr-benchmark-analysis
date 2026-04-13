@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 15,
+    "table_structure": 10,
+    "numeric_precision": 25,
+    "layout_preservation": 20,
+    "completeness": 5,
+    "total_score": 16,
+    "notes": "OCR completely failed to extract the required structured data (company name, date, address). Output shows garbled product listings instead of clean JSON fields. Only the total amount (112.45 vs 112.46) was nearly correct. Missing all key identifying information from ground truth."
+  },
+  "timestamp": "2026-04-13 01:55:59"
+}

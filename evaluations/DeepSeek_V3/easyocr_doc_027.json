@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 65,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 72,
+    "notes": "Text accuracy suffers from misspellings (e.g., 'indluding', 'Sysgerostic'), incorrect formatting (e.g., 'Europe_'), and missing words. Table structure is partially preserved but has alignment issues and inconsistent formatting. Numeric precision is mostly correct, but some values are misaligned or incorrectly formatted. Layout preservation is poor with incorrect reading order and broken sections. Completeness is good, but some minor text is missing or garbled."
+  },
+  "timestamp": "2026-04-13 03:16:27"
+}

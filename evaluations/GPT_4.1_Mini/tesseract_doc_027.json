@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 40,
+    "numeric_precision": 60,
+    "layout_preservation": 50,
+    "completeness": 75,
+    "total_score": 60.75,
+    "notes": "Text contains several errors and unclear fragments (e.g., 'BD Life 1 ) 3', 'Medication . Delivery Solutions'). Table structure is poorly preserved with no clear alignment or rows/columns. Numeric data is incomplete and imprecise, lacking clear values and decimal points. Layout is disrupted with mixed sections and headers not clearly separated. Some text appears missing or truncated, reducing completeness."
+  },
+  "timestamp": "2026-04-13 02:13:26"
+}

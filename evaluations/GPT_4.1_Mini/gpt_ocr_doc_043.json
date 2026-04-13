@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 40,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 95,
+    "total_score": 77.25,
+    "notes": "Text accuracy is high with correct company name and address mostly accurate except 'JALAN KPB 8' instead of 'JALAN KPB 6'. Table structure is poor as the OCR output includes detailed item lines not present in ground truth and no clear table matching the ground truth structure. Numeric precision is good with total '33.90' matching ground truth exactly, date also correct. Layout preservation is decent but extra unrelated text and invoice details affect clarity. Completeness is good as all ground truth fields are present."
+  },
+  "timestamp": "2026-04-13 02:20:01"
+}

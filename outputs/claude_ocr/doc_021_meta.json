@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_021",
+  "model": "claude_ocr",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/000.png",
+  "category": "financial_mixed",
+  "source_dataset": "sujet",
+  "processing_time_seconds": 18.23,
+  "output_length_chars": 1009,
+  "timestamp": "2026-04-13 01:21:27"
+}

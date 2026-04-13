@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "docling",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 95,
+    "numeric_precision": 90,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 89.75,
+    "notes": "Minor misspellings (e.g., 'ChristianBergnaumI' likely missing an 'n'), but table structure, numeric precision, and layout are well-preserved. All visible text appears captured."
+  },
+  "timestamp": "2026-04-13 03:10:47"
+}

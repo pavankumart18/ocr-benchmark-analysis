@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "docling",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 79.5,
+    "notes": "Multiple text accuracy issues including missing spaces ('thatmaintains', 'throttie' instead of 'throttle'), word breaks ('brakingthat', 'anexternal'), and some garbled sections. Layout and structure are generally well preserved with proper headings and alphabetical organization. Limited numeric content appears accurate. Some incomplete entries and formatting inconsistencies present."
+  },
+  "timestamp": "2026-04-13 01:52:33"
+}

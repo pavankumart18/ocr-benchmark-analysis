@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 85,
+    "total_score": 77.75,
+    "notes": "Key issues: Extra text (tan woon yann, GST details), minor address error (123 vs 122), date mismatch (26 vs 25/12/2018), but core data (company, total) is correct. Table structure is mostly preserved but includes extra unrelated rows."
+  },
+  "timestamp": "2026-04-13 03:32:17"
+}

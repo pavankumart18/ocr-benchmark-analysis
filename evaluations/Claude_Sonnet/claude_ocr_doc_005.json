@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 88,
+    "completeness": 95,
+    "total_score": 89,
+    "notes": "Minor OCR error in company name 'D.T.Y.' instead of 'D.I.Y.'. All key information (company, date, address, total) correctly extracted. Receipt structure well preserved with proper itemization and calculations. Extra content beyond ground truth requirements captured accurately."
+  },
+  "timestamp": "2026-04-13 02:06:08"
+}

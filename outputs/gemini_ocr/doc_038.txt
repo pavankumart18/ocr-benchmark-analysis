@@ -1,0 +1,6 @@
+Real Estate Transaction Highlights
+
+City            Year    Transactions (Total)    Permits Filed   Healthcare Facilities   Commercial Industrial   Retail      Data Centers
+San Francisco   2024    $48M                    269             $6.5M                   $4.0M                   $24.5M      $12.9M
+New York        2024    $271M                   431             $67.0M                  $72.2M                  $54.4M      $77.4M
+Philadelphia    2024    $213M                   95              $16.1M                  $73.4M                  $54.6M      $68.9M

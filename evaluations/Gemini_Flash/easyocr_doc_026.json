@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 65,
+    "layout_preservation": 80,
+    "completeness": 85,
+    "total_score": 70.75,
+    "notes": "Text accuracy is fair, with 'EUA' instead of 'GER' for Germany and some missing numbers. Table structure is poor due to misaligned numbers and missing values, especially for Great Britain and France. Numeric precision suffers from missing numbers and the use of ';' instead of a number. Layout preservation is decent as the column headers and general order are maintained. Completeness is good, with most data present, but some numerical values are missing."
+  },
+  "timestamp": "2026-04-13 01:40:48"
+}

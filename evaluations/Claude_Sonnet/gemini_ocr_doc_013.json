@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 15,
+    "total_score": 71,
+    "notes": "OCR captured the beginning portion with high accuracy but is severely incomplete, ending abruptly mid-sentence after 'Henry Schein,' and missing approximately 85% of the document content including all numbered sections (2)-(4) and concluding paragraphs. The extracted text that is present shows good character-level accuracy with proper formatting of the header and first paragraph."
+  },
+  "timestamp": "2026-04-13 01:59:01"
+}

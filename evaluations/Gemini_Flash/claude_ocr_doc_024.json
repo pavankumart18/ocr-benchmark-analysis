@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 30,
+    "total_score": 58,
+    "notes": "The OCR output accurately extracts the tabular data and numerical values. However, it completely misses the 'Document Type', 'Key Details', 'Insights and Observations' sections, and the concluding sentence from the ground truth. The OCR output also includes additional details like 'M&P', 'Sample Program', and specific footnotes that were not explicitly requested in the ground truth's summary format. The ground truth is a summary *of* the document, not the document itself, which the OCR output seems to be. This significantly impacts completeness and text accuracy as much of the ground truth's narrative and summary points are absent."
+  },
+  "timestamp": "2026-04-13 01:46:37"
+}

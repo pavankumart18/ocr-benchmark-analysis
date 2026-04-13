@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 30,
+    "table_structure": 20,
+    "numeric_precision": 60,
+    "layout_preservation": 40,
+    "completeness": 50,
+    "total_score": 37.5,
+    "notes": "Severe OCR errors in company name and address with many garbled characters and misspellings. Numeric values mostly close but total slightly off (33.92 vs 33.90). Table structure is poorly preserved with no clear columns or rows. Layout is jumbled and reading order is disrupted. Some key text like company and address is partially captured but heavily distorted, impacting completeness."
+  },
+  "timestamp": "2026-04-13 02:12:58"
+}

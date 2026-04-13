@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 75,
+    "layout_preservation": 88,
+    "completeness": 95,
+    "total_score": 85.25,
+    "notes": "Company name and total amount are correct. Date matches exactly. Address has minor discrepancy (81750 vs 81760 postal code). OCR captured extensive additional detail beyond ground truth including full invoice structure, items, and GST breakdown. Table formatting well preserved with proper alignment of quantities, prices and amounts."
+  },
+  "timestamp": "2026-04-13 02:06:30"
+}

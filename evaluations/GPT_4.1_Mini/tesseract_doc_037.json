@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 40,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 71.75,
+    "notes": "Text contains some errors such as 'SCO' instead of 'Cost' repeated, and 'up\u2019 ptime' instead of 'Uptime'. Table structure is poorly preserved with unclear separation of concern levels and misaligned entries. Numeric data is mostly correct with no obvious errors. Layout is somewhat maintained but reading order is disrupted by table formatting issues and misplaced text. Most visible text is captured but some formatting and clarity are lost."
+  },
+  "timestamp": "2026-04-13 02:13:59"
+}

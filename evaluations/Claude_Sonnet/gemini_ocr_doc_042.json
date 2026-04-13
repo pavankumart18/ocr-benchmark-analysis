@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 92,
+    "notes": "Excellent OCR extraction with all key information accurately captured. Company name, address, date, and total amount are correct. Minor formatting differences in address spacing and table alignment, but all critical data is present and accurate."
+  },
+  "timestamp": "2026-04-13 02:01:26"
+}

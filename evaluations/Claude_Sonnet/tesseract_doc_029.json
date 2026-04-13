@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 30,
+    "numeric_precision": 85,
+    "layout_preservation": 40,
+    "completeness": 60,
+    "total_score": 48,
+    "notes": "Significant OCR errors including garbled text like 'lqck', 'let cctrical Salety', 'er ormance Te ests', and corrupted table cells with random characters. Table structure is severely compromised with misaligned columns and unreadable entries. Dates and equipment ID are correct, but overall readability is poor due to extensive character recognition failures."
+  },
+  "timestamp": "2026-04-13 01:54:12"
+}

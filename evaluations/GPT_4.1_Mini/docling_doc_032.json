@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 75,
+    "numeric_precision": 90,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 83.25,
+    "notes": "Overall good text capture with minor spacing and concatenation issues (e.g., 'MarcellaDeckow', 'LeaveSickLeave'). Table rows and columns mostly preserved but some misalignments and inconsistent cell contents affect clarity. Numeric data like dates and IDs appear accurate. Reading order is mostly correct though header row is at the bottom, which is unusual. All visible text seems included."
+  },
+  "timestamp": "2026-04-13 02:12:21"
+}

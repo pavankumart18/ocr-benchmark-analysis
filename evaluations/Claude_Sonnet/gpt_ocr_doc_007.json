@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_007",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 92.5,
+    "notes": "Excellent OCR extraction with all key information accurately captured. Company name, date, address, and total amount are perfectly extracted. Minor issues include some table column alignment irregularities and extra customer name at top, but overall structure and content are well preserved."
+  },
+  "timestamp": "2026-04-13 02:02:29"
+}

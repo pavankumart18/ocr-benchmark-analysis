@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 80.25,
+    "notes": "The OCR captured most text accurately with minor issues in table structure and layout. The main problems are the repetitive 'Afternoon...Leave Personal' lines which suggest a parsing error, and some potential misalignment in the table columns. Numeric data (dates, times) are correctly captured."
+  },
+  "timestamp": "2026-04-13 03:02:29"
+}

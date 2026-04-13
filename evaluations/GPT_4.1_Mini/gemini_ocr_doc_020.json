@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 94.25,
+    "notes": "OCR output is highly accurate with only minor formatting differences such as added bold and italics, and slight punctuation variations (e.g., capitalization of 'office' vs 'Office'). No misspellings or character errors found. Numeric data including amounts and section numbers are perfectly preserved. No tables present in ground truth, so table structure score reflects correct preservation of list and section formatting. Layout and reading order are well maintained with clear section breaks and bullet points. All text from ground truth is included with no omissions."
+  },
+  "timestamp": "2026-04-13 02:16:42"
+}

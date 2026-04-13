@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 93,
+    "notes": "Minor issues include repeated phrases ('day of May 2025' and 'day of March 2028') and a minor formatting error in the Base Rent section ('is required. payable monthly with the first payment due upon the'). Otherwise, text, numbers, and layout are accurately captured."
+  },
+  "timestamp": "2026-04-13 03:31:26"
+}

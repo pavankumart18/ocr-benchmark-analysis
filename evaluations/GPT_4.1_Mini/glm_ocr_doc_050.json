@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 40,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 50,
+    "total_score": 61.5,
+    "notes": "Company name casing differs and extra unrelated text present; address mostly correct but split into multiple lines; no clear table structure matching ground truth; numeric values and date mostly accurate; layout includes many extra sections and reading order is not aligned with ground truth; significant extra content reduces completeness."
+  },
+  "timestamp": "2026-04-13 02:10:47"
+}

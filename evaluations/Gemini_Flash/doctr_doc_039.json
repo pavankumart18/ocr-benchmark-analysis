@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "doctr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 81,
+    "notes": "Text accuracy is generally good, but there's a 'I' instead of a '1' in Christian Bergnaum's ID. Table structure is somewhat preserved, but the alignment of columns is off, especially for the 'Puer Sales', 'Puer Returns', and 'Puer Total' columns, which are often empty or misaligned. Numeric precision is fair, with most numbers and currencies correct, but the missing values in the 'Puer' columns affect this. Layout preservation is decent, maintaining the general flow. Completeness is good, with most visible text captured."
+  },
+  "timestamp": "2026-04-13 01:38:14"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 100,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 100,
+    "notes": "The OCR output is perfect. All text, numbers, and table structure are accurately preserved."
+  },
+  "timestamp": "2026-04-13 01:43:14"
+}

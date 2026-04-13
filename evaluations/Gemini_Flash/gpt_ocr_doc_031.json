@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 90,
+    "notes": "The main table structure is well-preserved, but the 'Transaction Amount ($M)' section is presented as raw numbers followed by a single row of quarter labels, rather than a clear table or chart representation. There's a minor typo 'Contruction' instead of 'Construction'. Otherwise, text and numeric data are accurate."
+  },
+  "timestamp": "2026-04-13 01:44:55"
+}

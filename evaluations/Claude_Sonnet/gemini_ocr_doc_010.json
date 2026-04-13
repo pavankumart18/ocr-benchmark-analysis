@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_010",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 95,
+    "total_score": 87,
+    "notes": "OCR successfully extracted all key information with high accuracy. Company name correctly identified as 'Gerbang Alaf Restaurants Sdn Bhd', date '18/01/2018' precise, address complete with minor formatting differences, and total '26.60' exact. Minor issues include some extraneous characters at top and slight layout variations, but all critical data fields match ground truth perfectly."
+  },
+  "timestamp": "2026-04-13 01:58:50"
+}

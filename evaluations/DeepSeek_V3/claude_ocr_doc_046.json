@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 70,
+    "notes": "Key issues: Extra text ('tan chay yee', phone number, etc.), incorrect address format ('No.284' vs 'NO.2&4'), missing 'company' label, table structure not preserved as ground truth is not tabular. Numeric values and date are correct."
+  },
+  "timestamp": "2026-04-13 03:39:28"
+}

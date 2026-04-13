@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 92,
+    "table_structure": 85,
+    "numeric_precision": 95,
+    "layout_preservation": 88,
+    "completeness": 75,
+    "total_score": 88,
+    "notes": "High accuracy in text extraction with proper spelling and grammar. Date format and numbers are precise. Layout generally preserved with clear sections. Some incompleteness at the end where text appears cut off mid-sentence. Table-like structure with locations and cruise line name is reasonably maintained though could be better formatted."
+  },
+  "timestamp": "2026-04-13 02:01:19"
+}

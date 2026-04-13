@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 77,
+    "notes": "Text accuracy is generally good, with minor issues like 'S64,SM' instead of 'S64.5M' and 'Q04-2024' instead of 'Q4-2024'. Table structure is significantly compromised; the 'Avg' and 'Median' rows are misplaced and not clearly associated with the correct columns. The 'Transactions by Quarter' section is also poorly structured. Numeric precision is fair, with a few decimal point errors. Layout preservation suffers due to the table structure issues and the misplacement of the 'Avg' and 'Median' data. Completeness is good, most visible text seems to be captured."
+  },
+  "timestamp": "2026-04-13 01:41:20"
+}

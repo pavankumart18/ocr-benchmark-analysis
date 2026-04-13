@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 65,
+    "completeness": 60,
+    "total_score": 60.75,
+    "notes": "Company name is incorrect ('TANMIX' vs 'INDAH'), date is wrong (19/03/2018 vs 19/10/2018), address mostly correct but missing final period. Numeric totals mostly correct except minor rounding difference. Table structure partially preserved but item descriptions split and not fully aligned. Layout roughly maintained but reading order and section separation inconsistent. Some key ground truth fields missing or altered."
+  },
+  "timestamp": "2026-04-13 02:19:59"
+}

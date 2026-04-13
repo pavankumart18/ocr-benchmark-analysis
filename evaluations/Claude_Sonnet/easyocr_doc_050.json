@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 74,
+    "notes": "Company name has minor capitalization issues, address is fragmented across lines with some OCR errors ('Petal' instead of 'Petaling'), date and total amount are correct. Contains extra content not in ground truth but core information is captured with reasonable accuracy despite formatting issues."
+  },
+  "timestamp": "2026-04-13 01:58:02"
+}

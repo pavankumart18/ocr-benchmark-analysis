@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 92,
+    "notes": "Excellent extraction with all key information accurately captured. Company name, date, address, and total amount are perfect matches. Minor formatting differences in table structure but all data is present and readable. No significant text errors or missing information."
+  },
+  "timestamp": "2026-04-13 01:58:29"
+}

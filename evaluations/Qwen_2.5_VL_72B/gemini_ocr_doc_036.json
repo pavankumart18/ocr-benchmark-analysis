@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "gemini_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 95,
+    "completeness": 90,
+    "total_score": 94.25,
+    "notes": "The OCR output is highly accurate with minimal issues. There is a minor formatting issue with the date '2025-05-11' which should be in a more conventional format like 'May 11, 2025'. The square footage and address details are correctly captured. No tables are present in the document, so table structure is not applicable."
+  },
+  "timestamp": "2026-04-13 02:47:04"
+}

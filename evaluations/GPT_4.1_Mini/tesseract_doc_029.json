@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 40,
+    "numeric_precision": 85,
+    "layout_preservation": 45,
+    "completeness": 70,
+    "total_score": 56.75,
+    "notes": "Significant OCR errors with many misspellings (e.g., 'lqck', 'let', 'cctrical Salety', 'bi able connections'), garbled words, and unclear text in tables. Table structure is poorly preserved with misaligned and incomplete rows/columns. Numeric data such as dates are mostly correct but some marks (e.g., '7' in Pass column) are unclear. Layout is disrupted with sections and headers mixed or incomplete. Most visible text is captured but some parts are garbled or missing."
+  },
+  "timestamp": "2026-04-13 02:13:34"
+}

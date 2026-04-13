@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 85,
+    "numeric_precision": 70,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 82.25,
+    "notes": "Overall good extraction with correct table structure and layout. Minor text issues include 'sUI' instead of 'SUI' for Switzerland and 'L' instead of '1' in the United States total column. Numeric precision affected by this error. Two nations share rank 7, which is plausible but should be verified."
+  },
+  "timestamp": "2026-04-13 02:12:03"
+}

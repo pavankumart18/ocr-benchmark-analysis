@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 65,
+    "total_score": 73.25,
+    "notes": "Overall text is mostly accurate with some minor misalignments and occasional misplaced values (e.g., 'Nacho Cheese 262' where '262' seems misplaced). Table columns and rows are mostly preserved but some numeric columns appear shifted or misaligned, affecting readability. Numeric values generally have correct decimal points but some values seem inconsistent or suspicious (e.g., 'Calories' and 'Calories from Fat' columns sometimes reversed or improbable). Layout is roughly maintained but truncated text at the end and some header repetitions reduce clarity. Some parts of the document appear truncated or missing, impacting completeness."
+  },
+  "timestamp": "2026-04-13 02:19:40"
+}

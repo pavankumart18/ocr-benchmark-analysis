@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 20,
+    "table_structure": 0,
+    "numeric_precision": 50,
+    "layout_preservation": 10,
+    "completeness": 30,
+    "total_score": 26.5,
+    "notes": "The OCR output is highly inaccurate with many misspellings, wrong characters, and missing words. There is no clear table structure preserved. Some numeric values like the total amount are correct, but the date is incorrect. The layout and reading order are not preserved, and much of the ground truth text is missing or garbled."
+  },
+  "timestamp": "2026-04-13 02:44:10"
+}

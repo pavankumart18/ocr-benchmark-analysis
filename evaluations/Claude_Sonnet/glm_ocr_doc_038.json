@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 40,
+    "numeric_precision": 75,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 67.5,
+    "notes": "Main table structure is preserved but quarterly data appears garbled with repeated number sequences. Statistics section formatting is unclear. Column headers and city data are accurate, but the quarterly breakdown section has significant structural issues that make it difficult to interpret."
+  },
+  "timestamp": "2026-04-13 01:48:43"
+}

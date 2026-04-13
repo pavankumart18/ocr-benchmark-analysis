@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "gemini_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 0,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 69.5,
+    "notes": "The OCR output contains additional text not in the ground truth, lacks table structure, and has minor layout issues. However, numeric values and most text are accurate."
+  },
+  "timestamp": "2026-04-13 02:53:37"
+}

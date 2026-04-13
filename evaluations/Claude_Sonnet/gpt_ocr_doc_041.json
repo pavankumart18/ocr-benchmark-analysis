@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 75,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 79,
+    "notes": "Company name has minor OCR error ('TA _K' instead of 'TA .K'). Date is incorrect (29/12/2018 vs 25/12/2018). Address has wrong numbers (47 & 49 instead of 57 & 59). Total amount is correct. OCR captured much more detail than ground truth, showing good completeness. Table structure for itemized receipt is well preserved."
+  },
+  "timestamp": "2026-04-13 02:05:11"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 35,
+    "numeric_precision": 70,
+    "layout_preservation": 25,
+    "completeness": 40,
+    "total_score": 44,
+    "notes": "Major structural issues: missing city names for 5 rows, incomplete table with missing Data Centers column values, garbled text at bottom with random characters and symbols. While monetary values and some numbers are preserved accurately, the table structure is severely compromised and significant portions are illegible or missing."
+  },
+  "timestamp": "2026-04-13 01:54:56"
+}

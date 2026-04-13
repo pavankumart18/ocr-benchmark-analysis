@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 93.25,
+    "notes": "The OCR output is highly accurate with no noticeable misspellings or wrong characters. The glossary format is preserved well, though there are no tables or numeric data requiring alignment beyond simple text. Numeric precision is perfect as no decimals or currencies are present. Layout and reading order are maintained with clear headers and paragraphs. Completeness is very good with no major missing text. Minor issues include repeated 'H' section header and slight inconsistency in capitalization (e.g., 'an automatic transmission' not capitalized)."
+  },
+  "timestamp": "2026-04-13 02:21:57"
+}

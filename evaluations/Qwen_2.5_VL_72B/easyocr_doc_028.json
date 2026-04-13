@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "easyocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 75,
+    "total_score": 73.75,
+    "notes": "The OCR output has several minor text accuracy issues, such as incorrect email addresses and missing punctuation. The table structure is partially preserved but lacks clear alignment and row/column separation. Numeric values are mostly accurate but some units and weights are inconsistent. The layout is somewhat preserved but sections are not clearly delineated. Completeness is decent but some details like warranty years are missing."
+  },
+  "timestamp": "2026-04-13 02:42:15"
+}

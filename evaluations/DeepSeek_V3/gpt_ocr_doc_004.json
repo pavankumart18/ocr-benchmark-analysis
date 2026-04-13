@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 84,
+    "notes": "Minor typos in address ('NO.122,124,' vs 'NO 122.124.'), extra text (e.g., 'tan woon yann', GST details), and table structure deviations. Numeric values and dates match perfectly. Layout is mostly preserved but cluttered with additional non-ground-truth content."
+  },
+  "timestamp": "2026-04-13 03:27:27"
+}

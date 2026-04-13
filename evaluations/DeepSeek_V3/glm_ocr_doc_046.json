@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 100,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 72,
+    "notes": "Key issues: 'NO.2&4' misread as 'No.284', '81100' as 'B1100', 'JOHOR BAHRU' as 'JOHOR BAHRI'. Extra irrelevant text present (e.g., 'tan chay yee', cashier details). Table structure is garbled with mixed content. Numeric values and dates are correct."
+  },
+  "timestamp": "2026-04-13 03:04:34"
+}

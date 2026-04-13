@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_014",
+  "model": "claude_ocr",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/003.png",
+  "category": "sec_filing",
+  "source_dataset": "multifinben",
+  "processing_time_seconds": 12.54,
+  "output_length_chars": 1834,
+  "timestamp": "2026-04-13 01:19:07"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 20,
+    "numeric_precision": 40,
+    "layout_preservation": 30,
+    "completeness": 60,
+    "total_score": 41.5,
+    "notes": "Significant OCR errors in text such as 'NO60' vs 'NO.59', 'JM0828855-V' extra text, and garbled product lines. Table structure is poorly preserved with no clear rows/columns matching ground truth. Numeric values mostly incorrect or off by small amounts (e.g., total 112.46 vs 112.45, date '1200/2018' invalid). Layout is jumbled with mixed sections and reading order issues. Some key fields like company name mostly correct but address and date have errors. Overall incomplete and noisy extraction."
+  },
+  "timestamp": "2026-04-13 02:11:57"
+}

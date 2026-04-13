@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 20,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 95,
+    "total_score": 73.25,
+    "notes": "Text accuracy is high with correct company name and address; minor differences in casing and extra OCR lines present. Table structure is poor as the OCR output includes detailed item lines not in ground truth and no clear table format is preserved. Numeric precision is very good with total amount and date matching exactly. Layout preservation is moderate due to added unrelated text and mixed sections, but reading order is mostly logical. Completeness is high as all ground truth text is present."
+  },
+  "timestamp": "2026-04-13 02:10:26"
+}

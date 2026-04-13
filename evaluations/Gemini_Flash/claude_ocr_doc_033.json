@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 98,
+    "total_score": 97,
+    "notes": "The OCR output is very good. There are a couple of minor issues: '4X2' and '4X4' are sometimes rendered as '4X2)' and '4X4)' with an extra parenthesis. Also, the 'H' header for 'Hybrid Electric Vehicle (HEV)' is repeated, which might be a layout or OCR interpretation issue."
+  },
+  "timestamp": "2026-04-13 01:46:58"
+}

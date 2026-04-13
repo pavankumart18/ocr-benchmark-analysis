@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_012",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 25,
+    "total_score": 78.5,
+    "notes": "OCR output is highly accurate for the text it captures, with perfect character-level fidelity and proper formatting. However, it only captures approximately 25% of the total document content, cutting off mid-sentence at 'Limited Power of' and missing the entire second half including the execution clause, signature section, and date (February 4th, 2025). No table structure or numeric errors in the captured portion."
+  },
+  "timestamp": "2026-04-13 01:58:58"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "gemini_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 0,
+    "numeric_precision": 50,
+    "layout_preservation": 50,
+    "completeness": 60,
+    "total_score": 56.25,
+    "notes": "The OCR output contains the company name and date correctly but misses the address and total amount. There are additional unrelated details and no table structure. Numeric precision is partially correct for the date but incorrect for the address and total. Layout preservation is partially correct but lacks completeness."
+  },
+  "timestamp": "2026-04-13 02:45:05"
+}

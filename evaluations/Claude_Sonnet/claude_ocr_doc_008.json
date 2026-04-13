@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 88,
+    "completeness": 95,
+    "total_score": 89,
+    "notes": "OCR extracted all required fields accurately. Company name has minor spacing differences (extra spaces around parentheses). Address formatting differs slightly with capitalization (No. vs NO.) but content is correct. Date, total amount are perfect matches. Invoice table structure well preserved. Contains additional information not in ground truth but all ground truth elements are present."
+  },
+  "timestamp": "2026-04-13 02:06:26"
+}

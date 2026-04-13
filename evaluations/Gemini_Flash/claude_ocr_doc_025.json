@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 80,
+    "layout_preservation": 85,
+    "completeness": 40,
+    "total_score": 67,
+    "notes": "The OCR output captures the main table and assumptions well, but misses the entire 'Document Type', 'Key Details' (except for the title and years covered in the table), and 'Insights and Observations' sections. There are also extra columns ('Chg. Index') in the OCR output that are not in the ground truth. Some numeric values differ, and there are minor text discrepancies."
+  },
+  "timestamp": "2026-04-13 01:46:40"
+}

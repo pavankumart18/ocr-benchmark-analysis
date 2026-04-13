@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 30,
+    "table_structure": 0,
+    "numeric_precision": 80,
+    "layout_preservation": 20,
+    "completeness": 50,
+    "total_score": 33.5,
+    "notes": "Major errors in text accuracy (company name garbled, address partially correct). No table structure preserved. Numeric precision is mostly correct (total amount matches). Layout is disrupted with extra irrelevant text. Completeness is partial (missing some fields, extra unrelated text)."
+  },
+  "timestamp": "2026-04-13 03:15:58"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 20,
+    "numeric_precision": 60,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 47.5,
+    "notes": "The OCR output contains numerous misspellings, garbled words, and incorrect characters (e.g., 'Crueee', 'Colobrity', 'oageoorapboebiogye'). Table or list structures are poorly preserved with misaligned and fragmented text. Numeric data such as dates and prices are mostly correct but some minor errors exist (e.g., 'S2,439' instead of '$2,439'). The reading order is disrupted, with headers and paragraphs mixed and incomplete. Overall, the text is mostly captured but with significant errors and poor formatting."
+  },
+  "timestamp": "2026-04-13 02:15:18"
+}

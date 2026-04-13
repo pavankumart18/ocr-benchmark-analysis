@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 65,
+    "total_score": 77,
+    "notes": "Several text errors including 'Accommoda' (incomplete word), '4o%' instead of '40%', missing percentage value ('% instead of number), and incomplete sentences at the end. Table structure is mostly preserved but some alignment issues. Numbers are generally accurate except for the '4o%' error. Layout has some fragmentation and the document appears to cut off mid-sentence."
+  },
+  "timestamp": "2026-04-13 01:57:00"
+}

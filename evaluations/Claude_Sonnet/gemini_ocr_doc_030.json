@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 75,
+    "layout_preservation": 80,
+    "completeness": 40,
+    "total_score": 72,
+    "notes": "Good header extraction and table column headers preserved well. However, the document appears severely incomplete - only shows one partial data row out of what should be a full invoice table. The issue date of 1951 seems historically implausible for modern USPS invoicing. Table structure is maintained but data is truncated mid-row without values for most columns."
+  },
+  "timestamp": "2026-04-13 02:00:36"
+}

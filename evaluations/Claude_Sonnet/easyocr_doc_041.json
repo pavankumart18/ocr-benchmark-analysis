@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 15,
+    "table_structure": 10,
+    "numeric_precision": 40,
+    "layout_preservation": 20,
+    "completeness": 25,
+    "total_score": 20,
+    "notes": "OCR output is severely garbled with most text unreadable. Company name partially recognizable as 'Book Ta * (Tamandaya)Sou bid' vs correct 'BOOK TA .K (TAMAN DAYA) SDN BHD'. Date completely missing. Address not identifiable. Only the total amount '9.00' is somewhat preserved as '9 Uo' and '900'. Overall extraction quality is very poor with extensive character corruption and fragmented text."
+  },
+  "timestamp": "2026-04-13 01:57:23"
+}

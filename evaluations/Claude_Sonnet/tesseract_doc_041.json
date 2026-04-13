@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 20,
+    "numeric_precision": 75,
+    "layout_preservation": 30,
+    "completeness": 60,
+    "total_score": 44.5,
+    "notes": "Company name correctly extracted but address severely garbled with multiple OCR errors (SAAS instead of SAGU, DAA instead of DAYA, BANRU instead of BAHRU). Date and total amount are accurate. However, OCR captured extensive extraneous receipt content not present in ground truth, and address structure is poorly preserved with missing components like street numbers."
+  },
+  "timestamp": "2026-04-13 01:55:12"
+}

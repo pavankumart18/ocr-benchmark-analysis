@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 90,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 69,
+    "notes": "Key issues: Company name misspelled ('MR D. T. Y. SM1 SUN 000' vs 'MR D.I.Y. (M) SDN BHD'), address has minor errors ('1051-B' vs '1851-B', 'BALAFONG' vs 'BALAKONG'). Numeric values are mostly correct but invoice items clutter the output. Layout is somewhat preserved but includes irrelevant invoice details."
+  },
+  "timestamp": "2026-04-13 03:04:27"
+}

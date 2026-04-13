@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_043",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 71,
+    "notes": "Company name has errors (JOKOR vs JOHOR), address has typos (GALAKONG vs BALAKONG, PEQINDUSTRIAN vs PERINDUSTRIAN). Date and total amount are correct. OCR captured receipt structure well but with character recognition errors throughout. Missing some formatting precision but overall readable."
+  },
+  "timestamp": "2026-04-13 01:55:22"
+}

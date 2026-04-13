@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 98,
+    "notes": "Minor potential typo in 'Model: Parisian - Kuvalis 1qck' (could be '1qck' vs. intended text). Otherwise, extraction is nearly flawless with perfect table structure, numeric precision, layout, and completeness."
+  },
+  "timestamp": "2026-04-13 03:23:29"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 92.25,
+    "notes": "Minor typo in 'Gerbang' (OCR added a space) and 'feedbc' instead of 'feedback'. Otherwise, all key information (company, date, address, total) is accurately captured with correct structure and numeric precision."
+  },
+  "timestamp": "2026-04-13 03:33:12"
+}

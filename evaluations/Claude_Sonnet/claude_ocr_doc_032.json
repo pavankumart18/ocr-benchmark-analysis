@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 88,
+    "table_structure": 92,
+    "numeric_precision": 85,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 89,
+    "notes": "Overall excellent extraction with proper table structure and complete data capture. Minor issues include one inconsistent shift time entry ('07:00-15:00 Night' should likely be 'Morning') and potential missing employee ID digits for one entry (U9TRM vs expected 6-character format). All other names, departments, dates, and shift schedules appear accurate."
+  },
+  "timestamp": "2026-04-13 02:08:20"
+}

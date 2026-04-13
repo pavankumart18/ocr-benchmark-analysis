@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 20,
+    "numeric_precision": 80,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 49.5,
+    "notes": "Text accuracy is low due to garbled words and misspellings (e.g., 'Pp.acific Rim', 'Scien:', 'Anniversary Sz'). Table structure is poorly preserved with misaligned text. Numeric precision is good with correct conference fee. Layout is disrupted with incorrect reading order. Some text is missing or fragmented."
+  },
+  "timestamp": "2026-04-13 03:14:28"
+}

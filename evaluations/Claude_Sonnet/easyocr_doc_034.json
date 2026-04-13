@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 45,
+    "table_structure": 35,
+    "numeric_precision": 55,
+    "layout_preservation": 40,
+    "completeness": 70,
+    "total_score": 46,
+    "notes": "Significant OCR errors throughout including misspelled words (DOcHII, Numher, Clicnt, Shipunent, etc.), garbled text in multiple fields, poor table structure with misaligned columns and merged data, and numerous formatting issues. While most content appears present, accuracy is severely compromised by character recognition errors and structural problems."
+  },
+  "timestamp": "2026-04-13 01:56:45"
+}

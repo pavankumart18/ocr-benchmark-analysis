@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 15,
+    "table_structure": 10,
+    "numeric_precision": 25,
+    "layout_preservation": 20,
+    "completeness": 30,
+    "total_score": 18,
+    "notes": "OCR output is severely garbled with most text unrecognizable. Company name 'INDAH GIFT & HOME DECO' appears as fragmented 'abah GfT'. Address is mostly illegible with only partial matches like 'Jchor' for 'JOHOR'. Date '19/10/2018' not clearly identifiable. Total amount '60.30' may be present but unclear due to formatting corruption. Overall extraction quality is very poor with extensive character recognition errors throughout."
+  },
+  "timestamp": "2026-04-13 01:57:28"
+}

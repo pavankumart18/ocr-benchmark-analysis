@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 70,
+    "layout_preservation": 55,
+    "completeness": 65,
+    "total_score": 60.75,
+    "notes": "The OCR captured most text but with significant errors: missing city names for most rows, unclear column headers, and garbled text at the bottom. Table columns and rows are poorly aligned, making it hard to associate numbers with correct categories. Numeric values appear mostly correct but some context is missing. Layout is disrupted by misplaced text and unclear reading order. Some text appears missing or corrupted, especially in the lower half."
+  },
+  "timestamp": "2026-04-13 02:14:02"
+}

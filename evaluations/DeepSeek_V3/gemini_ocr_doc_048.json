@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 87.75,
+    "notes": "Minor issues include extra text ('tan chay yee'), slightly incorrect formatting (parentheses spacing in company name), and missing fax/tel details not in ground truth. Numeric values and key fields match perfectly."
+  },
+  "timestamp": "2026-04-13 03:26:25"
+}

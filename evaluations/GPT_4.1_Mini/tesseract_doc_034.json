@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 40,
+    "numeric_precision": 55,
+    "layout_preservation": 50,
+    "completeness": 85,
+    "total_score": 57.75,
+    "notes": "The OCR output contains numerous misspellings and garbled words (e.g., 'seston dsiz-205', '9XPLOVZIDJ'), inconsistent spacing, and some unclear character recognition. Numeric data such as dates and fees are partially correct but often mixed with errors or misplaced. The table structure is poorly preserved with misaligned numbers and unclear row/column boundaries. Layout and reading order are disrupted by random line breaks and misplaced sections. However, most visible text appears captured, with no major omissions."
+  },
+  "timestamp": "2026-04-13 02:13:50"
+}

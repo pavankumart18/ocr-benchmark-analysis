@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_004",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 80,
+    "total_score": 90.25,
+    "notes": "Minor issues: Extra text (e.g., 'tan woon yann', GST ID) not in ground truth, address format slightly different. Key fields (company, date, address, total) are correctly captured with high precision."
+  },
+  "timestamp": "2026-04-13 03:19:53"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 85,
+    "layout_preservation": 55,
+    "completeness": 30,
+    "total_score": 59.75,
+    "notes": "OCR output captures some numeric values accurately but misses large portions of text, including key sections and details. Table columns are roughly aligned but incomplete and missing rows. Text is truncated mid-section, losing much content. Layout is partially preserved but lacks headings and explanatory notes. Overall, major content and structural elements are missing."
+  },
+  "timestamp": "2026-04-13 02:16:53"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 88,
+    "notes": "Minor address discrepancy (NO.69 vs NO.59, 81750 vs 81760) and some OCR noise in item descriptions, but key fields (company, date, total) are accurate. Table structure and numeric values are well preserved."
+  },
+  "timestamp": "2026-04-13 03:28:13"
+}

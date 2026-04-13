@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 15,
+    "table_structure": 10,
+    "numeric_precision": 5,
+    "layout_preservation": 10,
+    "completeness": 40,
+    "total_score": 13.25,
+    "notes": "The OCR output is heavily garbled with numerous nonsensical words, incorrect characters, and random symbols. There is no clear preservation of table structure or numeric precision; numbers and dates are mostly unreadable or corrupted. The reading order and layout are not maintained, making it difficult to discern sections or headers. While some text appears captured, much is unintelligible or incomplete."
+  },
+  "timestamp": "2026-04-13 02:14:54"
+}

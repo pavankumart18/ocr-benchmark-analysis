@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "easyocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 0,
+    "numeric_precision": 20,
+    "layout_preservation": 0,
+    "completeness": 5,
+    "total_score": 7.5,
+    "notes": "The OCR output is largely garbled and bears very little resemblance to the ground truth. Most fields are either missing or completely incorrect. 'company' and 'address' are unrecognizable. The 'date' is missing. Only the 'total' has a recognizable number, but it's not clearly associated with the 'total' field. The overall structure and layout are completely lost."
+  },
+  "timestamp": "2026-04-13 01:41:28"
+}

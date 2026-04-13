@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 50,
+    "total_score": 84.5,
+    "notes": "High text accuracy with minor formatting differences. Major issue is incompleteness\u2014OCR output cuts off after 'Henry Schein,' missing the majority of the document's content."
+  },
+  "timestamp": "2026-04-13 03:21:23"
+}

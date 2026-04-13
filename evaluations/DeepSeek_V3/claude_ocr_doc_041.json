@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 100,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 72,
+    "notes": "Text accuracy suffers from minor errors like 'JATAN SAGU 3B' instead of 'JALAN SAGU 18'. Table structure is partially preserved but includes extraneous data. Numeric precision is perfect. Layout preservation is compromised by additional irrelevant text. Completeness is good but missing some minor details."
+  },
+  "timestamp": "2026-04-13 03:38:44"
+}

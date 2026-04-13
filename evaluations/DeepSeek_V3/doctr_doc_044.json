@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "doctr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 80,
+    "total_score": 70,
+    "notes": "Key issues: 'JALAN DEDAP' misread as 'JALAN IDEDAR', 'JOHOR BAHRU' as 'JOHOR BABRU', date format error ('25/120018'), extra irrelevant text captured. Numeric values mostly correct but with minor formatting issues."
+  },
+  "timestamp": "2026-04-13 03:07:41"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 90,
+    "total_score": 95.5,
+    "notes": "The OCR output is nearly perfect with minor differences in formatting and a few missing notes from the ground truth. All key details, numbers, and table structures are accurately captured."
+  },
+  "timestamp": "2026-04-13 03:29:32"
+}

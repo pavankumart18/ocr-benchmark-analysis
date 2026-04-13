@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 77.75,
+    "notes": "The OCR output has minor text accuracy issues such as 'SCO' instead of 'Security' and 'up\u2019 ptime' instead of 'uptime'. The table structure is not well-preserved, with missing columns and rows. Numeric values appear to be correct. Layout preservation is decent but could be improved. The text is mostly complete but with some minor omissions."
+  },
+  "timestamp": "2026-04-13 02:40:28"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_031",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 92,
+    "table_structure": 75,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 84.65,
+    "notes": "Text is highly accurate with proper terminology and spelling. Numbers and currencies are precisely captured. However, table structure has issues with incomplete Q3-2021 row and unclear separation between sections. Layout shows some confusion in organizing quarterly data and statistics sections. Some structural elements may be missing or misaligned."
+  },
+  "timestamp": "2026-04-13 01:48:11"
+}

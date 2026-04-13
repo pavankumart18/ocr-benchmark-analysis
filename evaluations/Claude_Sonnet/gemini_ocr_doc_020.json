@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 92,
+    "table_structure": 95,
+    "numeric_precision": 100,
+    "layout_preservation": 85,
+    "completeness": 100,
+    "total_score": 92.1,
+    "notes": "Very high accuracy with only minor formatting differences. OCR added markdown formatting (*italics* and **bold**) that wasn't in ground truth, but all text content is correctly captured. All numbers, dates, and monetary amounts are perfect. Structure and completeness are excellent."
+  },
+  "timestamp": "2026-04-13 01:59:30"
+}

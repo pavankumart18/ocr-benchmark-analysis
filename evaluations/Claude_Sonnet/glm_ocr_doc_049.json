@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 92,
+    "table_structure": 85,
+    "numeric_precision": 85,
+    "layout_preservation": 88,
+    "completeness": 95,
+    "total_score": 89,
+    "notes": "Very good OCR extraction with minor issues: postal code differs (81700 vs 81760), total amount off by 0.01 (112.46 vs 112.45), and some formatting variations in address structure. All key information captured accurately with proper table structure preserved."
+  },
+  "timestamp": "2026-04-13 01:49:42"
+}

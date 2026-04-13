@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 60,
+    "numeric_precision": 50,
+    "layout_preservation": 55,
+    "completeness": 60,
+    "total_score": 54.25,
+    "notes": "Significant errors in company name (AHC vs ABC), address details differ (No 264 vs No.2&4), and date mismatch (09/04/2019 vs 09/01/2019). Table partially preserved but includes extra unrelated data and formatting changes. Numeric values for total match but date and some numbers differ. Layout is disrupted by added unrelated text and changed reading order. Some ground truth fields missing or altered."
+  },
+  "timestamp": "2026-04-13 02:20:09"
+}

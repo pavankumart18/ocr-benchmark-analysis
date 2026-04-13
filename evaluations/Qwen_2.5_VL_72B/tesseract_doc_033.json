@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "tesseract",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 88.5,
+    "notes": "Minor misspellings such as 'throttie' instead of 'throttle' and 'whee!' instead of 'wheel'. Layout is mostly preserved but some sections like 'Cold cranking amps (CCA)' are not perfectly aligned. No numeric data present to assess precision. Most content is captured accurately."
+  },
+  "timestamp": "2026-04-13 02:39:52"
+}

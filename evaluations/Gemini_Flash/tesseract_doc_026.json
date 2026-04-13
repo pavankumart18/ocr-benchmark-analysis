@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 70,
+    "numeric_precision": 90,
+    "layout_preservation": 85,
+    "completeness": 95,
+    "total_score": 79.75,
+    "notes": "Text accuracy suffers from several character recognition errors, especially in country names and symbols (e.g., '@im' for 'Australia', 'EB' for 'Italy', 'EUA' for 'Germany', 'su!' for 'Switzerland', '=i&' for 'Great Britain', 'Ef' for 'France'). The table structure is mostly preserved but the column headers are slightly misaligned and the 'Bronze' column is enclosed in parentheses in the header but not consistently in the data. Numeric precision is good, with only one minor error in the 'Bronze' column for Germany where '(0)' is extracted instead of '0'. Layout preservation is decent, maintaining the general order. Completeness is high, with all visible text captured."
+  },
+  "timestamp": "2026-04-13 01:39:46"
+}

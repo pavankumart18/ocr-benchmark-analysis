@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 98,
+    "total_score": 96.7,
+    "notes": "The OCR output is very good. Minor issues include 'uptime' appearing on a new line instead of next to 'INTELLIGENCE' in the header, and the table structure is slightly off as the percentages are not perfectly aligned under their respective concern levels, though the data is correct."
+  },
+  "timestamp": "2026-04-13 01:45:11"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_008",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 88,
+    "completeness": 95,
+    "total_score": 89.1,
+    "notes": "Very good OCR extraction with accurate company name, address, date and total amount. Minor spacing differences in company name parentheses and address capitalization. All key financial data extracted correctly with proper invoice structure maintained."
+  },
+  "timestamp": "2026-04-13 02:02:32"
+}

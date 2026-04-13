@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 30,
+    "table_structure": 10,
+    "numeric_precision": 40,
+    "layout_preservation": 10,
+    "completeness": 30,
+    "total_score": 25.5,
+    "notes": "Significant errors in text accuracy, especially for the address and company name. The date is partially correct but has extra characters. The total is completely wrong. The OCR output is largely unstructured, making table structure and layout preservation very poor. Many key fields from the ground truth are either missing or heavily garbled."
+  },
+  "timestamp": "2026-04-13 01:39:23"
+}

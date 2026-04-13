@@ -1,0 +1,52 @@
+Medical Equipment Inspection Checklist
+
+Equipment ID: HO7CYSCQ
+Model: Parisian - Kuvalis 1qck
+Department: ICU
+Inspection Date: 2025-02-13
+Inspector: Margie Rohan
+
+Physical Condition
+
+Checkpoint                                          Pass        Fail        N/A         Notes
+
+Equipment housing intact                            ✓
+Display screen clear                                ✓
+Control buttons functional                          ✓
+Power cord undamaged                                                        -
+Mounting brackets secure                            ✓
+Wheels/casters condition                            ✓
+Labels and markings legible                         ✓
+Accessories complete                                ✓
+
+Electrical Safety
+
+Checkpoint                                          Pass        Fail        N/A         Notes
+
+Ground connection                                   ✓
+Insulation resistance                                           X
+Leakage current                                     ✓
+Power supply stable                                 ✓
+Battery backup functional                           ✓
+Circuit breaker operation                           ✓
+Surge protection                                                            -
+Cable connections secure                            ✓
+
+Performance Tests
+
+Checkpoint                                          Pass        Fail        N/A         Notes
+
+Self-test passed                                    ✓
+Calibration check                                   ✓
+Alarm systems                                       ✓
+Backup systems                                      ✓
+Output accuracy                                                             -           Not required for this equipment type
+Response time                                       ✓
+Data storage/retrieval                                          X
+Network connectivity                                ✓
+Sensor accuracy                                     ✓
+
+Overall Status
+
+Inspection Result: X
+Next Inspection Due: 2025-06-22

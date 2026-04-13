@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 85,
+    "numeric_precision": 80,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 77.25,
+    "notes": "Key issues: 'BOOK TA .K' missing dot, '57' misread as '47', '59' as '49', date mismatch ('25/12/2018' vs '29/12/2018'), extra text (e.g., 'tan woon yann') not in ground truth. Table structure and numeric values mostly correct but with minor errors."
+  },
+  "timestamp": "2026-04-13 03:32:02"
+}

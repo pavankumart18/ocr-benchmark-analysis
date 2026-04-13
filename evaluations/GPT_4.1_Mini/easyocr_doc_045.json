@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 5,
+    "numeric_precision": 40,
+    "layout_preservation": 10,
+    "completeness": 15,
+    "total_score": 15.25,
+    "notes": "OCR output is mostly garbled and unrelated text with almost no correct words from ground truth. No table structure or columns preserved. Only the total amount '30.90' and partial date '18' appear correctly. Major missing text including company name, full date, and address. Reading order and layout are not maintained."
+  },
+  "timestamp": "2026-04-13 02:15:31"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "glm_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 88,
+    "completeness": 95,
+    "total_score": 89,
+    "notes": "Minor address discrepancy (NO.51 vs NO.53) and spelling error (JOHOR BAHRI vs JOHOR BAHRU). All key information correctly extracted with excellent numeric precision and structure preservation."
+  },
+  "timestamp": "2026-04-13 01:48:55"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 75,
+    "layout_preservation": 80,
+    "completeness": 70,
+    "total_score": 76.25,
+    "notes": "Text is mostly accurate with minor truncation in the table row. Table columns are present but incomplete and misaligned, especially the last row which is cut off. Numeric data like dates and shipment numbers appear correct but some data is missing. Layout is generally preserved with headers and sections in order. Overall, significant portions of the table row are missing, reducing completeness."
+  },
+  "timestamp": "2026-04-13 02:17:09"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "gemini_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 75,
+    "total_score": 84.75,
+    "notes": "The OCR output captures most of the text accurately but misses some details like the document type and key insights. The table structure is well-preserved, and numeric values are mostly correct. However, the layout and completeness could be improved by including all sections from the ground truth."
+  },
+  "timestamp": "2026-04-13 02:46:04"
+}

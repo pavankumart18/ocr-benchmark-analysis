@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "tesseract",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 90,
+    "numeric_precision": 50,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 69,
+    "notes": "Numerous text inaccuracies, especially in names, addresses, and dates (e.g., 'Jucvie Gerkold', '653 Woodside Goad', 'Ur\\Gornin', 'Letttiw Landing', 'Lali L, thie?', '93\u00b0F', 'AT\u00a503 Gor cz ant Theo ugh way', 'Zozs', 'Zoz6', 'Marck z02F', 'z02%', '34\u00b0', 'zor?'). Numeric values are often incorrect or garbled. The overall layout and completeness are good, but the high number of character-level errors significantly impacts accuracy and numeric precision."
+  },
+  "timestamp": "2026-04-13 01:40:11"
+}

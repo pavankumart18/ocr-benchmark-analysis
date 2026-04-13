@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 95,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 95.25,
+    "notes": "The OCR output accurately extracted all the requested fields. Minor discrepancies include 'NO.122,124' instead of 'NO 122.124' for the address, which is a very small character difference. The total amount '80.90' was correctly identified. The OCR output contains a lot of additional information not present in the ground truth, but this does not negatively impact the score for the requested fields."
+  },
+  "timestamp": "2026-04-13 01:47:26"
+}

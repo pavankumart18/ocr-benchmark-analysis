@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 65,
+    "completeness": 75,
+    "total_score": 69.25,
+    "notes": "Company name mostly correct but missing 'HO' vs 'HO'; address has multiple errors (No.284 vs No.2&4, B1100 vs 81100, JOHOR BAHRI vs JOHOR BAHRU). Date matches exactly. Table structure partially preserved but original ground truth has no detailed table, OCR shows extra columns and rows not in ground truth. Numeric values mostly correct except extra cash received and change not in ground truth. Layout order is somewhat preserved but extra unrelated text and phone number disrupt flow. Some ground truth fields missing or altered."
+  },
+  "timestamp": "2026-04-13 02:10:35"
+}

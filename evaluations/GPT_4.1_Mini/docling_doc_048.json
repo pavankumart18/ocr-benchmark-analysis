@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 30,
+    "numeric_precision": 85,
+    "layout_preservation": 40,
+    "completeness": 60,
+    "total_score": 54.75,
+    "notes": "Company name and address contain multiple OCR errors and misspellings (e.g., 'S.H.H.MOTOR\uff08SUNGAI RENGIT\uff09SDN.BHO', 'Sunga1 Ranglt'). The invoice text is partially garbled and disorganized, with irrelevant or corrupted lines present. Numeric values and date mostly match ground truth exactly. Table structure is poorly preserved, with no clear columns or rows matching the original. Layout and reading order are disrupted by scattered and noisy text. Some key fields like company, date, address, and total are present but with errors and incomplete formatting."
+  },
+  "timestamp": "2026-04-13 02:13:14"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 0,
+    "numeric_precision": 80,
+    "layout_preservation": 20,
+    "completeness": 10,
+    "total_score": 21.5,
+    "notes": "OCR output is severely garbled with almost no correct text matches, missing all key fields (company, date, address). Only the total amount is close (112.46 vs 112.45). No table structure or layout preserved."
+  },
+  "timestamp": "2026-04-13 03:16:03"
+}

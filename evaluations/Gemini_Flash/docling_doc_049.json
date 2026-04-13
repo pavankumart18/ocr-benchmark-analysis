@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 80,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 70,
+    "total_score": 70.75,
+    "notes": "The OCR output has several text accuracy issues, particularly with the company name and address. The date is also incorrect. However, the total amount is perfectly extracted. The overall layout is somewhat preserved, but the reading order for the address is a bit jumbled. Completeness is impacted by the incorrect date and address details."
+  },
+  "timestamp": "2026-04-13 01:39:41"
+}

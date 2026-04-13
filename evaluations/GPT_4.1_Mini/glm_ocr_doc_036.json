@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 74.25,
+    "notes": "Text mostly accurate but contains repeated phrases and minor errors (e.g., 'day of May 2025' repeated, 'is required. payable monthly' repeated). Table structure is weak as the options to renew section is not clearly separated and contains contradictory checked boxes. Numeric values mostly correct but monthly rent '34.00 dollars ($3400)' is inconsistent. Layout generally preserved but some redundancy and misalignment in dates and payment terms. All major text appears captured."
+  },
+  "timestamp": "2026-04-13 02:10:06"
+}

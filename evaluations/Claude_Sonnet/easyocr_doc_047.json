@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 70,
+    "numeric_precision": 85,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 70,
+    "notes": "Company name has case inconsistency (SOON HUAT vs Soon HUAT). Address is fragmented across multiple lines with spacing issues and missing components. Date format differs (1101noig vs 11/01/2019) but total amount 327.00 is correctly extracted. Overall structure is preserved but with significant formatting and accuracy issues throughout the document."
+  },
+  "timestamp": "2026-04-13 01:57:49"
+}

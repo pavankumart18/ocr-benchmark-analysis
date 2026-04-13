@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 95,
+    "layout_preservation": 70,
+    "completeness": 85,
+    "total_score": 76.25,
+    "notes": "Company name OCRed as 'BOOK TALK' instead of 'BOOK TA .K'; minor punctuation differences in address; date and total amounts match exactly. Table structure is present but includes extra unrelated data and formatting differs from ground truth. Layout order mostly preserved but includes additional unrelated sections and cashier info. Overall, most ground truth text is captured but with some errors and added content."
+  },
+  "timestamp": "2026-04-13 02:17:38"
+}

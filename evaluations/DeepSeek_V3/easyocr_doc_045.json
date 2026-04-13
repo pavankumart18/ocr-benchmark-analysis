@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 5,
+    "table_structure": 0,
+    "numeric_precision": 50,
+    "layout_preservation": 10,
+    "completeness": 20,
+    "total_score": 15,
+    "notes": "OCR output is severely garbled with almost no meaningful match to ground truth. Only the numeric value '30.90' is partially correct, but the rest is either missing or nonsensical. No structure, layout, or completeness is preserved."
+  },
+  "timestamp": "2026-04-13 03:18:58"
+}

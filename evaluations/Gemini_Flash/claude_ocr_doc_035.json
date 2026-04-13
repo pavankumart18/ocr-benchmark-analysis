@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 95,
+    "completeness": 95,
+    "total_score": 94.25,
+    "notes": "The OCR output is generally very good. There are a few minor numerical discrepancies, for example, 'Classic French Fries' has '9' for Sodium (mg) which seems unusually low compared to other items, and 'Smoked Paprika Fries' has '10' for Saturated Fat (g) which is also high. These could be OCR errors or actual data. The table structure is well-preserved, and the layout is good. The headers for each section (Fries, Dips + Spreads, etc.) are correctly identified."
+  },
+  "timestamp": "2026-04-13 01:47:04"
+}

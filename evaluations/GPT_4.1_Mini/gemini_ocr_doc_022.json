@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_022",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 90,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 90.25,
+    "notes": "OCR output closely matches ground truth with correct organization of financial figures and text. Minor issues include missing the initial descriptive paragraph and slight formatting differences in notes (e.g., '(a)' and '(b)' placement). The 'TOTAL' row includes a '4,916 (a)' figure for 1984 not present in ground truth, which is a minor discrepancy. Overall, numeric data is accurate and table structure is well preserved."
+  },
+  "timestamp": "2026-04-13 02:16:48"
+}

@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_021",
+  "model": "gemini_ocr",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/sujet-images/000.png",
+  "category": "financial_mixed",
+  "source_dataset": "sujet",
+  "processing_time_seconds": 32.36,
+  "output_length_chars": 1004,
+  "timestamp": "2026-04-13 00:47:58"
+}

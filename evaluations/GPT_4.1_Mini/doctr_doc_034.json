@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_034",
+  "model": "doctr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 65,
+    "table_structure": 50,
+    "numeric_precision": 60,
+    "layout_preservation": 55,
+    "completeness": 75,
+    "total_score": 60.25,
+    "notes": "The OCR output contains numerous misspellings and character errors (e.g., 'Issuel Date', 'Type ofServicel', 'HELOISEVIEW'), inconsistent spacing, and some garbled text (e.g., 'Page:320f94'). Table columns and rows are poorly aligned, making it difficult to clearly distinguish headers from data. Numeric values have some inconsistencies and possible misreads, especially in dates and charges. The reading order is somewhat preserved but disrupted by formatting errors and misplaced line breaks. Most visible text appears captured, but some sections are jumbled or incomplete."
+  },
+  "timestamp": "2026-04-13 02:11:13"
+}

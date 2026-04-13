@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 25,
+    "table_structure": 15,
+    "numeric_precision": 30,
+    "layout_preservation": 20,
+    "completeness": 40,
+    "total_score": 24,
+    "notes": "Severely garbled OCR output with extensive character corruption, inverted/rotated text recognition, scrambled words (e.g., 'uoowoyy', 'qU6IN'), and completely disrupted document structure. Time stamps and some proper nouns are partially recognizable, but overall text is largely unintelligible."
+  },
+  "timestamp": "2026-04-13 01:54:26"
+}

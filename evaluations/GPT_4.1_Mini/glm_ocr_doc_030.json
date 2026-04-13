@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_030",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 70,
+    "layout_preservation": 65,
+    "completeness": 80,
+    "total_score": 69.25,
+    "notes": "The OCR captured most text correctly but with some errors such as inconsistent spacing, missing punctuation, and occasional misaligned or merged fields. Table columns and rows are partially preserved but many entries run together or are misaligned, making it hard to distinguish separate fields clearly. Numeric values and dates are mostly accurate but some dates appear inconsistent or suspicious (e.g., 1951 issue date, 1960 shipment date). Layout order is roughly maintained but some sections and headers blend into data rows, reducing clarity. Overall, the extraction is mostly complete but with notable structural and formatting issues."
+  },
+  "timestamp": "2026-04-13 02:09:48"
+}

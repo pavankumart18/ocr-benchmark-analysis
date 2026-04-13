@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_020",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 95,
+    "total_score": 96.25,
+    "notes": "The OCR output is highly accurate with only a minor extraneous '?' at the start and slight differences in quotation mark styles and bold formatting. No spelling or character errors were found. Numeric values and section numbering are perfectly preserved. The layout and reading order are well maintained, with clear section breaks and bullet points. All text from the ground truth is present, with no omissions."
+  },
+  "timestamp": "2026-04-13 02:21:19"
+}

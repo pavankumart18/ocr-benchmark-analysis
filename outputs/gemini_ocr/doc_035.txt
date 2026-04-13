@@ -1,0 +1,5 @@
+Fries    Dips + Spreads    Wraps    Dressings
+
+Recipe	Calories	Calories from Fat	Total Fat (g)	Saturated Fat (g)	Trans Fat (g)	Cholesterol (mg)	Sodium (mg)	Carbohydrates (g)	Fiber (g)	Sugar (g)	Protein (g)
+Seasoned Fries	60	117	12.9	2.4	0.1	54	514	28	4.9	31	27.5
+Duck Fat Fries	101	133	19.3	2.5	1.4	39	716	57	4.6	22

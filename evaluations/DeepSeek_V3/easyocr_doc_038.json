@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "easyocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 65,
+    "numeric_precision": 60,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 68.25,
+    "notes": "Text accuracy suffers from minor typos (e.g., 'S48M' instead of '$48M', 'Sl6.IM' instead of '$16.1M'). Table structure is somewhat preserved but has alignment issues and inconsistent formatting. Numeric precision is compromised by incorrect currency symbols and decimal points. Layout preservation is decent but reading order is slightly disrupted. Completeness is good with no major missing sections."
+  },
+  "timestamp": "2026-04-13 03:18:10"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_005",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 100,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 100,
+    "notes": "All extracted fields perfectly match the ground truth. The OCR model successfully identified and extracted the company name, date, address, and total amount with no errors."
+  },
+  "timestamp": "2026-04-13 01:42:00"
+}

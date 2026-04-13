@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 0,
+    "numeric_precision": 95,
+    "layout_preservation": 10,
+    "completeness": 20,
+    "total_score": 46,
+    "notes": "The OCR output is a raw table of numbers and categories, while the ground truth is a structured summary of the document's content. This leads to significant discrepancies in text accuracy, table structure (as the ground truth is not a table in the same format), layout, and completeness. Many details and insights present in the ground truth are missing from the OCR output. Numeric values are largely correct where they appear, but the context and interpretation are lost."
+  },
+  "timestamp": "2026-04-13 01:44:38"
+}

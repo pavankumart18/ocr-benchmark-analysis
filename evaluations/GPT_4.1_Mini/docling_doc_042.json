@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_042",
+  "model": "docling",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 0,
+    "numeric_precision": 5,
+    "layout_preservation": 10,
+    "completeness": 5,
+    "total_score": 7.25,
+    "notes": "OCR output is largely garbled with almost no correct text from ground truth. Company name, address, and total amount are missing or unreadable. Date is partially present but incorrect format. No recognizable table structure. Numeric values do not match ground truth. Layout and reading order are not preserved."
+  },
+  "timestamp": "2026-04-13 02:12:55"
+}

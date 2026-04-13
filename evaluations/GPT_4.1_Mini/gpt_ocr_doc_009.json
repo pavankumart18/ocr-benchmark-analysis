@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_009",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 30,
+    "numeric_precision": 95,
+    "layout_preservation": 50,
+    "completeness": 50,
+    "total_score": 61.75,
+    "notes": "Company name is correct, but address has multiple errors (NO.69 vs NO.59, postal code 81750 vs 81760). Date and total amount match exactly. The OCR output includes a large amount of unrelated text and tables not present in ground truth, causing poor table structure and layout preservation scores. The ground truth is a simple JSON with 4 fields, while OCR output is a full invoice with many extra details, leading to low completeness and layout scores. Numeric values in date and total are accurate."
+  },
+  "timestamp": "2026-04-13 02:18:26"
+}

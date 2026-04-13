@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_044",
+  "model": "tesseract",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 20,
+    "numeric_precision": 60,
+    "layout_preservation": 30,
+    "completeness": 70,
+    "total_score": 45.5,
+    "notes": "Major OCR errors include incorrect company name prefix ('tan woon yann'), garbled address ('HO T2214 JALAN DEDAP $3'), wrong postal code ('81200'), missing/incorrect total ('6090' vs '80.90'). Table structure is poorly preserved, and layout is disrupted with mixed sections. Some ground truth fields are missing or incorrect."
+  },
+  "timestamp": "2026-04-13 03:15:18"
+}

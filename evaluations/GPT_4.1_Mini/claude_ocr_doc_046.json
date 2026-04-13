@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 50,
+    "numeric_precision": 85,
+    "layout_preservation": 65,
+    "completeness": 70,
+    "total_score": 66.75,
+    "notes": "Company name is correct but address differs significantly (No.284 vs No.2&4, missing 'HO' in address). Date matches exactly. Total amount matches. Table structure is loosely preserved but original table is minimal; OCR adds extra unrelated lines and columns. Layout is somewhat preserved but extra unrelated text and phone number disrupt flow. Some ground truth fields missing (e.g., no explicit 'company' label, no cashier info in ground truth). Overall, key numeric data is accurate but text and structure have notable deviations."
+  },
+  "timestamp": "2026-04-13 02:22:35"
+}

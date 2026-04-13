@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 65,
+    "completeness": 80,
+    "total_score": 72,
+    "notes": "Multiple spelling errors (Paprikal, Sweetl, Chilil, Carken, BBQChicken). Table structure is poorly preserved with misaligned columns and headers. Most numeric values appear correct. Layout shows some section organization but column alignment is severely compromised. Content appears mostly complete with all major sections present."
+  },
+  "timestamp": "2026-04-13 01:50:30"
+}

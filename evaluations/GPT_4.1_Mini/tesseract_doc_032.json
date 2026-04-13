@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 15,
+    "table_structure": 10,
+    "numeric_precision": 5,
+    "layout_preservation": 10,
+    "completeness": 40,
+    "total_score": 13.25,
+    "notes": "The OCR output is heavily garbled with numerous misspellings, incorrect characters, and nonsensical words. Numeric data such as times, amounts, and codes are mostly unreadable or corrupted. Table structure is not preserved; columns and rows are jumbled and misaligned. The reading order and layout are chaotic, making it difficult to discern sections or headers. While some text appears captured, much is incomplete or unintelligible."
+  },
+  "timestamp": "2026-04-13 02:13:43"
+}

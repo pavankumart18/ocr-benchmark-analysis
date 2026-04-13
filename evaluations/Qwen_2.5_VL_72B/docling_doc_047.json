@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_047",
+  "model": "docling",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 90,
+    "layout_preservation": 65,
+    "completeness": 80,
+    "total_score": 74.5,
+    "notes": "The OCR output contains several misspellings and formatting issues, such as 'SOON HUATMACHINERY' instead of 'SOON HUAT MACHINERY'. The table structure is not preserved correctly, with some rows and columns misaligned. Numeric values like the date and total amount are mostly accurate. The layout is somewhat preserved but with some sections and formatting lost. Most of the ground truth text is captured, but with errors."
+  },
+  "timestamp": "2026-04-13 02:28:24"
+}

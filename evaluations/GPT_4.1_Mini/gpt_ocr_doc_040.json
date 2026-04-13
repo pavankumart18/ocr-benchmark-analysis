@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 90,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 94.25,
+    "notes": "The OCR output is highly accurate with no noticeable misspellings or wrong characters. The seminar lists and bullet points are well preserved, maintaining the structure of the content. Numeric data including dates, prices, and fees are exactly correct. The reading order and section headers are logical and clear. Minor formatting nuances such as indentation or spacing could be improved but do not significantly impact readability or structure. No major text is missing."
+  },
+  "timestamp": "2026-04-13 02:19:53"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_026",
+  "model": "doctr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 65,
+    "completeness": 70,
+    "total_score": 71,
+    "notes": "Major issues: 'Germany (EUA)' should be 'Germany (GER)', missing rank numbers for last two rows, incomplete final row for France. Table structure partially preserved but alignment issues and missing data affect overall quality."
+  },
+  "timestamp": "2026-04-13 01:49:50"
+}

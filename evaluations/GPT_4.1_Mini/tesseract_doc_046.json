@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 50,
+    "table_structure": 40,
+    "numeric_precision": 70,
+    "layout_preservation": 45,
+    "completeness": 55,
+    "total_score": 53.75,
+    "notes": "Significant text errors including company name ('ARC' vs 'ABC'), address misspellings, and extraneous text. Table structure poorly preserved with unclear columns and rows. Numeric data mostly correct for date and total amount but some formatting issues. Layout disrupted with unrelated text and poor section separation. Several key ground truth elements missing or garbled."
+  },
+  "timestamp": "2026-04-13 02:14:24"
+}

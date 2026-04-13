@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 10,
+    "table_structure": 5,
+    "numeric_precision": 30,
+    "layout_preservation": 15,
+    "completeness": 20,
+    "total_score": 14.25,
+    "notes": "OCR output is largely garbled with almost no correct text matching ground truth. Company name, address, and date are unreadable or incorrect. Numeric values partially appear but with errors (e.g., date '04/0170199' vs '09/01/2019'). No clear table or structured columns preserved. Layout and reading order are chaotic. Significant missing and corrupted text."
+  },
+  "timestamp": "2026-04-13 02:15:34"
+}

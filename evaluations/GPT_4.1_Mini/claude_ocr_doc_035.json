@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 85.75,
+    "notes": "Overall good extraction with accurate text and numeric values. Minor issues include some misalignment in columns (e.g., Calories and Calories from Fat values sometimes appear swapped or inconsistent), and occasional odd values (e.g., 'Lemon Herb Dressing' Calories listed as '1' but Calories from Fat as '173' which seems off). The table structure is mostly preserved but some rows and columns could be better aligned for clarity. No major missing text detected."
+  },
+  "timestamp": "2026-04-13 02:22:03"
+}

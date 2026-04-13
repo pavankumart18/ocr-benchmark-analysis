@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "tesseract",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 65,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 80,
+    "total_score": 74,
+    "notes": "Several name misspellings (Bergnaum, Hagenes, Predovic, Kautzer, Schinner). Table structure partially preserved but alignment issues and incomplete data in several rows. Most numeric values appear correct. Some missing data in lower rows affects completeness."
+  },
+  "timestamp": "2026-04-13 01:55:02"
+}

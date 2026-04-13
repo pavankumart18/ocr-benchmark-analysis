@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 60,
+    "numeric_precision": 95,
+    "layout_preservation": 75,
+    "completeness": 70,
+    "total_score": 77.25,
+    "notes": "Company name and date are correctly extracted, but address has a postal code error (81750 vs 81760). The OCR includes many extra unrelated details not in ground truth. Table structure is present but not aligned with ground truth since ground truth has no table; OCR shows a detailed invoice table. Numeric values mostly match, including total and date. Layout is somewhat preserved but reading order is affected by extra content. Completeness is partial as ground truth is minimal but OCR adds unrelated data and misses exact address postal code."
+  },
+  "timestamp": "2026-04-13 02:22:42"
+}

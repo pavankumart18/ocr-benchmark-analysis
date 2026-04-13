@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 75,
+    "completeness": 90,
+    "total_score": 77.25,
+    "notes": "Text is mostly accurate with minor repetitions and awkward phrasing (e.g., 'is required. payable monthly with the first payment due upon the is required. payable monthly...'). Table structure is weak as the renewal options are presented as checkboxes but both are checked and incomplete, indicating poor capture of form elements. Numeric data including dates, amounts, and durations are mostly correct. Layout is generally preserved but some redundancy and misalignment in dates and payment terms affect readability. Overall, most visible text is captured with no major omissions."
+  },
+  "timestamp": "2026-04-13 02:19:43"
+}

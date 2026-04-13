@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "claude_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 50,
+    "numeric_precision": 100,
+    "layout_preservation": 70,
+    "completeness": 95,
+    "total_score": 79,
+    "notes": "The text accuracy and numeric precision are very good. However, the table structure for 'Revenue by segment' is not preserved at all; it's presented as a flat list of numbers and labels rather than a hierarchical or columnar structure. The layout preservation is also impacted by this, as the visual grouping of segments and sub-segments is lost. A minor omission is the '6' at the bottom, which is likely a page number."
+  },
+  "timestamp": "2026-04-13 01:46:44"
+}

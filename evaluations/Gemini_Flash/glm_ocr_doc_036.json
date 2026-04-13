@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_036",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 100,
+    "numeric_precision": 80,
+    "layout_preservation": 95,
+    "completeness": 90,
+    "total_score": 87,
+    "notes": "There are a few text accuracy issues, such as '2025-05-11' instead of '11th day of May, 2025' and '34.00 dollars ($3400)' which seems to be a typo as the amount is $3400, not $34.00. Also, 'day of May 2025' and 'day of March 2028' are repeated. The 'Options to Renew' section has both checkboxes marked, which is unlikely in a real document, suggesting a potential OCR error in interpreting the selection. The '___' placeholders for renewal periods and terms are captured correctly, indicating that the OCR recognized the blank fields."
+  },
+  "timestamp": "2026-04-13 01:37:02"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_041",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 65,
+    "layout_preservation": 75,
+    "completeness": 80,
+    "total_score": 69.25,
+    "notes": "Company name mostly correct except '_' instead of '.'; address numbers differ (53,55,47&49 vs 53,55,57&59); date incorrect (29/12/2018 vs 25/12/2018); total amount correct; table columns present but not clearly aligned; some extra unrelated text included; overall reading order mostly preserved; all ground truth text present but with errors in key fields."
+  },
+  "timestamp": "2026-04-13 02:19:56"
+}

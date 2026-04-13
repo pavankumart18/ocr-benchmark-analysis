@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_029",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 95,
+    "layout_preservation": 85,
+    "completeness": 90,
+    "total_score": 86.25,
+    "notes": "Minor OCR errors such as 'Kuvalis 1qck' instead of likely 'Kuvalis 1qck' (uncertain if '1qck' is correct model name), and missing pass/fail marks for 'Power cord undamaged' in Physical Condition. Table columns mostly preserved but some alignment issues with checkmarks and missing marks. Dates and IDs appear accurate. Layout and section order well maintained. Overall, mostly complete with minor omissions."
+  },
+  "timestamp": "2026-04-13 02:09:45"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_025",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 50,
+    "completeness": 40,
+    "total_score": 63,
+    "notes": "OCR output has minor text inaccuracies (e.g., 'Chg.' headers not in ground truth), incomplete table structure (missing rows/columns), mostly correct numeric precision (except truncated '8.'), poor layout preservation (unexpected headers and formatting), and major completeness issues (missing most key details and sections)."
+  },
+  "timestamp": "2026-04-13 03:22:55"
+}

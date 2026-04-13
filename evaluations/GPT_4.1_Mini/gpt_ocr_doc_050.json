@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_050",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 40,
+    "numeric_precision": 95,
+    "layout_preservation": 60,
+    "completeness": 70,
+    "total_score": 70.25,
+    "notes": "Company name and address mostly correct but OCR includes extra unrelated text and some casing inconsistencies. Table structure is poorly preserved; original simple key-value pairs replaced by a detailed itemized receipt with columns and rows not matching ground truth. Numeric data (date and total) are accurate. Layout is disrupted by added content and mixed sections, affecting reading order. Some ground truth fields are missing or embedded within extraneous text."
+  },
+  "timestamp": "2026-04-13 02:20:21"
+}

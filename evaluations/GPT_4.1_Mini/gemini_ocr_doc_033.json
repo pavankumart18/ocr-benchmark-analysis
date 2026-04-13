@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 60,
+    "numeric_precision": 100,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 77.5,
+    "notes": "Text is mostly accurate with minor issues such as missing line breaks and slight truncations (e.g., 'On rear-wheel or all-wheel drive vehicles...' missing end of sentence). Table columns are roughly preserved but some definitions run into each other, causing readability issues. No numeric data present to evaluate precision. Layout order is generally correct but paragraph breaks and spacing are inconsistent. Most visible text is captured, though some lines appear cut off or merged."
+  },
+  "timestamp": "2026-04-13 02:17:17"
+}

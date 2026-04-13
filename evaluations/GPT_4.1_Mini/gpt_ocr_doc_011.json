@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_011",
+  "model": "gpt_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 90,
+    "total_score": 95.25,
+    "notes": "OCR output matches ground truth very closely with no spelling or character errors. Formatting and indentation are preserved well, including numbered points. Numeric data such as form numbers and dates are exact. The only minor issue is the incomplete ending of the last sentence, missing the final words after 'without independent verification of such'. No tables present, so table structure is perfect by default."
+  },
+  "timestamp": "2026-04-13 02:18:31"
+}

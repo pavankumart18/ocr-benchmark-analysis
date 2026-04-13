@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_035",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 50,
+    "numeric_precision": 60,
+    "layout_preservation": 60,
+    "completeness": 80,
+    "total_score": 64,
+    "notes": "The OCR output has significant issues with text accuracy, particularly in the 'Wraps' section where recipe names are duplicated and numbers are incorrectly embedded. Table structure is poor, with misaligned columns and rows, especially in the 'Fries' and 'Dips+Spreads' sections where data is presented as a list rather than a table. Numeric precision is affected by these structural issues and some incorrect number extractions. Layout preservation is also impacted by the failure to correctly identify and structure tables. Completeness is fair, as most text is present, but its presentation is flawed."
+  },
+  "timestamp": "2026-04-13 01:39:09"
+}

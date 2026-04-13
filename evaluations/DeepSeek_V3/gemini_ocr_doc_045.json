@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_045",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 0,
+    "numeric_precision": 0,
+    "layout_preservation": 70,
+    "completeness": 60,
+    "total_score": 42.75,
+    "notes": "Missing 'date' and 'total' fields, incorrect numeric values, and extra unrelated text ('tan woon yann', invoice details). Address and company name are mostly correct but with minor formatting deviations. No table structure preserved."
+  },
+  "timestamp": "2026-04-13 03:26:11"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_027",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 100,
+    "table_structure": 0,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 80,
+    "total_score": 76.5,
+    "notes": "The text accuracy and numeric precision are excellent for the extracted text. However, the OCR output indicates '<!-- image -->' for two sections, implying that the content within those images (likely tables or charts) was not extracted, leading to a low table structure score and reduced completeness. The reading order seems correct for the extracted text."
+  },
+  "timestamp": "2026-04-13 01:38:47"
+}

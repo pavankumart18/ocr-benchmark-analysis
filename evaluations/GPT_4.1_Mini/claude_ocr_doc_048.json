@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_048",
+  "model": "claude_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 70,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 84.25,
+    "notes": "Company name and address mostly correct with minor spacing differences; extra text present but no major misspellings. Table structure partially preserved but item description and columns not clearly aligned as in ground truth. Numeric values and date match exactly. Layout mostly preserved though additional unrelated text and timestamps affect clarity. All ground truth fields present."
+  },
+  "timestamp": "2026-04-13 02:22:40"
+}

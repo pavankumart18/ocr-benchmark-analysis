@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_039",
+  "model": "glm_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 75,
+    "completeness": 85,
+    "total_score": 83.25,
+    "notes": "Minor issues include 'Christian Bergnaum I' (likely a typo for 'II' or misplaced character), missing numeric values for some rows, and slight misalignment in table columns. Overall, text and numbers are accurately captured with minor layout inconsistencies."
+  },
+  "timestamp": "2026-04-13 03:03:08"
+}

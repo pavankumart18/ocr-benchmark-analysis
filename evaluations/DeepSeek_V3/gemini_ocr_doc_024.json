@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_024",
+  "model": "gemini_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 70,
+    "table_structure": 80,
+    "numeric_precision": 90,
+    "layout_preservation": 60,
+    "completeness": 50,
+    "total_score": 71,
+    "notes": "OCR output misses key details like 'New Product B', 'Overall Spending', and 'Additional Notes'. Numeric values for 'New Product A' are mostly correct but incomplete. Layout is partially preserved but lacks section headers and reading order is unclear."
+  },
+  "timestamp": "2026-04-13 03:22:50"
+}

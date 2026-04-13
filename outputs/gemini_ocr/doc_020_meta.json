@@ -1,0 +1,10 @@
+{
+  "doc_id": "doc_020",
+  "model": "gemini_ocr",
+  "source_image": "/home/pavan-kumar/ocr-benchmark/datasets/multifinben-images/009.png",
+  "category": "sec_filing",
+  "source_dataset": "multifinben",
+  "processing_time_seconds": 30.1,
+  "output_length_chars": 3068,
+  "timestamp": "2026-04-13 00:47:26"
+}

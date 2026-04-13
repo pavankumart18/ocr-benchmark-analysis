@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_037",
+  "model": "docling",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 0,
+    "numeric_precision": 95,
+    "layout_preservation": 80,
+    "completeness": 70,
+    "total_score": 65.5,
+    "notes": "The OCR output is missing the content of two images, which likely contain crucial data such as tables or charts, significantly impacting table structure and completeness. Text accuracy is good for the extracted text, and numeric precision is also high for the numbers present. Layout preservation is fair, but the missing image content disrupts the flow."
+  },
+  "timestamp": "2026-04-13 01:39:13"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "easyocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 55,
+    "table_structure": 10,
+    "numeric_precision": 90,
+    "layout_preservation": 50,
+    "completeness": 85,
+    "total_score": 53.75,
+    "notes": "The OCR output contains numerous spelling errors (e.g., 'crulse' for 'cruise', 'thal' for 'that', 'Wnen' for 'When'), missing or incorrect words, and garbled phrases that reduce text accuracy significantly. There is no evidence of preserved table structure or alignment; the text appears as a continuous block without clear columns or rows, resulting in a very low table structure score. Numeric data is minimal but mostly correct, so numeric precision is high. The reading order is somewhat maintained but paragraphs and sections are poorly separated, with many line breaks misplaced or missing, affecting layout preservation. Most visible text appears captured, though some lines are truncated or incomplete, so completeness is fairly good but not perfect."
+  },
+  "timestamp": "2026-04-13 02:14:59"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_038",
+  "model": "glm_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 60,
+    "numeric_precision": 80,
+    "layout_preservation": 70,
+    "completeness": 75,
+    "total_score": 75.25,
+    "notes": "Text is mostly accurate with no major misspellings, but some formatting issues exist. Table columns and rows are not well aligned, especially in the 'Transactions by Quarter' section where numbers appear jumbled and inconsistent. Numeric values and currency symbols are mostly correct, though some quarterly data is unclear or incomplete. Layout is somewhat preserved but reading order is disrupted in the last section. Some text, particularly in the quarterly transactions, appears truncated or repeated, indicating incomplete capture."
+  },
+  "timestamp": "2026-04-13 02:10:12"
+}

@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_040",
+  "model": "gpt_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 85,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 100,
+    "total_score": 93.25,
+    "notes": "The OCR output is highly accurate with minor issues in table structure (e.g., alignment of seminar details) and a few minor layout inconsistencies. No major errors in text, numbers, or completeness."
+  },
+  "timestamp": "2026-04-13 03:31:53"
+}

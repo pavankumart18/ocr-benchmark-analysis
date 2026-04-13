@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_049",
+  "model": "gemini_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 60,
+    "table_structure": 100,
+    "numeric_precision": 0,
+    "layout_preservation": 90,
+    "completeness": 30,
+    "total_score": 49.5,
+    "notes": "The OCR output correctly identified the company name. However, the date and total amount are completely missing. The address has a minor numerical error (NO 50 instead of NO.59) and a postcode error (81750 instead of 81760). The ground truth is a structured JSON, not a table, so table structure is not applicable here and is scored as 100. The layout of the extracted text is generally good, but key information is missing."
+  },
+  "timestamp": "2026-04-13 01:43:40"
+}

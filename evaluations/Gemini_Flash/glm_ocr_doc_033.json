@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_033",
+  "model": "glm_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 95,
+    "total_score": 95.25,
+    "notes": "The OCR output is generally very accurate. There are a couple of minor issues: 'Expedition/Expedition' should likely be 'Expedition/Navigator' or similar, and 'drivers foot' should be 'driver's foot'. The layout is good, but the duplicate 'H' header for 'Horsepower' and 'Hybrid Electric Vehicle' is a minor flaw in the alphabetical ordering, though it reflects the source."
+  },
+  "timestamp": "2026-04-13 01:36:54"
+}

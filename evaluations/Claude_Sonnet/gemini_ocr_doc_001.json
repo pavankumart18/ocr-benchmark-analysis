@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_001",
+  "model": "gemini_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "invoice_receipt",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 50,
+    "layout_preservation": 80,
+    "completeness": 40,
+    "total_score": 70.5,
+    "notes": "Company name, address, and date are accurately extracted. However, the total amount '9.00' is completely missing from the OCR output, and there's additional extracted text not present in ground truth (customer name, document number, cashier info). The core required fields are mostly present but incomplete."
+  },
+  "timestamp": "2026-04-13 01:58:06"
+}

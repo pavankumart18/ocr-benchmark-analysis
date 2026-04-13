@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_032",
+  "model": "claude_ocr",
+  "judge": "DeepSeek V3",
+  "judge_id": "deepseek/deepseek-chat-v3-0324",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 100,
+    "completeness": 100,
+    "total_score": 98,
+    "notes": "Minor typo in 'O'Conner' (missing apostrophe in 'O'Connor') and '07:00-15:00 Night' (should likely be 'Night' instead of 'Morning' or 'Afternoon'). Otherwise, the OCR output is nearly perfect with accurate text, preserved table structure, correct numeric data, and complete layout."
+  },
+  "timestamp": "2026-04-13 03:37:29"
+}

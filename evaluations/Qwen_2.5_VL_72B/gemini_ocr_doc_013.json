@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_013",
+  "model": "gemini_ocr",
+  "judge": "Qwen 2.5 VL 72B",
+  "judge_id": "qwen/qwen2.5-vl-72b-instruct",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 95,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 90,
+    "completeness": 40,
+    "total_score": 78.5,
+    "notes": "The OCR output captures the initial part of the document accurately, preserving text, layout, and structure. However, it truncates significantly before the end of the document, missing a large portion of the content. This affects completeness substantially."
+  },
+  "timestamp": "2026-04-13 02:45:25"
+}

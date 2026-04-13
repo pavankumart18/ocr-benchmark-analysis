@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "gpt_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 85,
+    "numeric_precision": 67,
+    "layout_preservation": 80,
+    "completeness": 90,
+    "total_score": 76,
+    "notes": "Company name has minor error (AHC vs ABC), address formatting differs (No 264 vs NO.2&4), and date is incorrect (09/04/2019 vs 09/01/2019). However, OCR captured much more detail than ground truth including full receipt structure, table format is well preserved, and total amount is correct."
+  },
+  "timestamp": "2026-04-13 02:05:33"
+}

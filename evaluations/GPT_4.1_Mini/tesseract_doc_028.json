@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_028",
+  "model": "tesseract",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "general_doc",
+  "has_ground_truth": false,
+  "scores": {
+    "text_accuracy": 80,
+    "table_structure": 60,
+    "numeric_precision": 85,
+    "layout_preservation": 70,
+    "completeness": 90,
+    "total_score": 75.25,
+    "notes": "Text is mostly accurate with minor OCR errors (e.g., 'applications' line split, 'surface ins\u2019 tallation type' split incorrectly). Table structure is weak: columns and rows are not well aligned, and some units (pcs, unit, set) are misplaced or unclear. Numeric data including dates, VAT numbers, and power ratings are mostly correct. Layout is partially preserved but reading order is disrupted by inconsistent line breaks and section separations. Overall, most visible text is captured with no major omissions."
+  },
+  "timestamp": "2026-04-13 02:13:31"
+}

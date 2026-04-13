@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_046",
+  "model": "easyocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "degraded_scan",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 15,
+    "table_structure": 10,
+    "numeric_precision": 35,
+    "layout_preservation": 20,
+    "completeness": 25,
+    "total_score": 19,
+    "notes": "OCR output is severely garbled with most text unrecognizable. Company name 'ABC HO TRADING' not extracted. Address completely mangled. Date appears as '04/0170199' instead of '09/01/2019'. Only the total amount '31.00' is correctly captured. Overall extraction quality is very poor with extensive character recognition errors throughout."
+  },
+  "timestamp": "2026-04-13 01:57:46"
+}

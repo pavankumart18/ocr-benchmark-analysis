@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_014",
+  "model": "gemini_ocr",
+  "judge": "GPT 4.1 Mini",
+  "judge_id": "openai/gpt-4.1-mini",
+  "category": "sec_filing",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 98,
+    "table_structure": 100,
+    "numeric_precision": 100,
+    "layout_preservation": 95,
+    "completeness": 100,
+    "total_score": 97.25,
+    "notes": "OCR output matches ground truth almost perfectly with no spelling or character errors. Numeric data including date and form numbers are exact. Layout and reading order are preserved well, though the signature block is indented differently but content is intact. No missing text or structural elements."
+  },
+  "timestamp": "2026-04-13 02:16:23"
+}

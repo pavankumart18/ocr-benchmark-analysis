@@ -1,0 +1,18 @@
+{
+  "doc_id": "doc_023",
+  "model": "gpt_ocr",
+  "judge": "Gemini Flash",
+  "judge_id": "google/gemini-2.5-flash",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 75,
+    "table_structure": 100,
+    "numeric_precision": 80,
+    "layout_preservation": 85,
+    "completeness": 50,
+    "total_score": 70,
+    "notes": "The OCR output has several text inaccuracies, including 'INHALERS' instead of 'INMATES' and 'Foun-dation' instead of 'Foundation'. The date is off by 5 days. A significant portion of the ground truth, including the 'Key Details' and 'Insights and Observations' sections, is entirely missing from the OCR output, severely impacting completeness. The layout of the extracted text is generally correct for what was extracted."
+  },
+  "timestamp": "2026-04-13 01:44:35"
+}

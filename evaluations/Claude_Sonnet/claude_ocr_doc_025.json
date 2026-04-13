@@ -1,0 +1,19 @@
+{
+  "doc_id": "doc_025",
+  "model": "claude_ocr",
+  "judge": "Claude Sonnet",
+  "judge_id": "anthropic/claude-sonnet-4",
+  "category": "financial_mixed",
+  "has_ground_truth": true,
+  "scores": {
+    "text_accuracy": 85,
+    "table_structure": 90,
+    "numeric_precision": 95,
+    "numeric_precision_notes": "One error: CPM 1988 shows 11.45 instead of 36.2, and Contribution 1987 shows 21.5 instead of 11.5",
+    "layout_preservation": 88,
+    "completeness": 75,
+    "total_score": 85,
+    "notes": "OCR captured the core tabular data well with proper structure. Key issues: missing extensive analysis section from ground truth, two numeric errors (CPM 1988: 11.45 vs 36.2, Contribution 1987: 21.5 vs 11.5), and includes extra elements like change indices and document codes not in ground truth. The assumptions section was accurately captured."
+  },
+  "timestamp": "2026-04-13 02:07:47"
+}
