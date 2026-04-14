@@ -378,6 +378,49 @@
     </div>
   </section>
 
+  <!-- Cost vs Quality Analysis -->
+  <section id="cost-quality-section" class="mb-5">
+    <h2 class="h4 mb-3"><i class="bi bi-currency-dollar me-2"></i>Cost vs Quality Analysis</h2>
+    <p class="text-muted small mb-3">
+      Pricing per million tokens (as of April 2026). For vision/OCR tasks, input tokens include image tokenisation
+      (~750–1 500 tokens per document page). Blended rate = 80 % input + 20 % output — typical ratio for OCR workloads.
+      Local models are open-source and self-hosted; API cost is $0 but infrastructure cost varies.
+    </p>
+
+    <!-- Pricing table (rendered by renderPricingTable) -->
+    <div class="table-responsive mb-4">
+      <table class="table table-hover table-sm" id="pricing-table">
+        <thead class="table-dark">
+          <tr>
+            <th>Model</th>
+            <th>Type</th>
+            <th class="text-center">Input<br><span style="font-size:.65rem;font-weight:400;opacity:.7">$/M tokens</span></th>
+            <th class="text-center">Output<br><span style="font-size:.65rem;font-weight:400;opacity:.7">$/M tokens</span></th>
+            <th class="text-center">Blended*<br><span style="font-size:.65rem;font-weight:400;opacity:.7">$/M tokens</span></th>
+            <th class="text-center">Est. cost/doc<br><span style="font-size:.65rem;font-weight:400;opacity:.7">1 500 in + 500 out</span></th>
+            <th class="text-center">Benchmark Score</th>
+            <th class="text-center">Score / $1 blended<br><span style="font-size:.65rem;font-weight:400;opacity:.7">higher = better value</span></th>
+          </tr>
+        </thead>
+        <tbody id="pricing-body"></tbody>
+      </table>
+      <p class="text-muted small mt-1">* Blended = 80 % input + 20 % output. Efficiency (score/$1) calculated on blended rate; open-source models shown as "Free — ∞ value".</p>
+    </div>
+
+    <!-- Scatterplot -->
+    <div class="card">
+      <div class="card-body">
+        <p class="text-muted small mb-3">
+          <i class="bi bi-cursor me-1"></i>Click any data point to view full benchmark performance details for that model.
+          Circles = LLM-based API models &nbsp;|&nbsp; Squares = open-source local models.
+        </p>
+        <div style="position:relative;height:420px">
+          <canvas id="costQualityChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Category Breakdown -->
   <section id="category-section" class="mb-5">
     <h2 class="h4 mb-3"><i class="bi bi-grid-fill me-2"></i>Category Breakdown</h2>
@@ -452,7 +495,7 @@
                 <h6 class="fw-bold"><i class="bi bi-cpu-fill me-2 text-success"></i>Ran 8 OCR Models on Each Document</h6>
                 <p class="text-muted small mb-2">Applied all 8 models to every document: 5 local engines + 3 LLM-based vision models via OpenRouter. Total: 400 extractions.</p>
                 <div class="d-flex flex-wrap gap-2">
-                  <span class="badge bg-secondary">GLM-OCR (GLM-4V API)</span>
+                  <span class="badge bg-secondary">GLM-OCR (open-source, local)</span>
                   <span class="badge bg-secondary">docTR (Mindee)</span>
                   <span class="badge bg-secondary">Docling (IBM)</span>
                   <span class="badge bg-secondary">Tesseract 5</span>
@@ -656,6 +699,23 @@ layout_preservation, completeness, total_score (weighted sum), notes (brief expl
     }
   });
 }());
+
+// ── Escape key: close only the TOPMOST modal when multiple are open ───────────
+// Bootstrap attaches a keydown listener to each .modal element in the bubbling
+// phase.  By listening in the CAPTURE phase on document we fire first and can
+// stop propagation so only the highest-z-index modal is dismissed.
+document.addEventListener('keydown', function (e) {
+  if (e.key !== 'Escape') return;
+  const open = [...document.querySelectorAll('.modal.show')];
+  if (open.length < 2) return; // ≤1 modal: let Bootstrap handle it normally
+  e.stopImmediatePropagation();
+  e.preventDefault();
+  // Pick the modal with the highest z-index (our stacking code sets inline z)
+  const top = open.reduce((a, b) =>
+    (parseInt(b.style.zIndex) || 1055) > (parseInt(a.style.zIndex) || 1055) ? b : a
+  );
+  bootstrap.Modal.getInstance(top)?.hide();
+}, true); // capture phase
 </script>
 <script>
 // ── Constants ─────────────────────────────────────────────
@@ -677,6 +737,21 @@ const MODEL_TYPE  = {
 const MODEL_COLORS= {
   glm_ocr:'#0d6efd', doctr:'#198754', docling:'#ffc107', tesseract:'#fd7e14', easyocr:'#dc3545',
   gemini_ocr:'#4285f4', gpt_ocr:'#10a37f', claude_ocr:'#d97706',
+};
+// ── Pricing data ($/M tokens, as of April 2026) ────────────
+// input  = cost per million input  tokens  (image tokens count as input for vision models)
+// output = cost per million output tokens  (extracted text)
+// blended: 80 % input + 20 % output — typical OCR task ratio
+// Local/open-source models have $0 API cost; infrastructure cost varies with deployment.
+const MODEL_PRICING = {
+  glm_ocr:    { input: 0,     output: 0,     provider: 'Zhipu AI – open-source, self-hosted (zai-org/GLM-OCR on HuggingFace)', type: 'open-source' },
+  doctr:      { input: 0,     output: 0,     provider: 'Mindee – open-source, self-hosted',   type: 'open-source' },
+  docling:    { input: 0,     output: 0,     provider: 'IBM – open-source, self-hosted',       type: 'open-source' },
+  tesseract:  { input: 0,     output: 0,     provider: 'Google – open-source, CPU-only',       type: 'open-source' },
+  easyocr:    { input: 0,     output: 0,     provider: 'JaidedAI – open-source, self-hosted',  type: 'open-source' },
+  gemini_ocr: { input: 2.00,  output: 8.00,  provider: 'Google (Gemini API)',                  type: 'api' },
+  gpt_ocr:    { input: 2.50,  output: 10.00, provider: 'OpenAI API',                           type: 'api' },
+  claude_ocr: { input: 3.00,  output: 15.00, provider: 'Anthropic API',                        type: 'api' },
 };
 const JUDGES      = ['Gemini_Flash','Claude_Sonnet','GPT_4.1_Mini','Qwen_2.5_VL_72B','DeepSeek_V3'];
 const JUDGE_NAMES = {
@@ -784,6 +859,8 @@ function scoreCell(v, extra='', ctx=null, t=null) {
 // Selector 'th[rowspan="2"], thead tr:last-child th' collects leaf ths
 // in document order, which matches td column indices 0…n exactly.
 function makeSortable(tableEl) {
+  if (tableEl.dataset.sortableApplied) return; // idempotent guard
+  tableEl.dataset.sortableApplied = '1';
   // Leaf ths: rowspan-2 ths from row1 (span both rows) + all ths from last row.
   // querySelectorAll deduplicates and returns in document order.
   const leafThs = [...tableEl.querySelectorAll('th[rowspan="2"], thead tr:last-child th')];
@@ -813,6 +890,11 @@ function tdVal(row, ci) {
   if (cell.dataset.val != null) return cell.dataset.val;
   return cell.textContent.trim();
 }
+// Apply makeSortable to every <table> inside a container element.
+// Safe to call multiple times — makeSortable is idempotent.
+function applyTableSorting(containerEl) {
+  containerEl.querySelectorAll('table').forEach(t => makeSortable(t));
+}
 
 // ── Boot ──────────────────────────────────────────────────
 (async () => {
@@ -833,8 +915,12 @@ function tdVal(row, ci) {
   renderRankings();
   renderJudgeMatrix();
   renderFindings();
+  renderPricingTable();
+  renderCostQualityChart();
   renderCategoryTable();
   renderDocsTable();
+  // Make static tables sortable (methodology modal etc.)
+  document.querySelectorAll('table').forEach(t => makeSortable(t));
 })();
 
 // ── Judge matrix data ─────────────────────────────────────
@@ -997,7 +1083,162 @@ function renderFindings() {
     `<strong>Numeric precision is the highest-scoring criterion for every model</strong> — Claude reaches 95.4 and even EasyOCR scores 63.8 on numeric precision, well above its 52.0 overall average. Digit recognition is consistently more reliable than full-text extraction.`,
     `<strong>EasyOCR scores only 19.5 on financial mixed documents</strong> — the largest single-category gap in the benchmark. Financial mixed documents remain the hardest category for all models, with every model scoring below its overall average on this type.`,
     `<strong>Gemini 3.1 Pro underperforms vs Claude and GPT on completeness (71.8)</strong> — despite strong text accuracy (85.9), it consistently misses content on longer documents, creating a 17-point gap to Claude Sonnet 4.6's completeness score.`,
+    `<strong>GLM-OCR is a local open-source model that runs with zero API cost</strong> — it uses <code>zai-org/GLM-OCR</code> (0.9B params, Zhipu AI) downloaded from HuggingFace and run on-device. It reaches 84.5 overall, beating docTR by 12.6 points and matching GPT-5.4 on invoices and financial mixed documents — making it the standout choice for air-gapped or privacy-sensitive deployments.`,
+    `<strong>All five open-source models (GLM-OCR, docTR, Docling, Tesseract, EasyOCR) carry $0 API cost</strong>; the top three API models (Claude $5.40/M, GPT-5.4 $4.00/M, Gemini 3.1 Pro $3.60/M blended) trade dollars for accuracy. GLM-OCR closes most of that gap for free, making it the value leader whenever self-hosting is feasible.`,
   ].map(f => `<li class="mb-2 small">${f}</li>`).join('');
+}
+
+// ── Pricing table ─────────────────────────────────────────
+function renderPricingTable() {
+  // Sort models by benchmark score descending for the pricing table
+  const ranked = bench.model_rankings.slice().sort((a,b) => b.avg_total_score - a.avg_total_score);
+  const normScore = colNorm(ranked.map(r => r.avg_total_score));
+  document.getElementById('pricing-body').innerHTML = ranked.map(r => {
+    const m   = r.model;
+    const p   = MODEL_PRICING[m];
+    const blended = 0.8 * p.input + 0.2 * p.output;
+    const estDoc  = (1500 * p.input + 500 * p.output) / 1e6; // cost per doc
+    const effic   = blended > 0 ? (r.avg_total_score / blended).toFixed(1) : null;
+    const typeBadge = p.type === 'api'
+      ? '<span class="badge" style="background:#6f42c1;font-size:.6rem">API</span>'
+      : '<span class="badge bg-success" style="font-size:.6rem">Open-source</span>';
+    const fmtMoney = v => v > 0 ? `$${v.toFixed(2)}` : '<span class="text-success fw-semibold">$0.00</span>';
+    const fmtDoc   = v => v > 0 ? `$${v.toFixed(5)}` : '<span class="text-success fw-semibold">$0.00</span>';
+    const fmtEffic = effic ? effic : '<span class="text-success fw-semibold">Free — ∞</span>';
+    const norm = normScore(r.avg_total_score);
+    const bg   = scoreColor(norm);
+    const fg   = scoreTextColor(norm);
+    return `<tr>
+      <td><strong style="color:${MODEL_COLORS[m]}">${MODEL_NAMES[m]}</strong>
+          <div class="text-muted" style="font-size:.7rem">${p.provider}</div></td>
+      <td>${typeBadge}</td>
+      <td class="text-center">${fmtMoney(p.input)}</td>
+      <td class="text-center">${fmtMoney(p.output)}</td>
+      <td class="text-center fw-semibold">${fmtMoney(blended)}</td>
+      <td class="text-center">${fmtDoc(estDoc)}</td>
+      <td class="score-cell text-center" data-val="${r.avg_total_score}" style="background:${bg};color:${fg}">${r.avg_total_score.toFixed(1)}</td>
+      <td class="text-center small" data-val="${effic ?? 9999}">${fmtEffic}</td>
+    </tr>`;
+  }).join('');
+  makeSortable(document.getElementById('pricing-table'));
+}
+
+// ── Cost vs Quality chart ─────────────────────────────────
+function renderCostQualityChart() {
+  const canvas = document.getElementById('costQualityChart');
+  if (!canvas || !window.Chart) return;
+
+  // Pre-register proof IDs so chart click can open the proof modal
+  const modelProofIds = {};
+  MODELS.forEach(m => { modelProofIds[m] = reg({type:'model-avg', model:m}); });
+
+  // Build one dataset per model (each has exactly one point)
+  const datasets = MODELS.map(m => {
+    const rank = bench.model_rankings.find(r => r.model === m);
+    const p    = MODEL_PRICING[m];
+    const blended = 0.8 * p.input + 0.2 * p.output;
+    return {
+      label: MODEL_NAMES[m],
+      data: [{ x: blended, y: rank?.avg_total_score ?? 0 }],
+      backgroundColor: MODEL_COLORS[m] + 'cc',
+      borderColor:     MODEL_COLORS[m],
+      borderWidth: 2,
+      pointRadius: 11,
+      pointHoverRadius: 15,
+      // Circles = LLM API, RoundedRect = local open-source
+      pointStyle: MODEL_TYPE[m] === 'llm' ? 'circle' : 'rectRounded',
+      _model: m,
+    };
+  });
+
+  // Inline plugin: draw model-name labels next to each point
+  const labelPlugin = {
+    id: 'modelLabels',
+    afterDatasetsDraw(chart) {
+      const ctx2 = chart.ctx;
+      ctx2.save();
+      ctx2.font = 'bold 11px system-ui,sans-serif';
+      // Use Bootstrap body colour for the current theme
+      ctx2.fillStyle = getComputedStyle(document.body).color || '#333';
+      chart.data.datasets.forEach((ds, i) => {
+        const meta = chart.getDatasetMeta(i);
+        if (meta.hidden) return;
+        meta.data.forEach(pt => {
+          ctx2.textAlign = 'center';
+          ctx2.fillText(ds.label, pt.x, pt.y - 17);
+        });
+      });
+      ctx2.restore();
+    }
+  };
+
+  const getTextColor = () => getComputedStyle(document.body).color || '#555';
+
+  const chart = new Chart(canvas.getContext('2d'), {
+    type: 'scatter',
+    data: { datasets },
+    plugins: [labelPlugin],
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: { duration: 600 },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            title: items => MODEL_NAMES[MODELS[items[0].datasetIndex]] ?? '',
+            label: item => {
+              const m = MODELS[item.datasetIndex];
+              const p = MODEL_PRICING[m];
+              const blended = (0.8 * p.input + 0.2 * p.output);
+              const lines = [
+                `Benchmark score: ${item.parsed.y.toFixed(1)}`,
+                `Input:   ${p.input > 0 ? '$' + p.input.toFixed(2) + '/M tokens' : 'Free (open-source)'}`,
+                `Output:  ${p.output > 0 ? '$' + p.output.toFixed(2) + '/M tokens' : 'Free (open-source)'}`,
+                `Blended: ${blended > 0 ? '$' + blended.toFixed(2) + '/M tokens' : 'Free (open-source)'}`,
+              ];
+              if (p.provider) lines.push(`Provider: ${p.provider}`);
+              return lines;
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          title: { display: true, text: 'Blended API cost ($/M tokens, 80 % input + 20 % output)', color: getTextColor() },
+          min: -0.2,
+          ticks: {
+            color: getTextColor(),
+            callback: v => v <= 0 ? 'Free / $0' : `$${Number(v).toFixed(2)}`,
+          },
+          grid: { color: 'rgba(128,128,128,0.15)' },
+        },
+        y: {
+          title: { display: true, text: 'Benchmark Score (0–100)', color: getTextColor() },
+          suggestedMin: 45,
+          suggestedMax: 95,
+          ticks: { color: getTextColor() },
+          grid: { color: 'rgba(128,128,128,0.15)' },
+        }
+      },
+      onClick(_evt, elements) {
+        if (!elements.length) return;
+        const m = MODELS[elements[0].datasetIndex];
+        if (m) showProof(modelProofIds[m]);
+      },
+    }
+  });
+
+  // Update chart label colours when the Bootstrap theme toggles
+  const themeObserver = new MutationObserver(() => {
+    const c = getTextColor();
+    chart.options.scales.x.title.color = c;
+    chart.options.scales.x.ticks.color = c;
+    chart.options.scales.y.title.color = c;
+    chart.options.scales.y.ticks.color = c;
+    chart.update('none');
+  });
+  themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme'] });
 }
 
 // ── Category table ────────────────────────────────────────
@@ -1157,6 +1398,7 @@ async function proofModelAvg({model}, title, body) {
       }).join('')}
     </tr>`
   );
+  applyTableSorting(body);
 }
 
 // ── Proof: model × criterion ──────────────────────────────
@@ -1185,6 +1427,7 @@ async function proofModelCriterion({model, criterion}, title, body) {
       ${scoreCell(avg,'fw-bold')} <td class="score-cell">—</td>
     </tr>`
   );
+  applyTableSorting(body);
 }
 
 // ── Proof: model × category ───────────────────────────────
@@ -1215,6 +1458,7 @@ async function proofModelCategory({model, category}, title, body) {
       }).join('')}
     </tr>` : ''
   );
+  applyTableSorting(body);
 }
 
 // ── Proof: judge × model ──────────────────────────────────
@@ -1258,6 +1502,7 @@ async function proofJudgeModel({judge, model}, title, body) {
       }).join('')}
     </tr>` : ''
   );
+  applyTableSorting(body);
 }
 
 // ── Proof: document × model ───────────────────────────────
@@ -1303,6 +1548,7 @@ async function proofDocModel({docId, model}, title, body) {
           <i class="bi bi-zoom-in me-1"></i>Open Full Document Detail
         </button>
       </div>`;
+  applyTableSorting(body);
 }
 
 // ── Build HTML table (shared by all proof handlers) ───────
@@ -1442,6 +1688,7 @@ async function openDoc(docId) {
           </table>
         </div>
       </div>`).join('')}`;
+  applyTableSorting(body);
 }
 
 function escHtml(s) {

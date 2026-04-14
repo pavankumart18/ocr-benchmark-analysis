@@ -201,7 +201,7 @@ snapshot_download(repo_id='ucaslcl/GOT-OCR2_0', repo_type='dataset',
 |------------------|-------|-----------------------------------------|
 | Claude Sonnet 4.6 | LLM   | `anthropic/claude-sonnet-4.6` via OpenRouter |
 | GPT-5.4           | LLM   | `openai/gpt-5.4` via OpenRouter         |
-| GLM-OCR           | Local | Vision-language model (GLM-4V) via API  |
+| GLM-OCR           | Local | `zai-org/GLM-OCR` open-source VLM, self-hosted |
 | Gemini 3.1 Pro    | LLM   | `google/gemini-3.1-pro-preview` via OpenRouter |
 | docTR             | Local | Deep learning OCR (Mindee)              |
 | Docling           | Local | Document understanding pipeline (IBM)   |
